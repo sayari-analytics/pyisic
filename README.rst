@@ -19,6 +19,7 @@ Usage
     >>> import pyisic
     >>> pyisic.NAICS2017['927110']
     {'code': '927110', 'description': 'Space Research and Technology', 'category': None}
+
     >>> pyisic.NAICS2017_to_ISIC4.concordant("927110")
     {(<Standard.ISIC4: 'ISIC4'>, '5120'), (<Standard.ISIC4: 'ISIC4'>, '8413')}
 
@@ -55,4 +56,4 @@ fork and PR
 
 .. code-block:: bash
 
-    pip install pyisic[dev,docs]
+    pip install pyisic[dev]
