@@ -20,8 +20,12 @@ class Category(_Enum):  # pragma: no cover
 class Standards(_Enum):  # pragma: no cover
     """Industry classification standards."""
 
+    ISIC3 = "ISIC3"
+    ISIC31 = "ISIC31"
     ISIC4 = "ISIC4"
+    NACE2 = "NACE2"
     NAICS2017 = "NAICS2017"
+    TSIC2552 = "TSIC2552"
 
 
 @_dataclass
@@ -156,6 +160,6 @@ class Concordance(_nx.DiGraph):
                 for node in _nx.algorithms.dag.descendants(self, (self.src.standard, code))
                 if node[0] == self.dst.standard
             }
-        except TypeError:
+        except _nx.exception.NetworkXError:
             nodes = set()
         return nodes
