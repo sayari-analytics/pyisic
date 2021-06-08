@@ -13,7 +13,7 @@ setuptools.setup(
     packages=setuptools.find_packages(exclude=("tests")),
     install_requires=["networkx"],
     extras_require={"dev": ["pytest", "black", "pre-commit"], "docs": ["sphinx", "sphinx_rtd_theme"]},
-    python_requires=">=3.7",
+    python_requires=">=3.6",
     license="MIT",
     classifiers=[
         "License :: OSI Approved :: MIT License",
