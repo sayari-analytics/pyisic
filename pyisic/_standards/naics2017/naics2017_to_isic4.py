@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from ...types import Concordance, Standards
 from ..isic4 import ISIC4
 from . import NAICS2017

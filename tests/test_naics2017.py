@@ -13,6 +13,6 @@ from pyisic.types import Standards
         ("423320", {(Standards.ISIC4, "4663")}),
     ],
 )
-def test_naics_to_isic4_concordance(code, expected):
+def test_naics_to_isic4_concordance(code: str, expected: set):
     """Test NAICS2017 to ISIC4 sample concordances."""
     assert NAICS2017_to_ISIC4.concordant(code) == expected
