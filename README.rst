@@ -1,7 +1,7 @@
 ******
 Pyisic
 ******
-.. image:: https://github.com/sayari-analytics/pyisic/actions/workflows/main.yaml/badge.svg?branch=master
+.. image:: https://github.com/sayari-analytics/pyisic/actions/workflows/main.yaml/badge.svg?branch=main
 
 Overview
 ########
