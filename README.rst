@@ -1,8 +1,7 @@
 ******
 Pyisic
 ******
-TODO: badges
-
+.. image:: https://github.com/sayari-analytics/spark-jobs/actions/workflows/master.yaml/badge.svg?branch=master
 
 Overview
 ########
