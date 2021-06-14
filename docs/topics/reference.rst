@@ -15,7 +15,7 @@ Types
     :special-members: __init__
     :members:
 
-.. autoclass:: pyisic.types.FullGraph
+.. autoclass:: pyisic.types.ComposedGraph
     :special-members: __init__, __call__
 
 .. autoclass:: pyisic.types.Standard

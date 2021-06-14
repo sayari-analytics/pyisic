@@ -30,7 +30,7 @@ def test_minimum_concordance(standard, concordance, minimum: float):
         pyisic.TSIC2552_to_ISIC3,
     ],
 )
-def test_full_graph(standard):
-    """Ensure all nodes and relationships are included in the full graph."""
-    assert all([n in pyisic.Graph for n in standard.nodes])
-    assert all([e in pyisic.Graph.edges for e in standard.edges])
+def test_to_isic4(standard):
+    """Ensure all nodes and relationships are included in the ToISIC4 graph."""
+    assert all([n in pyisic.ToISIC4 for n in standard.nodes])
+    assert all([e in pyisic.ToISIC4.edges for e in standard.edges])

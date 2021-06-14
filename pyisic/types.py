@@ -159,17 +159,16 @@ class Concordance(_nx.DiGraph):
         return nodes
 
 
-class FullGraph(_nx.Graph):
-    def __init__(self, concordances=_List[Concordance]):
-        """Full undirected graph of industry classification concordance.
-
-        Only nodes and relationships included in a given concordance are added
-        to the undirected graph.
+class ComposedGraph(_nx.DiGraph):
+    def __init__(self, dst: Standard, concordances=_List[Concordance]):
+        """Composed graph of industry classification concordance.
 
         Args:
-            concordances: iterable of concordance classes
+            dst: destination standard
+            concordances: iterable of concordances
         """
         super().__init__(self)
+        self.dst = dst
 
         for cc in concordances:
 
@@ -181,26 +180,22 @@ class FullGraph(_nx.Graph):
             # Add all concordance edges
             self.add_edges_from(cc._concordances)
 
-    def __call__(self, code: str, src: str, dst: str = None) -> set:
+    def __call__(self, code: str, src: str) -> set:
         """Return set of concordant industry classifications.
-
-        If no dst standard is given, all nodes in the same component of the
-        given code are returned.
 
         Args:
             code: source classification code (e.g., "927110" from NAICS2017)
             src: source standard (e.g., "NAICS2017")
-            dst: destination standard (e.g., "ISIC4")
 
         Returns:
             set: concordant nodes from the given source code
 
         Examples:
-            >>> pyisic.Graph("927110", Standards.NAICS2017, Standards.ISIC4)
+            >>> pyisic.ToISIC4("927110", Standards.NAICS2017)
             {(<Standards.ISIC4: 'ISIC4'>, '5120'), (<Standards.ISIC4: 'ISIC4'>, '8413')}
         """
         try:
-            nodes = {node for node in _nx.shortest_path(self, (src, code)) if (node[0] == dst if dst else True)}
+            nodes = {node for node in _nx.algorithms.dag.descendants(self, (src, code)) if node[0] == self.dst}
         except _nx.exception.NetworkXError:
             nodes = set()
         return nodes
