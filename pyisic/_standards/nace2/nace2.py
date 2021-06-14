@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-"""TODO."""
+"""`NACE2 Standard <https://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_CLS_DLD&StrNom=NACE_REV2#>`_.
+"""
 from ...types import Category, Classification, Standard, Standards
 
-# https://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_CLS_DLD&StrNom=NACE_REV2#
 NACE2 = Standard(
     standard=Standards.NACE2,
     classes=[

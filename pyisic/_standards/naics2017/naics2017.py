@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-"""TODO."""
+"""`NAICS2017 Standard <https://www.census.gov/eos/www/naics/2017NAICS/6-digit_2017_Codes.xlsx>`_.
+"""
 from ...types import Classification, Standard, Standards
 
-# https://www.census.gov/eos/www/naics/2017NAICS/6-digit_2017_Codes.xlsx
 NAICS2017 = Standard(
     standard=Standards.NAICS2017,
     classes=[

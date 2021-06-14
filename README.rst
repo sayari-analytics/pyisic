@@ -25,34 +25,20 @@ Usage
 Install
 #######
 
-TODO: get on PyPi
+TODO: Publish to PyPi
 
 .. code-block:: bash
 
     pip install pyisic
 
-In the meantime, clone and:
-
-.. code-block:: bash
-
-    python -m venv venv
-    source venv/bin/activate
-    pip install .
 
 Documentation
 #############
 
-TODO: write docs and link to rtd
-
-* Installation
-* Usages
-* Contributing howto
+TODO: Publish and link to rtd
 
 Contributing
 ############
+Issues and pull requests are welcome!
 
-fork and PR
-
-.. code-block:: bash
-
-    pip install pyisic[dev]
+Refer to `CONTRIBUTING.rst <https://github.com/sayari-analytics/pyisic/blob/main/CONTRIBUTING.rst>`_ for more details about the workflow and hints on how to prepare your pull request.

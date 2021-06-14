@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-"""TODO."""
+"""`ISIC4 Standard <https://unstats.un.org/unsd/classifications/Econ/Download/In%20Text/ISIC_Rev_4_english_structure.Txt>`_.
+"""
 from ...types import Category, Classification, Standard, Standards
 
-# https://unstats.un.org/unsd/classifications/Econ/Download/In%20Text/ISIC_Rev_4_english_structure.Txt
 ISIC4 = Standard(
     standard=Standards.ISIC4,
     classes=[
