@@ -4,7 +4,7 @@ Usage
 
 Lookup
 ======
-Standards are implemented as a `collection.OrderedDict` to enable classification lookups:
+Standards are implemented as a ``collection.OrderedDict`` to enable classification lookups:
 
 .. code-block::
 
@@ -16,7 +16,7 @@ Standards are implemented as a `collection.OrderedDict` to enable classification
 
 Concordance
 ===========
-Concordances are implemented as `networkx.DiGraph`. Concordant nodes discovered as DAG descendants.
+Concordances are implemented as ``networkx.DiGraph``. Concordant nodes discovered as DAG descendants.
 
 .. code-block::
 
