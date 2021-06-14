@@ -6,7 +6,6 @@ from enum import Enum as _Enum
 from typing import List as _List
 
 import networkx as _nx
-from networkx.exception import NetworkXError
 
 
 class Category(_Enum):  # pragma: no cover
