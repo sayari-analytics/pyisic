@@ -127,7 +127,7 @@ class Concordance(_nx.DiGraph):
         self.add_edges_from(concordances)
 
         # Assert the resulting graph is acyclic
-        # TODO: use components to handle cyclic graphs?
+        # TODO: use shortest paths to handle cyclic graphs?
         assert _nx.algorithms.dag.is_directed_acyclic_graph(self)
 
     def __repr__(self) -> str:  # pragma: no cover

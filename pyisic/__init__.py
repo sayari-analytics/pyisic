@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-"""TODO."""
 from ._standards.isic3 import ISIC3, ISIC3_to_ISIC31
 from ._standards.isic4 import ISIC4
 from ._standards.isic31 import ISIC31, ISIC31_to_ISIC4
