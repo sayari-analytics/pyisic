@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
+"""`Concordance between ISIC31 and ISIC4 <https://unstats.un.org/unsd/classifications/Econ/tables/ISIC/ISIC31_ISIC4/ISIC31_ISIC4.txt>`_.
+"""
 from ...types import Concordance, Standards
 from ..isic4 import ISIC4
 from . import ISIC31
 
-# https://unstats.un.org/unsd/classifications/Econ/tables/ISIC/ISIC31_ISIC4/ISIC31_ISIC4.txt
 ISIC31_to_ISIC4 = Concordance(
     src=ISIC31,
     dst=ISIC4,

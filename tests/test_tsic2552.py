@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import pytest
 
-from pyisic import TSIC2552_to_ISIC3, TSIC2552_to_ISIC4
+from pyisic import ToISIC4, TSIC2552_to_ISIC3
 from pyisic.types import Standards
 
 
@@ -29,4 +29,4 @@ def test_tsic2552_to_isic3_concordance(code: str, expected: set):
 )
 def test_tsic2552_to_isic4_concordance(code: str, expected: set):
     """Test TSIC2552 to ISIC4 sample concordances."""
-    assert TSIC2552_to_ISIC4.concordant(code) == expected
+    assert ToISIC4(code, Standards.TSIC2552) == expected

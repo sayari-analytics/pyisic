@@ -9,7 +9,7 @@ import networkx as _nx
 
 
 class Category(_Enum):  # pragma: no cover
-    """ISIC4 categories."""
+    """ISIC4 categories enum."""
 
     SECTION = 1
     DIVISION = 2
@@ -18,7 +18,7 @@ class Category(_Enum):  # pragma: no cover
 
 
 class Standards(_Enum):  # pragma: no cover
-    """Industry classification standards."""
+    """Industry classification standards enum."""
 
     ISIC3 = "ISIC3"
     ISIC31 = "ISIC31"
@@ -107,13 +107,6 @@ class Concordance(_nx.DiGraph):
         Note:
             Concordances must be directed acyclic graphs.
 
-        Todo:
-            * Enable cyclic graphs; would subgraph to a component and check for
-                path between the source node and all other nodes in the
-                component.
-            * Enable merging/composition of concordances (e.g., TSIC =>
-                ISIC3 => ISIC4).
-
         Args:
             src: source standard to map concordances from
             dst: destination standard to map concordances to
@@ -134,7 +127,7 @@ class Concordance(_nx.DiGraph):
         self.add_edges_from(concordances)
 
         # Assert the resulting graph is acyclic
-        # TODO: use components to handle cyclic graphs?
+        # TODO: use shortest paths to handle cyclic graphs?
         assert _nx.algorithms.dag.is_directed_acyclic_graph(self)
 
     def __repr__(self) -> str:  # pragma: no cover
@@ -160,6 +153,48 @@ class Concordance(_nx.DiGraph):
                 for node in _nx.algorithms.dag.descendants(self, (self.src.standard, code))
                 if node[0] == self.dst.standard
             }
+        except _nx.exception.NetworkXError:
+            nodes = set()
+        return nodes
+
+
+class ComposedGraph(_nx.DiGraph):
+    def __init__(self, dst: Standard, concordances=_List[Concordance]):
+        """Composed graph of industry classification concordance.
+
+        Args:
+            dst: destination standard
+            concordances: iterable of concordances
+        """
+        super().__init__(self)
+        self.dst = dst
+
+        for cc in concordances:
+
+            # Add all nodes to the graph
+            for std in [cc.src, cc.dst]:
+                for node in std._classes:
+                    self.add_node((std.standard, node.code), **node.to_dict())
+
+            # Add all concordance edges
+            self.add_edges_from(cc._concordances)
+
+    def __call__(self, code: str, src: str) -> set:
+        """Return set of concordant industry classifications.
+
+        Args:
+            code: source classification code (e.g., "927110" from NAICS2017)
+            src: source standard (e.g., "NAICS2017")
+
+        Returns:
+            set: concordant nodes from the given source code
+
+        Examples:
+            >>> pyisic.ToISIC4("927110", Standards.NAICS2017)
+            {(<Standards.ISIC4: 'ISIC4'>, '5120'), (<Standards.ISIC4: 'ISIC4'>, '8413')}
+        """
+        try:
+            nodes = {node for node in _nx.algorithms.dag.descendants(self, (src, code)) if node[0] == self.dst}
         except _nx.exception.NetworkXError:
             nodes = set()
         return nodes

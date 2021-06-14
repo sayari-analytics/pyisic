@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
-"""TODO."""
+"""`TSIC2552 Standard <http://statstd.nso.go.th/classification/downloadcffile.aspx?id=73>`_.
+
+.. note::
+
+    Descriptions were translated using Google Translate.
+"""
 from ...types import Classification, Standard, Standards
 
-# Translated with google translate
-# http://statstd.nso.go.th/classification/downloadcffile.aspx?id=73
 TSIC2552 = Standard(
     standard=Standards.TSIC2552,
     classes=[

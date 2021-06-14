@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
+"""`Concordance between TSIC2552 and ISIC3 <http://statstd.nso.go.th/classification/downloadcffile.aspx?id=94>`_.
+"""
 from ...types import Concordance, Standards
 from ..isic3 import ISIC3
 from . import TSIC2552
 
-# http://statstd.nso.go.th/classification/downloadcffile.aspx?id=94
 TSIC2552_to_ISIC3 = Concordance(
     src=TSIC2552,
     dst=ISIC3,
