@@ -9,7 +9,6 @@
    :maxdepth: 2
    :caption: Contents:
 
-   topics/installation
    topics/usage
    topics/contributing
    topics/reference
