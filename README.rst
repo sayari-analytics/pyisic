@@ -9,7 +9,7 @@ Pyisic defines industrial classification standards and concordances between stan
 
 .. pull-quote::
     The `International Standard Industrial Classification of All Economic Activities (ISIC) <https://unstats.un.org/unsd/classifications/Econ/ISIC.cshtml>`_ is the international reference classification of productive activities. Its main purpose is to provide a set of activity categories that can be utilized for the collection and reporting of statistics according to such activities. Since the adoption of the original version of ISIC in 1948, the majority of countries around the world have used ISIC as their national activity classification or have developed national classifications derived from ISIC.
-    
+
 Usage
 +++++
 
