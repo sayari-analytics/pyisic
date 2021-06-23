@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""`NACE2 Standard <https://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_CLS_DLD&StrNom=NACE_REV2#>`_.
+"""`JSIC13 Standard <https://unstats.un.org/unsd/classifications/Econ/tables/ISIC/JSIC13_ISIC4/JSIC13-ISIC4.xls>`_.
 """
 from ...types import Category, Classification, Standard, Standards
 

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""`Concordance between NACE2 and ISIC4 <https://unstats.un.org/unsd/classifications/Econ/tables/ISIC/NACE2_ISIC4/NACE2_ISIC4.txt>`_.
+"""`Concordance between JSIC13 and ISIC4 <https://unstats.un.org/unsd/classifications/Econ/tables/ISIC/JSIC13_ISIC4/JSIC13-ISIC4.xls>`_.
 """
 from ...types import Concordance, Standards
 from ..isic4 import ISIC4
