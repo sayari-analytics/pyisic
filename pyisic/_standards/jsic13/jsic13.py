@@ -8,9 +8,13 @@ JSIC13 = Standard(
     classes=[
         Classification("A", "AGRICULTURE AND FORESTRY"),
         Classification("01", "AGRICULTURE"),
-        Classification("010", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES(01 AGRICULTURE)"),
+        Classification(
+            "010", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES(01 AGRICULTURE)"
+        ),
         Classification("0100", "Head offices primarily engaged in managerial operations"),
-        Classification("0109", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "0109", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("011", "CROP FARMING"),
         Classification("0111", "Rice farming"),
         Classification("0112", "Grain and soybean farming, except rice farming"),
@@ -59,9 +63,13 @@ JSIC13 = Standard(
         Classification("014", "GARDENING SERVICES"),
         Classification("0141", "Gardening services"),
         Classification("02", "FORESTRY"),
-        Classification("020", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (02 FORESTRY)"),
+        Classification(
+            "020", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (02 FORESTRY)"
+        ),
         Classification("0200", "Head offices primarily engaged in managerial operations"),
-        Classification("0209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "0209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("021", "SILVICULTURE"),
         Classification("0211", "Silviculture"),
         Classification("022", "LOGGING"),
@@ -79,9 +87,13 @@ JSIC13 = Standard(
         Classification("0299", "Miscellaneous forestry"),
         Classification("B", "FISHERIES"),
         Classification("03", "FISHERIES, EXCEPT AQUACULTURE"),
-        Classification("030", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (03 FISHERIES)"),
+        Classification(
+            "030", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (03 FISHERIES)"
+        ),
         Classification("0300", "Head offices primarily engaged in managerial operations"),
-        Classification("0309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "0309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("031", "MARINE FISHERIES"),
         Classification("0311", "Trawl fisheries"),
         Classification("0312", "Surrounding-net fisheries"),
@@ -95,9 +107,13 @@ JSIC13 = Standard(
         Classification("032", "INLAND WATER FISHERIES"),
         Classification("0321", "Inland water fisheries"),
         Classification("04", "AQUACULTURE"),
-        Classification("040", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (04 AQUACULTURE)"),
+        Classification(
+            "040", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (04 AQUACULTURE)"
+        ),
         Classification("0400", "Head offices primarily engaged in managerial operations"),
-        Classification("0409", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "0409", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("041", "MARINE AQUACULTURE"),
         Classification("0411", "Fish aquaculture"),
         Classification("0412", "Shellfish aquaculture"),
@@ -109,9 +125,14 @@ JSIC13 = Standard(
         Classification("0421", "Inland water aquaculture"),
         Classification("C", "MINING AND QUARRYING OF STONE"),
         Classification("05", "MINING AND QUARRYING OF STONE"),
-        Classification("050", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (05 MINING AND QUARRYING OF STONE AND GRAVEL)"),
+        Classification(
+            "050",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (05 MINING AND QUARRYING OF STONE AND GRAVEL)",
+        ),
         Classification("0500", "Head offices primarily engaged in managerial operations"),
-        Classification("0509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "0509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("051", "METAL MINING"),
         Classification("0511", "Lode gold ore and silver ore mining"),
         Classification("0512", "Lead ore and zinc ore mining"),
@@ -146,7 +167,10 @@ JSIC13 = Standard(
         Classification("0548", "Sand, gravel and cobble-stone quarrying"),
         Classification("0549", "Miscellaneous stone quarrying, sand, gravel and cobble-stone pits"),
         Classification("0549", "Miscellaneous stone quarrying, sand, gravel and cobble-stone pits"),
-        Classification("055", "CERAMIC MINERAL MINING (MINERALS ONLY FOR REFRACTORY, POTTERY AND PORCELAIN, GLASS AND CEMENT MATERIALS)"),
+        Classification(
+            "055",
+            "CERAMIC MINERAL MINING (MINERALS ONLY FOR REFRACTORY, POTTERY AND PORCELAIN, GLASS AND CEMENT MATERIALS)",
+        ),
         Classification("0551", "Fire clay mining"),
         Classification("0551", "Fire clay mining"),
         Classification("0552", "Pyrophyllite (agalmatolite) mining"),
@@ -178,9 +202,14 @@ JSIC13 = Standard(
         Classification("0599", "Mineral mining, n.e.c."),
         Classification("D", "CONSTRUCTION"),
         Classification("06", "CONSTRUCTION WORK, GENERAL INCLUDING PUBLIC AND PRIVATE CONSTRUCTION WORK"),
-        Classification("060", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (06 CONSTRUCTION WORK, GENERAL INCLUDING PUBLIC AND PRIVATE CONSTRUCTION WORK)"),
+        Classification(
+            "060",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (06 CONSTRUCTION WORK, GENERAL INCLUDING PUBLIC AND PRIVATE CONSTRUCTION WORK)",
+        ),
         Classification("0600", "Head offices primarily engaged in managerial operations"),
-        Classification("0609", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "0609", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("061", "GENERAL CIVIL ENGINEERING WORK AND BUILDING WORK"),
         Classification("0611", "General civil engineering work and building work"),
         Classification("0611", "General civil engineering work and building work"),
@@ -204,9 +233,14 @@ JSIC13 = Standard(
         Classification("066", "BUILDING REFORM WORK"),
         Classification("0661", "Building reform work"),
         Classification("07", "CONSTRUCTION WORK BY SPECIALIST CONTRACTOR, EXCEPT EQUIPMENT INSTALLATION WORK"),
-        Classification("070", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (07 CONSTRUCTION WORK BY SPECIALIST CONTRACTOR)"),
+        Classification(
+            "070",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (07 CONSTRUCTION WORK BY SPECIALIST CONTRACTOR)",
+        ),
         Classification("0700", "Head offices primarily engaged in managerial operations"),
-        Classification("0709", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "0709", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("071", "CARPENTRY WORK"),
         Classification("0711", "Carpentry work, except form work"),
         Classification("0712", "Form work"),
@@ -251,9 +285,14 @@ JSIC13 = Standard(
         Classification("0799", "Construction work by specialist contractor, n.e.c."),
         Classification("0799", "Construction work by specialist contractor, n.e.c."),
         Classification("08", "EQUIPMENT INSTALLATION WORK"),
-        Classification("080", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (08 EQUIPMENT INSTALLATION WORK)"),
+        Classification(
+            "080",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (08 EQUIPMENT INSTALLATION WORK)",
+        ),
         Classification("0800", "Head offices primarily engaged in managerial operations"),
-        Classification("0809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "0809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("081", "ELECTRIC WORK"),
         Classification("0811", "General electric work"),
         Classification("0811", "General electric work"),
@@ -281,9 +320,13 @@ JSIC13 = Standard(
         Classification("0894", "Water-well drilling work"),
         Classification("E", "MANUFACTURING"),
         Classification("09", "MANUFACTURE OF FOOD"),
-        Classification("090", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (09 MANUFACTURE OF FOOD )"),
+        Classification(
+            "090", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (09 MANUFACTURE OF FOOD )"
+        ),
         Classification("0900", "Head offices primarily engaged in managerial operations"),
-        Classification("0909", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "0909", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("091", "LIVESTOCK PRODUCTS"),
         Classification("0911", "Frozen meat and subprimal products"),
         Classification("0912", "Meat products"),
@@ -300,7 +343,9 @@ JSIC13 = Standard(
         Classification("0926", "Frozen seafood products (processed and packaged)"),
         Classification("0929", "Miscellaneous seafood products"),
         Classification("093", "CANNED AND PRESERVED FRUIT AND VEGETABLE PRODUCTS"),
-        Classification("0931", "Canned and preserved fruit and vegetable products, except vegetables pickled or in brine"),
+        Classification(
+            "0931", "Canned and preserved fruit and vegetable products, except vegetables pickled or in brine"
+        ),
         Classification("0932", "Vegetables pickled or in brine, not in air-tight containers"),
         Classification("094", "SEASONINGS"),
         Classification("0941", '“Miso" (fermented soybean paste)'),
@@ -340,9 +385,14 @@ JSIC13 = Standard(
         Classification("0999", "Food and related products, n.e.c"),
         Classification("0999", "Food and related products, n.e.c"),
         Classification("10", "MANUFACTURE OF BEVERAGES,TOBACCO AND FEED"),
-        Classification("100", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (10 MANUFACTURE OF BEVERAGES,TOBACCO AND FEED )"),
+        Classification(
+            "100",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (10 MANUFACTURE OF BEVERAGES,TOBACCO AND FEED )",
+        ),
         Classification("1000", "Head offices primarily engaged in managerial operations"),
-        Classification("1009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "1009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("101", "SOFT DRINKS AND CARBONATED WATER"),
         Classification("1011", "Soft drinks and carbonated water"),
         Classification("1011", "Soft drinks and carbonated water"),
@@ -368,9 +418,14 @@ JSIC13 = Standard(
         Classification("1063", "Organic fertilizers"),
         Classification("1063", "Organic fertilizers"),
         Classification("11", "MANUFACTURE OF TEXTILE PRODUCTS"),
-        Classification("110", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (11 MANUFACTURE OF TEXTILE PRODUCTS)"),
+        Classification(
+            "110",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (11 MANUFACTURE OF TEXTILE PRODUCTS)",
+        ),
         Classification("1100", "Head offices primarily engaged in managerial operations"),
-        Classification("1109", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "1109", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("111", "SILK REELING, SPINNING, CHEMICAL FIBERS AND TWISTING AND BULKY YARNS"),
         Classification("1111", "Silk reeling"),
         Classification("1112", "Chemical fibers"),
@@ -419,7 +474,10 @@ JSIC13 = Standard(
         Classification("1162", "Ladies' and girls' textile outer garments, including bonded fabrics and lace products"),
         Classification("1163", "Infants' textile outer garments, including bonded fabrics and lace products"),
         Classification("1164", "Textile shirts, including bonded fabrics and lace products, except underwear"),
-        Classification("1165", "Textile business, work, sanitary, sport clothing and school uniforms, including bonded fabrics and lace products"),
+        Classification(
+            "1165",
+            "Textile business, work, sanitary, sport clothing and school uniforms, including bonded fabrics and lace products",
+        ),
         Classification("1166", "Knitted garments, except outer shirts and sweater"),
         Classification("1166", "Knitted garments, except outer shirts and sweater"),
         Classification("1167", "Knitted outer shirts"),
@@ -458,9 +516,14 @@ JSIC13 = Standard(
         Classification("1199", "Textile products, n.e.c."),
         Classification("1199", "Textile products, n.e.c."),
         Classification("12", "MANUFACTURE OF LUMBER AND WOOD PRODUCTS, EXCEPT FOURNITURE"),
-        Classification("120", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (12 MANUFACTURE OF LUMBER AND WOOD PRODUCTS)"),
+        Classification(
+            "120",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (12 MANUFACTURE OF LUMBER AND WOOD PRODUCTS)",
+        ),
         Classification("1200", "Head offices primarily engaged in managerial operations"),
-        Classification("1209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "1209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("121", "SAWING, PLANING AND WOOD PRODUCTS"),
         Classification("1211", "General sawing and planing wood"),
         Classification("1212", "Veneer wood"),
@@ -486,9 +549,14 @@ JSIC13 = Standard(
         Classification("1299", "Wood products, n.e.c., including bamboo and rattan"),
         Classification("1299", "Wood products, n.e.c., including bamboo and rattan"),
         Classification("13", "MANUFACTURE OF FURNITURE AND FIXTURES"),
-        Classification("130", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (13  MANUFACTURE OF FURNITURE AND FIXTURES)"),
+        Classification(
+            "130",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (13  MANUFACTURE OF FURNITURE AND FIXTURES)",
+        ),
         Classification("1300", "Head offices primarily engaged in managerial operations"),
-        Classification("1309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "1309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("131", "FURNITURE"),
         Classification("1311", "Wooden furniture, except japanned"),
         Classification("1312", "Metal furniture"),
@@ -513,9 +581,14 @@ JSIC13 = Standard(
         Classification("1399", "Furniture and fixtures, n.e.c."),
         Classification("1399", "Furniture and fixtures, n.e.c."),
         Classification("14", "MANUFACTURE OF PULP, PAPER AND PAPER PRODUCTS"),
-        Classification("140", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (14 MANUFACTURE OF PULP, PAPER AND PAPER PRODUCTS )"),
+        Classification(
+            "140",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (14 MANUFACTURE OF PULP, PAPER AND PAPER PRODUCTS )",
+        ),
         Classification("1400", "Head offices primarily engaged in managerial operations"),
-        Classification("1409", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "1409", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("141", "PULP"),
         Classification("1411", "Pulp"),
         Classification("142", "PAPER"),
@@ -544,9 +617,14 @@ JSIC13 = Standard(
         Classification("1499", "Miscellaneous pulp, paper and paper products, n.e.c."),
         Classification("1499", "Miscellaneous pulp, paper and paper products, n.e.c."),
         Classification("15", "PRINTING AND ALLIED INDUSTRIES"),
-        Classification("150", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (15 PRINTING AND ALLIED INDUSTRIES)"),
+        Classification(
+            "150",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (15 PRINTING AND ALLIED INDUSTRIES)",
+        ),
         Classification("1500", "Head offices primarily engaged in managerial operations"),
-        Classification("1509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "1509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("151", "PRINTING"),
         Classification("1511", "Offset printing in paper"),
         Classification("1512", "Printing in paper, except offset printing"),
@@ -560,9 +638,14 @@ JSIC13 = Standard(
         Classification("159", "SERVICES RELATED TO PRINTING"),
         Classification("1591", "Services related to printing"),
         Classification("16", "MANUFACTURE OF CHEMICAL AND ALLIED PRODUCT"),
-        Classification("160", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (16 MANUFACTURE OF CHEMICAL AND ALLIED PRODUCTS)"),
+        Classification(
+            "160",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (16 MANUFACTURE OF CHEMICAL AND ALLIED PRODUCTS)",
+        ),
         Classification("1600", "Head offices primarily engaged in managerial operations"),
-        Classification("1609", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "1609", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("161", "CHEMICAL FERTILIZERS"),
         Classification("1611", "Nitrogenous and phosphatic fertilizers"),
         Classification("1612", "Compound fertilizers"),
@@ -613,9 +696,14 @@ JSIC13 = Standard(
         Classification("1697", "Reagents"),
         Classification("1699", "Chemicals and allied products, n.e.c."),
         Classification("17", "MANUFACTURE OF PETROLEUM AND COAL PRODUCTS"),
-        Classification("170", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (17 MANUFACTURE OF PETROLEUM AND COAL PRODUCTS )"),
+        Classification(
+            "170",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (17 MANUFACTURE OF PETROLEUM AND COAL PRODUCTS )",
+        ),
         Classification("1700", "Head offices primarily engaged in managerial operations"),
-        Classification("1709", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "1709", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("171", "PETROLEUM REFINING"),
         Classification("1711", "Petroleum refining"),
         Classification("172", "LUBRICATING OILS AND GREASES (NOT MADE IN PETROLEUM REFINERIES)"),
@@ -628,15 +716,23 @@ JSIC13 = Standard(
         Classification("1799", "Miscellaneous petroleum and coal products"),
         Classification("1799", "Miscellaneous petroleum and coal products"),
         Classification("18", "MANUFACTURE OF PLASTIC PRODUCTS, EXCEPT OTHERWISE CLASSIFIED"),
-        Classification("180", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (18 MANUFACTURE OF PLASTIC PRODUCTS)"),
+        Classification(
+            "180",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (18 MANUFACTURE OF PLASTIC PRODUCTS)",
+        ),
         Classification("1800", "Head offices primarily engaged in managerial operations"),
-        Classification("1809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "1809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("181", "PLASTIC PLATES, BARS AND RODS, PIPES AND TUBES, PIPE FITTINGS AND PROFILE EXTRUSIONS"),
         Classification("1811", "Plastic plates, bars and rods"),
         Classification("1812", "Plastic pipes and tubes"),
         Classification("1813", "Plastic pipe fittings"),
         Classification("1814", "Plastic profile extrusions"),
-        Classification("1815", "Fabrication of plastic plates, bars and rods, pipes and tubes, pipe fittings and profile extrusions"),
+        Classification(
+            "1815",
+            "Fabrication of plastic plates, bars and rods, pipes and tubes, pipe fittings and profile extrusions",
+        ),
         Classification("182", "PLASTIC FILMS, SHEETS, FLOOR COVERINGS AND SYNTHETIC LEATHER"),
         Classification("1821", "Plastic film"),
         Classification("1822", "Plastic sheets"),
@@ -645,9 +741,15 @@ JSIC13 = Standard(
         Classification("1824", "Synthetic leather"),
         Classification("1825", "Fabrication of plastic film, sheets, floor coverings and synthetic leather"),
         Classification("183", "INDUSTRIAL PLASTIC PRODUCTS"),
-        Classification("1831", "Industrial plastic products for electric machinery and apparatus, except made by fabrication"),
-        Classification("1832", "Industrial plastic products for transport machinery and apparatus, except made by fabrication"),
-        Classification("1832", "Industrial plastic products for transport machinery and apparatus, except made by fabrication"),
+        Classification(
+            "1831", "Industrial plastic products for electric machinery and apparatus, except made by fabrication"
+        ),
+        Classification(
+            "1832", "Industrial plastic products for transport machinery and apparatus, except made by fabrication"
+        ),
+        Classification(
+            "1832", "Industrial plastic products for transport machinery and apparatus, except made by fabrication"
+        ),
         Classification("1833", "Miscellaneous industrial plastic products, except made by fabrication"),
         Classification("1834", "Fabrication of industrial plastic products"),
         Classification("184", "FOAMED AND REINFORCED PLASTIC PRODUCTS"),
@@ -666,9 +768,14 @@ JSIC13 = Standard(
         Classification("1897", "Plastic products, n.e.c."),
         Classification("1898", "Fabrication of finished plastic products, n.e.c."),
         Classification("19", "MANUFACTURE OF RUBBER PRODUCTS"),
-        Classification("190", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (19 MANUFACTURE OF RUBBER PRODUCTS)"),
+        Classification(
+            "190",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (19 MANUFACTURE OF RUBBER PRODUCTS)",
+        ),
         Classification("1900", "Head offices primarily engaged in managerial operations"),
-        Classification("1909", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "1909", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("191", "TIRES AND INNER TUBES"),
         Classification("1911", "Tires and tubes for automobiles"),
         Classification("1919", "Miscellaneous tires and tubes"),
@@ -693,9 +800,14 @@ JSIC13 = Standard(
         Classification("1995", "Reclaimed rubber"),
         Classification("1999", "Rubber products, n.e.c."),
         Classification("20", "MANUFACTURE OF LEATHER TANNING, LEATHER PRODUCTS AND FUR SKINS"),
-        Classification("200", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (20 MANUFACTURE OF LEATHER TANNING, LEATHER PRODUCTS AND FUR SKINS )"),
+        Classification(
+            "200",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (20 MANUFACTURE OF LEATHER TANNING, LEATHER PRODUCTS AND FUR SKINS )",
+        ),
         Classification("2000", "Head offices primarily engaged in managerial operations"),
-        Classification("2009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "2009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("201", "LEATHER TANNING AND FINISHING"),
         Classification("2011", "Leather tanning and finishing"),
         Classification("202", "MECHANICAL AND INDUSTRIAL LEATHER PRODUCTS, EXCEPT GLOVES AND MITTENS"),
@@ -717,9 +829,14 @@ JSIC13 = Standard(
         Classification("209", "MISCELLANEOUS LEATHER PRODUCTS"),
         Classification("2099", "Miscellaneous leather products"),
         Classification("21", "MANUFACTURE OF CERAMIC, STONE AND CLAY PRODUCTS"),
-        Classification("210", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (21 MANUFACTURE OF CERAMIC, STONE AND CLAY PRODUCTS )"),
+        Classification(
+            "210",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (21 MANUFACTURE OF CERAMIC, STONE AND CLAY PRODUCTS )",
+        ),
         Classification("2100", "Head offices primarily engaged in managerial operations"),
-        Classification("2109", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "2109", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("211", "GLASS AND ITS PRODUCTS"),
         Classification("2111", "Flat glass"),
         Classification("2112", "Processed flat glass"),
@@ -776,16 +893,24 @@ JSIC13 = Standard(
         Classification("2199", "Ceramic, stone and clay products, n.e.c"),
         Classification("2199", "Ceramic, stone and clay products, n.e.c"),
         Classification("22", "MANUFACTURE OF IRON AND STEEL"),
-        Classification("220", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (22 MANUFACTURE OF IRON AND STEEL)"),
+        Classification(
+            "220",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (22 MANUFACTURE OF IRON AND STEEL)",
+        ),
         Classification("2200", "Head offices primarily engaged in managerial operations"),
-        Classification("2209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "2209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("221", "IRON INDUSTRIES"),
         Classification("2211", "Iron industries, with blast furnaces"),
         Classification("2212", "Iron industries, without blast furnaces"),
         Classification("2213", "Ferro-alloys"),
         Classification("222", "STEEL, WITH ROLLING FACILITIES"),
         Classification("2221", "Steel, with rolling facilities"),
-        Classification("223", "STEEL MATERIALS, EXCEPT MADE BY SMELTING FURNACES AND STEEL WORKS WITH ROLLING FACILITIES, EXCEPT COATED STEEL"),
+        Classification(
+            "223",
+            "STEEL MATERIALS, EXCEPT MADE BY SMELTING FURNACES AND STEEL WORKS WITH ROLLING FACILITIES, EXCEPT COATED STEEL",
+        ),
         Classification("2231", "Hot rolling, except steel pipes and tubes, and re-rolled steel products"),
         Classification("2232", "Cold rolling, except steel pipes and tubes, and re-rolled steel products"),
         Classification("2233", "Cold rolled steel shapes"),
@@ -795,7 +920,10 @@ JSIC13 = Standard(
         Classification("2237", "Solid-drawn steel pipes and tubes"),
         Classification("2238", "Wire drawing"),
         Classification("2238", "Wire drawing"),
-        Classification("2239", "Miscellaneous steel materials, except made by smelting furnaces and steel works with rolling facilities, except coated steel"),
+        Classification(
+            "2239",
+            "Miscellaneous steel materials, except made by smelting furnaces and steel works with rolling facilities, except coated steel",
+        ),
         Classification("224", "COATED STEEL"),
         Classification("2241", "Galvanized steel sheets"),
         Classification("2249", "Miscellaneous coated steel"),
@@ -812,9 +940,14 @@ JSIC13 = Standard(
         Classification("2293", "Cast iron pipe"),
         Classification("2299", "Iron and steel, n.e.c."),
         Classification("23", "MANUFACTURE OF NON-FERROUS METALS AND PRODUCTS"),
-        Classification("230", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (23 MANUFACTURE OF NON-FERROUS METALS AND PRODUCTS )"),
+        Classification(
+            "230",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (23 MANUFACTURE OF NON-FERROUS METALS AND PRODUCTS )",
+        ),
         Classification("2300", "Head offices primarily engaged in managerial operations"),
-        Classification("2309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "2309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("231", "PRIMARY SMELTING AND REFINING OF NON-FERROUS METALS"),
         Classification("2311", "Primary smelting and refining of copper"),
         Classification("2312", "Primary smelting and refining of zinc"),
@@ -822,11 +955,15 @@ JSIC13 = Standard(
         Classification("232", "SECONDARY SMELTING AND REFINING OF NON-FERROUS METALS, INCLUDING NON-FERROUS ALLOYS"),
         Classification("2321", "Secondary smelting and refining of lead, including lead alloys"),
         Classification("2322", "Secondary smelting and refining of aluminum including aluminum alloys"),
-        Classification("2329", "Miscellaneous secondary smelting and refining of non-ferrous metals, including non-ferrous alloys"),
+        Classification(
+            "2329", "Miscellaneous secondary smelting and refining of non-ferrous metals, including non-ferrous alloys"
+        ),
         Classification("233", "ROLLING OF NON-FERROUS METALS AND ALLOYS, INCLUDING DRAWING AND EXTRUDING"),
         Classification("2331", "Rolling and drawing of copper and copper alloys"),
         Classification("2332", "Rolling of aluminum and aluminum alloys, including drawing and extruding"),
-        Classification("2339", "Miscellaneous rolling of non-ferrous metals and alloys, including drawing and extruding"),
+        Classification(
+            "2339", "Miscellaneous rolling of non-ferrous metals and alloys, including drawing and extruding"
+        ),
         Classification("234", "ELECTRIC WIRE AND CABLE"),
         Classification("2341", "Electric wire and cable, except optical fiber cable"),
         Classification("2342", "Optical fiber cables, including telecommunication composite cables"),
@@ -840,15 +977,22 @@ JSIC13 = Standard(
         Classification("2391", "Nuclear fuel"),
         Classification("2399", "Non-ferrous metal products, n.e.c."),
         Classification("24", "MANUFACTURE OF FABRICATED METAL PRODUCTS"),
-        Classification("240", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (24 MANUFACTURE OF FABRICATED METAL PRODUCTS)"),
+        Classification(
+            "240",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (24 MANUFACTURE OF FABRICATED METAL PRODUCTS)",
+        ),
         Classification("2400", "Head offices primarily engaged in managerial operations"),
-        Classification("2409", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "2409", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("241", "TIN CANS AND OTHER PLATED SHEET PRODUCTS"),
         Classification("2411", "Tin cans and other plated sheet products"),
         Classification("242", "TABLEWARE (OCCIDENTAL TYPE), CUTLERY, HAND TOOLS AND HARDWARE"),
         Classification("2421", "Tableware (occidental type)"),
         Classification("2422", "Edge tools for machinery"),
-        Classification("2423", "Edge tools, artisans' tools and hand tools, except files, saws and knives for kitchen use"),
+        Classification(
+            "2423", "Edge tools, artisans' tools and hand tools, except files, saws and knives for kitchen use"
+        ),
         Classification("2424", "Working tools"),
         Classification("2425", "Hand saws and saw blades"),
         Classification("2426", "Agricultural tools, except agricultural machinery"),
@@ -859,14 +1003,25 @@ JSIC13 = Standard(
         Classification("2432", "Gas and oil appliances"),
         Classification("2433", "Heated air and hot water heating systems"),
         Classification("2433", "Heated air and hot water heating systems"),
-        Classification("2439", "Miscellaneous heating and cooking apparatus, except electrical appliances and gas and oil appliances"),
-        Classification("2439", "Miscellaneous heating and cooking apparatus, except electrical appliances and gas and oil appliances"),
-        Classification("244", "FABRICATED CONSTRUCTIONAL AND ARCHITECTURAL METAL PRODUCTS, INCLUDING FABRICATED PLATE WORK AND SHEET METAL WORK"),
+        Classification(
+            "2439",
+            "Miscellaneous heating and cooking apparatus, except electrical appliances and gas and oil appliances",
+        ),
+        Classification(
+            "2439",
+            "Miscellaneous heating and cooking apparatus, except electrical appliances and gas and oil appliances",
+        ),
+        Classification(
+            "244",
+            "FABRICATED CONSTRUCTIONAL AND ARCHITECTURAL METAL PRODUCTS, INCLUDING FABRICATED PLATE WORK AND SHEET METAL WORK",
+        ),
         Classification("2441", "Iron framework"),
         Classification("2442", "Constructional metal products , except iron framework"),
         Classification("2443", "Metal sashes and doors"),
         Classification("2444", "Steel framed prefab housing"),
-        Classification("2445", "Fabricated architectural metal products, except sashes, doors and structural hardwares"),
+        Classification(
+            "2445", "Fabricated architectural metal products, except sashes, doors and structural hardwares"
+        ),
         Classification("2446", "Fabricated plate work and sheet metal work"),
         Classification("2446", "Fabricated plate work and sheet metal work"),
         Classification("245", "METAL MACHINE PARTS AND TOOLING PRODUCTS"),
@@ -912,9 +1067,14 @@ JSIC13 = Standard(
         Classification("2499", "Fabricated metal products, n.e.c."),
         Classification("2499", "Fabricated metal products, n.e.c."),
         Classification("25", "MANUFACTURE OF GENERAL-PURPOSE MACHINERY"),
-        Classification("250", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (25 MANUFACTURE OF GENERAL-PURPOSE MACHINERY)"),
+        Classification(
+            "250",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (25 MANUFACTURE OF GENERAL-PURPOSE MACHINERY)",
+        ),
         Classification("2500", "Head offices primarily engaged in managerial operations"),
-        Classification("2509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "2509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("251", "BOILERS, ENGINES AND TURBINES"),
         Classification("2511", "Boilers"),
         Classification("2512", "Steam engines, turbines and water turbines, except marine engines"),
@@ -941,9 +1101,14 @@ JSIC13 = Standard(
         Classification("2599", "Machine shops (jobbing and repair)"),
         Classification("2599", "Machine shops (jobbing and repair)"),
         Classification("26", "MANUFACTURE OF PRODUCTION MACHINERY"),
-        Classification("260", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (26 MANUFACTURE OF PRODUCTION MACHINERY)"),
+        Classification(
+            "260",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (26 MANUFACTURE OF PRODUCTION MACHINERY)",
+        ),
         Classification("2600", "Head offices primarily engaged in managerial operations"),
-        Classification("2609", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "2609", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("261", "AGRICULTURAL MACHINERY AND EQUIPMENT, EXCEPT AGRICULTURAL TOOLS"),
         Classification("2611", "Agricultural machinery and equipment, except agricultural tools"),
         Classification("262", "MACHINERY AND EQUIPMENT FOR CONSTRUCTION AND MINING"),
@@ -970,8 +1135,14 @@ JSIC13 = Standard(
         Classification("2661", "Metal cutting machine tools"),
         Classification("2662", "Metalworking machinery and its equipment, except metal cutting machine tools"),
         Classification("2662", "Metalworking machinery and its equipment, except metal cutting machine tools"),
-        Classification("2663", "Parts and accessories for metalworking machines and metal cutting machine tools, except machinists' tools, molds and dies"),
-        Classification("2663", "Parts and accessories for metalworking machines and metal cutting machine tools, except machinists' tools, molds and dies"),
+        Classification(
+            "2663",
+            "Parts and accessories for metalworking machines and metal cutting machine tools, except machinists' tools, molds and dies",
+        ),
+        Classification(
+            "2663",
+            "Parts and accessories for metalworking machines and metal cutting machine tools, except machinists' tools, molds and dies",
+        ),
         Classification("2664", "Machinists' tools, except powder metallurgy products"),
         Classification("267", "SEMICONDUCTOR AND FLAT-PANEL DISPLAY MANUFACTURING EQUIPMENT"),
         Classification("2671", "Semiconductor manufacturing equipment"),
@@ -984,9 +1155,14 @@ JSIC13 = Standard(
         Classification("2699", "Production machinery and machine parts, n.e.c"),
         Classification("2699", "Production machinery and machine parts, n.e.c"),
         Classification("27", "MANUFACTURE OF BUSINESS ORIENTED MACHINERY"),
-        Classification("270", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES ( 27MANUFACTURE OF BUSINESS ORIENTED MACHINERY)"),
+        Classification(
+            "270",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES ( 27MANUFACTURE OF BUSINESS ORIENTED MACHINERY)",
+        ),
         Classification("2700", "Head offices primarily engaged in managerial operations"),
-        Classification("2709", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "2709", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("271", "OFFICE MACHINES"),
         Classification("2711", "Copying machines"),
         Classification("2719", "Miscellaneous office machines"),
@@ -999,7 +1175,10 @@ JSIC13 = Standard(
         Classification("2729", "Miscellaneous service industry and amusement machines"),
         Classification("2729", "Miscellaneous service industry and amusement machines"),
         Classification("2729", "Miscellaneous service industry and amusement machines"),
-        Classification("273", "MEASURING INSTRUMENTS, ANALYTICAL INSTRUMENTS,TESTING MACHINES, SURVEYING INSTRUMENTS AND PHYSICAL AND CHEMICAL INSTRUMENTS"),
+        Classification(
+            "273",
+            "MEASURING INSTRUMENTS, ANALYTICAL INSTRUMENTS,TESTING MACHINES, SURVEYING INSTRUMENTS AND PHYSICAL AND CHEMICAL INSTRUMENTS",
+        ),
         Classification("2731", "Volumeters"),
         Classification("2732", "Balances and scales"),
         Classification("2732", "Balances and scales"),
@@ -1009,9 +1188,18 @@ JSIC13 = Standard(
         Classification("2736", "Testing machines"),
         Classification("2737", "Surveying instruments"),
         Classification("2738", "Physical and chemical instruments"),
-        Classification("2739", "Miscellaneous measuring instruments, analytical instruments, testing machines, surveying instruments and physical and chemical instruments"),
-        Classification("2739", "Miscellaneous measuring instruments, analytical instruments, testing machines, surveying instruments and physical and chemical instruments"),
-        Classification("2739", "Miscellaneous measuring instruments, analytical instruments, testing machines, surveying instruments and physical and chemical instruments"),
+        Classification(
+            "2739",
+            "Miscellaneous measuring instruments, analytical instruments, testing machines, surveying instruments and physical and chemical instruments",
+        ),
+        Classification(
+            "2739",
+            "Miscellaneous measuring instruments, analytical instruments, testing machines, surveying instruments and physical and chemical instruments",
+        ),
+        Classification(
+            "2739",
+            "Miscellaneous measuring instruments, analytical instruments, testing machines, surveying instruments and physical and chemical instruments",
+        ),
         Classification("274", "MEDICAL INSTRUMENTS AND APPARATUS, AND MEDICAL SUPPLIES"),
         Classification("2741", "Medical instruments and apparatus"),
         Classification("2741", "Medical instruments and apparatus"),
@@ -1026,9 +1214,14 @@ JSIC13 = Standard(
         Classification("2761", "Ordnance and accessories"),
         Classification("2761", "Ordnance and accessories"),
         Classification("28", "ELECTRONIC PARTS, DEVICES AND ELECTRONIC CIRCUITS"),
-        Classification("280", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (28 ELECTRONIC PARTS, DEVICES AND ELECTRONIC CIRCUITS)"),
+        Classification(
+            "280",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (28 ELECTRONIC PARTS, DEVICES AND ELECTRONIC CIRCUITS)",
+        ),
         Classification("2800", "Head offices primarily engaged in managerial operations"),
-        Classification("2809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "2809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("281", "ELECTRONIC DEVICES"),
         Classification("2811", "Electron tubes"),
         Classification("2811", "Electron tubes"),
@@ -1052,9 +1245,14 @@ JSIC13 = Standard(
         Classification("289", "MISCELLANEOUS ELECTRONIC PARTS, DEVICES AND ELECTRONIC CIRCUITS"),
         Classification("2899", "Miscellaneous electronic parts, devices and electronic circuits"),
         Classification("29", "MANUFACTURE OF ELECTRICAL MACHINERY, EQUIPMENT AND SUPPLIES"),
-        Classification("290", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (29 MANUFACTURE OF ELECTRICAL MACHINERY, EQUIPMENT AND SUPPLIES)"),
+        Classification(
+            "290",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (29 MANUFACTURE OF ELECTRICAL MACHINERY, EQUIPMENT AND SUPPLIES)",
+        ),
         Classification("2900", "Head offices primarily engaged in managerial operations"),
-        Classification("2909", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "2909", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("291", "ELECTRICAL GENERATING, TRANSMISSION, AND DISTRIBUTION APPARATUS"),
         Classification("2911", "Generators, motors and other rotating electrical machinery"),
         Classification("2912", "Power and distribution transformers, except electronic appliances transformers"),
@@ -1067,8 +1265,12 @@ JSIC13 = Standard(
         Classification("2921", "Electrical welding equipment"),
         Classification("2922", "Auxiliary equipment for internal combustion engines"),
         Classification("2922", "Auxiliary equipment for internal combustion engines"),
-        Classification("2929", "Miscellaneous industrial electrical apparatus, including those for vehicles and vessels"),
-        Classification("2929", "Miscellaneous industrial electrical apparatus, including those for vehicles and vessels"),
+        Classification(
+            "2929", "Miscellaneous industrial electrical apparatus, including those for vehicles and vessels"
+        ),
+        Classification(
+            "2929", "Miscellaneous industrial electrical apparatus, including those for vehicles and vessels"
+        ),
         Classification("293", "HOUSEHOLD ELECTRIC APPLIANCES"),
         Classification("2931", "Kitchen ware"),
         Classification("2932", "Air-conditioning and home comfort"),
@@ -1092,9 +1294,14 @@ JSIC13 = Standard(
         Classification("299", "MISCELLANEOUS ELECTRICAL MACHINERY EQUIPMENT AND SUPPLIES"),
         Classification("2999", "Miscellaneous electrical machinery equipment and supplies"),
         Classification("30", "MANUFACTURE OF INFORMATION AND COMMUNICATION ELECTRONICS EQUIPMENT"),
-        Classification("300", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (30 MANUFACTURE OF INFORMATION AND COMMUNICATION ELECTRONICS EQUIPMENT)"),
+        Classification(
+            "300",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (30 MANUFACTURE OF INFORMATION AND COMMUNICATION ELECTRONICS EQUIPMENT)",
+        ),
         Classification("3000", "Head offices primarily engaged in managerial operations"),
-        Classification("3009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "3009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("301", "COMMUNICATION EQUIPMENT AND RELATED PRODUCTS"),
         Classification("3011", "Communication equipment wired"),
         Classification("3012", "Mobile phone and PHS"),
@@ -1107,7 +1314,9 @@ JSIC13 = Standard(
         Classification("3021", "Video equipment"),
         Classification("3022", "Digital camera"),
         Classification("3023", "Electric audio equipment"),
-        Classification("303", "ELECTRONIC DATA PROCESSING MACHINES, DIGITAL AND HYBRID COMPUTER, AND PERIPHERAL EQUIPMENT"),
+        Classification(
+            "303", "ELECTRONIC DATA PROCESSING MACHINES, DIGITAL AND HYBRID COMPUTER, AND PERIPHERAL EQUIPMENT"
+        ),
         Classification("3031", "Computer, except personal computer"),
         Classification("3032", "Personal computer"),
         Classification("3033", "External storages"),
@@ -1115,9 +1324,14 @@ JSIC13 = Standard(
         Classification("3035", "Display unit"),
         Classification("3039", "Miscellaneous peripheral equipment"),
         Classification("31", "MANUFACTURE OF TRANSPORTATION EQUIPMENT"),
-        Classification("310", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (31  MANUFACTURE OF TRANSPORTATION EQUIPMENT )"),
+        Classification(
+            "310",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (31  MANUFACTURE OF TRANSPORTATION EQUIPMENT )",
+        ),
         Classification("3100", "Head offices primarily engaged in managerial operations"),
-        Classification("3109", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "3109", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("311", "MOTOR VEHICLES, PARTS AND ACCESSORIES"),
         Classification("3111", "Motor vehicles, including motorcycles"),
         Classification("3111", "Motor vehicles, including motorcycles"),
@@ -1148,14 +1362,22 @@ JSIC13 = Standard(
         Classification("3199", "Transportation equipment, n.e.c."),
         Classification("3199", "Transportation equipment, n.e.c."),
         Classification("32", "MISCELLANEOUS MANUFACTURING INDUSTRIES"),
-        Classification("320", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (32 MISCELLANEOUS MANUFACTURING INDUSTRIES )"),
+        Classification(
+            "320",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (32 MISCELLANEOUS MANUFACTURING INDUSTRIES )",
+        ),
         Classification("3200", "Head offices primarily engaged in managerial operations"),
-        Classification("3209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "3209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("321", "PRECIOUS METAL PRODUCTS, INCLUDING JEWEL"),
         Classification("3211", "Jewelry products of precious metal and precious stone"),
         Classification("3212", "Findings and materials of jewelry"),
         Classification("3219", "Miscellaneous precious metal products and precious stone products"),
-        Classification("322", "COSTUME JEWELRY, COSTUME ACCESSORIES, BUTTONS AND RELATED PRODUCTS, EXCEPT PRECIOUS METALS AND JEWELRY"),
+        Classification(
+            "322",
+            "COSTUME JEWELRY, COSTUME ACCESSORIES, BUTTONS AND RELATED PRODUCTS, EXCEPT PRECIOUS METALS AND JEWELRY",
+        ),
         Classification("3221", "Costume jewelry and costume accessories, except precious metals and jewelry"),
         Classification("3222", "Artificial flowers and ornamental feathers"),
         Classification("3223", "Buttons"),
@@ -1197,34 +1419,57 @@ JSIC13 = Standard(
         Classification("3293", "Pallets"),
         Classification("3294", "Models and patterns"),
         Classification("3295", "Pattern manufactured of industrial use"),
-        Classification("3296", "Information recording materials, except newspapers, books, other printed products, etc."),
+        Classification(
+            "3296", "Information recording materials, except newspapers, books, other printed products, etc."
+        ),
         Classification("3297", "Spectacles, including frames"),
         Classification("3299", "Miscellaneous manufacturing industries, n.e.c."),
         Classification("F", "ELECTRICITY, GAS, HEAT SUPPLY AND WATER"),
         Classification("33", "PRODUCTION, TRANSMISSION AND DISTRIBUTION OF ELECTRICITY"),
-        Classification("330", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (33 PRODUCTION, TRANSMISSION AND DISTRIBUTION OF ELECTRICITY)"),
+        Classification(
+            "330",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (33 PRODUCTION, TRANSMISSION AND DISTRIBUTION OF ELECTRICITY)",
+        ),
         Classification("3300", "Head offices primarily engaged in managerial operations"),
-        Classification("3309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "3309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("331", "PRODUCTION, TRANSMISSION AND DISTRIBUTION OF ELECTRICITY"),
         Classification("3311", "Power stations"),
         Classification("3312", "Power substations"),
         Classification("34", "PRODUCTION AND DISTRIBUTION OF GAS"),
-        Classification("340", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (34 PRODUCTION AND DISTRIBUTION OF GAS)"),
+        Classification(
+            "340",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (34 PRODUCTION AND DISTRIBUTION OF GAS)",
+        ),
         Classification("3400", "Head offices primarily engaged in managerial operations"),
-        Classification("3409", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "3409", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("341", "PRODUCTION AND DISTRIBUTION OF GAS"),
         Classification("3411", "Gasworks"),
         Classification("3412", "Gas distribution"),
         Classification("35", "HEAT SUPPLY"),
-        Classification("350", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (35 HEAT SUPPLY)"),
+        Classification(
+            "350", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (35 HEAT SUPPLY)"
+        ),
         Classification("3500", "Head offices primarily engaged in managerial operations"),
-        Classification("3509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "3509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("351", "HEAT SUPPLY"),
         Classification("3511", "Heat supply"),
-        Classification("36", "COLLECTION, PURIFICATION AND DISTRIBUTION OF WATER, AND SEWAGE COLLECTION, PROCESSING AND DISPOSAL"),
-        Classification("360", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (36 COLLECTION, PURIFICATION AND DISTRIBUTION OF WATER, AND SEWAGE COLLECTION, PROCESSING AND DISPOSAL)"),
+        Classification(
+            "36", "COLLECTION, PURIFICATION AND DISTRIBUTION OF WATER, AND SEWAGE COLLECTION, PROCESSING AND DISPOSAL"
+        ),
+        Classification(
+            "360",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (36 COLLECTION, PURIFICATION AND DISTRIBUTION OF WATER, AND SEWAGE COLLECTION, PROCESSING AND DISPOSAL)",
+        ),
         Classification("3600", "Head offices primarily engaged in managerial operations"),
-        Classification("3609", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "3609", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("361", "WATER FOR END USERS, EXCEPT INDUSTRIAL USERS"),
         Classification("3611", "Water for end users, except industrial users"),
         Classification("362", "WATER FOR INDUSTRIAL USERS"),
@@ -1234,9 +1479,13 @@ JSIC13 = Standard(
         Classification("3632", "Sewer maintenance"),
         Classification("G", "INFORMATION AND COMMUNICATIONS"),
         Classification("37", "COMMUNICATIONS"),
-        Classification("370", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (37  COMMUNICATIONS)"),
+        Classification(
+            "370", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (37  COMMUNICATIONS)"
+        ),
         Classification("3700", "Head offices primarily engaged in managerial operations"),
-        Classification("3709", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "3709", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("371", "FIXED TELECOMMUNICATIONS"),
         Classification("3711", "Regional telecommunications, except wire broadcast telephones"),
         Classification("3712", "Long-distance telecommunications"),
@@ -1250,9 +1499,13 @@ JSIC13 = Standard(
         Classification("373", "SERVICES INCIDENTAL TO TELECOMMUNICATIONS"),
         Classification("3731", "Services incidental to telecommunications"),
         Classification("38", "BROADCASTING"),
-        Classification("380", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (38  BROADCASTING)"),
+        Classification(
+            "380", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (38  BROADCASTING)"
+        ),
         Classification("3800", "Head offices primarily engaged in managerial operations"),
-        Classification("3809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "3809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("381", "PUBLIC BROADCASTING, EXCEPT CABLECASTING"),
         Classification("3811", "Public broadcasting, except cablecasting"),
         Classification("382", "PRIVATE-SECTOR BROADCASTING, EXCEPT CABLECASTING"),
@@ -1266,9 +1519,14 @@ JSIC13 = Standard(
         Classification("3831", "Cable television broadcasting"),
         Classification("3832", "Cable radio broadcasting"),
         Classification("39", "INFORMATION SERVICES"),
-        Classification("390", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (39  INFORMATION SERVICES )"),
+        Classification(
+            "390",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (39  INFORMATION SERVICES )",
+        ),
         Classification("3900", "Head offices primarily engaged in managerial operations"),
-        Classification("3909", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "3909", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("391", "COMPUTER PROGRAMMING AND OTHER SOFTWARE SERVICES"),
         Classification("3911", "Custom software services"),
         Classification("3911", "Custom software services"),
@@ -1282,19 +1540,33 @@ JSIC13 = Standard(
         Classification("3923", "Market research, opinion survey and social survey services"),
         Classification("3929", "Miscellaneous data processing and information services"),
         Classification("40", "SERVICES INCIDENTAL TO INTERNET"),
-        Classification("400", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (40 SERVICES INCIDENTAL TO INTERNET)"),
+        Classification(
+            "400",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (40 SERVICES INCIDENTAL TO INTERNET)",
+        ),
         Classification("4000", "Head offices primarily engaged in managerial operations"),
-        Classification("4009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "4009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("401", "SERVICES INCIDENTAL TO INTERNET"),
         Classification("4011", " Web portal providers"),
         Classification("4012", "Application services providers"),
         Classification("4013", "Internet support services"),
-        Classification("41", "VIDEO PICTURE INFORMATION, SOUND INFORMATION, CHARACTER INFORMATION PRODUCTION AND DISTRIBUTION"),
-        Classification("410", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (41 VIDEO PICTURE INFORMATION, SOUND INFORMATION, CHARACTER INFORMATION PRODUCTION AND DISTRIBUTION)"),
+        Classification(
+            "41", "VIDEO PICTURE INFORMATION, SOUND INFORMATION, CHARACTER INFORMATION PRODUCTION AND DISTRIBUTION"
+        ),
+        Classification(
+            "410",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (41 VIDEO PICTURE INFORMATION, SOUND INFORMATION, CHARACTER INFORMATION PRODUCTION AND DISTRIBUTION)",
+        ),
         Classification("4100", "Head offices primarily engaged in managerial operations"),
-        Classification("4109", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "4109", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("411", "VIDEO PICTURE INFORMATION PRODUCTION AND DISTRIBUTION"),
-        Classification("4111", "Motion picture and video production, except television program and  animation production"),
+        Classification(
+            "4111", "Motion picture and video production, except television program and  animation production"
+        ),
         Classification("4112", "Television program production, except animation production"),
         Classification("4113", "Animation production"),
         Classification("4114", "Motion picture, video and television program distribution"),
@@ -1309,16 +1581,32 @@ JSIC13 = Standard(
         Classification("4141", "Publishers, except newspapers"),
         Classification("415", "COMMERCIAL ART AND GRAPHIC DESIGN"),
         Classification("4151", "Commercial art and graphic design"),
-        Classification("416", "SERVICES INCIDENTAL TO VIDEO PICTURE INFORMATION, SOUND INFORMATION, CHARACTER INFORMATION PRODUCTION AND DISTRIBUTION"),
+        Classification(
+            "416",
+            "SERVICES INCIDENTAL TO VIDEO PICTURE INFORMATION, SOUND INFORMATION, CHARACTER INFORMATION PRODUCTION AND DISTRIBUTION",
+        ),
         Classification("4161", "News syndicates (News suppliers)"),
-        Classification("4169", "Miscellaneous services incidental to video picture information, sound information, character information production and distribution"),
-        Classification("4169", "Miscellaneous services incidental to video picture information, sound information, character information production and distribution"),
-        Classification("4169", "Miscellaneous services incidental to video picture information, sound information, character information production and distribution"),
+        Classification(
+            "4169",
+            "Miscellaneous services incidental to video picture information, sound information, character information production and distribution",
+        ),
+        Classification(
+            "4169",
+            "Miscellaneous services incidental to video picture information, sound information, character information production and distribution",
+        ),
+        Classification(
+            "4169",
+            "Miscellaneous services incidental to video picture information, sound information, character information production and distribution",
+        ),
         Classification("H", "TRANSPORT AND POSTAL SERVICES"),
         Classification("42", "RAILWAY TRANSPORT"),
-        Classification("420", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (42  RAILWAY TRANSPORT)"),
+        Classification(
+            "420", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (42  RAILWAY TRANSPORT)"
+        ),
         Classification("4200", "Head offices primarily engaged in managerial operations"),
-        Classification("4209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "4209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("421", "RAILWAY TRANSPORT"),
         Classification("4211", "Ordinary railways"),
         Classification("4211", "Ordinary railways"),
@@ -1333,9 +1621,14 @@ JSIC13 = Standard(
         Classification("4219", "Miscellaneous railways"),
         Classification("4219", "Miscellaneous railways"),
         Classification("43", "ROAD PASSENGER TRANSPORT"),
-        Classification("430", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (43  ROAD PASSENGER TRANSPORT)"),
+        Classification(
+            "430",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (43  ROAD PASSENGER TRANSPORT)",
+        ),
         Classification("4300", "Head offices primarily engaged in managerial operations"),
-        Classification("4309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "4309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("431", "COMMON OMNIBUS OPERATORS"),
         Classification("4311", "Common omnibus operators"),
         Classification("4311", "Common omnibus operators"),
@@ -1347,9 +1640,14 @@ JSIC13 = Standard(
         Classification("4391", "Motor passenger transport (particularly-contracted)"),
         Classification("4399", "Road passenger transport, n.e.c."),
         Classification("44", "ROAD FREIGHT TRANSPORT"),
-        Classification("440", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (44 ROAD FREIGHT TRANSPORT)"),
+        Classification(
+            "440",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (44 ROAD FREIGHT TRANSPORT)",
+        ),
         Classification("4400", "Head offices primarily engaged in managerial operations"),
-        Classification("4409", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "4409", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("441", "COMMON MOTOR TRUCKING"),
         Classification("4411", "Common motor trucking, except special group cargo motor trucking"),
         Classification("4412", "Special group cargo motor trucking"),
@@ -1362,9 +1660,13 @@ JSIC13 = Standard(
         Classification("449", "MISCELLANEOUS ROAD FREIGHT TRANSPORT"),
         Classification("4499", "Miscellaneous road freight transport"),
         Classification("45", "WATER TRANSPORT"),
-        Classification("450", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (45 WATER TRANSPORT)"),
+        Classification(
+            "450", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (45 WATER TRANSPORT)"
+        ),
         Classification("4500", "Head offices primarily engaged in managerial operations"),
-        Classification("4509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "4509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("451", "OCEANGOING TRANSPORT"),
         Classification("4511", "Oceangoing passenger transport"),
         Classification("4512", "Oceangoing freight transport"),
@@ -1387,9 +1689,13 @@ JSIC13 = Standard(
         Classification("4542", "Coastwise ship leasing"),
         Classification("4542", "Coastwise ship leasing"),
         Classification("46", "AIR TRANSPORT"),
-        Classification("460", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (46 AIR TRANSPORT)"),
+        Classification(
+            "460", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (46 AIR TRANSPORT)"
+        ),
         Classification("4600", "Head offices primarily engaged in managerial operations"),
-        Classification("4609", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "4609", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("461", "AIR TRANSPORT"),
         Classification("4611", "Air transport"),
         Classification("4611", "Air transport"),
@@ -1398,17 +1704,26 @@ JSIC13 = Standard(
         Classification("4621", "Aircraft service, except air transport"),
         Classification("4621", "Aircraft service, except air transport"),
         Classification("47", "WAREHOUSING"),
-        Classification("470", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (47 WAREHOUSING )"),
+        Classification(
+            "470", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (47 WAREHOUSING )"
+        ),
         Classification("4700", "Head offices primarily engaged in managerial operations"),
-        Classification("4709", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "4709", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("471", "ORDINARY WAREHOUSING, EXCEPT REFRIGERATED WAREHOUSING"),
         Classification("4711", "Ordinary warehousing, except refrigerated warehousing"),
         Classification("472", "REFRIGERATED WAREHOUSING"),
         Classification("4721", "Refrigerated warehousing"),
         Classification("48", "SERVICES INCIDENTAL TO TRANSPORT"),
-        Classification("480", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (48 SERVICES INCIDENTAL TO TRANSPORT )"),
+        Classification(
+            "480",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (48 SERVICES INCIDENTAL TO TRANSPORT )",
+        ),
         Classification("4800", "Head offices primarily engaged in managerial operations"),
-        Classification("4809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "4809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("481", "PORT TRANSPORT"),
         Classification("4811", "Port transport"),
         Classification("482", "FREIGHT FORWARDING, EXCEPT COLLECT-AND-DELIVER FREIGHT TRANSPORT"),
@@ -1417,7 +1732,9 @@ JSIC13 = Standard(
         Classification("483", "TRANSPORT AGENCIES"),
         Classification("4831", "Transport agencies"),
         Classification("484", "PACKING AND CRATING"),
-        Classification("4841", "Packing and crating, except assembly-type packing and crating principally for ocean transport"),
+        Classification(
+            "4841", "Packing and crating, except assembly-type packing and crating principally for ocean transport"
+        ),
         Classification("4842", "Assembly-type packing and crating principally for ocean transport"),
         Classification("485", "TRANSPORT FACILITIES SERVICES"),
         Classification("4851", "Railway facilities services"),
@@ -1436,25 +1753,37 @@ JSIC13 = Standard(
         Classification("4899", "Services incidental to transport, n.e.c."),
         Classification("4899", "Services incidental to transport, n.e.c."),
         Classification("49", "POSTAL SERVICES, INCLUDING MAIL DELIVERY"),
-        Classification("490", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (49 POSTAL SERVICES)"),
+        Classification(
+            "490", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (49 POSTAL SERVICES)"
+        ),
         Classification("4901", "Establishments engaged in administrative or ancillary economic activities"),
         Classification("491", "POSTAL SERVICES, INCLUDING MAIL DELIVERY"),
         Classification("4911", "Postal services, including mail delivery"),
         Classification("4911", "Postal services, including mail delivery"),
         Classification("I", "WHOLESALE AND RETAIL TRADE"),
         Classification("50", "WHOLESALE TRADE, GENERAL MERCHANDISE"),
-        Classification("500", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (50 WHOLESALE TRADE, GENERAL MERCHANDISE )"),
+        Classification(
+            "500",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (50 WHOLESALE TRADE, GENERAL MERCHANDISE )",
+        ),
         Classification("5000", "Head offices primarily engaged in managerial operations"),
         Classification("5008", "Warehouses exclusively used for domestic use"),
-        Classification("5009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "5009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("501", "WHOLESALE TRADE, GENERAL MERCHANDISE"),
         Classification("5011", "Wholesale trade, general merchandise (with 100 or more employees)"),
         Classification("5019", "Miscellaneous wholesale trade, general merchandise"),
         Classification("51", "WHOLESALE TRADE (TEXTILE AND APPAREL)"),
-        Classification("510", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (51 WHOLESALE TRADE (TEXTILE AND APPAREL))"),
+        Classification(
+            "510",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (51 WHOLESALE TRADE (TEXTILE AND APPAREL))",
+        ),
         Classification("5100", "Head offices primarily engaged in managerial operations"),
         Classification("5108", "Warehouses exclusively used for domestic use"),
-        Classification("5109", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "5109", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("511", "TEXTILE PRODUCTS (EXCEPT APPAREL, APPAREL ACCESSORIES AND NOTIONS)"),
         Classification("5111", "Fiber materials"),
         Classification("5112", "Yarn"),
@@ -1471,10 +1800,15 @@ JSIC13 = Standard(
         Classification("5139", "Miscellaneous apparel accessories and notions"),
         Classification("5139", "Miscellaneous apparel accessories and notions"),
         Classification("52", "WHOLESALE TRADE (FOOD AND BEVERAGES)"),
-        Classification("520", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (52 WHOLESALE TRADE (FOOD AND BEVERAGES))"),
+        Classification(
+            "520",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (52 WHOLESALE TRADE (FOOD AND BEVERAGES))",
+        ),
         Classification("5200", "Head offices primarily engaged in managerial operations"),
         Classification("5208", "Warehouses exclusively used for domestic use"),
-        Classification("5209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "5209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("521", "AGRICULTURAL, LIVESTOCK AND AQUATIC PRODUCTS"),
         Classification("5211", "Rice, barley and wheat"),
         Classification("5212", "Grains and pulses"),
@@ -1493,10 +1827,15 @@ JSIC13 = Standard(
         Classification("5227", "Milk and dairy products"),
         Classification("5229", "Miscellaneous food and beverages"),
         Classification("53", "WHOLESALE TRADE  (BUILDING MATERIALS, MINERALS AND METALS, ETC)"),
-        Classification("530", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (53 WHOLESALE TRADE (BUILDING MATERIALS, MINERALS AND METALS, ETC))"),
+        Classification(
+            "530",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (53 WHOLESALE TRADE (BUILDING MATERIALS, MINERALS AND METALS, ETC))",
+        ),
         Classification("5300", "Head offices primarily engaged in managerial operations"),
         Classification("5308", "Warehouses exclusively used for domestic use"),
-        Classification("5309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "5309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("531", "BUILDING MATERIALS"),
         Classification("5311", "Lumber and bamboo"),
         Classification("5312", "Cement"),
@@ -1525,10 +1864,15 @@ JSIC13 = Standard(
         Classification("5364", "Waste paper"),
         Classification("5369", "Miscellaneous recycled material"),
         Classification("54", "WHOLESALE TRADE (MACHINERY AND EQUIPMENT)"),
-        Classification("540", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES ( 54  WHOLESALE TRADE (MACHINERY AND EQUIPMENT))"),
+        Classification(
+            "540",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES ( 54  WHOLESALE TRADE (MACHINERY AND EQUIPMENT))",
+        ),
         Classification("5400", "Head offices primarily engaged in managerial operations"),
         Classification("5408", "Warehouses exclusively used for domestic use"),
-        Classification("5409", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "5409", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("541", "INDUSTRY MACHINERY AND EQUIPMENT"),
         Classification("5411", "Machinery and equipment for agriculture use"),
         Classification("5412", "Machinery and equipment for construction and mining"),
@@ -1557,10 +1901,15 @@ JSIC13 = Standard(
         Classification("5492", "Measuring instruments, physical and chemical instruments and optical instruments"),
         Classification("5493", "Medical instruments and apparatus, including dental instruments and apparatus"),
         Classification("55", "MISCELLANEOUS WHOLESALE TRADE"),
-        Classification("550", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (55 MISCELLANEOUS WHOLESALE TRADE )"),
+        Classification(
+            "550",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (55 MISCELLANEOUS WHOLESALE TRADE )",
+        ),
         Classification("5500", "Head offices primarily engaged in managerial operations"),
         Classification("5508", "Warehouses exclusively used for domestic use"),
-        Classification("5509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "5509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("551", "FURNITURE, FIXTURES AND HOUSE FURNISHINGS"),
         Classification("5511", "Furniture and fixtures"),
         Classification("5511", "Furniture and fixtures"),
@@ -1596,10 +1945,15 @@ JSIC13 = Standard(
         Classification("5599", "Miscellaneous wholesale trade, n.e.c."),
         Classification("5599", "Miscellaneous wholesale trade, n.e.c."),
         Classification("56", "RETAIL TRADE, GENERAL MERCHANDISE"),
-        Classification("560", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (56 RETAIL TRADE, GENERAL MERCHANDISE )"),
+        Classification(
+            "560",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (56 RETAIL TRADE, GENERAL MERCHANDISE )",
+        ),
         Classification("5600", "Head offices primarily engaged in managerial operations"),
         Classification("5608", "Warehouses exclusively used for domestic use"),
-        Classification("5609", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "5609", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("561", "DEPARTMENT STORES AND GENERAL MERCHANDISE SUPERMARKETS"),
         Classification("5611", "Department stores and general merchandise supermarkets"),
         Classification("5611", "Department stores and general merchandise supermarkets"),
@@ -1607,10 +1961,15 @@ JSIC13 = Standard(
         Classification("5699", "Miscellaneous retail trade, general merchandise (with less than 50 employees)"),
         Classification("5699", "Miscellaneous retail trade, general merchandise (with less than 50 employees)"),
         Classification("57", "RETAIL TRADE (WOVEN FABRICS, APPAREL, APPAREL ACCESSORIES AND NOTIONS)"),
-        Classification("570", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (57 RETAIL TRADE (WOVEN FABRICS, APPAREL, APPAREL ACCESSORIES AND NOTIONS))"),
+        Classification(
+            "570",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (57 RETAIL TRADE (WOVEN FABRICS, APPAREL, APPAREL ACCESSORIES AND NOTIONS))",
+        ),
         Classification("5700", "Head offices primarily engaged in managerial operations"),
         Classification("5708", "Warehouses exclusively used for domestic use"),
-        Classification("5709", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "5709", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("571", "DRY GOODS, CLOTH AND BEDDING STORES"),
         Classification("5711", "Dry goods and cloth stores"),
         Classification("5711", "Dry goods and cloth stores"),
@@ -1642,10 +2001,15 @@ JSIC13 = Standard(
         Classification("5799", "Woven fabrics, apparel, apparel accessories and notions stores, n.e.c."),
         Classification("5799", "Woven fabrics, apparel, apparel accessories and notions stores, n.e.c."),
         Classification("58", "RETAIL TRADE (FOOD AND BEVERAGE)"),
-        Classification("580", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES ( 58 RETAIL TRADE (FOOD AND BEVERAGE))"),
+        Classification(
+            "580",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES ( 58 RETAIL TRADE (FOOD AND BEVERAGE))",
+        ),
         Classification("5800", "Head offices primarily engaged in managerial operations"),
         Classification("5808", "Warehouses exclusively used for domestic use"),
-        Classification("5809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "5809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("581", "GROCERY STORES"),
         Classification("5811", "Grocery stores"),
         Classification("5811", "Grocery stores"),
@@ -1691,10 +2055,15 @@ JSIC13 = Standard(
         Classification("5899", "Food and beverage stores, n.e.c."),
         Classification("5899", "Food and beverage stores, n.e.c."),
         Classification("59", "RETAIL TRADE (MACHINERY AND EQUIPMENT)"),
-        Classification("590", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (59 RETAIL TRADE (MACHINERY AND EQUIPMENT))"),
+        Classification(
+            "590",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (59 RETAIL TRADE (MACHINERY AND EQUIPMENT))",
+        ),
         Classification("5900", "Head offices primarily engaged in managerial operations"),
         Classification("5908", "Warehouses exclusively used for domestic use"),
-        Classification("5909", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "5909", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("591", "MOTOR VEHICLES"),
         Classification("5911", "New motor vehicle stores"),
         Classification("5912", "Used motor vehicle stores"),
@@ -1716,10 +2085,15 @@ JSIC13 = Standard(
         Classification("5939", "Miscellaneous machinery and equipment stores"),
         Classification("5939", "Miscellaneous machinery and equipment stores"),
         Classification("60", "MISCELLANEOUS RETAIL TRADE"),
-        Classification("600", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (60 MISCELLANEOUS RETAIL TRADE )"),
+        Classification(
+            "600",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (60 MISCELLANEOUS RETAIL TRADE )",
+        ),
         Classification("6000", "Head offices primarily engaged in managerial operations"),
         Classification("6008", "Warehouses exclusively used for domestic use"),
-        Classification("6009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "6009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("601", 'FURNITURE, FIXTURE AND “TATAMI" MAT (STRAW-MAT) STORES'),
         Classification("6011", "Furniture stores"),
         Classification("6011", "Furniture stores"),
@@ -1792,10 +2166,14 @@ JSIC13 = Standard(
         Classification("6099", "Miscellaneous retail trade, n.e.c."),
         Classification("6099", "Miscellaneous retail trade, n.e.c."),
         Classification("61", "NONSTORE RETAILERS"),
-        Classification("610", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC  ACTIVITIES (61 NONSTORE RETAILERS )"),
+        Classification(
+            "610", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC  ACTIVITIES (61 NONSTORE RETAILERS )"
+        ),
         Classification("6100", "Head offices primarily engaged in managerial operations"),
         Classification("6108", "Warehouses exclusively used for domestic use"),
-        Classification("6109", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "6109", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("611", "MAIL-ORDER HOUSES AND DOOR-TO-DOOR SALES"),
         Classification("6111", "Nonstore retailers (general merchandise)"),
         Classification("6111", "Nonstore retailers (general merchandise)"),
@@ -1814,9 +2192,13 @@ JSIC13 = Standard(
         Classification("6199", "Miscellaneous nonstore retailers"),
         Classification("J", "FINANCE AND INSURANCE"),
         Classification("62", "BANKING"),
-        Classification("620", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES ( 62 BANKING)"),
+        Classification(
+            "620", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES ( 62 BANKING)"
+        ),
         Classification("6200", "Head offices primarily engaged in managerial operations"),
-        Classification("6209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "6209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("621", "CENTRAL BANK"),
         Classification("6211", "Central bank"),
         Classification("622", "BANKS, EXCEPT CENTRAL BANK"),
@@ -1825,9 +2207,14 @@ JSIC13 = Standard(
         Classification("6223", "Trust banks"),
         Classification("6229", "Miscellaneous banks"),
         Classification("63", "FINANCIAL INSTITUTIONS FOR COOPERATIVE ORGANIZATIONS"),
-        Classification("630", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (63 FINANCIAL INSTITUTIONS FOR COOPERATIVE ORGANIZATIONS )"),
+        Classification(
+            "630",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (63 FINANCIAL INSTITUTIONS FOR COOPERATIVE ORGANIZATIONS )",
+        ),
         Classification("6300", "Head offices primarily engaged in managerial operations"),
-        Classification("6309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "6309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("631", "FINANCIAL INSTITUTIONS FOR SMALL-BUSINESS"),
         Classification("6311", "Credit associations and related"),
         Classification("6312", "Credit cooperatives and related"),
@@ -1840,9 +2227,14 @@ JSIC13 = Standard(
         Classification("6324", "Agricultural cooperatives"),
         Classification("6325", "Fishery and fishery processing cooperatives"),
         Classification("64", "NON-DEPOSIT MONEY CORPORATIONS, INCLUDING LENDING AND CREDIT CARD BUSINESS"),
-        Classification("640", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (64  NON-DEPOSIT MONEY CORPORATIONS, INCLUDING LENDING AND CREDIT CARD BUSINESS)"),
+        Classification(
+            "640",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (64  NON-DEPOSIT MONEY CORPORATIONS, INCLUDING LENDING AND CREDIT CARD BUSINESS)",
+        ),
         Classification("6400", "Head offices primarily engaged in managerial operations"),
-        Classification("6409", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "6409", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("641", "MONEY LENDING BUSINESS"),
         Classification("6411", "Money lending business for consumers"),
         Classification("6412", "Money lending business for corporates"),
@@ -1857,11 +2249,19 @@ JSIC13 = Standard(
         Classification("6493", "Securities finance businesses"),
         Classification("6499", "Non-deposit money corporations, n.e.c."),
         Classification("65", "FINANCIAL PRODUCTS TRANSACTION DEALERS AND FUTURES COMMODITY TRANSACTION DEALERS"),
-        Classification("650", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (65 FINANCIAL PRODUCTS TRANSACTION DEALERS AND FUTURES COMMODITY TRANSACTION DEALERS)"),
+        Classification(
+            "650",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (65 FINANCIAL PRODUCTS TRANSACTION DEALERS AND FUTURES COMMODITY TRANSACTION DEALERS)",
+        ),
         Classification("6500", "Head offices primarily engaged in managerial operations"),
-        Classification("6509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "6509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("651", "FINANCIAL PRODUCTS TRANSACTION DEALERS"),
-        Classification("6511", "Financial products transaction dealers, except investment advisory, agent and management services and auxiliaries for financial products transaction"),
+        Classification(
+            "6511",
+            "Financial products transaction dealers, except investment advisory, agent and management services and auxiliaries for financial products transaction",
+        ),
         Classification("6512", "Investment advisory and agent services"),
         Classification("6513", "Investment management services"),
         Classification("6513", "Investment management services"),
@@ -1872,9 +2272,14 @@ JSIC13 = Standard(
         Classification("6522", "Commodity investment advisors"),
         Classification("6529", "Miscellaneous futures commodity transaction dealers and commodity investment advisors"),
         Classification("66", "FINANCIAL AUXILIARIES"),
-        Classification("660", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (66 FINANCIAL AUXILIARIES)"),
+        Classification(
+            "660",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (66 FINANCIAL AUXILIARIES)",
+        ),
         Classification("6600", "Head offices primarily engaged in managerial operations"),
-        Classification("6609", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "6609", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("661", "FINANCIAL AUXILIARIES"),
         Classification("6611", "Call loan and discount companies"),
         Classification("6611", "Call loan and discount companies"),
@@ -1899,11 +2304,18 @@ JSIC13 = Standard(
         Classification("6632", "Trust deal brokers and intermediaries"),
         Classification("6639", "Miscellaneous financial brokers and intermediaries"),
         Classification("67", "INSURANCE INSTITUTIONS, INCLUDING INSURANCE AGENTS, BROKERS AND SERVICES"),
-        Classification("670", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (67 INSURANCE INSTITUTIONS)"),
+        Classification(
+            "670",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (67 INSURANCE INSTITUTIONS)",
+        ),
         Classification("6700", "Head offices primarily engaged in managerial operations"),
-        Classification("6709", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "6709", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("671", "LIFE INSURANCE INSTITUTIONS"),
-        Classification("6711", "Life insurance institutions, except postal insurance companies and life reinsurance companies"),
+        Classification(
+            "6711", "Life insurance institutions, except postal insurance companies and life reinsurance companies"
+        ),
         Classification("6712", "Postal insurance company"),
         Classification("6713", "Life reinsurance companies"),
         Classification("6719", "Miscellaneous life insurance institutions"),
@@ -1929,18 +2341,27 @@ JSIC13 = Standard(
         Classification("6759", "Miscellaneous insurance service institutions"),
         Classification("K", "REAL ESTATE AND GOODS RENTAL AND LEASING"),
         Classification("68", "REAL ESTATE AGENCIES"),
-        Classification("680", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (68 REAL ESTATE AGENCIES)"),
+        Classification(
+            "680", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (68 REAL ESTATE AGENCIES)"
+        ),
         Classification("6800", "Head offices primarily engaged in managerial operations"),
-        Classification("6809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "6809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("681", "SALES AGENTS OF BUILDINGS AND HOUSES AND LAND SUBDIVIDERS AND DEVELOPERS"),
         Classification("6811", "Sales agents of buildings and houses"),
         Classification("6812", "Land subdividers and developers"),
         Classification("682", "REAL ESTATE AGENTS AND BROKERS"),
         Classification("6821", "Real estate agents and brokers"),
         Classification("69", "REAL ESTATE LESSORS AND MANAGERS"),
-        Classification("690", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (69  REAL ESTATE LESSORS AND MANAGERS)"),
+        Classification(
+            "690",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (69  REAL ESTATE LESSORS AND MANAGERS)",
+        ),
         Classification("6900", "Head offices primarily engaged in managerial operations"),
-        Classification("6909", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "6909", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("691", "REAL ESTATE LESSORS, EXCEPT HOUSE AND ROOM LESSORS"),
         Classification("6911", "Office lessors"),
         Classification("6912", "Land lessors"),
@@ -1955,9 +2376,14 @@ JSIC13 = Standard(
         Classification("6941", "Real estate managers"),
         Classification("6941", "Real estate managers"),
         Classification("70", "GOODS RENTAL AND LEASING"),
-        Classification("700", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (70 GOODS RENTAL AND LEASING )"),
+        Classification(
+            "700",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (70 GOODS RENTAL AND LEASING )",
+        ),
         Classification("7000", "Head offices primarily engaged in managerial operations"),
-        Classification("7009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "7009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("701", "GENERAL GOODS RENTAL AND LEASING"),
         Classification("7011", "General goods leasing"),
         Classification("7011", "General goods leasing"),
@@ -1989,7 +2415,10 @@ JSIC13 = Standard(
         Classification("7099", "Goods rental and leasing, n.e.c."),
         Classification("L", "SCIENTIFIC RESEARCH, PROFESSIONAL AND TECHNICAL SERVICES"),
         Classification("71", "SCIENTIFIC AND DEVELOPMENT RESEARCH INSTITUTES"),
-        Classification("710", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (71 SCIENTIFIC AND DEVELOPMENT RESEARCH INSTITUTES)"),
+        Classification(
+            "710",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (71 SCIENTIFIC AND DEVELOPMENT RESEARCH INSTITUTES)",
+        ),
         Classification("7101", "Establishments engaged in administrative or ancillary economic activities"),
         Classification("711", "RESEARCH INSTITUTES FOR NATURAL SCIENCES"),
         Classification("7111", "Research institutes for physical sciences"),
@@ -1999,7 +2428,10 @@ JSIC13 = Standard(
         Classification("712", "RESEARCH INSTITUTES FOR HUMANITIES AND SOCIAL SCIENCES"),
         Classification("7121", "Research institutes for humanities and social sciences"),
         Classification("72", "PROFESSIONAL SERVICES, N.E.C."),
-        Classification("720", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (72 PROFESSIONAL SERVICES, N.E.C.)"),
+        Classification(
+            "720",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (72 PROFESSIONAL SERVICES, N.E.C.)",
+        ),
         Classification("7201", "Establishments engaged in administrative or ancillary economic activities"),
         Classification("721", "LAWYERS' AND PATENT ATTORNEYS' OFFICES"),
         Classification("7211", "Lawyers' offices"),
@@ -2032,13 +2464,19 @@ JSIC13 = Standard(
         Classification("7294", "Certified real estate appraisers"),
         Classification("7299", "Professional services, n.e.c."),
         Classification("73", "ADVERTISING"),
-        Classification("730", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (73 ADVERTISING)"),
+        Classification(
+            "730", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (73 ADVERTISING)"
+        ),
         Classification("7300", "Head offices primarily engaged in managerial operations"),
-        Classification("7309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "7309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("731", "ADVERTISING"),
         Classification("7311", "Advertising"),
         Classification("74", "TECHNICAL SERVICES, N.E.C."),
-        Classification("740", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (74 TECHNICAL SERVICES)"),
+        Classification(
+            "740", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (74 TECHNICAL SERVICES)"
+        ),
         Classification("7401", "Establishments engaged in administrative or ancillary economic activities"),
         Classification("741", "VETERINARY SERVICES"),
         Classification("7411", "Veterinary services"),
@@ -2062,9 +2500,13 @@ JSIC13 = Standard(
         Classification("7499", "Miscellaneous technical services"),
         Classification("M", "ACCOMMODATIONS, EATING AND DRINKING SERVICES"),
         Classification("75", "ACCOMMODATIONS"),
-        Classification("750", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (75 ACCOMMODATIONS)"),
+        Classification(
+            "750", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (75 ACCOMMODATIONS)"
+        ),
         Classification("7500", "Head offices primarily engaged in managerial operations"),
-        Classification("7509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "7509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("751", "HOTELS"),
         Classification("7511", "Hotels"),
         Classification("752", "COMMON LODGING HOUSES"),
@@ -2077,9 +2519,14 @@ JSIC13 = Standard(
         Classification("7599", "Lodging places, n.e.c."),
         Classification("7599", "Lodging places, n.e.c."),
         Classification("76", "EATING AND DRINKING PLACES"),
-        Classification("760", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (76  EATING AND DRINKING PLACES )"),
+        Classification(
+            "760",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (76  EATING AND DRINKING PLACES )",
+        ),
         Classification("7600", "Head offices primarily engaged in managerial operations"),
-        Classification("7609", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "7609", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("761", "EATING PLACES, EXCEPT SPECIALTY RESTAURANTS"),
         Classification("7611", "Eating places, except specialty restaurants"),
         Classification("7611", "Eating places, except specialty restaurants"),
@@ -2106,9 +2553,14 @@ JSIC13 = Standard(
         Classification("7699", "Eating and drinking places, n.e.c."),
         Classification("7699", "Eating and drinking places, n.e.c."),
         Classification("77", "FOOD TAKE OUT AND DELIVERY SERVICES"),
-        Classification("770", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (77 FOOD TAKE OUT AND DELIVERY SERVICES )"),
+        Classification(
+            "770",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (77 FOOD TAKE OUT AND DELIVERY SERVICES )",
+        ),
         Classification("7700", "Head offices primarily engaged in managerial operations"),
-        Classification("7709", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "7709", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("771", "FOOD TAKE OUT SERVICES"),
         Classification("7711", "Food take out services"),
         Classification("7711", "Food take out services"),
@@ -2117,9 +2569,14 @@ JSIC13 = Standard(
         Classification("7721", "Food delivery services"),
         Classification("N", "LIVING-RELATED AND PERSONAL SERVICES AND AMUSEMENT SERVICES"),
         Classification("78", "LAUNDRY, BEAUTY AND BATH SERVICES"),
-        Classification("780", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (78 LAUNDRY, BEAUTY AND BATH SERVICES )"),
+        Classification(
+            "780",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (78 LAUNDRY, BEAUTY AND BATH SERVICES )",
+        ),
         Classification("7800", "Head offices primarily engaged in managerial operations"),
-        Classification("7809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "7809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("781", "LAUNDRIES"),
         Classification("7811", "General laundries"),
         Classification("7812", "Laundry agents"),
@@ -2139,9 +2596,14 @@ JSIC13 = Standard(
         Classification("7894", "Nail salon services"),
         Classification("7899", "Laundry, beauty and bath services, n.e.c."),
         Classification("79", "MISCELLANEOUS LIVING-RELATED AND PERSONAL SERVICES"),
-        Classification("790", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (79 MISCELLANEOUS LIVING-RELATED AND PERSONAL SERVICES )"),
+        Classification(
+            "790",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (79 MISCELLANEOUS LIVING-RELATED AND PERSONAL SERVICES )",
+        ),
         Classification("7900", "Head offices primarily engaged in managerial operations"),
-        Classification("7909", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "7909", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("791", "TRAVEL AGENCY"),
         Classification("7911", "Travel agency, except travel sub-agency"),
         Classification("7912", "Travel sub-agency"),
@@ -2168,9 +2630,14 @@ JSIC13 = Standard(
         Classification("7999", "Miscellaneous living-related and personal services, n.e.c."),
         Classification("7999", "Miscellaneous living-related and personal services, n.e.c."),
         Classification("80", "SERVICES FOR AMUSEMENT AND RECREATION"),
-        Classification("800", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (80 SERVICES FOR AMUSEMENT AND RECREATION)"),
+        Classification(
+            "800",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (80 SERVICES FOR AMUSEMENT AND RECREATION)",
+        ),
         Classification("8000", "Head offices primarily engaged in managerial operations"),
-        Classification("8009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "8009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("801", "CINEMAS"),
         Classification("8011", "Cinemas"),
         Classification("802", "PERFOMANCES (EXCEPT OTHERWISE CLAASIFIED), THEATRICAL COMRANIES"),
@@ -2224,7 +2691,9 @@ JSIC13 = Standard(
         Classification("8099", "Amusement and recreation services, n.e.c"),
         Classification("O", "EDUCATION, LEARNING SUPPORT"),
         Classification("81", "SCHOOL EDUCATION"),
-        Classification("810", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (81 SCHOOL EDUCATION )"),
+        Classification(
+            "810", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (81 SCHOOL EDUCATION )"
+        ),
         Classification("8101", "Establishments engaged in administrative or ancillary economic activities"),
         Classification("811", "KINDERGARTENS"),
         Classification("8111", "Kindergartens"),
@@ -2253,9 +2722,14 @@ JSIC13 = Standard(
         Classification("8191", "Integrated centers for early childhood education and care"),
         Classification("8191", "Integrated centers for early childhood education and care"),
         Classification("82", "MISCELLANEOUS EDUCATION, LEARNING SUPPORT"),
-        Classification("820", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (82 MISCELLANEOUS EDUCATION,  LEARNING SUPPORT)"),
+        Classification(
+            "820",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (82 MISCELLANEOUS EDUCATION,  LEARNING SUPPORT)",
+        ),
         Classification("8200", "Head offices primarily engaged in managerial operations"),
-        Classification("8209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "8209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("821", "SOCIAL EDUCATION"),
         Classification("8211", "Citizen's public halls"),
         Classification("8212", "Libraries"),
@@ -2285,9 +2759,14 @@ JSIC13 = Standard(
         Classification("8299", "Education, learning support, n.e.c."),
         Classification("P", "MEDICAL, HEALTH CARE AND WELFARE"),
         Classification("83", "MEDICAL AND OTHER HEALTH SERVICES"),
-        Classification("830", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES ( 83  MEDICAL AND OTHER HEALTH SERVICES)"),
+        Classification(
+            "830",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES ( 83  MEDICAL AND OTHER HEALTH SERVICES)",
+        ),
         Classification("8300", "Head offices primarily engaged in managerial operations"),
-        Classification("8309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "8309", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("831", "HOSPITALS"),
         Classification("8311", "General hospitals"),
         Classification("8312", "Mental hospitals"),
@@ -2301,15 +2780,22 @@ JSIC13 = Standard(
         Classification("8341", "Midwives"),
         Classification("8342", "Nursing"),
         Classification("835", "OTHER HEALTH PRACTITIONERS"),
-        Classification("8351", "Offices of masseuses, chiropractors, acupuncturists, moxacauterists and judo-orthopaedists"),
+        Classification(
+            "8351", "Offices of masseuses, chiropractors, acupuncturists, moxacauterists and judo-orthopaedists"
+        ),
         Classification("8359", "Miscellaneous offices of other health practitioners"),
         Classification("836", "SERVICES INCIDENTAL TO MEDICAL"),
         Classification("8361", "Dental laboratories"),
         Classification("8369", "Miscellaneous services incidental to medical"),
         Classification("84", "PUPLIC HEALTH AND HYGIENE"),
-        Classification("840", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (84 PUPLIC HEALTH AND HYGIENE  )"),
+        Classification(
+            "840",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (84 PUPLIC HEALTH AND HYGIENE  )",
+        ),
         Classification("8400", "Head offices primarily engaged in managerial operations"),
-        Classification("8409", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "8409", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("841", "PUBLIC HEALTH CENTERS"),
         Classification("8411", "Public health centers"),
         Classification("842", "HEALTH CONSULTATION OFFICES"),
@@ -2323,9 +2809,14 @@ JSIC13 = Standard(
         Classification("8493", "Disinfecting services"),
         Classification("8499", "Public health and hygiene services, n.e.c."),
         Classification("85", "SOCIAL INSURANCE, SOCIAL WELFARE AND CARE SERVICES"),
-        Classification("850", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (85 SOCIAL INSURANCE, SOCIAL WELFARE AND CARE SERVICES)"),
+        Classification(
+            "850",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (85 SOCIAL INSURANCE, SOCIAL WELFARE AND CARE SERVICES)",
+        ),
         Classification("8500", "Head offices primarily engaged in managerial operations"),
-        Classification("8509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "8509", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("851", "SOCIAL INSURANCE ORGANIZATIONS"),
         Classification("8511", "Social insurance organizations"),
         Classification("8511", "Social insurance organizations"),
@@ -2359,7 +2850,9 @@ JSIC13 = Standard(
         Classification("8599", "Miscellaneous social insurance, social welfare and care services"),
         Classification("Q", "COMPOUND SERVICES"),
         Classification("86", "POSTAL SERVICES"),
-        Classification("860", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (86 POSTAL SERVICES)"),
+        Classification(
+            "860", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (86 POSTAL SERVICES)"
+        ),
         Classification("8601", "Establishments engaged in administrative or ancillary economic activities"),
         Classification("861", "POSTAL SERVICES"),
         Classification("8611", "Postal services"),
@@ -2371,7 +2864,10 @@ JSIC13 = Standard(
         Classification("8621", "Postal agency"),
         Classification("8629", "Miscellaneous contracted postal services"),
         Classification("87", "COOPERATIVE ASSOCIATIONS, N.E.C"),
-        Classification("870", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (87 COOPERATIVE ASSOCIATIONS)"),
+        Classification(
+            "870",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (87 COOPERATIVE ASSOCIATIONS)",
+        ),
         Classification("8701", "Establishments engaged in administrative or ancillary economic activities"),
         Classification("871", "AGRICULTURE, FORESTRY AND FISHERIES COOPERATIVE ASSOCIATIONS, N.E.C."),
         Classification("8711", "Agriculture cooperative associations, n.e.c."),
@@ -2382,9 +2878,14 @@ JSIC13 = Standard(
         Classification("8721", "Business cooperative associations, n.e.c."),
         Classification("R", "SERVICES, N.E.C."),
         Classification("88", "WASTE DISPOSAL BUSINESS"),
-        Classification("880", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (88 WASTE DISPOSAL BUSINESS)"),
+        Classification(
+            "880",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (88 WASTE DISPOSAL BUSINESS)",
+        ),
         Classification("8800", "Head offices primarily engaged in managerial operations"),
-        Classification("8809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "8809", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("881", "DOMESTIC WASTE DISPOSAL BUSINESS"),
         Classification("8811", "Night soil collection transportation business"),
         Classification("8812", "Night soil processing business"),
@@ -2404,7 +2905,10 @@ JSIC13 = Standard(
         Classification("8891", "Dead domestic animal disposal business"),
         Classification("8899", "Waste disposal business, n.e.c."),
         Classification("89", "AUTOMOBILE MAINTENANCE SERVICES"),
-        Classification("890", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (89 AUTOMOBILE MAINTENANCE SERVICES )"),
+        Classification(
+            "890",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (89 AUTOMOBILE MAINTENANCE SERVICES )",
+        ),
         Classification("8901", "Establishments engaged in administrative or ancillary economic activities"),
         Classification("891", "AUTOMOBILE MAINTENANCE SERVICES"),
         Classification("8911", "General automobile maintenance services"),
@@ -2412,9 +2916,14 @@ JSIC13 = Standard(
         Classification("8919", "Miscellaneous automobile maintenance services"),
         Classification("8919", "Miscellaneous automobile maintenance services"),
         Classification("90", "MACHINE, ETC. REPAIR SERVICES, EXCEPT OTHERWISE CLASSIFIED"),
-        Classification("900", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (90 MACHINE, ETC. REPAIR SERVICES )"),
+        Classification(
+            "900",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (90 MACHINE, ETC. REPAIR SERVICES )",
+        ),
         Classification("9000", "Head offices primarily engaged in managerial operations"),
-        Classification("9009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "9009", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("901", "MACHINE REPAIR SHOPS, EXCEPT ELECTRICAL MACHINERY, APPARATUS, APPLIANCES AND SUPPLIES"),
         Classification("9011", "General machine repair shops, except construction and mining machinery"),
         Classification("9011", "General machine repair shops, except construction and mining machinery"),
@@ -2435,18 +2944,28 @@ JSIC13 = Standard(
         Classification("9099", "Repair services, n.e.c"),
         Classification("9099", "Repair services, n.e.c"),
         Classification("91", "EMPLOYMENT AND WORKER DISPATCHING  SERVICES"),
-        Classification("910", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (91 EMPLOYMENT AND WORKER DISPATCHING  SERVICES )"),
+        Classification(
+            "910",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (91 EMPLOYMENT AND WORKER DISPATCHING  SERVICES )",
+        ),
         Classification("9100", "Head offices primarily engaged in managerial operations"),
-        Classification("9109", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "9109", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("911", "EMPLOYMENT SERVICES"),
         Classification("9111", "Employment services"),
         Classification("912", "WORKER DISPATCHING SERVICES"),
         Classification("9121", "Worker dispatching services"),
         Classification("9121", "Worker dispatching services"),
         Classification("92", "MISCELLANEOUS BUSINESS SERVICES"),
-        Classification("920", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (92 MISCELLANEOUS BUSINESS SERVICES )"),
+        Classification(
+            "920",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (92 MISCELLANEOUS BUSINESS SERVICES )",
+        ),
         Classification("9200", "Head offices primarily engaged in managerial operations"),
-        Classification("9209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"),
+        Classification(
+            "9209", "Miscellaneous establishments engaged in administrative or ancillary economic activities"
+        ),
         Classification("921", "STENOGRAPHIC, ENTRÉE DOCUMENT AND DUPLICATING SERVICES"),
         Classification("9211", "Stenographic, entrée document services"),
         Classification("9211", "Stenographic, entrée document services"),
@@ -2500,7 +3019,10 @@ JSIC13 = Standard(
         Classification("9491", "Churches of miscellaneous religions"),
         Classification("9499", "Offices of miscellaneous religions"),
         Classification("95", "MISCELLANEOUS SERVICES"),
-        Classification("950", "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (95 MISCELLANEOUS SERVICES )"),
+        Classification(
+            "950",
+            "ESTABLISHMENTS ENGAGED IN ADMINISTRATIVE OR ANCILLARY ECONOMIC ACTIVITIES (95 MISCELLANEOUS SERVICES )",
+        ),
         Classification("9501", "Establishments engaged in administrative or ancillary economic activities"),
         Classification("951", "MEETING HALLS"),
         Classification("9511", "Meeting halls"),

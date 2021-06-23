@@ -151,9 +151,7 @@ class Concordance(_nx.DiGraph):
         try:
             nodes = {
                 node
-                for node in _nx.algorithms.dag.descendants(
-                    self, (self.src.standard, code)
-                )
+                for node in _nx.algorithms.dag.descendants(self, (self.src.standard, code))
                 if node[0] == self.dst.standard
             }
         except _nx.exception.NetworkXError:
@@ -197,11 +195,7 @@ class ComposedGraph(_nx.DiGraph):
             {(<Standards.ISIC4: 'ISIC4'>, '5120'), (<Standards.ISIC4: 'ISIC4'>, '8413')}
         """
         try:
-            nodes = {
-                node
-                for node in _nx.algorithms.dag.descendants(self, (src, code))
-                if node[0] == self.dst
-            }
+            nodes = {node for node in _nx.algorithms.dag.descendants(self, (src, code)) if node[0] == self.dst}
         except _nx.exception.NetworkXError:
             nodes = set()
         return nodes
