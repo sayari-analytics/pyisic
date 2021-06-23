@@ -26,6 +26,7 @@ class Standards(_Enum):  # pragma: no cover
     NACE2 = "NACE2"
     NAICS2017 = "NAICS2017"
     TSIC2552 = "TSIC2552"
+    JSIC13 = "JSIC13"
 
 
 @_dataclass
@@ -150,7 +151,9 @@ class Concordance(_nx.DiGraph):
         try:
             nodes = {
                 node
-                for node in _nx.algorithms.dag.descendants(self, (self.src.standard, code))
+                for node in _nx.algorithms.dag.descendants(
+                    self, (self.src.standard, code)
+                )
                 if node[0] == self.dst.standard
             }
         except _nx.exception.NetworkXError:
@@ -194,7 +197,11 @@ class ComposedGraph(_nx.DiGraph):
             {(<Standards.ISIC4: 'ISIC4'>, '5120'), (<Standards.ISIC4: 'ISIC4'>, '8413')}
         """
         try:
-            nodes = {node for node in _nx.algorithms.dag.descendants(self, (src, code)) if node[0] == self.dst}
+            nodes = {
+                node
+                for node in _nx.algorithms.dag.descendants(self, (src, code))
+                if node[0] == self.dst
+            }
         except _nx.exception.NetworkXError:
             nodes = set()
         return nodes
