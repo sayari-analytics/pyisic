@@ -7,8 +7,8 @@ with open("README.rst", "r") as infile:
 setuptools.setup(
     name="pyisic",
     version="0.0.1",
-    author = "Jordan Vani",
-    author_email = "tech@sayari.com",
+    author="Jordan Vani",
+    author_email="tech@sayari.com",
     description="Standard industrial classification standardization",
     long_description=long_description,
     long_description_content_type="text/x-rst",
@@ -31,6 +31,6 @@ setuptools.setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
-        "Operating System :: OS Independent"
+        "Operating System :: OS Independent",
     ],
 )
