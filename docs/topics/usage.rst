@@ -30,7 +30,7 @@ Composed Graphs
 .. code-block::
 
     >>> import pyisic
-    >>> yisic.ToISIC4("84114", pyisic.Standards.TSIC2552)
+    >>> pyisic.ToISIC4("84114", pyisic.Standards.TSIC2552)
     {(<Standards.ISIC4: 'ISIC4'>, '6810'),
      (<Standards.ISIC4: 'ISIC4'>, '6820'),
      (<Standards.ISIC4: 'ISIC4'>, '8411'),
