@@ -3,6 +3,18 @@ Pyisic
 ******
 .. image:: https://github.com/sayari-analytics/pyisic/actions/workflows/main.yaml/badge.svg?branch=main
 
+.. image:: https://img.shields.io/pypi/v/pyisic.svg
+   :target: https://pypi.python.org/pypi/pyisic
+   :alt: PyPI Version
+
+.. image:: https://img.shields.io/pypi/pyversions/pyisic.svg
+   :target: https://pypi.python.org/pypi/pyisic
+   :alt: Supported Python Versions
+
+.. image:: https://img.shields.io/pypi/l/pandas.svg
+   :target: https://github.com/sayari-analytics/pyisic/blob/main/LICENSE
+   :alt: License
+
 Overview
 ########
 Pyisic defines industrial classification standards and concordances between standards.
@@ -25,8 +37,6 @@ Usage
 Install
 #######
 
-TODO: Publish to PyPi
-
 .. code-block:: bash
 
     pip install pyisic
@@ -35,7 +45,7 @@ TODO: Publish to PyPi
 Documentation
 #############
 
-TODO: Publish and link to rtd
+The official documentation is hosted on readthedocs.org: pyisic.readthedocs.io
 
 Contributing
 ############
