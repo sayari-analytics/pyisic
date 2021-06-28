@@ -105,6 +105,7 @@ jobs:
     needs:
       - style
       - test
+    if: github.ref == 'refs/heads/master'
     steps:
     - uses: actions/checkout@master
     - name: Set up Python 3.7
