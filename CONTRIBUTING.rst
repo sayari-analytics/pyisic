@@ -43,4 +43,4 @@ Pyisic uses `pytest <https://docs.pytest.org/en/latest/>`_ as a testing framewor
 Documenting
 +++++++++++
 
-Pyisic `Sphinx <https://www.sphinx-doc.org/en/master/>`_ for documentation. New functionallity must be fully documented. Docstrings must follow the `Google Python Style Guide <https://google.github.io/styleguide/pyguide.html>`_. For additional reference, see examples provided by `napolean <https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html>`_.
+Pyisic uses `Sphinx <https://www.sphinx-doc.org/en/master/>`_ for documentation. New functionallity must be fully documented. Docstrings must follow the `Google Python Style Guide <https://google.github.io/styleguide/pyguide.html>`_. For additional reference, see examples provided by `napolean <https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html>`_.

@@ -14,6 +14,7 @@ setuptools.setup(
     long_description_content_type="text/x-rst",
     url="https://github.com/sayari-analytics/pyisic",
     project_urls={
+        "Documentation": "https://pyisic.readthedocs.io/",
         "Bug Tracker": "https://github.com/sayari-analytics/pyisic/issues",
     },
     packages=setuptools.find_packages(exclude=("tests")),
