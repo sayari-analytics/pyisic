@@ -6,7 +6,7 @@ with open("README.rst", "r") as infile:
 
 setuptools.setup(
     name="pyisic",
-    version="1.0.2",
+    version="1.0.3",
     author="Jordan Vani",
     author_email="tech@sayari.com",
     description="Standard industrial classification standardization",
