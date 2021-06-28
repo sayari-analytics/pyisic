@@ -11,7 +11,7 @@ Pyisic
    :target: https://pypi.python.org/pypi/pyisic
    :alt: Supported Python Versions
 
-.. image:: https://img.shields.io/pypi/l/pandas.svg
+.. image:: https://img.shields.io/pypi/l/pyisic.svg
    :target: https://github.com/sayari-analytics/pyisic/blob/main/LICENSE
    :alt: License
 
