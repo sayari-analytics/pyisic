@@ -19,7 +19,7 @@ setuptools.setup(
     },
     packages=setuptools.find_packages(exclude=("tests")),
     install_requires=["networkx"],
-    extras_require={"dev": ["pytest", "black", "pre-commit", "sphinx", "sphinx_rtd_theme"]},
+    extras_require={"dev": ["pytest", "pytest-cov", "black", "pre-commit", "sphinx", "sphinx_rtd_theme"]},
     python_requires=">=3.6",
     license="MIT",
     classifiers=[
