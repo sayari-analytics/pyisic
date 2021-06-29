@@ -3,6 +3,10 @@ Pyisic
 ******
 .. image:: https://github.com/sayari-analytics/pyisic/actions/workflows/main.yaml/badge.svg?branch=main
 
+.. image:: https://img.shields.io/codecov/c/github/sayari-analytics/pyisic/master.svg
+   :target: https://codecov.io/github/sayari-analytics/pyisic?branch=master
+   :alt: Coverage report
+
 .. image:: https://img.shields.io/pypi/v/pyisic.svg
    :target: https://pypi.python.org/pypi/pyisic
    :alt: PyPI Version
