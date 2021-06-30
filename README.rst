@@ -49,7 +49,7 @@ Install
 Documentation
 #############
 
-The official documentation is hosted on readthedocs.org: `pyisic.readthedocs.io <pyisic.readthedocs.io>`_
+The official documentation is hosted on readthedocs.org: `pyisic.readthedocs.io <https://pyisic.readthedocs.io>`_
 
 Contributing
 ############
