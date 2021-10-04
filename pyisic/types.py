@@ -15,6 +15,7 @@ class Category(_Enum):  # pragma: no cover
     DIVISION = 2
     GROUP = 3
     CLASS = 4
+    SUBCLASS = 5
 
 
 class Standards(_Enum):  # pragma: no cover
@@ -27,6 +28,7 @@ class Standards(_Enum):  # pragma: no cover
     NAICS2017 = "NAICS2017"
     TSIC2552 = "TSIC2552"
     JSIC13 = "JSIC13"
+    KSSC2017 = "KSSC2017"
 
 
 @_dataclass
