@@ -39,7 +39,9 @@ KSSC2017 = Standard(
         Classification("014", "Services incidental to growing of crops and raising of animals"),
         Classification("0141", "Services incidental to growing of crops"),
         Classification("01411", "Support activities for crop production"),
-        Classification("01412", "Drying, sorting, grading of agricultural products and other post-harvest crop activities"),
+        Classification(
+            "01412", "Drying, sorting, grading of agricultural products and other post-harvest crop activities"
+        ),
         Classification("0142", "Support activities for animal production"),
         Classification("01420", "Support activities for animal production"),
         Classification("015", "Hunting, trapping and related service activities"),
@@ -350,7 +352,9 @@ KSSC2017 = Standard(
         Classification("1922", "Reprocessing of fractionation in petroleum refinery"),
         Classification("19221", "Manufacture of lubricating oils and greases"),
         Classification("19229", "Reprocessing of other fractionation in petroleum refinery"),
-        Classification("20", "Manufacture of chemicals and chemical products; except pharmaceuticals and medicinal chemicals"),
+        Classification(
+            "20", "Manufacture of chemicals and chemical products; except pharmaceuticals and medicinal chemicals"
+        ),
         Classification("201", "Manufacture of basic chemicals"),
         Classification("2011", "Manufacture of basic organic chemicals"),
         Classification("20111", "Manufacture of basic organic petrochemicals"),
@@ -361,7 +365,9 @@ KSSC2017 = Standard(
         Classification("20129", "Manufacture of other basic inorganic chemicals"),
         Classification("2013", "Manufacture of inorganic dyes, pigments, tanning materials and other coloring agents"),
         Classification("20131", "Manufacture of metal oxides for inorganic pigments and related products"),
-        Classification("20132", "Manufacture of dyes, synthetic inorganic pigments, tanning materials and other coloring agents"),
+        Classification(
+            "20132", "Manufacture of dyes, synthetic inorganic pigments, tanning materials and other coloring agents"
+        ),
         Classification("202", "Manufacture of plastics and synthetic rubber in primary forms"),
         Classification("2020", "Manufacture of plastics and synthetic rubber in primary forms"),
         Classification("20201", "Manufacture of synthetic rubber"),
@@ -369,7 +375,9 @@ KSSC2017 = Standard(
         Classification("20203", "Manufacture of mixed, blended and recycled plastic materials"),
         Classification("203", "Manufacture of fertilizers, pesticides, germicides and insecticides"),
         Classification("2031", "Manufacture of fertilizers and nitrogen compounds"),
-        Classification("20311", "Manufacture of nitrogen compounds and nitrogenous, phosphatic and potassic fertilizers"),
+        Classification(
+            "20311", "Manufacture of nitrogen compounds and nitrogenous, phosphatic and potassic fertilizers"
+        ),
         Classification("20312", "Manufacture of composite and other chemical fertilizers"),
         Classification("20313", "Manufacture of organic fertilizers and bed soils"),
         Classification("2032", "Manufacture of germicides, insecticides and pesticides"),
@@ -475,7 +483,9 @@ KSSC2017 = Standard(
         Classification("2331", "Manufacture of cement, lime and plaster"),
         Classification("23311", "Manufacture of cement"),
         Classification("23312", "Manufacture of lime and plaster"),
-        Classification("2332", "Manufacture of articles of concrete, ready-mixed concrete and other cement and plaster products"),
+        Classification(
+            "2332", "Manufacture of articles of concrete, ready-mixed concrete and other cement and plaster products"
+        ),
         Classification("23321", "Manufacture of non-refractory mortar"),
         Classification("23322", "Manufacture of ready-mixed concrete"),
         Classification("23323", "Manufacture of plaster products and related products"),
@@ -577,7 +587,9 @@ KSSC2017 = Standard(
         Classification("25994", "Manufacture of metal sign boards including road signs"),
         Classification("25995", "Manufacture of coated rods and cored wire, of base metal for soldering or welding"),
         Classification("25999", "Manufacture of other febricated and processed metal products n.e.c"),
-        Classification("26", "Manufacture of electronic components, computer; visual, sounding and communication equipment"),
+        Classification(
+            "26", "Manufacture of electronic components, computer; visual, sounding and communication equipment"
+        ),
         Classification("261", "Manufacture of semiconductor"),
         Classification("2611", "Manufacture of electronic integrated circuits"),
         Classification("26111", "Manufacture of memory electronic integrated circuits"),
@@ -590,18 +602,25 @@ KSSC2017 = Standard(
         Classification("26211", "Manufacture of liquid crystal display components"),
         Classification("26212", "Manufacture of organic light emitting diodes display components"),
         Classification("26219", "Manufacture of other display component"),
-        Classification("2622", "Manufacture of bare printed circuit boards and loading of electronic components onto pcb"),
+        Classification(
+            "2622", "Manufacture of bare printed circuit boards and loading of electronic components onto pcb"
+        ),
         Classification("26221", "Manufacture of laminated plates for printed circuit boards"),
         Classification("26222", "Manufacture of rigid printed circuit boards"),
         Classification("26223", "Manufacture of flexible and other printed circuit boards"),
         Classification("26224", "Manufacture of loading of electronic components onto PCB"),
-        Classification("2629", "Manufacture of other electronic components, except semiconductor and electronic integrated circuits"),
+        Classification(
+            "2629",
+            "Manufacture of other electronic components, except semiconductor and electronic integrated circuits",
+        ),
         Classification("26291", "Manufacture of electronic capacitors"),
         Classification("26292", "Manufacture of electronic resistors"),
         Classification("26293", "Manufacture of smart cards with magnetic stripe or chip"),
         Classification("26294", "Manufacture of electronic coils, transformers and other inductors"),
         Classification("26295", "Manufacture of electronic perception sensors"),
-        Classification("26299", "Manufacture of electronic tubes, interface cards and other electronic components n.e.c."),
+        Classification(
+            "26299", "Manufacture of electronic tubes, interface cards and other electronic components n.e.c."
+        ),
         Classification("263", "Manufacture of computers and peripheral equipment"),
         Classification("2631", "Manufacture of computer"),
         Classification("26310", "Manufacture of computer"),
@@ -634,14 +653,25 @@ KSSC2017 = Standard(
         Classification("27112", "Manufacture of electro-diagnostic and electro-therapeutic apparatuses"),
         Classification("2719", "Manufacture of other medical and surgical equipment and orthopedic appliances"),
         Classification("27191", "Manufacture of dental instruments and appliances"),
-        Classification("27192", "Manufacture of orthopedic, orthodontic, prosthetic appliances and supplies for disability"),
+        Classification(
+            "27192", "Manufacture of orthopedic, orthodontic, prosthetic appliances and supplies for disability"
+        ),
         Classification("27193", "Manufacture of eyeglasses and optical lenses"),
         Classification("27194", "Manufacture of medical, surgical, dental or veterinary furniture"),
         Classification("27199", "Manufacture of other medical and surgical equipment and orthopedic appliances n.e.c."),
-        Classification("272", "Manufacture of measuring, testing, navigating and control equipment; except optical instruments"),
-        Classification("2721", "Manufacture of measuring, testing, navigating, control and other precision instrumensts"),
-        Classification("27211", "Manufacture of radar, navigation, aeronautical, nautical equipment; measuring and recording equipment"),
-        Classification("27212", "Manufacture of instruments for measuring and testing electricity and electrical signals"),
+        Classification(
+            "272", "Manufacture of measuring, testing, navigating and control equipment; except optical instruments"
+        ),
+        Classification(
+            "2721", "Manufacture of measuring, testing, navigating, control and other precision instrumensts"
+        ),
+        Classification(
+            "27211",
+            "Manufacture of radar, navigation, aeronautical, nautical equipment; measuring and recording equipment",
+        ),
+        Classification(
+            "27212", "Manufacture of instruments for measuring and testing electricity and electrical signals"
+        ),
         Classification("27213", "Manufacture of physical properties testing, measuring and inspection equipment"),
         Classification("27214", "Manufacture of speedometers and integrating meters"),
         Classification("27215", "Manufacture of environmental controls and automatic controls for appliances"),
@@ -656,7 +686,10 @@ KSSC2017 = Standard(
         Classification("2740", "Manufacture of watches, clocks and its parts"),
         Classification("27400", "Manufacture of watches, clocks and its parts"),
         Classification("28", "Manufacture of electrical equipment"),
-        Classification("281", "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus"),
+        Classification(
+            "281",
+            "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus",
+        ),
         Classification("2811", "Manufacture of electric motors, generators and transformers"),
         Classification("28111", "Manufacture of electric motors and generators"),
         Classification("28112", "Manufacture of transformers"),
@@ -664,8 +697,13 @@ KSSC2017 = Standard(
         Classification("28114", "Manufacture of energy storage system"),
         Classification("28119", "Manufacture of other electric motors, generators and transformers"),
         Classification("2812", "Manufacture of electricity distribution and control apparatuses"),
-        Classification("28121", "Manufacture of apparatuses for switching, protecting electrical circuits used in power distribution systems"),
-        Classification("28122", "Manufacture of apparatuses for connecting electrical circuits used in power distribution systems"),
+        Classification(
+            "28121",
+            "Manufacture of apparatuses for switching, protecting electrical circuits used in power distribution systems",
+        ),
+        Classification(
+            "28122", "Manufacture of apparatuses for connecting electrical circuits used in power distribution systems"
+        ),
         Classification("28123", "Manufacture of boards for electric control or distribution"),
         Classification("282", "Manufacture of batteries and accumulators"),
         Classification("2820", "Manufacture of batteries and accumulators"),
@@ -699,7 +737,10 @@ KSSC2017 = Standard(
         Classification("28909", "Manufacture of other electrical equipment n.e.c."),
         Classification("29", "Manufacture of other machinery and equipment"),
         Classification("291", "Manufacture of general purpose machinery"),
-        Classification("2911", "Manufacture of internal combustion piston engines and turbines, except aircraft, vehicle and cycle propulsion engines"),
+        Classification(
+            "2911",
+            "Manufacture of internal combustion piston engines and turbines, except aircraft, vehicle and cycle propulsion engines",
+        ),
         Classification("29111", "Manufacture of internal combustion piston engines"),
         Classification("29119", "Manufacture of other engines and turbines"),
         Classification("2912", "Manufacture of fluid power equipment"),
@@ -718,7 +759,9 @@ KSSC2017 = Standard(
         Classification("29162", "Manufacture of lifting equipment"),
         Classification("29163", "Manufacture of conveyors"),
         Classification("29169", "Manufacture of other lifting and handling equipment"),
-        Classification("2917", "Manufacture of refrigerating, air conditioning, filtering, distilling equipment and gas generators"),
+        Classification(
+            "2917", "Manufacture of refrigerating, air conditioning, filtering, distilling equipment and gas generators"
+        ),
         Classification("29171", "Manufacture of refrigerating or freezing industrial equipment"),
         Classification("29172", "Manufacture of air conditioning and control machines"),
         Classification("29173", "Manufacture of non-domestic fans and ventilators"),
@@ -750,7 +793,9 @@ KSSC2017 = Standard(
         Classification("2925", "Manufacture of machinery for food, beverage and tobacco processing"),
         Classification("29250", "Manufacture of machinery for food, beverage and tobacco processing"),
         Classification("2926", "Manufacture of machinery for textile, apparel and leather production"),
-        Classification("29261", "Manufacture of industrial machinery for washing, dyeing, finishing and processing of textile"),
+        Classification(
+            "29261", "Manufacture of industrial machinery for washing, dyeing, finishing and processing of textile"
+        ),
         Classification("29269", "Manufacture of other machinery for textiles, apparel and leather processing"),
         Classification("2927", "Manufacture of semi-conductor and display component manufacturing machinery"),
         Classification("29271", "Manufacture of semi-conductor manufacturing machinery"),
@@ -769,10 +814,14 @@ KSSC2017 = Standard(
         Classification("30110", "Manufacture of engines for motor vehicles"),
         Classification("3012", "Manufacture of motor vehicles"),
         Classification("30121", "Manufacture of passenger motor vehicles"),
-        Classification("30122", "Manufacture of truck and motor vehicles for transportation of goods and special purpose"),
+        Classification(
+            "30122", "Manufacture of truck and motor vehicles for transportation of goods and special purpose"
+        ),
         Classification("302", "Manufacture of bodies for motor vehicles; manufacture of trailers and semi-trailers"),
         Classification("3020", "Manufacture of bodies for motor vehicles; manufacture of trailers and semi-trailers"),
-        Classification("30201", "Manufacture of motor vehicle bodies and motor vehicles assembled on purchased chassis"),
+        Classification(
+            "30201", "Manufacture of motor vehicle bodies and motor vehicles assembled on purchased chassis"
+        ),
         Classification("30202", "Modification of structure and devices of a motor vehicles"),
         Classification("30203", "Manufacture of trailers and semi-trailers"),
         Classification("303", "Manufacture of parts and accessories for motor vehicles(new products)"),
@@ -780,7 +829,10 @@ KSSC2017 = Standard(
         Classification("30310", "Manufacture of parts and accessories for motor engines(new products)"),
         Classification("3032", "Manufacture of parts and accessories for motor vehicle body(new products)"),
         Classification("30320", "Manufacture of parts and accessories for motor vehicle body(new products)"),
-        Classification("3033", "Manufacture of power transmission devices and electrical and electronic equipment for motor vehicles(new products)"),
+        Classification(
+            "3033",
+            "Manufacture of power transmission devices and electrical and electronic equipment for motor vehicles(new products)",
+        ),
         Classification("30331", "Manufacture of power transmission devices for motor vehicles(new products)"),
         Classification("30332", "Manufacture of electronic equipment for motor vehicles(new products)"),
         Classification("3039", "Manufacture of other parts and accessories for motor vehicles(new products)"),
@@ -803,7 +855,9 @@ KSSC2017 = Standard(
         Classification("312", "Manufacture of railway locomotives and rolling stock"),
         Classification("3120", "Manufacture of railway locomotives and rolling stock"),
         Classification("31201", "Manufacture of rail locomotives and rolling stock"),
-        Classification("31202", "Manufacture of specialized parts of railway or tramway locomotives or of rolling stock"),
+        Classification(
+            "31202", "Manufacture of specialized parts of railway or tramway locomotives or of rolling stock"
+        ),
         Classification("313", "Manufacture of aircraft, spacecraft and its parts"),
         Classification("3131", "Manufacture of aircraft, spacecraft and its assistant equipment"),
         Classification("31311", "Manufacture of manned aircraft, spacecraft and its assistant equipment"),
@@ -869,7 +923,9 @@ KSSC2017 = Standard(
         Classification("34", "Maintenance and repair services of industrial machinery and equipment"),
         Classification("340", "Maintenance and repair services of industrial machinery and equipment"),
         Classification("3401", "Maintenance and repair services of general machinery and equipment"),
-        Classification("34011", "Maintenance and repair services of machinery and equipment for mining and construction"),
+        Classification(
+            "34011", "Maintenance and repair services of machinery and equipment for mining and construction"
+        ),
         Classification("34019", "Maintenance and repair services of other general machinery"),
         Classification("3402", "Maintenance and repair services of electrical, electronic and precision equipment"),
         Classification("34020", "Maintenance and repair services of electrical, electronic and precision equipment"),
@@ -1029,11 +1085,16 @@ KSSC2017 = Standard(
         Classification("46", "Wholesale trade on own account or on a fee or contract basis"),
         Classification("461", "Wholesale on a fee or contract basis"),
         Classification("4610", "Wholesale on a fee or contract basis"),
-        Classification("46101", "Agents involved in the sale of industrial agricultural raw materials, textile raw materials, live animals"),
+        Classification(
+            "46101",
+            "Agents involved in the sale of industrial agricultural raw materials, textile raw materials, live animals",
+        ),
         Classification("46102", "Agents involved in the sale of food, beverages and tobacco"),
         Classification("46103", "Agents involved in the sale of textiles, clothing, footwear and leather goods"),
         Classification("46104", "Agents involved in the sale of timber and building materials"),
-        Classification("46105", "Agents involved in the sale of fuels, ores, metals and industrial chemicals including fertilisers"),
+        Classification(
+            "46105", "Agents involved in the sale of fuels, ores, metals and industrial chemicals including fertilisers"
+        ),
         Classification("46106", "Agents involved in the sale of machinery and equipment"),
         Classification("46107", "Agents specialized in the sale of other particular products"),
         Classification("46109", "Agents involved in the sale of a variety of goods"),
@@ -1091,7 +1152,9 @@ KSSC2017 = Standard(
         Classification("46451", "Wholesale of household wrapping, hygienic goods, bags and similar goods"),
         Classification("46452", "Wholesale of stationery, artists' goods and office supplies"),
         Classification("46453", "Wholesale of books, magazines and other printed publications"),
-        Classification("4646", "Wholesale of music and video recordings, musical instruments, amusement and athletic goods"),
+        Classification(
+            "4646", "Wholesale of music and video recordings, musical instruments, amusement and athletic goods"
+        ),
         Classification("46461", "Wholesale of music and video recordings"),
         Classification("46462", "Wholesale of musical instruments"),
         Classification("46463", "Wholesale of toys, hobby supplies and game and playthings"),
@@ -1121,7 +1184,9 @@ KSSC2017 = Standard(
         Classification("46595", "Wholesale of electrical machinery and related materials"),
         Classification("46596", "Wholesale of batteries and cables"),
         Classification("46599", "Wholesale of other machinery and equipment n.e.c."),
-        Classification("466", "Wholesale of construction materials, hardware and heating and air conditioning equipment"),
+        Classification(
+            "466", "Wholesale of construction materials, hardware and heating and air conditioning equipment"
+        ),
         Classification("4661", "Wholesale of construction materials"),
         Classification("46611", "Wholesale of wood and wooden goods for construction industry"),
         Classification("46612", "Wholesale of gravel, bricks and cement"),
@@ -1159,7 +1224,10 @@ KSSC2017 = Standard(
         Classification("46800", "Non-specialized wholesale trade"),
         Classification("47", "Retail trade, except motor vehicles and motorcycles"),
         Classification("471", "Retail sale in non-specialized stores"),
-        Classification("4711", "Retail sale in non-specialized superstores with sales space of at least three thousand square meters"),
+        Classification(
+            "4711",
+            "Retail sale in non-specialized superstores with sales space of at least three thousand square meters",
+        ),
         Classification("47111", "Department stores"),
         Classification("47112", "Discount department stores"),
         Classification("47119", "Other superstores with sales space of at least three thousand square meters"),
@@ -1185,8 +1253,12 @@ KSSC2017 = Standard(
         Classification("4722", "Retail sale of beverages and tobacco products"),
         Classification("47221", "Retail sale of beverages"),
         Classification("47222", "Retail sale of tobacco products"),
-        Classification("473", "Retail sale of household electrical appliances and information and communication equipment"),
-        Classification("4731", "Retail sale of computers, computer peripheral equipment, software and communication equipment"),
+        Classification(
+            "473", "Retail sale of household electrical appliances and information and communication equipment"
+        ),
+        Classification(
+            "4731", "Retail sale of computers, computer peripheral equipment, software and communication equipment"
+        ),
         Classification("47311", "Retail sale of computers, computer peripheral equipment and software"),
         Classification("47312", "Retail sale of communication equipment"),
         Classification("4732", "Retail sale of household electrical appliances"),
@@ -1429,7 +1501,10 @@ KSSC2017 = Standard(
         Classification("58221-1", "null"),
         Classification("58222", "Application software publishing"),
         Classification("58222-1", "null"),
-        Classification("59", "Motion picture, video and television programme production, sound recording and music publishing activities"),
+        Classification(
+            "59",
+            "Motion picture, video and television programme production, sound recording and music publishing activities",
+        ),
         Classification("591", "Motion picture, video and broadcast programme activities"),
         Classification("5911", "Motion picture, video, broadcast programme production activities"),
         Classification("59111", "General motion picture and video production activities"),
@@ -1577,14 +1652,22 @@ KSSC2017 = Standard(
         Classification("701", "Research and experimental development on natural sciences and engineering"),
         Classification("7011", "Research and experimental development on natural sciences"),
         Classification("70111", "Research and experimental development on physics, chemistry and biology"),
-        Classification("70112", "Research and experimental development on agriculture, forestry, fishery and veterinary science"),
+        Classification(
+            "70112", "Research and experimental development on agriculture, forestry, fishery and veterinary science"
+        ),
         Classification("70113", "Research and experimental development on medical sciences and pharmacy"),
         Classification("70119", "Research and experimental development on other natural sciences"),
         Classification("7012", "Research and experimental development on engineering"),
         Classification("70121", "Research and experimental development on electrical and electronic engineering"),
         Classification("70129", "Research and experimental development on other engineering"),
-        Classification("7013", "Interdisciplinary convergence research and experimental development on natural sciences and engineering"),
-        Classification("70130", "Interdisciplinary convergence research and experimental development on natural sciences and engineering"),
+        Classification(
+            "7013",
+            "Interdisciplinary convergence research and experimental development on natural sciences and engineering",
+        ),
+        Classification(
+            "70130",
+            "Interdisciplinary convergence research and experimental development on natural sciences and engineering",
+        ),
         Classification("702", "Research and experimental development on social sciences and humanities"),
         Classification("7020", "Research and experimental development on social sciences and humanities"),
         Classification("70201", "Research and experimental development on economics and business administration"),
@@ -1662,7 +1745,9 @@ KSSC2017 = Standard(
         Classification("73903", "Business and intangible rights brokerages"),
         Classification("73904", "Appraisal, weighing and sampling services of goods"),
         Classification("73909", "Other professional, scientific and technical services n.e.c."),
-        Classification("N", "Business facilities management and business support services; rental and leasing activities"),
+        Classification(
+            "N", "Business facilities management and business support services; rental and leasing activities"
+        ),
         Classification("74", "Business facilities management and landscape services"),
         Classification("741", "Combined facilities support activities"),
         Classification("7410", "Combined facilities support activities"),
@@ -1722,8 +1807,12 @@ KSSC2017 = Standard(
         Classification("76292", "Renting of wearing apparel"),
         Classification("76299", "Renting of other personal and household goods n.e.c."),
         Classification("763", "Renting of industrial machinery and equipment"),
-        Classification("7631", "Renting of construction(including civil engineering and construction) machinery and equipment"),
-        Classification("76310", "Renting of construction(including civil engineering and construction) machinery and equipment"),
+        Classification(
+            "7631", "Renting of construction(including civil engineering and construction) machinery and equipment"
+        ),
+        Classification(
+            "76310", "Renting of construction(including civil engineering and construction) machinery and equipment"
+        ),
         Classification("7632", "Renting of computers and office equipment"),
         Classification("76320", "Renting of computers and office equipment"),
         Classification("7639", "Renting of other industries machinery and equipment"),
@@ -1743,12 +1832,18 @@ KSSC2017 = Standard(
         Classification("8412", "Ancillary service activities for government"),
         Classification("84120", "Ancillary service activities for government"),
         Classification("842", "Administration of industrial and social policy of community"),
-        Classification("8421", "Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security"),
+        Classification(
+            "8421",
+            "Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security",
+        ),
         Classification("84211", "Regulation of the activities of education affairs"),
         Classification("84212", "Regulation of the activities of cultural and tourism affairs"),
         Classification("84213", "Regulation of the activities of environment affairs"),
         Classification("84214", "Regulation of the activities of health care and welfare affairs"),
-        Classification("84219", "Other regulation of the activities of providing health care, education, cultural services and other social services, excluding social security"),
+        Classification(
+            "84219",
+            "Other regulation of the activities of providing health care, education, cultural services and other social services, excluding social security",
+        ),
         Classification("8422", "Regulation of and contribution to more efficient operation of businesses"),
         Classification("84221", "Administration of general labor affairs"),
         Classification("84222", "Administration of agricultural, forestry, fishing affairs"),
@@ -1860,7 +1955,9 @@ KSSC2017 = Standard(
         Classification("87112", "Nursing homes for the elderly"),
         Classification("8712", "Residential welfare facilities for the mental retardation and the disabled"),
         Classification("87121", "Residential welfare facilities for the disabled"),
-        Classification("87122", "Residential welfare facilities for the mental disorder, mental retardation and substance abuse"),
+        Classification(
+            "87122", "Residential welfare facilities for the mental disorder, mental retardation and substance abuse"
+        ),
         Classification("8713", "Other residential welfare facilities"),
         Classification("87131", "Residential welfare facilities for the young and women"),
         Classification("87139", "Other residential welfare facilities n.e.c."),
@@ -2011,12 +2108,17 @@ KSSC2017 = Standard(
         Classification("96994", "Marriage consulting and planning service"),
         Classification("96995", "Pet funeral and care services"),
         Classification("96999", "All other personal service activities n.e.c."),
-        Classification("T", "Activities of households as employers; undifferentiated goods-and services-producing activities of households for own use"),
+        Classification(
+            "T",
+            "Activities of households as employers; undifferentiated goods-and services-producing activities of households for own use",
+        ),
         Classification("97", "Activities of households as employers of domestic personnel"),
         Classification("970", "Activities of households as employers of domestic personnel"),
         Classification("9700", "Activities of households as employers of domestic personnel"),
         Classification("97000", "Activities of households as employers of domestic personnel"),
-        Classification("98", "Undiferentiated goods-and services-producing activities of private households for own use"),
+        Classification(
+            "98", "Undiferentiated goods-and services-producing activities of private households for own use"
+        ),
         Classification("981", "Undiferentiated goods-producing activities of private households for own use"),
         Classification("9810", "Undiferentiated goods-producing activities of private households for own use"),
         Classification("98100", "Undiferentiated goods-producing activities of private households for own use"),
