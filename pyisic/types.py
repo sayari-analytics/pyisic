@@ -28,7 +28,7 @@ class Standards(_Enum):  # pragma: no cover
     NAICS2017 = "NAICS2017"
     TSIC2552 = "TSIC2552"
     JSIC13 = "JSIC13"
-    KSSC2017 = "KSSC2017"
+    KSIC10 = "KSIC10"
 
 
 @_dataclass

@@ -1,7 +1,7 @@
 from ...types import Category, Classification, Standard, Standards
 
-KSSC2017 = Standard(
-    standard=Standards.KSSC2017,
+KSIC10 = Standard(
+    standard=Standards.KSIC10,
     classes=[
         Classification("A", "Agriculture, forestry and fishing", Category.SECTION),
         Classification("01", "Agriculture", Category.DIVISION),

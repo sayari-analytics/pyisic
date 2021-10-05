@@ -1,6 +1,6 @@
 import pytest
 
-from pyisic import KSSC2017
+from pyisic import KSIC10
 
 
 @pytest.mark.parametrize(
@@ -13,6 +13,6 @@ from pyisic import KSSC2017
         ("86202", "Dental clinics"),
     ],
 )
-def test_kssc2017(code: str, description: str):
+def test_ksic10(code: str, description: str):
     """Test KSSC2017 lookups."""
-    assert KSSC2017[code]["description"] == description
+    assert KSIC10[code]["description"] == description
