@@ -1,18 +1,17 @@
 import pytest
 
-from pyisic import KSIC10
+from pyisic import KSIC10_to_ISIC4
+from pyisic.types import Standards
 
 
 @pytest.mark.parametrize(
-    "code,description",
+    "code,expected",
     [
-        ("A", "Agriculture, forestry and fishing"),
-        ("17", "Manufacture of pulp, paper and paper products"),
-        ("312", "Manufacture of railway locomotives and rolling stock"),
-        ("4669", "Wholesale of other construction materials"),
-        ("86202", "Dental clinics"),
+        ("DOESNT EXIST", set()),
+        ("A", set()),
+        ("14112", {(Standards.ISIC4, "1410")}),
     ],
 )
-def test_ksic10(code: str, description: str):
-    """Test KSSC2017 lookups."""
-    assert KSIC10[code]["description"] == description
+def test_ksic10_to_isic4_concordance(code: str, expected: str):
+    """Test KSIC10 to ISIC4 sample concordances."""
+    assert KSIC10_to_ISIC4.concordant(code) == expected
