@@ -1,3 +1,4 @@
+"""`KSIC10 Standard <http://kssc.kostat.go.kr/ksscNew_web/ekssc/main/main.do>`_."""
 from ...types import Category, Classification, Standard, Standards
 
 KSIC10 = Standard(
