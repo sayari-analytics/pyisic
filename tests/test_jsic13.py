@@ -14,5 +14,5 @@ from pyisic.types import Standards
     ],
 )
 def test_jsic13_to_isic4_concordance(code: str, expected: set):
-    """Test NAICS2017 to ISIC4 sample concordances."""
+    """Test JSIC13 to ISIC4 sample concordances."""
     assert JSIC13_to_ISIC4.concordant(code) == expected

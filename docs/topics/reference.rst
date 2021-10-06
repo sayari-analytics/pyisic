@@ -36,6 +36,10 @@ Standards
 
 .. automodule:: pyisic._standards.tsic2552.tsic2552
 
+.. automodule:: pyisic._standards.jsic13.jsic13
+
+.. automodule:: pyisic._standards.ksic10.ksic10
+
 Concordances
 ############
 
@@ -48,3 +52,7 @@ Concordances
 .. automodule:: pyisic._standards.naics2017.naics2017_to_isic4
 
 .. automodule:: pyisic._standards.tsic2552.tsic2552_to_isic3
+
+.. automodule:: pyisic._standards.jsic13.jsic13_to_isic4
+
+.. automodule:: pyisic._standards.ksic10.ksic10_to_isic4
