@@ -30,6 +30,7 @@ class Standards(_Enum):  # pragma: no cover
     JSIC13 = "JSIC13"
     KSIC10 = "KSIC10"
     SKD = "SKD"
+    SKIS = "SKIS"
 
 
 @_dataclass

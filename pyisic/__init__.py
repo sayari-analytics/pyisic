@@ -7,6 +7,7 @@ from ._standards.ksic10 import KSIC10, KSIC10_to_ISIC4
 from ._standards.nace2 import NACE2, NACE2_to_ISIC4
 from ._standards.naics2017 import NAICS2017, NAICS2017_to_ISIC4
 from ._standards.skd import SKD, SKD_to_NACE2
+from ._standards.skis import SKIS
 from ._standards.tsic2552 import TSIC2552, TSIC2552_to_ISIC3
 from .types import ComposedGraph, Standards
 
