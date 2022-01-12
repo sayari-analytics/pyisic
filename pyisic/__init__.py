@@ -6,7 +6,8 @@ from ._standards.jsic13 import JSIC13, JSIC13_to_ISIC4
 from ._standards.ksic10 import KSIC10, KSIC10_to_ISIC4
 from ._standards.nace2 import NACE2, NACE2_to_ISIC4
 from ._standards.naics2017 import NAICS2017, NAICS2017_to_ISIC4
-from ._standards.skd2002 import SKD2002, SKD2002_to_NACE2
+from ._standards.skd2002 import SKD2002, SKD2002_to_NACE2, SKD2002_to_SKD2008
+from ._standards.skd2008 import SKD2008
 from ._standards.skis2010 import SKIS2010
 from ._standards.tsic2552 import TSIC2552, TSIC2552_to_ISIC3
 from .types import ComposedGraph, Standards
@@ -22,5 +23,6 @@ ToISIC4 = ComposedGraph(
         JSIC13_to_ISIC4,
         KSIC10_to_ISIC4,
         SKD2002_to_NACE2,
+        SKD2002_to_SKD2008,
     ],
 )
