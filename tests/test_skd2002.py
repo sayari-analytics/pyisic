@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import pytest
 
-from pyisic import SKD_to_NACE2
+from pyisic import SKD2002_to_NACE2
 from pyisic.types import Standards
 
 
@@ -35,6 +35,6 @@ from pyisic.types import Standards
         ("28.520", {(Standards.NACE2, "25.62"), (Standards.NACE2, "33.12")}),
     ],
 )
-def test_skd_to_naics2017_concordance(code: str, expected: set):
-    """Test SKD to NAICS2017 sample concordances."""
-    assert SKD_to_NACE2.concordant(code) == expected
+def test_skd2002_to_naics2017_concordance(code: str, expected: set):
+    """Test SKD2002 to NAICS2017 sample concordances."""
+    assert SKD2002_to_NACE2.concordant(code) == expected
