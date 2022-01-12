@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-"""`SKIS Standard <https://www.stat.si/statweb/en/methods/classifications>`_.
+"""`SKIS2010 – Standard Classification of Institutional Sectors, ESR 2010 <https://www.stat.si/statweb/en/methods/classifications>`_.
 """
 from ...types import Category, Classification, Standard, Standards
 
-SKIS = Standard(
-    standard=Standards.SKIS,
+SKIS2010 = Standard(
+    standard=Standards.SKIS2010,
     classes=[
         Classification("S.1", "Total economy", Category.SECTION),
         Classification("S.11", "Non-financial corporations", Category.GROUP),

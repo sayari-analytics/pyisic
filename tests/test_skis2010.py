@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import pytest
 
-from pyisic import SKIS
+from pyisic import SKIS2010
 
 
 @pytest.mark.parametrize(
@@ -13,6 +13,6 @@ from pyisic import SKIS
     ],
 )
 def test_skis_classifications(code: str, expected: set):
-    """Test SKIS sample classifications."""
-    assert code in SKIS
-    assert SKIS[code]["description"] == expected
+    """Test SKIS2010 sample classifications."""
+    assert code in SKIS2010
+    assert SKIS2010[code]["description"] == expected
