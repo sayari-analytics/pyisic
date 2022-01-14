@@ -29,6 +29,9 @@ class Standards(_Enum):  # pragma: no cover
     TSIC2552 = "TSIC2552"
     JSIC13 = "JSIC13"
     KSIC10 = "KSIC10"
+    SKD2002 = "SKD2002"
+    SKD2008 = "SKD2008"
+    SKIS2010 = "SKIS2010"
 
 
 @_dataclass
