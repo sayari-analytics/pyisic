@@ -22,7 +22,7 @@ ToISIC4 = ComposedGraph(
         TSIC2552_to_ISIC3,
         JSIC13_to_ISIC4,
         KSIC10_to_ISIC4,
-        SKD2002_to_NACE2,
         SKD2008_to_SKD2002,
+        SKD2002_to_NACE2,
     ],
 )
