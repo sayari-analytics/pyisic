@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""`SKD 2008 - Standard Classification of Activities 2002 <https://www.stat.si/statweb/en/methods/classifications>`_.
+"""`SKD 2008 - Standard Classification of Activities 2008 <https://www.stat.si/statweb/en/methods/classifications>`_.
 """
 from ...types import Category, Classification, Standard, Standards
 
