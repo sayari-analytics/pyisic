@@ -1,6 +1,6 @@
 from ...types import Concordance, Standards
-from . import CNAE2
 from ..isic4 import ISIC4
+from . import CNAE2
 
 CNAE2_to_ISIC4 = Concordance(
     src=CNAE2,
@@ -1186,5 +1186,5 @@ CNAE2_to_ISIC4 = Concordance(
         ((Standards.CNAE2, "99"), (Standards.ISIC4, "99")),
         ((Standards.CNAE2, "99.0"), (Standards.ISIC4, "990")),
         ((Standards.CNAE2, "99.00-8"), (Standards.ISIC4, "9900")),
-    ]
+    ],
 )

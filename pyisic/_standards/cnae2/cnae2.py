@@ -74,7 +74,9 @@ CNAE2 = Standard(
         Classification("8.1", "Extração de pedra, areia e argila"),
         Classification("08.10-0", "Extração de pedra, areia e argila"),
         Classification("8.9", "Extração de outros minerais não-metálicos"),
-        Classification("08.91-6", "Extração de minerais para fabricação de adubos, fertilizantes e outros produtos químicos"),
+        Classification(
+            "08.91-6", "Extração de minerais para fabricação de adubos, fertilizantes e outros produtos químicos"
+        ),
         Classification("08.92-4", "Extração e refino de sal marinho e sal-gema"),
         Classification("08.93-2", "Extração de gemas (pedras preciosas e semipreciosas)"),
         Classification("08.99-1", "Extração de minerais não-metálicos não especificados anteriormente"),
@@ -98,7 +100,9 @@ CNAE2 = Standard(
         Classification("10.4", "Fabricação de óleos e gorduras vegetais e animais"),
         Classification("10.41-4", "Fabricação de óleos vegetais em bruto, exceto óleo de milho"),
         Classification("10.42-2", "Fabricação de óleos vegetais refinados, exceto óleo de milho"),
-        Classification("10.43-1", "Fabricação de margarina e outras gorduras vegetais e de óleos não-comestíveis de animais"),
+        Classification(
+            "10.43-1", "Fabricação de margarina e outras gorduras vegetais e de óleos não-comestíveis de animais"
+        ),
         Classification("10.5", "Laticínios"),
         Classification("10.51-1", "Preparação do leite"),
         Classification("10.52-0", "Fabricação de laticínios"),
@@ -166,7 +170,9 @@ CNAE2 = Standard(
         Classification("14.14-2", "Fabricação de acessórios do vestuário, exceto para segurança e proteção"),
         Classification("14.2", "Fabricação de artigos de malharia e tricotagem"),
         Classification("14.21-5", "Fabricação de meias"),
-        Classification("14.22-3", "Fabricação de artigos do vestuário, produzidos em malharias e tricotagens, exceto meias"),
+        Classification(
+            "14.22-3", "Fabricação de artigos do vestuário, produzidos em malharias e tricotagens, exceto meias"
+        ),
         Classification("15", "PREPARAÇÃO DE COUROS E FABRICAÇÃO DE ARTEFATOS DE COURO, ARTIGOS PARA VIAGEM E CALÇADOS"),
         Classification("15.1", "Curtimento e outras preparações de couro"),
         Classification("15.10-6", "Curtimento e outras preparações de couro"),
@@ -184,10 +190,15 @@ CNAE2 = Standard(
         Classification("16.1", "Desdobramento de madeira"),
         Classification("16.10-2", "Desdobramento de madeira"),
         Classification("16.2", "Fabricação de produtos de madeira, cortiça e material trançado, exceto móveis"),
-        Classification("16.21-8", "Fabricação de madeira laminada e de chapas de madeira compensada, prensada e aglomerada"),
+        Classification(
+            "16.21-8", "Fabricação de madeira laminada e de chapas de madeira compensada, prensada e aglomerada"
+        ),
         Classification("16.22-6", "Fabricação de estruturas de madeira e de artigos de carpintaria para construção"),
         Classification("16.23-4", "Fabricação de artefatos de tanoaria e de embalagens de madeira"),
-        Classification("16.29-3", "Fabricação de artefatos de madeira, palha, cortiça, vime e material trançado não especificados anteriormente, exceto móveis"),
+        Classification(
+            "16.29-3",
+            "Fabricação de artefatos de madeira, palha, cortiça, vime e material trançado não especificados anteriormente, exceto móveis",
+        ),
         Classification("17", "FABRICAÇÃO DE CELULOSE, PAPEL E PRODUTOS DE PAPEL"),
         Classification("17.1", "Fabricação de celulose e outras pastas para a fabricação de papel"),
         Classification("17.10-9", "Fabricação de celulose e outras pastas para a fabricação de papel"),
@@ -199,9 +210,15 @@ CNAE2 = Standard(
         Classification("17.32-0", "Fabricação de embalagens de cartolina e papel-cartão"),
         Classification("17.33-8", "Fabricação de chapas e de embalagens de papelão ondulado"),
         Classification("17.4", "Fabricação de produtos diversos de papel, cartolina, papel-cartão e papelão ondulado"),
-        Classification("17.41-9", "Fabricação de produtos de papel, cartolina, papel-cartão e papelão ondulado para uso comercial e de escritório"),
+        Classification(
+            "17.41-9",
+            "Fabricação de produtos de papel, cartolina, papel-cartão e papelão ondulado para uso comercial e de escritório",
+        ),
         Classification("17.42-7", "Fabricação de produtos de papel para usos doméstico e higiênico-sanitário"),
-        Classification("17.49-4", "Fabricação de produtos de pastas celulósicas, papel, cartolina, papel-cartão e papelão ondulado não especificados anteriormente"),
+        Classification(
+            "17.49-4",
+            "Fabricação de produtos de pastas celulósicas, papel, cartolina, papel-cartão e papelão ondulado não especificados anteriormente",
+        ),
         Classification("18", "IMPRESSÃO E REPRODUÇÃO DE GRAVAÇÕES"),
         Classification("18.1", "Atividade de impressão"),
         Classification("18.11-3", "Impressão de jornais, livros, revistas e outras publicações periódicas"),
@@ -241,7 +258,10 @@ CNAE2 = Standard(
         Classification("20.5", "Fabricação de defensivos agrícolas e desinfestantes domissanitários"),
         Classification("20.51-7", "Fabricação de defensivos agrícolas"),
         Classification("20.52-5", "Fabricação de desinfestantes domissanitários"),
-        Classification("20.6", "Fabricação de sabões, detergentes, produtos de limpeza, cosméticos, produtos de perfumaria e de higiene pessoal"),
+        Classification(
+            "20.6",
+            "Fabricação de sabões, detergentes, produtos de limpeza, cosméticos, produtos de perfumaria e de higiene pessoal",
+        ),
         Classification("20.61-4", "Fabricação de sabões e detergentes sintéticos"),
         Classification("20.62-2", "Fabricação de produtos de limpeza e polimento"),
         Classification("20.63-1", "Fabricação de cosméticos, produtos de perfumaria e de higiene pessoal"),
@@ -279,8 +299,12 @@ CNAE2 = Standard(
         Classification("23.19-2", "Fabricação de artigos de vidro"),
         Classification("23.2", "Fabricação de cimento"),
         Classification("23.20-6", "Fabricação de cimento"),
-        Classification("23.3", "Fabricação de artefatos de concreto, cimento, fibrocimento, gesso e materiais semelhantes"),
-        Classification("23.30-3", "Fabricação de artefatos de concreto, cimento, fibrocimento, gesso e materiais semelhantes"),
+        Classification(
+            "23.3", "Fabricação de artefatos de concreto, cimento, fibrocimento, gesso e materiais semelhantes"
+        ),
+        Classification(
+            "23.30-3", "Fabricação de artefatos de concreto, cimento, fibrocimento, gesso e materiais semelhantes"
+        ),
         Classification("23.4", "Fabricação de produtos cerâmicos"),
         Classification("23.41-9", "Fabricação de produtos cerâmicos refratários"),
         Classification("23.42-7", "Fabricação de produtos cerâmicos não-refratários para uso estrutural na construção"),
@@ -315,8 +339,12 @@ CNAE2 = Standard(
         Classification("25.12-8", "Fabricação de esquadrias de metal"),
         Classification("25.13-6", "Fabricação de obras de caldeiraria pesada"),
         Classification("25.2", "Fabricação de tanques, reservatórios metálicos e caldeiras"),
-        Classification("25.21-7", "Fabricação de tanques, reservatórios metálicos e caldeiras para aquecimento central"),
-        Classification("25.22-5", "Fabricação de caldeiras geradoras de vapor, exceto para aquecimento central e para veículos"),
+        Classification(
+            "25.21-7", "Fabricação de tanques, reservatórios metálicos e caldeiras para aquecimento central"
+        ),
+        Classification(
+            "25.22-5", "Fabricação de caldeiras geradoras de vapor, exceto para aquecimento central e para veículos"
+        ),
         Classification("25.3", "Forjaria, estamparia, metalurgia do pó e serviços de tratamento de metais"),
         Classification("25.31-4", "Produção de forjados de aço e de metais não-ferrosos e suas ligas"),
         Classification("25.32-2", "Produção de artefatos estampados de metal; metalurgia do pó"),
@@ -341,13 +369,23 @@ CNAE2 = Standard(
         Classification("26.3", "Fabricação de equipamentos de comunicação"),
         Classification("26.31-1", "Fabricação de equipamentos transmissores de comunicação"),
         Classification("26.32-9", "Fabricação de aparelhos telefônicos e de outros equipamentos de comunicação"),
-        Classification("26.4", "Fabricação de aparelhos de recepção, reprodução, gravação e amplificação de áudio e vídeo"),
-        Classification("26.40-0", "Fabricação de aparelhos de recepção, reprodução, gravação e amplificação de áudio e vídeo"),
-        Classification("26.5", "Fabricação de aparelhos e instrumentos de medida, teste e controle; cronômetros e relógios"),
+        Classification(
+            "26.4", "Fabricação de aparelhos de recepção, reprodução, gravação e amplificação de áudio e vídeo"
+        ),
+        Classification(
+            "26.40-0", "Fabricação de aparelhos de recepção, reprodução, gravação e amplificação de áudio e vídeo"
+        ),
+        Classification(
+            "26.5", "Fabricação de aparelhos e instrumentos de medida, teste e controle; cronômetros e relógios"
+        ),
         Classification("26.51-5", "Fabricação de aparelhos e equipamentos de medida, teste e controle"),
         Classification("26.52-3", "Fabricação de cronômetros e relógios"),
-        Classification("26.6", "Fabricação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação"),
-        Classification("26.60-4", "Fabricação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação"),
+        Classification(
+            "26.6", "Fabricação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação"
+        ),
+        Classification(
+            "26.60-4", "Fabricação de aparelhos eletromédicos e eletroterapêuticos e equipamentos de irradiação"
+        ),
         Classification("26.7", "Fabricação de equipamentos e instrumentos ópticos, fotográficos e cinematográficos"),
         Classification("26.70-1", "Fabricação de equipamentos e instrumentos ópticos, fotográficos e cinematográficos"),
         Classification("26.8", "Fabricação de mídias virgens, magnéticas e ópticas"),
@@ -356,16 +394,22 @@ CNAE2 = Standard(
         Classification("27.1", "Fabricação de geradores, transformadores e motores elétricos"),
         Classification("27.10-4", "Fabricação de geradores, transformadores e motores elétricos"),
         Classification("27.2", "Fabricação de pilhas, baterias e acumuladores elétricos"),
-        Classification("27.21-0", "Fabricação de pilhas, baterias e acumuladores elétricos, exceto para veículos automotores"),
+        Classification(
+            "27.21-0", "Fabricação de pilhas, baterias e acumuladores elétricos, exceto para veículos automotores"
+        ),
         Classification("27.22-8", "Fabricação de baterias e acumuladores para veículos automotores"),
         Classification("27.3", "Fabricação de equipamentos para distribuição e controle de energia elétrica"),
-        Classification("27.31-7", "Fabricação de aparelhos e equipamentos para distribuição e controle de energia elétrica"),
+        Classification(
+            "27.31-7", "Fabricação de aparelhos e equipamentos para distribuição e controle de energia elétrica"
+        ),
         Classification("27.32-5", "Fabricação de material elétrico para instalações em circuito de consumo"),
         Classification("27.33-3", "Fabricação de fios, cabos e condutores elétricos isolados"),
         Classification("27.4", "Fabricação de lâmpadas e outros equipamentos de iluminação"),
         Classification("27.40-6", "Fabricação de lâmpadas e outros equipamentos de iluminação"),
         Classification("27.5", "Fabricação de eletrodomésticos"),
-        Classification("27.51-1", "Fabricação de fogões, refrigeradores e máquinas de lavar e secar para uso doméstico"),
+        Classification(
+            "27.51-1", "Fabricação de fogões, refrigeradores e máquinas de lavar e secar para uso doméstico"
+        ),
         Classification("27.59-7", "Fabricação de aparelhos eletrodomésticos não especificados anteriormente"),
         Classification("27.9", "Fabricação de equipamentos e aparelhos elétricos não especificados anteriormente"),
         Classification("27.90-2", "Fabricação de equipamentos e aparelhos elétricos não especificados anteriormente"),
@@ -378,30 +422,52 @@ CNAE2 = Standard(
         Classification("28.15-1", "Fabricação de equipamentos de transmissão para fins industriais"),
         Classification("28.2", "Fabricação de máquinas e equipamentos de uso geral"),
         Classification("28.21-6", "Fabricação de aparelhos e equipamentos para instalações térmicas"),
-        Classification("28.22-4", "Fabricação de máquinas, equipamentos e aparelhos para transporte e elevação de cargas e pessoas"),
-        Classification("28.23-2", "Fabricação de máquinas e aparelhos de refrigeração e ventilação para uso industrial e comercial"),
+        Classification(
+            "28.22-4", "Fabricação de máquinas, equipamentos e aparelhos para transporte e elevação de cargas e pessoas"
+        ),
+        Classification(
+            "28.23-2", "Fabricação de máquinas e aparelhos de refrigeração e ventilação para uso industrial e comercial"
+        ),
         Classification("28.24-1", "Fabricação de aparelhos e equipamentos de ar condicionado"),
         Classification("28.25-9", "Fabricação de máquinas e equipamentos para saneamento básico e ambiental"),
         Classification("28.29-1", "Fabricação de máquinas e equipamentos de uso geral não especificados anteriormente"),
         Classification("28.3", "Fabricação de tratores e de máquinas e equipamentos para a agricultura e pecuária"),
         Classification("28.31-3", "Fabricação de tratores agrícolas"),
         Classification("28.32-1", "Fabricação de equipamentos para irrigação agrícola"),
-        Classification("28.33-0", "Fabricação de máquinas e equipamentos para a agricultura e pecuária, exceto para irrigação"),
+        Classification(
+            "28.33-0", "Fabricação de máquinas e equipamentos para a agricultura e pecuária, exceto para irrigação"
+        ),
         Classification("28.4", "Fabricação de máquinas-ferramenta"),
         Classification("28.40-2", "Fabricação de máquinas-ferramenta"),
         Classification("28.5", "Fabricação de máquinas e equipamentos de uso na extração mineral e na construção"),
         Classification("28.51-8", "Fabricação de máquinas e equipamentos para a prospecção e extração de petróleo"),
-        Classification("28.52-6", "Fabricação de outras máquinas e equipamentos para uso na extração mineral, exceto na extração de petróleo"),
+        Classification(
+            "28.52-6",
+            "Fabricação de outras máquinas e equipamentos para uso na extração mineral, exceto na extração de petróleo",
+        ),
         Classification("28.53-4", "Fabricação de tratores, exceto agrícolas"),
-        Classification("28.54-2", "Fabricação de máquinas e equipamentos para terraplenagem, pavimentação e construção, exceto tratores"),
+        Classification(
+            "28.54-2",
+            "Fabricação de máquinas e equipamentos para terraplenagem, pavimentação e construção, exceto tratores",
+        ),
         Classification("28.6", "Fabricação de máquinas e equipamentos de uso industrial específico"),
         Classification("28.61-5", "Fabricação de máquinas para a indústria metalúrgica, exceto máquinas-ferramenta"),
-        Classification("28.62-3", "Fabricação de máquinas e equipamentos para as indústrias de alimentos, bebidas e fumo"),
+        Classification(
+            "28.62-3", "Fabricação de máquinas e equipamentos para as indústrias de alimentos, bebidas e fumo"
+        ),
         Classification("28.63-1", "Fabricação de máquinas e equipamentos para a indústria têxtil"),
-        Classification("28.64-0", "Fabricação de máquinas e equipamentos para as indústrias do vestuário, do couro e de calçados"),
-        Classification("28.65-8", "Fabricação de máquinas e equipamentos para as indústrias de celulose, papel e papelão e artefatos"),
+        Classification(
+            "28.64-0", "Fabricação de máquinas e equipamentos para as indústrias do vestuário, do couro e de calçados"
+        ),
+        Classification(
+            "28.65-8",
+            "Fabricação de máquinas e equipamentos para as indústrias de celulose, papel e papelão e artefatos",
+        ),
         Classification("28.66-6", "Fabricação de máquinas e equipamentos para a indústria do plástico"),
-        Classification("28.69-1", "Fabricação de máquinas e equipamentos para uso industrial específico não especificados anteriormente"),
+        Classification(
+            "28.69-1",
+            "Fabricação de máquinas e equipamentos para uso industrial específico não especificados anteriormente",
+        ),
         Classification("29", "FABRICAÇÃO DE VEÍCULOS AUTOMOTORES, REBOQUES E CARROCERIAS"),
         Classification("29.1", "Fabricação de automóveis, camionetas e utilitários"),
         Classification("29.10-7", "Fabricação de automóveis, camionetas e utilitários"),
@@ -411,11 +477,20 @@ CNAE2 = Standard(
         Classification("29.30-1", "Fabricação de cabines, carrocerias e reboques para veículos automotores"),
         Classification("29.4", "Fabricação de peças e acessórios para veículos automotores"),
         Classification("29.41-7", "Fabricação de peças e acessórios para o sistema motor de veículos automotores"),
-        Classification("29.42-5", "Fabricação de peças e acessórios para os sistemas de marcha e transmissão de veículos automotores"),
+        Classification(
+            "29.42-5",
+            "Fabricação de peças e acessórios para os sistemas de marcha e transmissão de veículos automotores",
+        ),
         Classification("29.43-3", "Fabricação de peças e acessórios para o sistema de freios de veículos automotores"),
-        Classification("29.44-1", "Fabricação de peças e acessórios para o sistema de direção e suspensão de veículos automotores"),
-        Classification("29.45-0", "Fabricação de material elétrico e eletrônico para veículos automotores, exceto baterias"),
-        Classification("29.49-2", "Fabricação de peças e acessórios para veículos automotores não especificados anteriormente"),
+        Classification(
+            "29.44-1", "Fabricação de peças e acessórios para o sistema de direção e suspensão de veículos automotores"
+        ),
+        Classification(
+            "29.45-0", "Fabricação de material elétrico e eletrônico para veículos automotores, exceto baterias"
+        ),
+        Classification(
+            "29.49-2", "Fabricação de peças e acessórios para veículos automotores não especificados anteriormente"
+        ),
         Classification("29.5", "Recondicionamento e recuperação de motores para veículos automotores"),
         Classification("29.50-6", "Recondicionamento e recuperação de motores para veículos automotores"),
         Classification("30", "FABRICAÇÃO DE OUTROS EQUIPAMENTOS DE TRANSPORTE, EXCETO VEÍCULOS AUTOMOTORES"),
@@ -450,15 +525,23 @@ CNAE2 = Standard(
         Classification("32.30-2", "Fabricação de artefatos para pesca e esporte"),
         Classification("32.4", "Fabricação de brinquedos e jogos recreativos"),
         Classification("32.40-0", "Fabricação de brinquedos e jogos recreativos"),
-        Classification("32.5", "Fabricação de instrumentos e materiais para uso médico e odontológico e de artigos ópticos"),
-        Classification("32.50-7", "Fabricação de instrumentos e materiais para uso médico e odontológico e de artigos ópticos"),
+        Classification(
+            "32.5", "Fabricação de instrumentos e materiais para uso médico e odontológico e de artigos ópticos"
+        ),
+        Classification(
+            "32.50-7", "Fabricação de instrumentos e materiais para uso médico e odontológico e de artigos ópticos"
+        ),
         Classification("32.9", "Fabricação de produtos diversos"),
         Classification("32.91-4", "Fabricação de escovas, pincéis e vassouras"),
-        Classification("32.92-2", "Fabricação de equipamentos e acessórios para segurança e proteção pessoal e profissional"),
+        Classification(
+            "32.92-2", "Fabricação de equipamentos e acessórios para segurança e proteção pessoal e profissional"
+        ),
         Classification("32.99-0", "Fabricação de produtos diversos não especificados anteriormente"),
         Classification("33", "MANUTENÇÃO, REPARAÇÃO E INSTALAÇÃO DE MÁQUINAS E EQUIPAMENTOS"),
         Classification("33.1", "Manutenção e reparação de máquinas e equipamentos"),
-        Classification("33.11-2", "Manutenção e reparação de tanques, reservatórios metálicos e caldeiras, exceto para veículos"),
+        Classification(
+            "33.11-2", "Manutenção e reparação de tanques, reservatórios metálicos e caldeiras, exceto para veículos"
+        ),
         Classification("33.12-1", "Manutenção e reparação de equipamentos eletrônicos e ópticos"),
         Classification("33.13-9", "Manutenção e reparação de máquinas e equipamentos elétricos"),
         Classification("33.14-7", "Manutenção e reparação de máquinas e equipamentos da indústria mecânica"),
@@ -477,7 +560,10 @@ CNAE2 = Standard(
         Classification("35.13-1", "Comércio atacadista de energia elétrica"),
         Classification("35.14-0", "Distribuição de energia elétrica"),
         Classification("35.2", "Produção e distribuição de combustíveis gasosos por redes urbanas"),
-        Classification("35.20-4", "Produção de gás; processamento de gás natural; distribuição de combustíveis gasosos por redes urbanas"),
+        Classification(
+            "35.20-4",
+            "Produção de gás; processamento de gás natural; distribuição de combustíveis gasosos por redes urbanas",
+        ),
         Classification("35.3", "Produção e distribuição de vapor, água quente e ar condicionado"),
         Classification("35.30-1", "Produção e distribuição de vapor, água quente e ar condicionado"),
         Classification("E", "ÁGUA, ESGOTO, ATIVIDADES DE GESTÃO DE RESÍDUOS E DESCONTAMINAÇÃO"),
@@ -513,9 +599,14 @@ CNAE2 = Standard(
         Classification("42.11-1", "Construção de rodovias e ferrovias"),
         Classification("42.12-0", "Construção de obras-de-arte especiais"),
         Classification("42.13-8", "Obras de urbanização - ruas, praças e calçadas"),
-        Classification("42.2", "Obras de infra-estrutura para energia elétrica, telecomunicações, água, esgoto e transporte por dutos"),
+        Classification(
+            "42.2",
+            "Obras de infra-estrutura para energia elétrica, telecomunicações, água, esgoto e transporte por dutos",
+        ),
         Classification("42.21-9", "Obras para geração e distribuição de energia elétrica e para telecomunicações"),
-        Classification("42.22-7", "Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas"),
+        Classification(
+            "42.22-7", "Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas"
+        ),
         Classification("42.23-5", "Construção de redes de transportes por dutos, exceto para água e esgoto"),
         Classification("42.9", "Construção de outras obras de infra-estrutura"),
         Classification("42.91-0", "Obras portuárias, marítimas e fluviais"),
@@ -547,81 +638,174 @@ CNAE2 = Standard(
         Classification("45.30-7", "Comércio de peças e acessórios para veículos automotores"),
         Classification("45.4", "Comércio, manutenção e reparação de motocicletas, peças e acessórios"),
         Classification("45.41-2", "Comércio por atacado e a varejo de motocicletas, peças e acessórios"),
-        Classification("45.42-1", "Representantes comerciais e agentes do comércio de motocicletas, peças e acessórios"),
+        Classification(
+            "45.42-1", "Representantes comerciais e agentes do comércio de motocicletas, peças e acessórios"
+        ),
         Classification("45.43-9", "Manutenção e reparação de motocicletas"),
         Classification("46", "COMÉRCIO POR ATACADO, EXCETO VEÍCULOS AUTOMOTORES E MOTOCICLETAS"),
-        Classification("46.1", "Representantes comerciais e agentes do comércio, exceto de veículos automotores e motocicletas"),
-        Classification("46.11-7", "Representantes comerciais e agentes do comércio de matérias-primas agrícolas e animais vivos"),
-        Classification("46.12-5", "Representantes comerciais e agentes do comércio de combustíveis, minerais, produtos siderúrgicos e químicos"),
-        Classification("46.13-3", "Representantes comerciais e agentes do comércio de madeira, material de construção e ferragens"),
-        Classification("46.14-1", "Representantes comerciais e agentes do comércio de máquinas, equipamentos, embarcações e aeronaves"),
-        Classification("46.15-0", "Representantes comerciais e agentes do comércio de eletrodomésticos, móveis e artigos de uso doméstico"),
-        Classification("46.16-8", "Representantes comerciais e agentes do comércio de têxteis, vestuário, calçados e artigos de viagem"),
-        Classification("46.17-6", "Representantes comerciais e agentes do comércio de produtos alimentícios, bebidas e fumo"),
-        Classification("46.18-4", "Representantes comerciais e agentes do comércio especializado em produtos não especificados anteriormente"),
-        Classification("46.19-2", "Representantes comerciais e agentes do comércio de mercadorias em geral não especializado"),
+        Classification(
+            "46.1", "Representantes comerciais e agentes do comércio, exceto de veículos automotores e motocicletas"
+        ),
+        Classification(
+            "46.11-7", "Representantes comerciais e agentes do comércio de matérias-primas agrícolas e animais vivos"
+        ),
+        Classification(
+            "46.12-5",
+            "Representantes comerciais e agentes do comércio de combustíveis, minerais, produtos siderúrgicos e químicos",
+        ),
+        Classification(
+            "46.13-3", "Representantes comerciais e agentes do comércio de madeira, material de construção e ferragens"
+        ),
+        Classification(
+            "46.14-1",
+            "Representantes comerciais e agentes do comércio de máquinas, equipamentos, embarcações e aeronaves",
+        ),
+        Classification(
+            "46.15-0",
+            "Representantes comerciais e agentes do comércio de eletrodomésticos, móveis e artigos de uso doméstico",
+        ),
+        Classification(
+            "46.16-8",
+            "Representantes comerciais e agentes do comércio de têxteis, vestuário, calçados e artigos de viagem",
+        ),
+        Classification(
+            "46.17-6", "Representantes comerciais e agentes do comércio de produtos alimentícios, bebidas e fumo"
+        ),
+        Classification(
+            "46.18-4",
+            "Representantes comerciais e agentes do comércio especializado em produtos não especificados anteriormente",
+        ),
+        Classification(
+            "46.19-2", "Representantes comerciais e agentes do comércio de mercadorias em geral não especializado"
+        ),
         Classification("46.2", "Comércio atacadista de matérias-primas agrícolas e animais vivos"),
         Classification("46.21-4", "Comércio atacadista de café em grão"),
         Classification("46.22-2", "Comércio atacadista de soja"),
-        Classification("46.23-1", "Comércio atacadista de animais vivos, alimentos para animais e matérias-primas agrícolas, exceto café e soja"),
+        Classification(
+            "46.23-1",
+            "Comércio atacadista de animais vivos, alimentos para animais e matérias-primas agrícolas, exceto café e soja",
+        ),
         Classification("46.3", "Comércio atacadista especializado em produtos alimentícios, bebidas e fumo"),
         Classification("46.31-1", "Comércio atacadista de leite e laticínios"),
-        Classification("46.32-0", "Comércio atacadista de cereais e leguminosas beneficiados, farinhas, amidos e féculas"),
+        Classification(
+            "46.32-0", "Comércio atacadista de cereais e leguminosas beneficiados, farinhas, amidos e féculas"
+        ),
         Classification("46.33-8", "Comércio atacadista de hortifrutigranjeiros"),
         Classification("46.34-6", "Comércio atacadista de carnes, produtos da carne e pescado"),
         Classification("46.35-4", "Comércio atacadista de bebidas"),
         Classification("46.36-2", "Comércio atacadista de produtos do fumo"),
-        Classification("46.37-1", "Comércio atacadista especializado em produtos alimentícios não especificados anteriormente"),
+        Classification(
+            "46.37-1", "Comércio atacadista especializado em produtos alimentícios não especificados anteriormente"
+        ),
         Classification("46.39-7", "Comércio atacadista de produtos alimentícios em geral"),
         Classification("46.4", "Comércio atacadista de produtos de consumo não-alimentar"),
         Classification("46.41-9", "Comércio atacadista de tecidos, artefatos de tecidos e de armarinho"),
         Classification("46.42-7", "Comércio atacadista de artigos do vestuário e acessórios"),
         Classification("46.43-5", "Comércio atacadista de calçados e artigos de viagem"),
         Classification("46.44-3", "Comércio atacadista de produtos farmacêuticos para uso humano e veterinário"),
-        Classification("46.45-1", "Comércio atacadista de instrumentos e materiais para uso médico, cirúrgico, ortopédico e odontológico"),
+        Classification(
+            "46.45-1",
+            "Comércio atacadista de instrumentos e materiais para uso médico, cirúrgico, ortopédico e odontológico",
+        ),
         Classification("46.46-0", "Comércio atacadista de cosméticos, produtos de perfumaria e de higiene pessoal"),
-        Classification("46.47-8", "Comércio atacadista de artigos de escritório e de papelaria; livros, jornais e outras publicações"),
-        Classification("46.49-4", "Comércio atacadista de equipamentos e artigos de uso pessoal e doméstico não especificados anteriormente"),
-        Classification("46.5", "Comércio atacadista de equipamentos e produtos de tecnologias de informação e comunicação"),
+        Classification(
+            "46.47-8",
+            "Comércio atacadista de artigos de escritório e de papelaria; livros, jornais e outras publicações",
+        ),
+        Classification(
+            "46.49-4",
+            "Comércio atacadista de equipamentos e artigos de uso pessoal e doméstico não especificados anteriormente",
+        ),
+        Classification(
+            "46.5", "Comércio atacadista de equipamentos e produtos de tecnologias de informação e comunicação"
+        ),
         Classification("46.51-6", "Comércio atacadista de computadores, periféricos e suprimentos de informática"),
-        Classification("46.52-4", "Comércio atacadista de componentes eletrônicos e equipamentos de telefonia e comunicação"),
-        Classification("46.6", "Comércio atacadista de máquinas, aparelhos e equipamentos, exceto de tecnologias de informação e comunicação"),
-        Classification("46.61-3", "Comércio atacadista de máquinas, aparelhos e equipamentos para uso agropecuário; partes e peças"),
-        Classification("46.62-1", "Comércio atacadista de máquinas, equipamentos para terraplenagem, mineração e construção; partes e peças"),
+        Classification(
+            "46.52-4", "Comércio atacadista de componentes eletrônicos e equipamentos de telefonia e comunicação"
+        ),
+        Classification(
+            "46.6",
+            "Comércio atacadista de máquinas, aparelhos e equipamentos, exceto de tecnologias de informação e comunicação",
+        ),
+        Classification(
+            "46.61-3", "Comércio atacadista de máquinas, aparelhos e equipamentos para uso agropecuário; partes e peças"
+        ),
+        Classification(
+            "46.62-1",
+            "Comércio atacadista de máquinas, equipamentos para terraplenagem, mineração e construção; partes e peças",
+        ),
         Classification("46.63-0", "Comércio atacadista de máquinas e equipamentos para uso industrial; partes e peças"),
-        Classification("46.64-8", "Comércio atacadista de máquinas, aparelhos e equipamentos para uso odonto-médico-hospitalar; partes e peças"),
+        Classification(
+            "46.64-8",
+            "Comércio atacadista de máquinas, aparelhos e equipamentos para uso odonto-médico-hospitalar; partes e peças",
+        ),
         Classification("46.65-6", "Comércio atacadista de máquinas e equipamentos para uso comercial; partes e peças"),
-        Classification("46.69-9", "Comércio atacadista de máquinas, aparelhos e equipamentos não especificados anteriormente; partes e peças"),
-        Classification("46.7", "Comércio atacadista de madeira, ferragens, ferramentas, material elétrico e material de construção"),
+        Classification(
+            "46.69-9",
+            "Comércio atacadista de máquinas, aparelhos e equipamentos não especificados anteriormente; partes e peças",
+        ),
+        Classification(
+            "46.7", "Comércio atacadista de madeira, ferragens, ferramentas, material elétrico e material de construção"
+        ),
         Classification("46.71-1", "Comércio atacadista de madeira e produtos derivados"),
         Classification("46.72-9", "Comércio atacadista de ferragens e ferramentas"),
         Classification("46.73-7", "Comércio atacadista de material elétrico"),
         Classification("46.74-5", "Comércio atacadista de cimento"),
-        Classification("46.79-6", "Comércio atacadista especializado de materiais de construção não especificados anteriormente e de materiais de construção em geral"),
+        Classification(
+            "46.79-6",
+            "Comércio atacadista especializado de materiais de construção não especificados anteriormente e de materiais de construção em geral",
+        ),
         Classification("46.8", "Comércio atacadista especializado em outros produtos"),
-        Classification("46.81-8", "Comércio atacadista de combustíveis sólidos, líquidos e gasosos, exceto gás natural e GLP"),
+        Classification(
+            "46.81-8", "Comércio atacadista de combustíveis sólidos, líquidos e gasosos, exceto gás natural e GLP"
+        ),
         Classification("46.82-6", "Comércio atacadista de gás liqüefeito de petróleo (GLP)"),
-        Classification("46.83-4", "Comércio atacadista de defensivos agrícolas, adubos, fertilizantes e corretivos do solo"),
+        Classification(
+            "46.83-4", "Comércio atacadista de defensivos agrícolas, adubos, fertilizantes e corretivos do solo"
+        ),
         Classification("46.84-2", "Comércio atacadista de produtos químicos e petroquímicos, exceto agroquímicos"),
-        Classification("46.85-1", "Comércio atacadista de produtos siderúrgicos e metalúrgicos, exceto para construção"),
+        Classification(
+            "46.85-1", "Comércio atacadista de produtos siderúrgicos e metalúrgicos, exceto para construção"
+        ),
         Classification("46.86-9", "Comércio atacadista de papel e papelão em bruto e de embalagens"),
         Classification("46.87-7", "Comércio atacadista de resíduos e sucatas"),
-        Classification("46.89-3", "Comércio atacadista especializado de outros produtos intermediários não especificados anteriormente"),
+        Classification(
+            "46.89-3",
+            "Comércio atacadista especializado de outros produtos intermediários não especificados anteriormente",
+        ),
         Classification("46.9", "Comércio atacadista não-especializado"),
-        Classification("46.91-5", "Comércio atacadista de mercadorias em geral, com predominância de produtos alimentícios"),
-        Classification("46.92-3", "Comércio atacadista de mercadorias em geral, com predominância de insumos agropecuários"),
-        Classification("46.93-1", "Comércio atacadista de mercadorias em geral, sem predominância de alimentos ou de insumos agropecuários"),
+        Classification(
+            "46.91-5", "Comércio atacadista de mercadorias em geral, com predominância de produtos alimentícios"
+        ),
+        Classification(
+            "46.92-3", "Comércio atacadista de mercadorias em geral, com predominância de insumos agropecuários"
+        ),
+        Classification(
+            "46.93-1",
+            "Comércio atacadista de mercadorias em geral, sem predominância de alimentos ou de insumos agropecuários",
+        ),
         Classification("47", "COMÉRCIO VAREJISTA"),
         Classification("47.1", "Comércio varejista não-especializado"),
-        Classification("47.11-3", "Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - hipermercados e supermercados"),
-        Classification("47.12-1", "Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns"),
-        Classification("47.13-0", "Comércio varejista de mercadorias em geral, sem predominância de produtos alimentícios"),
+        Classification(
+            "47.11-3",
+            "Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - hipermercados e supermercados",
+        ),
+        Classification(
+            "47.12-1",
+            "Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns",
+        ),
+        Classification(
+            "47.13-0", "Comércio varejista de mercadorias em geral, sem predominância de produtos alimentícios"
+        ),
         Classification("47.2", "Comércio varejista de produtos alimentícios, bebidas e fumo"),
         Classification("47.21-1", "Comércio varejista de produtos de padaria, laticínio, doces, balas e semelhantes"),
         Classification("47.22-9", "Comércio varejista de carnes e pescados - açougues e peixarias"),
         Classification("47.23-7", "Comércio varejista de bebidas"),
         Classification("47.24-5", "Comércio varejista de hortifrutigranjeiros"),
-        Classification("47.29-6", "Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente; produtos do fumo"),
+        Classification(
+            "47.29-6",
+            "Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente; produtos do fumo",
+        ),
         Classification("47.3", "Comércio varejista de combustíveis para veículos automotores"),
         Classification("47.31-8", "Comércio varejista de combustíveis para veículos automotores"),
         Classification("47.32-6", "Comércio varejista de lubrificantes"),
@@ -630,25 +814,38 @@ CNAE2 = Standard(
         Classification("47.42-3", "Comércio varejista de material elétrico"),
         Classification("47.43-1", "Comércio varejista de vidros"),
         Classification("47.44-0", "Comércio varejista de ferragens, madeira e materiais de construção"),
-        Classification("47.5", "Comércio varejista de equipamentos de informática e comunicação; equipamentos e artigos de uso doméstico"),
+        Classification(
+            "47.5",
+            "Comércio varejista de equipamentos de informática e comunicação; equipamentos e artigos de uso doméstico",
+        ),
         Classification("47.51-2", "Comércio varejista especializado de equipamentos e suprimentos de informática"),
         Classification("47.52-1", "Comércio varejista especializado de equipamentos de telefonia e comunicação"),
-        Classification("47.53-9", "Comércio varejista especializado de eletrodomésticos e equipamentos de áudio e vídeo"),
+        Classification(
+            "47.53-9", "Comércio varejista especializado de eletrodomésticos e equipamentos de áudio e vídeo"
+        ),
         Classification("47.54-7", "Comércio varejista especializado de móveis, colchoaria e artigos de iluminação"),
         Classification("47.55-5", "Comércio varejista especializado de tecidos e artigos de cama, mesa e banho"),
         Classification("47.56-3", "Comércio varejista especializado de instrumentos musicais e acessórios"),
-        Classification("47.57-1", "Comércio varejista especializado de peças e acessórios para aparelhos eletroeletrônicos para uso doméstico, exceto informática e comunicação"),
+        Classification(
+            "47.57-1",
+            "Comércio varejista especializado de peças e acessórios para aparelhos eletroeletrônicos para uso doméstico, exceto informática e comunicação",
+        ),
         Classification("47.59-8", "Comércio varejista de artigos de uso doméstico não especificados anteriormente"),
         Classification("47.6", "Comércio varejista de artigos culturais, recreativos e esportivos"),
         Classification("47.61-0", "Comércio varejista de livros, jornais, revistas e papelaria"),
         Classification("47.62-8", "Comércio varejista de discos, CDs, DVDs e fitas"),
         Classification("47.63-6", "Comércio varejista de artigos recreativos e esportivos"),
-        Classification("47.7", "Comércio varejista de produtos farmacêuticos, perfumaria e cosméticos e artigos médicos, ópticos e ortopédicos"),
+        Classification(
+            "47.7",
+            "Comércio varejista de produtos farmacêuticos, perfumaria e cosméticos e artigos médicos, ópticos e ortopédicos",
+        ),
         Classification("47.71-7", "Comércio varejista de produtos farmacêuticos para uso humano e veterinário"),
         Classification("47.72-5", "Comércio varejista de cosméticos, produtos de perfumaria e de higiene pessoal"),
         Classification("47.73-3", "Comércio varejista de artigos médicos e ortopédicos"),
         Classification("47.74-1", "Comércio varejista de artigos de óptica"),
-        Classification("47.8", "Comércio varejista de produtos novos não especificados anteriormente e de produtos usados"),
+        Classification(
+            "47.8", "Comércio varejista de produtos novos não especificados anteriormente e de produtos usados"
+        ),
         Classification("47.81-4", "Comércio varejista de artigos do vestuário e acessórios"),
         Classification("47.82-2", "Comércio varejista de calçados e artigos de viagem"),
         Classification("47.83-1", "Comércio varejista de jóias e relógios"),
@@ -663,11 +860,20 @@ CNAE2 = Standard(
         Classification("49.11-6", "Transporte ferroviário de carga"),
         Classification("49.12-4", "Transporte metroferroviário de passageiros"),
         Classification("49.2", "Transporte rodoviário de passageiros"),
-        Classification("49.21-3", "Transporte rodoviário coletivo de passageiros, com itinerário fixo, municipal e em região metropolitana"),
-        Classification("49.22-1", "Transporte rodoviário coletivo de passageiros, com itinerário fixo, intermunicipal, interestadual e internacional"),
+        Classification(
+            "49.21-3",
+            "Transporte rodoviário coletivo de passageiros, com itinerário fixo, municipal e em região metropolitana",
+        ),
+        Classification(
+            "49.22-1",
+            "Transporte rodoviário coletivo de passageiros, com itinerário fixo, intermunicipal, interestadual e internacional",
+        ),
         Classification("49.23-0", "Transporte rodoviário de táxi"),
         Classification("49.24-8", "Transporte escolar"),
-        Classification("49.29-9", "Transporte rodoviário coletivo de passageiros, sob regime de fretamento, e outros transportes rodoviários não especificados anteriormente"),
+        Classification(
+            "49.29-9",
+            "Transporte rodoviário coletivo de passageiros, sob regime de fretamento, e outros transportes rodoviários não especificados anteriormente",
+        ),
         Classification("49.3", "Transporte rodoviário de carga"),
         Classification("49.30-2", "Transporte rodoviário de carga"),
         Classification("49.4", "Transporte dutoviário"),
@@ -740,7 +946,10 @@ CNAE2 = Standard(
         Classification("58.22-1", "Edição integrada à impressão de jornais"),
         Classification("58.23-9", "Edição integrada à impressão de revistas"),
         Classification("58.29-8", "Edição integrada à impressão de cadastros, listas e outros produtos gráficos"),
-        Classification("59", "ATIVIDADES CINEMATOGRÁFICAS, PRODUÇÃO DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO; GRAVAÇÃO DE SOM E EDIÇÃO DE MÚSICA"),
+        Classification(
+            "59",
+            "ATIVIDADES CINEMATOGRÁFICAS, PRODUÇÃO DE VÍDEOS E DE PROGRAMAS DE TELEVISÃO; GRAVAÇÃO DE SOM E EDIÇÃO DE MÚSICA",
+        ),
         Classification("59.1", "Atividades cinematográficas, produção de vídeos e de programas de televisão"),
         Classification("59.11-1", "Atividades de produção cinematográfica, de vídeos e de programas de televisão"),
         Classification("59.12-0", "Atividades de pós-produção cinematográfica, de vídeos e de programas de televisão"),
@@ -776,11 +985,15 @@ CNAE2 = Standard(
         Classification("62.09-1", "Suporte técnico, manutenção e outros serviços em tecnologia da informação"),
         Classification("63", "ATIVIDADES DE PRESTAÇÃO DE SERVIÇOS DE INFORMAÇÃO"),
         Classification("63.1", "Tratamento de dados, hospedagem na internet e outras atividades relacionadas"),
-        Classification("63.11-9", "Tratamento de dados, provedores de serviços de aplicação e serviços de hospedagem na internet"),
+        Classification(
+            "63.11-9", "Tratamento de dados, provedores de serviços de aplicação e serviços de hospedagem na internet"
+        ),
         Classification("63.19-4", "Portais, provedores de conteúdo e outros serviços de informação na internet"),
         Classification("63.9", "Outras atividades de prestação de serviços de informação"),
         Classification("63.91-7", "Agências de notícias"),
-        Classification("63.99-2", "Outras atividades de prestação de serviços de informação não especificadas anteriormente"),
+        Classification(
+            "63.99-2", "Outras atividades de prestação de serviços de informação não especificadas anteriormente"
+        ),
         Classification("K", "ATIVIDADES FINANCEIRAS, DE SEGUROS E SERVIÇOS RELACIONADOS"),
         Classification("64", "ATIVIDADES DE SERVIÇOS FINANCEIROS"),
         Classification("64.1", "Banco Central"),
@@ -826,16 +1039,23 @@ CNAE2 = Standard(
         Classification("65.42-1", "Previdência complementar aberta"),
         Classification("65.5", "Planos de saúde"),
         Classification("65.50-2", "Planos de saúde"),
-        Classification("66", "ATIVIDADES AUXILIARES DOS SERVIÇOS FINANCEIROS, SEGUROS, PREVIDÊNCIA COMPLEMENTAR E PLANOS DE SAÚDE"),
+        Classification(
+            "66", "ATIVIDADES AUXILIARES DOS SERVIÇOS FINANCEIROS, SEGUROS, PREVIDÊNCIA COMPLEMENTAR E PLANOS DE SAÚDE"
+        ),
         Classification("66.1", "Atividades auxiliares dos serviços financeiros"),
         Classification("66.11-8", "Administração de bolsas e mercados de balcão organizados"),
-        Classification("66.12-6", "Atividades de intermediários em transações de títulos, valores mobiliários e mercadorias"),
+        Classification(
+            "66.12-6", "Atividades de intermediários em transações de títulos, valores mobiliários e mercadorias"
+        ),
         Classification("66.13-4", "Administração de cartões de crédito"),
         Classification("66.19-3", "Atividades auxiliares dos serviços financeiros não especificadas anteriormente"),
         Classification("66.2", "Atividades auxiliares dos seguros, da previdência complementar e dos planos de saúde"),
         Classification("66.21-5", "Avaliação de riscos e perdas"),
         Classification("66.22-3", "Corretores e agentes de seguros, de planos de previdência complementar e de saúde"),
-        Classification("66.29-1", "Atividades auxiliares dos seguros, da previdência complementar e dos planos de saúde não especificadas anteriormente"),
+        Classification(
+            "66.29-1",
+            "Atividades auxiliares dos seguros, da previdência complementar e dos planos de saúde não especificadas anteriormente",
+        ),
         Classification("66.3", "Atividades de administração de fundos por contrato ou comissão"),
         Classification("66.30-4", "Atividades de administração de fundos por contrato ou comissão"),
         Classification("L", "ATIVIDADES IMOBILIÁRIAS"),
@@ -934,10 +1154,15 @@ CNAE2 = Standard(
         Classification("81.29-0", "Atividades de limpeza não especificadas anteriormente"),
         Classification("81.3", "Atividades paisagísticas"),
         Classification("81.30-3", "Atividades paisagísticas"),
-        Classification("82", "SERVIÇOS DE ESCRITÓRIO, DE APOIO ADMINISTRATIVO E OUTROS SERVIÇOS PRESTADOS PRINCIPALMENTE ÀS EMPRESAS"),
+        Classification(
+            "82",
+            "SERVIÇOS DE ESCRITÓRIO, DE APOIO ADMINISTRATIVO E OUTROS SERVIÇOS PRESTADOS PRINCIPALMENTE ÀS EMPRESAS",
+        ),
         Classification("82.1", "Serviços de escritório e apoio administrativo"),
         Classification("82.11-3", "Serviços combinados de escritório e apoio administrativo"),
-        Classification("82.19-9", "Fotocópias, preparação de documentos e outros serviços especializados de apoio administrativo"),
+        Classification(
+            "82.19-9", "Fotocópias, preparação de documentos e outros serviços especializados de apoio administrativo"
+        ),
         Classification("82.2", "Atividades de teleatendimento"),
         Classification("82.20-2", "Atividades de teleatendimento"),
         Classification("82.3", "Atividades de organização de eventos, exceto culturais e esportivos"),
@@ -945,12 +1170,16 @@ CNAE2 = Standard(
         Classification("82.9", "Outras atividades de serviços prestados principalmente às empresas"),
         Classification("82.91-1", "Atividades de cobrança e informações cadastrais"),
         Classification("82.92-0", "Envasamento e empacotamento sob contrato"),
-        Classification("82.99-7", "Atividades de serviços prestados principalmente às empresas não especificadas anteriormente"),
+        Classification(
+            "82.99-7", "Atividades de serviços prestados principalmente às empresas não especificadas anteriormente"
+        ),
         Classification("O", "ADMINISTRAÇÃO PÚBLICA, DEFESA E SEGURIDADE SOCIAL"),
         Classification("84", "ADMINISTRAÇÃO PÚBLICA, DEFESA E SEGURIDADE SOCIAL"),
         Classification("84.1", "Administração do estado e da política econômica e social"),
         Classification("84.11-6", "Administração pública em geral"),
-        Classification("84.12-4", "Regulação das atividades de saúde, educação, serviços culturais e outros serviços sociais"),
+        Classification(
+            "84.12-4", "Regulação das atividades de saúde, educação, serviços culturais e outros serviços sociais"
+        ),
         Classification("84.13-2", "Regulação das atividades econômicas"),
         Classification("84.2", "Serviços coletivos prestados pela administração pública"),
         Classification("84.21-3", "Relações exteriores"),
@@ -988,7 +1217,9 @@ CNAE2 = Standard(
         Classification("86.10-1", "Atividades de atendimento hospitalar"),
         Classification("86.2", "Serviços móveis de atendimento a urgências e de remoção de pacientes"),
         Classification("86.21-6", "Serviços móveis de atendimento a urgências"),
-        Classification("86.22-4", "Serviços de remoção de pacientes, exceto os serviços móveis de atendimento a urgências"),
+        Classification(
+            "86.22-4", "Serviços de remoção de pacientes, exceto os serviços móveis de atendimento a urgências"
+        ),
         Classification("86.3", "Atividades de atenção ambulatorial executadas por médicos e odontólogos"),
         Classification("86.30-5", "Atividades de atenção ambulatorial executadas por médicos e odontólogos"),
         Classification("86.4", "Atividades de serviços de complementação diagnóstica e terapêutica"),
@@ -999,12 +1230,29 @@ CNAE2 = Standard(
         Classification("86.60-7", "Atividades de apoio à gestão de saúde"),
         Classification("86.9", "Atividades de atenção à saúde humana não especificadas anteriormente"),
         Classification("86.90-9", "Atividades de atenção à saúde humana não especificadas anteriormente"),
-        Classification("87", "ATIVIDADES DE ATENÇÃO À SAÚDE HUMANA INTEGRADAS COM ASSISTÊNCIA SOCIAL, PRESTADAS EM RESIDÊNCIAS COLETIVAS E PARTICULARES"),
-        Classification("87.1", "Atividades de assistência a idosos, deficientes físicos, imunodeprimidos e convalescentes, e de infra-estrutura e apoio a pacientes prestadas em residências coletivas e particulares"),
-        Classification("87.11-5", "Atividades de assistência a idosos, deficientes físicos, imunodeprimidos e convalescentes prestadas em residências coletivas e particulares"),
-        Classification("87.12-3", "Atividades de fornecimento de infra-estrutura de apoio e assistência a paciente no domicílio"),
-        Classification("87.2", "Atividades de assistência psicossocial e à saúde a portadores de distúrbios psíquicos, deficiência mental e dependência química"),
-        Classification("87.20-4", "Atividades de assistência psicossocial e à saúde a portadores de distúrbios psíquicos, deficiência mental e dependência química"),
+        Classification(
+            "87",
+            "ATIVIDADES DE ATENÇÃO À SAÚDE HUMANA INTEGRADAS COM ASSISTÊNCIA SOCIAL, PRESTADAS EM RESIDÊNCIAS COLETIVAS E PARTICULARES",
+        ),
+        Classification(
+            "87.1",
+            "Atividades de assistência a idosos, deficientes físicos, imunodeprimidos e convalescentes, e de infra-estrutura e apoio a pacientes prestadas em residências coletivas e particulares",
+        ),
+        Classification(
+            "87.11-5",
+            "Atividades de assistência a idosos, deficientes físicos, imunodeprimidos e convalescentes prestadas em residências coletivas e particulares",
+        ),
+        Classification(
+            "87.12-3", "Atividades de fornecimento de infra-estrutura de apoio e assistência a paciente no domicílio"
+        ),
+        Classification(
+            "87.2",
+            "Atividades de assistência psicossocial e à saúde a portadores de distúrbios psíquicos, deficiência mental e dependência química",
+        ),
+        Classification(
+            "87.20-4",
+            "Atividades de assistência psicossocial e à saúde a portadores de distúrbios psíquicos, deficiência mental e dependência química",
+        ),
         Classification("87.3", "Atividades de assistência social prestadas em residências coletivas e particulares"),
         Classification("87.30-1", "Atividades de assistência social prestadas em residências coletivas e particulares"),
         Classification("88", "SERVIÇOS DE ASSISTÊNCIA SOCIAL SEM ALOJAMENTO"),
@@ -1019,8 +1267,14 @@ CNAE2 = Standard(
         Classification("91", "ATIVIDADES LIGADAS AO PATRIMÔNIO CULTURAL E AMBIENTAL"),
         Classification("91.0", "Atividades ligadas ao patrimônio cultural e ambiental"),
         Classification("91.01-5", "Atividades de bibliotecas e arquivos"),
-        Classification("91.02-3", "Atividades de museus e de exploração, restauração artística e conservação de lugares e prédios históricos e atrações similares"),
-        Classification("91.03-1", "Atividades de jardins botânicos, zoológicos, parques nacionais, reservas ecológicas e áreas de proteção ambiental"),
+        Classification(
+            "91.02-3",
+            "Atividades de museus e de exploração, restauração artística e conservação de lugares e prédios históricos e atrações similares",
+        ),
+        Classification(
+            "91.03-1",
+            "Atividades de jardins botânicos, zoológicos, parques nacionais, reservas ecológicas e áreas de proteção ambiental",
+        ),
         Classification("92", "ATIVIDADES DE EXPLORAÇÃO DE JOGOS DE AZAR E APOSTAS"),
         Classification("92.0", "Atividades de exploração de jogos de azar e apostas"),
         Classification("92.00-3", "Atividades de exploração de jogos de azar e apostas"),
@@ -1047,13 +1301,21 @@ CNAE2 = Standard(
         Classification("94.92-8", "Atividades de organizações políticas"),
         Classification("94.93-6", "Atividades de organizações associativas ligadas à cultura e à arte"),
         Classification("94.99-5", "Atividades associativas não especificadas anteriormente"),
-        Classification("95", "REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS DE INFORMÁTICA E COMUNICAÇÃO E DE OBJETOS PESSOAIS E DOMÉSTICOS"),
+        Classification(
+            "95",
+            "REPARAÇÃO E MANUTENÇÃO DE EQUIPAMENTOS DE INFORMÁTICA E COMUNICAÇÃO E DE OBJETOS PESSOAIS E DOMÉSTICOS",
+        ),
         Classification("95.1", "Reparação e manutenção de equipamentos de informática e comunicação"),
         Classification("95.11-8", "Reparação e manutenção de computadores e de equipamentos periféricos"),
         Classification("95.12-6", "Reparação e manutenção de equipamentos de comunicação"),
         Classification("95.2", "Reparação e manutenção de objetos e equipamentos pessoais e domésticos"),
-        Classification("95.21-5", "Reparação e manutenção de equipamentos eletroeletrônicos de uso pessoal e doméstico"),
-        Classification("95.29-1", "Reparação e manutenção de objetos e equipamentos pessoais e domésticos não especificados anteriormente"),
+        Classification(
+            "95.21-5", "Reparação e manutenção de equipamentos eletroeletrônicos de uso pessoal e doméstico"
+        ),
+        Classification(
+            "95.29-1",
+            "Reparação e manutenção de objetos e equipamentos pessoais e domésticos não especificados anteriormente",
+        ),
         Classification("96", "OUTRAS ATIVIDADES DE SERVIÇOS PESSOAIS"),
         Classification("96.0", "Outras atividades de serviços pessoais"),
         Classification("96.01-7", "Lavanderias, tinturarias e toalheiros"),
@@ -1068,5 +1330,5 @@ CNAE2 = Standard(
         Classification("99", "ORGANISMOS INTERNACIONAIS E OUTRAS INSTITUIÇÕES EXTRATERRITORIAIS"),
         Classification("99.0", "Organismos internacionais e outras instituições extraterritoriais"),
         Classification("99.00-8", "Organismos internacionais e outras instituições extraterritoriais"),
-    ]
+    ],
 )
