@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from ._standards.cnae2 import CNAE2, CNAE2_to_ISIC4
 from ._standards.isic3 import ISIC3, ISIC3_to_ISIC31
 from ._standards.isic4 import ISIC4
 from ._standards.isic31 import ISIC31, ISIC31_to_ISIC4
@@ -24,5 +25,6 @@ ToISIC4 = ComposedGraph(
         KSIC10_to_ISIC4,
         SKD2008_to_SKD2002,
         SKD2002_to_NACE2,
+        CNAE2_to_ISIC4,
     ],
 )

@@ -16,6 +16,7 @@ import pyisic
         (pyisic.SKD2002, pyisic.SKD2002_to_NACE2, 1.0),
         (pyisic.SKD2002, pyisic.SKD2002_to_SKD2008, 0.9),
         (pyisic.SKD2008, pyisic.SKD2008_to_SKD2002, 0.3),
+        (pyisic.CNAE2, pyisic.CNAE2_to_ISIC4, 1.0),
     ],
 )
 def test_minimum_concordance(standard, concordance, minimum: float):
@@ -36,6 +37,7 @@ def test_minimum_concordance(standard, concordance, minimum: float):
         pyisic.KSIC10_to_ISIC4,
         pyisic.SKD2008_to_SKD2002,
         pyisic.SKD2002_to_NACE2,
+        pyisic.CNAE2_to_ISIC4,
     ],
 )
 def test_to_isic4(standard):
