@@ -1,3 +1,5 @@
+"""`Concordance between CNAE2 and ISIC4 <https://concla.ibge.gov.br/images/concla/documentacao/CNAE20_Correspondencia_Cnae20xIsic4.xls>`_."""
+
 from ...types import Concordance, Standards
 from ..isic4 import ISIC4
 from . import CNAE2

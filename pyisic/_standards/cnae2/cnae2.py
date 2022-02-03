@@ -1,3 +1,5 @@
+"""`CNAE2 Standard <https://concla.ibge.gov.br/classificacoes/correspondencias/atividades-economicas.html>`_."""
+
 from ...types import Category, Classification, Standard, Standards
 
 CNAE2 = Standard(
