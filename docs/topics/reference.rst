@@ -40,6 +40,14 @@ Standards
 
 .. automodule:: pyisic._standards.ksic10.ksic10
 
+.. automodule:: pyisic._standards.skd2002.skd2002
+
+.. automodule:: pyisic._standards.skd2008.skd2008
+
+.. automodule:: pyisic._standards.skis2010.skis2010
+
+.. automodule:: pyisic._standards.cnae2.cnae2
+
 Concordances
 ############
 
@@ -56,3 +64,11 @@ Concordances
 .. automodule:: pyisic._standards.jsic13.jsic13_to_isic4
 
 .. automodule:: pyisic._standards.ksic10.ksic10_to_isic4
+
+.. automodule:: pyisic._standards.skd2002.skd2002_to_nace2
+
+.. automodule:: pyisic._standards.skd2002.skd2002_to_skd2008
+
+.. automodule:: pyisic._standards.skd2008.skd2008_to_skd2002
+
+.. automodule:: pyisic._standards.cnae2.cnae2_to_isic4

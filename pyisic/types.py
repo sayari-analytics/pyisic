@@ -32,6 +32,7 @@ class Standards(_Enum):  # pragma: no cover
     SKD2002 = "SKD2002"
     SKD2008 = "SKD2008"
     SKIS2010 = "SKIS2010"
+    CNAE2 = "CNAE2"
 
 
 @_dataclass
