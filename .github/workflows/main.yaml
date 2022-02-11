@@ -65,7 +65,7 @@ jobs:
     - name: Upload data artifact
       uses: actions/upload-artifact@v2
       with:
-        name: data.zip
+        name: data
         path: data.zip
 
   style:
