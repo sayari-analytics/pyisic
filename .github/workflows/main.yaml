@@ -66,7 +66,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: data
-        path: data.zip
+        path: standards.json
 
   style:
     runs-on: ${{ matrix.os }}

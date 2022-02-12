@@ -14,7 +14,11 @@ class StandardEncoder(json.JSONEncoder):
 
 
 if __name__ == "__main__":
-    standards = {key: val for key, val in pyisic.__dict__.items() if isinstance(val, pyisic.types.Standard)}
-
-    with zipfile.ZipFile("data.zip", "w") as outfile:
-        outfile.writestr("standards.json", json.dumps(standards, cls=StandardEncoder, sort_keys=True, indent=4))
+    with open("standards.json", "w") as outfile:
+        json.dump(
+            {key: val for key, val in pyisic.__dict__.items() if isinstance(val, pyisic.types.Standard)},
+            outfile,
+            cls=StandardEncoder,
+            sort_keys=True,
+            indent=4,
+        )
