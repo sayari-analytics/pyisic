@@ -7,11 +7,7 @@ from ._standards.jsic13 import JSIC13, JSIC13_to_ISIC4
 from ._standards.ksic10 import KSIC10, KSIC10_to_ISIC4
 from ._standards.nace2 import NACE2, NACE2_to_ISIC4
 from ._standards.nacebel2003 import NACEBEL2003, NACEBEL2003_to_NACEBEL2008
-from ._standards.nacebel2008 import (
-    NACEBEL2008,
-    NACEBEL2008_to_NACE2,
-    NACEBEL2008_to_NACEBEL2003,
-)
+from ._standards.nacebel2008 import NACEBEL2008, NACEBEL2008_to_NACE2
 from ._standards.naics2017 import NAICS2017, NAICS2017_to_ISIC4
 from ._standards.skd2002 import SKD2002, SKD2002_to_NACE2, SKD2002_to_SKD2008
 from ._standards.skd2008 import SKD2008, SKD2008_to_SKD2002
