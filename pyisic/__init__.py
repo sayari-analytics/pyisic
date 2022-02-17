@@ -5,7 +5,7 @@ from ._standards.isic4 import ISIC4
 from ._standards.isic31 import ISIC31, ISIC31_to_ISIC4
 from ._standards.jsic13 import JSIC13, JSIC13_to_ISIC4
 from ._standards.ksic10 import KSIC10, KSIC10_to_ISIC4
-from ._standards.nace2 import NACE2, NACE2_to_ISIC4, NACE2_to_NACEBEL2008
+from ._standards.nace2 import NACE2, NACE2_to_ISIC4
 from ._standards.nacebel2003 import NACEBEL2003, NACEBEL2003_to_NACEBEL2008
 from ._standards.nacebel2008 import (
     NACEBEL2008,
@@ -32,7 +32,7 @@ ToISIC4 = ComposedGraph(
         SKD2008_to_SKD2002,
         SKD2002_to_NACE2,
         CNAE2_to_ISIC4,
-        NACEBEL2008_to_NACEBEL2003,
+        NACEBEL2003_to_NACEBEL2008,
         NACEBEL2008_to_NACE2,
     ],
 )

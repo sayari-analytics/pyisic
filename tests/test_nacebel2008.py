@@ -1,20 +1,7 @@
 import pytest
 
-from pyisic import NACEBEL2008_to_NACE2, NACEBEL2008_to_NACEBEL2003
+from pyisic import NACEBEL2008_to_NACE2
 from pyisic.types import Standards
-
-
-@pytest.mark.parametrize(
-    "code,expected",
-    [
-        ("DOESNT EXIST", set()),
-        ("01110", {(Standards.NACEBEL2003, "01110"), (Standards.NACEBEL2003, "01121")}),
-        ("1031201", {(Standards.NACEBEL2003, "1531202")}),
-    ],
-)
-def test_nacebel2008_to_nacebel2003_concordance(code: str, expected: set):
-    """Test NACEBEL2008 to NACEBEL2003 sample concordances."""
-    assert NACEBEL2008_to_NACEBEL2003.concordant(code) == expected
 
 
 @pytest.mark.parametrize(
