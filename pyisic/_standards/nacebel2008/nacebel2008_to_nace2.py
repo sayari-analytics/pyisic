@@ -1,3 +1,8 @@
+"""`Concordance between NACEBEL2008 and NACE2 <https://economie.fgov.be/sites/default/files/Files/Entreprises/KBO/conversiontable-Nacebel-2003-2008.xls>`_.
+
+All the NACEBEL2008 codes that end in 0 and are 5 characters long directly map to a NACE2 code by removing the last 0
+and adding a dot (.) in the second position.
+"""
 from ...types import Concordance, Standards
 from ..nace2 import NACE2
 from . import NACEBEL2008

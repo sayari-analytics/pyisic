@@ -1,3 +1,5 @@
+"""`NACEBEL2008 Standard <https://economie.fgov.be/sites/default/files/Files/Entreprises/KBO/conversiontable-Nacebel-2003-2008.xls>`_.
+"""
 from ...types import Classification, Standard, Standards
 
 NACEBEL2008 = Standard(

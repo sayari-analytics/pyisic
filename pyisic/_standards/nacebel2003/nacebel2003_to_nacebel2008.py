@@ -1,3 +1,5 @@
+"""`Concordance between NACEBEL2003 and NACEBEL2008 <https://economie.fgov.be/sites/default/files/Files/Entreprises/KBO/conversiontable-Nacebel-2003-2008.xls>`_.
+"""
 from ...types import Concordance, Standards
 from ..nacebel2008 import NACEBEL2008
 from . import NACEBEL2003
