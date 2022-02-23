@@ -35,6 +35,8 @@ class Standards(_Enum):  # pragma: no cover
     CNAE2 = "CNAE2"
     NACEBEL2003 = "NACEBEL2003"
     NACEBEL2008 = "NACEBEL2008"
+    NAF1 = "NAF1"
+    NAF2 = "NAF2"
 
 
 @_dataclass
