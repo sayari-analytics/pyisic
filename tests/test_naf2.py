@@ -11,8 +11,8 @@ from pyisic.types import Standards
         ("DOESNT EXIST", set()),
         ("A", {(Standards.NACE2, "A")}),
         ("01", {(Standards.NACE2, "01")}),
-        ("15.12", {(Standards.NACE2, "15.12")}),
-        ("01.12Z", set()),
+        ("11.07", {(Standards.NACE2, "11.07")}),
+        ("11.07A", {(Standards.NACE2, "11.07")}),
     ],
 )
 def test_naf2_to_nace2_concordance(code: str, expected: set):
