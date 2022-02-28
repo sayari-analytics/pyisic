@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from ._standards.cnae2 import CNAE2, CNAE2_to_ISIC4
+from ._standards.gced2011 import GCED2011, GCED2011_to_NACE2
 from ._standards.isic3 import ISIC3, ISIC3_to_ISIC31
 from ._standards.isic4 import ISIC4
 from ._standards.isic31 import ISIC31, ISIC31_to_ISIC4
@@ -34,5 +35,6 @@ ToISIC4 = ComposedGraph(
         NACEBEL2008_to_NACE2,
         NAF1_to_NAF2,
         NAF2_to_NACE2,
+        GCED2011_to_NACE2,
     ],
 )

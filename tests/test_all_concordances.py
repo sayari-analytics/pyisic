@@ -21,6 +21,7 @@ import pyisic
         (pyisic.NACEBEL2008, pyisic.NACEBEL2008_to_NACE2, 0.2),
         (pyisic.NAF1, pyisic.NAF1_to_NAF2, 0.6),
         (pyisic.NAF2, pyisic.NAF2_to_NACE2, 1.0),
+        (pyisic.GCED2011, pyisic.GCED2011_to_NACE2, 0.5),
     ],
 )
 def test_minimum_concordance(standard, concordance, minimum: float):
@@ -46,6 +47,7 @@ def test_minimum_concordance(standard, concordance, minimum: float):
         pyisic.NACEBEL2008_to_NACE2,
         pyisic.NAF1_to_NAF2,
         pyisic.NAF2_to_NACE2,
+        pyisic.GCED2011_to_NACE2,
     ],
 )
 def test_to_isic4(standard):
