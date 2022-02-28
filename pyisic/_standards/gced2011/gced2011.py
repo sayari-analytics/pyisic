@@ -1,3 +1,5 @@
+"""`GCED2011 Standard <http://www.stat.kg/stat.files/class.files/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%93%D0%9A%D0%AD%D0%94-3.pdf>_`.
+"""
 from ...types import Category, Classification, Standard, Standards
 
 GCED2011 = Standard(
