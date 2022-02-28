@@ -1,6 +1,7 @@
 """`Concordance between GCED2011 and NACE2 <http://www.stat.kg/stat.files/class.files/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%20%D0%93%D0%9A%D0%AD%D0%94-3.pdf>_`.
 
-All GCED2011 codes that are 4 digits long or less map directly to the same NACE2 code.
+All GCED2011 codes that are 4 digits long or less map directly to the same NACE2 code, but not including two letter
+codes.
 """
 from ...types import Concordance, Standards
 from ..nace2 import NACE2
