@@ -1,3 +1,5 @@
+"""`NACE1 Standard <https://ec.europa.eu/eurostat/documents/1965800/1978760/Copy+of+5225C5EEBF016050E0440003BA9322F9.xls/6e1aec88-f15b-4d0f-bccc-4ee505c7f810>`_.
+"""
 from ...types import Category, Classification, Standard, Standards
 
 NACE1 = Standard(
