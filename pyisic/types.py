@@ -24,6 +24,7 @@ class Standards(_Enum):  # pragma: no cover
     ISIC3 = "ISIC3"
     ISIC31 = "ISIC31"
     ISIC4 = "ISIC4"
+    NACE1 = "NACE1"
     NACE2 = "NACE2"
     NAICS2017 = "NAICS2017"
     TSIC2552 = "TSIC2552"
