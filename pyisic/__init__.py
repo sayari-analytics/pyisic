@@ -6,6 +6,7 @@ from ._standards.isic4 import ISIC4
 from ._standards.isic31 import ISIC31, ISIC31_to_ISIC4
 from ._standards.jsic13 import JSIC13, JSIC13_to_ISIC4
 from ._standards.ksic10 import KSIC10, KSIC10_to_ISIC4
+from ._standards.nace1 import NACE1, NACE1_to_NACE2
 from ._standards.nace2 import NACE2, NACE2_to_ISIC4
 from ._standards.nacebel2003 import NACEBEL2003, NACEBEL2003_to_NACEBEL2008
 from ._standards.nacebel2008 import NACEBEL2008, NACEBEL2008_to_NACE2
@@ -36,5 +37,6 @@ ToISIC4 = ComposedGraph(
         NAF1_to_NAF2,
         NAF2_to_NACE2,
         GCED2011_to_NACE2,
+        NACE1_to_NACE2,
     ],
 )
