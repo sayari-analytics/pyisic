@@ -95,7 +95,7 @@ KSIC10_to_ISIC4 = Concordance(
         ((Standards.KSIC10, "35119"), (Standards.ISIC4, "3510")),
         ((Standards.KSIC10, "35200"), (Standards.ISIC4, "3520")),
         ((Standards.KSIC10, "35300"), (Standards.ISIC4, "3530")),
-        ((Standards.KSIC10, "06020"), (Standards.ISIC4, "3600")),
+        ((Standards.KSIC10, "36020"), (Standards.ISIC4, "3600")),
         ((Standards.KSIC10, "10112"), (Standards.ISIC4, "1010")),
         ((Standards.KSIC10, "10122"), (Standards.ISIC4, "1010")),
         ((Standards.KSIC10, "10121"), (Standards.ISIC4, "1010")),
