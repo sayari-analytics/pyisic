@@ -3352,7 +3352,6 @@ NACEBEL2003_to_NACEBEL2008 = Concordance(
         ((Standards.NACEBEL2003, "85130"), (Standards.NACEBEL2008, "86230")),
         ((Standards.NACEBEL2003, "85141"), (Standards.NACEBEL2008, "86901")),
         ((Standards.NACEBEL2003, "85142"), (Standards.NACEBEL2008, "86903")),
-        ((Standards.NACEBEL2003, ""), (Standards.NACEBEL2008, "")),
         ((Standards.NACEBEL2003, "85143"), (Standards.NACEBEL2008, "86909")),
         ((Standards.NACEBEL2003, "85143"), (Standards.NACEBEL2008, "86904")),
         ((Standards.NACEBEL2003, "85143"), (Standards.NACEBEL2008, "86905")),
