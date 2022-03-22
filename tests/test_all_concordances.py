@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+from collections import defaultdict
+
 import pytest
 
 import pyisic
@@ -78,6 +80,15 @@ def test_valid_concordance(concordance):
     def preprocess_standard_name(s):
         return str(s).split(".", 1)[1]
 
+    standard_to_codes = defaultdict(set)
+
     for (src_standard, src_code), (dst_standard, dst_code) in concordance.edges:
-        assert src_code in name_to_standard[preprocess_standard_name(src_standard)]
-        assert dst_code in name_to_standard[preprocess_standard_name(dst_standard)]
+        if src_code not in name_to_standard[preprocess_standard_name(src_standard)]:
+            standard_to_codes[preprocess_standard_name(src_standard)].add(src_code)
+
+        if dst_code not in name_to_standard[preprocess_standard_name(dst_standard)]:
+            standard_to_codes[preprocess_standard_name(dst_standard)].add(dst_code)
+
+    count = sum(len(codes) for codes in standard_to_codes.values())
+
+    assert not standard_to_codes, "There are {} invalid codes".format(count)
