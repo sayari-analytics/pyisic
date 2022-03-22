@@ -849,8 +849,6 @@ CNAE2_to_ISIC4 = Concordance(
         ((Standards.CNAE2, "60.1"), (Standards.ISIC4, "601")),
         ((Standards.CNAE2, "60.10-1"), (Standards.ISIC4, "6010")),
         ((Standards.CNAE2, "60.2"), (Standards.ISIC4, "602")),
-        ((Standards.CNAE2, "60.21-7"), (Standards.ISIC4, "6021")),
-        ((Standards.CNAE2, "60.22-5"), (Standards.ISIC4, "6022")),
         ((Standards.CNAE2, "61"), (Standards.ISIC4, "61")),
         ((Standards.CNAE2, "61.1"), (Standards.ISIC4, "611")),
         ((Standards.CNAE2, "61.10-8"), (Standards.ISIC4, "6110")),

@@ -9,8 +9,6 @@ NAICS2017_to_ISIC4 = Concordance(
     src=NAICS2017,
     dst=ISIC4,
     concordances=[
-        ((Standards.NAICS2017, "0"), (Standards.ISIC4, "9810")),
-        ((Standards.NAICS2017, "0"), (Standards.ISIC4, "9820")),
         ((Standards.NAICS2017, "111110"), (Standards.ISIC4, "0111")),
         ((Standards.NAICS2017, "111120"), (Standards.ISIC4, "0111")),
         ((Standards.NAICS2017, "111130"), (Standards.ISIC4, "0111")),
