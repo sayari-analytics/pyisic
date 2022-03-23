@@ -829,8 +829,6 @@ SKD2002_to_SKD2008 = Concordance(
         ((Standards.SKD2002, "62.100"), (Standards.SKD2008, "51.210")),
         ((Standards.SKD2002, "62.200"), (Standards.SKD2008, "51.100")),
         ((Standards.SKD2002, "62.200"), (Standards.SKD2008, "51.210")),
-        ((Standards.SKD2002, "62.300"), (Standards.SKD2008, "51.220")),
-        ((Standards.SKD2002, "62.300"), (Standards.SKD2008, "52.230")),
         ((Standards.SKD2002, "63.110"), (Standards.SKD2008, "52.240")),
         ((Standards.SKD2002, "63.120"), (Standards.SKD2008, "52.100")),
         ((Standards.SKD2002, "63.210"), (Standards.SKD2008, "52.210")),
@@ -1103,8 +1101,6 @@ SKD2002_to_SKD2008 = Concordance(
         ((Standards.SKD2002, "93.050"), (Standards.SKD2008, "96.090")),
         ((Standards.SKD2002, "93.050"), (Standards.SKD2008, "88.910")),
         ((Standards.SKD2002, "95.000"), (Standards.SKD2008, "97.000")),
-        ((Standards.SKD2002, "96.000"), (Standards.SKD2008, "98.100")),
-        ((Standards.SKD2002, "97.000"), (Standards.SKD2008, "98.200")),
         ((Standards.SKD2002, "99.000"), (Standards.SKD2008, "99.000")),
     ],
 )

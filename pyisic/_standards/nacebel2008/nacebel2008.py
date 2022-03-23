@@ -1529,7 +1529,6 @@ NACEBEL2008 = Standard(
         ),
         Classification("2825004", "Fabrication d'échangeurs de chaleur", Category.CLASS),
         Classification("2825005", "Fabrication de ventilateurs à usage non domestique", Category.CLASS),
-        Classification("2829", "(null)", Category.CLASS),
         Classification("28291", "Fabrication de machines à emballer", Category.CLASS),
         Classification(
             "2829101",
