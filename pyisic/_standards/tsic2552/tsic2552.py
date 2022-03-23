@@ -663,6 +663,7 @@ TSIC2552 = Standard(
         Classification(
             "25113", "Manufacture Of Doors, Windows, Sliding Doors, Fence Gates And Similar Products Of Metal"
         ),
+        Classification("25119", "Manufacture Of Other Structural Metal Products Which Are Not Classified Elsewhere"),
         Classification("1976", "Production Of Other Products With A Metal Structure"),
         Classification("1969", "Production Of Large Water Tanks Water Storage And Metal Containers"),
         Classification("25121", "Manufacture Of Boilers For Central Heating And Heat Spreader"),
@@ -671,6 +672,8 @@ TSIC2552 = Standard(
         Classification("1970", "Steam Generator Production (Except Boiler For Central Heating)"),
         Classification("25130", "Steam Generator Production (Except Boiler For Central Heating)"),
         Classification("252", "Manufacture Of Weapons And Ammunition"),
+        Classification("2520", "Manufacture Of Weapons And Ammunition"),
+        Classification("25201", "Production Of Ammunition And Explosives"),
         Classification("1977", "Manufacture Of Weapons And Ammunition"),
         Classification("1958", "Production Of Ammunition And Bombs"),
         Classification("25209", "Manufacture Of Heavy Weapons, Firearms And Other Weapons"),
@@ -781,7 +784,7 @@ TSIC2552 = Standard(
         Classification("275", "Production Of Household Appliances"),
         Classification("2750", "Production Of Household Appliances"),
         Classification("27501", "Production Of Household Electrical Appliances (Except Heated Type)"),
-        Classification("27002", "Production Of Heating Household Appliances"),
+        Classification("27502", "Production Of Heating Household Appliances"),
         Classification("27503", "Manufacture Of Non-Electric Household Appliances For Cooking And Heating"),
         Classification("279", "Other Electrical Equipment Manufacturing"),
         Classification("2790", "Other Electrical Equipment Manufacturing"),
