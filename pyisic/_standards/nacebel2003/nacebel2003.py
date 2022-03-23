@@ -2563,7 +2563,6 @@ NACEBEL2003 = Standard(
         ),
         Classification("2923004", "la fabrication d'échangeurs de chaleur", Category.CLASS),
         Classification("2923005", "la fabrication de ventilateurs à usage non domestique", Category.CLASS),
-        Classification("2924", "Fabrication d'autres machines d'usage général", Category.CLASS),
         Classification("29241", "Fabrication d'équipements d'emballage", Category.CLASS),
         Classification(
             "2924101",
