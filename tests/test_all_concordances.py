@@ -15,7 +15,7 @@ CONCORDANCE_TO_MINIMUM = {
     pyisic.SKD2002_to_NACE2: 1.0,
     pyisic.SKD2002_to_SKD2008: 0.9,
     pyisic.SKD2008_to_SKD2002: 0.3,
-    pyisic.CNAE2_to_ISIC4: 1.0,
+    pyisic.CNAE2_to_ISIC4: 0.9,
     pyisic.NACEBEL2003_to_NACEBEL2008: 1.0,
     pyisic.NACEBEL2008_to_NACE2: 0.2,
     pyisic.NAF1_to_NAF2: 0.6,
