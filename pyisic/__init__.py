@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from ._standards.ccnae2021 import CCNAE2021, CCNAE2021_to_ISIC4
 from ._standards.cnae2 import CNAE2, CNAE2_to_ISIC4
 from ._standards.gced2011 import GCED2011, GCED2011_to_NACE2
 from ._standards.isic3 import ISIC3, ISIC3_to_ISIC31
@@ -40,5 +41,6 @@ ToISIC4 = ComposedGraph(
         GCED2011_to_NACE2,
         NACE1_to_NACE2,
         SCIAN2018_to_ISIC4,
+        CCNAE2021_to_ISIC4,
     ],
 )

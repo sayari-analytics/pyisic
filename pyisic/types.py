@@ -40,6 +40,7 @@ class Standards(_Enum):  # pragma: no cover
     NAF2 = "NAF2"
     GCED2011 = "GCED2011"
     SCIAN2018 = "SCIAN2018"
+    CCNAE2021 = "CCNAE2021"
 
 
 @_dataclass
