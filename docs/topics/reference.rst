@@ -48,6 +48,10 @@ Standards
 
 .. automodule:: pyisic._standards.cnae2.cnae2
 
+.. automodule:: pyisic._standards.ccnae2021.ccnae2021
+
+.. automodule:: pyisic._standards.caem2005.caem2005
+
 Concordances
 ############
 
@@ -72,3 +76,7 @@ Concordances
 .. automodule:: pyisic._standards.skd2008.skd2008_to_skd2002
 
 .. automodule:: pyisic._standards.cnae2.cnae2_to_isic4
+
+.. automodule:: pyisic._standards.ccnae2021.ccnae2021_to_isic4
+
+.. automodule:: pyisic._standards.caem2005.caem2005_to_isic4
