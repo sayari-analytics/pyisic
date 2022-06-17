@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from ._standards.caem2005 import CAEM2005, CAEM2005_to_ISIC3
+from ._standards.caem2005 import CAEM2005, CAEM2005_to_CAEM2009, CAEM2005_to_ISIC3
 from ._standards.caem2009 import CAEM2009, CAEM2009_to_ISIC4
 from ._standards.ccnae2021 import CCNAE2021, CCNAE2021_to_ISIC4
 from ._standards.cnae2 import CNAE2, CNAE2_to_ISIC4
@@ -44,7 +44,8 @@ ToISIC4 = ComposedGraph(
         NACE1_to_NACE2,
         SCIAN2018_to_ISIC4,
         CCNAE2021_to_ISIC4,
-        CAEM2005_to_ISIC3,
+        CAEM2005_to_CAEM2009,
         CAEM2009_to_ISIC4,
+        CAEM2005_to_ISIC3,
     ],
 )

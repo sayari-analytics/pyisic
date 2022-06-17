@@ -1444,6 +1444,11 @@ CAEM2005 = Standard(
         Classification("50.5", "Comerţul cu amănuntul al carburanţilor", Category.GROUP),
         Classification("50.50", "Comerţul cu amănuntul al carburanţilor", Category.CLASS),
         Classification("50.50.0", "Comerţul cu amănuntul al carburanţilor", Category.SUBCLASS),
+        Classification(
+            "51",
+            "COMERŢ CU RIDICATA ŞI INTERMEDIERI, EXCLUSIV COMERŢUL CU AUTOVEHICULE ŞI MOTOCICLETE",
+            Category.DIVISION,
+        ),
         Classification("51.1", "Comerţul cu ridicata pe bază de tarife sau contracte", Category.GROUP),
         Classification(
             "51.11",
