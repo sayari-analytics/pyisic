@@ -12,9 +12,4 @@
    topics/usage
    topics/contributing
    topics/reference
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
+   api/_standards
