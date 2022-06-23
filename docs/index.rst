@@ -11,5 +11,4 @@
 
    topics/usage
    topics/contributing
-   topics/reference
-   api/_standards
+   api/pyisic
