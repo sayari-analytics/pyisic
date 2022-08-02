@@ -27,6 +27,7 @@ CONCORDANCE_TO_MINIMUM = {
     pyisic.CAEM2005_to_ISIC3: 0.99,
     pyisic.CAEM2009_to_ISIC4: 0.6,
     pyisic.CAEM2005_to_CAEM2009: 1.0,
+    pyisic.SBI2008_to_NACE2: 0.9,
 }
 
 # creates a mapping of the standard name to standard object
