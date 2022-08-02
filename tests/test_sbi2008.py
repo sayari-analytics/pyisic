@@ -10,7 +10,7 @@ from pyisic.types import Standards
     [
         ("DOESNT EXIST", set()),
         ("43221", {(Standards.NACE2, "43.22")}),
-        ("6240", {(Standards.NACE2, "62.40")}),
+        ("4617", {(Standards.NACE2, "46.17")}),
     ],
 )
 def test_sbi2008_to_nace2_concordance(code: str, expected: set):
