@@ -26,10 +26,10 @@ jobs:
       PYTHON: ${{ matrix.python-version }}
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v3
       with:
         python-version: ${{ matrix.python-version }}
 
@@ -38,7 +38,7 @@ jobs:
       run: echo "::set-output name=dir::$(pip cache dir)"
 
     - name: pip cache
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ${{ steps.pip-cache.outputs.dir }}
         key: ${{ runner.os }}-pip-py${{ matrix.python-version }}-${{ hashFiles('**/setup.py') }}
@@ -55,7 +55,7 @@ jobs:
         python scripts/data_artifacts.py
 
     - name: "Upload coverage to Codecov"
-      uses: codecov/codecov-action@v2
+      uses: codecov/codecov-action@v3
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
         files: ./coverage.xml
@@ -63,39 +63,31 @@ jobs:
         verbose: true
 
     - name: Upload data artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: data
         path: standards.json
 
   style:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        python-version: ["3.6", "3.7", "3.8", "3.9"]
-    env:
-      OS: ${{ matrix.os }}
-      PYTHON: ${{ matrix.python-version }}
-
+    runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v3
       with:
-        python-version: ${{ matrix.python-version }}
+        python-version: '3.8'
 
     - name: Get pip cache dir
       id: pip-cache
       run: echo "::set-output name=dir::$(pip cache dir)"
 
     - name: pip cache
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: ${{ steps.pip-cache.outputs.dir }}
-        key: ${{ runner.os }}-pip-precommit-py${{ matrix.python-version }}-${{ hashFiles('**/.pre-commit-config.yaml') }}
-        restore-keys: ${{ runner.os }}-pip-precommit-
+        key: ${{ runner.os }}-pip-precommit-py-${{ hashFiles('**/.pre-commit-config.yaml') }}
+        restore-keys: ${{ runner.os }}-pip-precommit-py-${{ hashFiles('**/.pre-commit-config.yaml') }}
 
     - name: Install pre-commit
       run: |
