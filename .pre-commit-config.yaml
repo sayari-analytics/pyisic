@@ -35,9 +35,10 @@ repos:
         exclude: \.(html|svg)$
 
   - repo: https://github.com/pycqa/flake8
-    rev: 5.0.0
+    rev: 3.8.4
     hooks:
       - id: flake8
+        exclude: deprecated/
         additional_dependencies:
           - flake8-2020
           - flake8-bugbear
