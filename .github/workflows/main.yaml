@@ -76,7 +76,7 @@ jobs:
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v3
       with:
-        python-version: ${{ matrix.python-version }}
+        python-version: '3.8.12'
 
     - name: Get pip cache dir
       id: pip-cache
@@ -86,8 +86,8 @@ jobs:
       uses: actions/cache@v3
       with:
         path: ${{ steps.pip-cache.outputs.dir }}
-        key: ${{ runner.os }}-pip-precommit-py${{ matrix.python-version }}-${{ hashFiles('**/.pre-commit-config.yaml') }}
-        restore-keys: ${{ runner.os }}-pip-precommit-py${{ matrix.python-version }}-${{ hashFiles('**/.pre-commit-config.yaml') }}
+        key: ${{ runner.os }}-pip-precommit-py-${{ hashFiles('**/.pre-commit-config.yaml') }}
+        restore-keys: ${{ runner.os }}-pip-precommit-py-${{ hashFiles('**/.pre-commit-config.yaml') }}
 
     - name: Install pre-commit
       run: |
