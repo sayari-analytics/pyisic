@@ -95,7 +95,7 @@ jobs:
       with:
         path: ${{ steps.pip-cache.outputs.dir }}
         key: ${{ runner.os }}-pip-precommit-py${{ matrix.python-version }}-${{ hashFiles('**/.pre-commit-config.yaml') }}
-        restore-keys: ${{ runner.os }}-pip-precommit-
+        restore-keys: ${{ runner.os }}-pip-precommit-py${{ matrix.python-version }}-${{ hashFiles('**/.pre-commit-config.yaml') }}
 
     - name: Install pre-commit
       run: |
