@@ -45,6 +45,7 @@ class Standards(_Enum):  # pragma: no cover
     CAEM2009 = "CAEM2009"
     SBI2008 = "SBI2008"
     SIC = "SIC"
+    SSIC2020 = "SSIC2020"
 
 
 @_dataclass
