@@ -1,4 +1,4 @@
-"""`Concordance between SSIC2020 and ISIC4 <link>`_."""
+"""`Concordance between SSIC2020 and ISIC4 <https://www.singstat.gov.sg/-/media/files/standards_and_classifications/industrial_classification/correspondence-tables-between-ssic2020-isicrev4.ashx>`_."""
 from ...types import Concordance, Standards
 from ..isic4 import ISIC4
 from . import SSIC2020
