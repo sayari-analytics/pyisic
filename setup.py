@@ -18,7 +18,7 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/sayari-analytics/pyisic/issues",
     },
     packages=setuptools.find_packages(exclude=("tests")),
-    install_requires=["networkx"],
+    install_requires=["networkx>=2.5"],
     extras_require={"dev": ["pytest", "pytest-cov", "black", "pre-commit", "sphinx", "sphinx_rtd_theme"]},
     python_requires=">=3.6",
     license="MIT",
@@ -32,6 +32,7 @@ setuptools.setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
         "Operating System :: OS Independent",
     ],
 )
