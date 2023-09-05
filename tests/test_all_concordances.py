@@ -83,8 +83,8 @@ def test_minimum_concordance(concordance, minimum: float):
 )
 def test_to_isic4(standard):
     """Ensure all nodes and relationships are included in the ToISIC4 graph."""
-    assert all([n in pyisic.ToISIC4 for n in standard.nodes])
-    assert all([e in pyisic.ToISIC4.edges for e in standard.edges])
+    assert all(n in pyisic.ToISIC4 for n in standard.nodes)
+    assert all(e in pyisic.ToISIC4.edges for e in standard.edges)
 
 
 @pytest.mark.parametrize("concordance", CONCORDANCE_TO_MINIMUM.keys(), ids=calc_id)
