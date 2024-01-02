@@ -46,6 +46,7 @@ class Standards(_Enum):  # pragma: no cover
     SBI2008 = "SBI2008"
     SIC = "SIC"
     SSIC2020 = "SSIC2020"
+    PKD2007 = "PKD2007"
 
 
 @_dataclass
