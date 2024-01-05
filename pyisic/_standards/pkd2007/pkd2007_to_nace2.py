@@ -1655,5 +1655,5 @@ PKD2007_to_NACE2 = Concordance(
         ((Standards.PKD2007, "99.0"), (Standards.NACE2, "99.0")),
         ((Standards.PKD2007, "99.00"), (Standards.NACE2, "99.00")),
         ((Standards.PKD2007, "99.00.Z"), (Standards.NACE2, "99.00")),
-    ]
+    ],
 )

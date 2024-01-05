@@ -9,12 +9,20 @@ PKD2007 = Standard(
         Classification("A", "AGRICULTURE, FORESTRY, HUNTING AND FISHING", Category.SECTION),
         Classification("01", "CROP AND ANIMAL PRODUCTION, HUNTING, INCLUDING SERVICE ACTIVITIES", Category.DIVISION),
         Classification("01.1", "Growing of non-perennial crops", Category.GROUP),
-        Classification("01.11", "Growing of cereals, leguminous crops and oil plants, for seeds, except rice", Category.CLASS),
-        Classification("01.11.Z", "Growing of cereals, leguminous crops and oil plants, for seeds, except rice", Category.SUBCLASS),
+        Classification(
+            "01.11", "Growing of cereals, leguminous crops and oil plants, for seeds, except rice", Category.CLASS
+        ),
+        Classification(
+            "01.11.Z", "Growing of cereals, leguminous crops and oil plants, for seeds, except rice", Category.SUBCLASS
+        ),
         Classification("01.12", "Growing of rice", Category.CLASS),
         Classification("01.12.Z", "Growing of rice", Category.SUBCLASS),
-        Classification("01.13", "Growing of vegetables, including melons, and growing of roots and tubers", Category.CLASS),
-        Classification("01.13.Z", "Growing of vegetables, including melons, and of roots and tubers", Category.SUBCLASS),
+        Classification(
+            "01.13", "Growing of vegetables, including melons, and growing of roots and tubers", Category.CLASS
+        ),
+        Classification(
+            "01.13.Z", "Growing of vegetables, including melons, and of roots and tubers", Category.SUBCLASS
+        ),
         Classification("01.14", "Growing of sugar cane", Category.CLASS),
         Classification("01.14.Z", "Growing of sugar cane", Category.SUBCLASS),
         Classification("01.15", "Growing of tobacco", Category.CLASS),
@@ -62,9 +70,15 @@ PKD2007 = Standard(
         Classification("01.47.Z", "Raising of poultry", Category.SUBCLASS),
         Classification("01.49", "Raising of other animals", Category.CLASS),
         Classification("01.49.Z", "Raising of other animals", Category.SUBCLASS),
-        Classification("01.5", "Agricultural cultivation together with raising of animals (mixed activity)", Category.GROUP),
-        Classification("01.50", "Agricultural cultivation together with raising of animals (mixed activity)", Category.CLASS),
-        Classification("01.50.Z", "Agricultural cultivation together with raising of animals (mixed activity)", Category.SUBCLASS),
+        Classification(
+            "01.5", "Agricultural cultivation together with raising of animals (mixed activity)", Category.GROUP
+        ),
+        Classification(
+            "01.50", "Agricultural cultivation together with raising of animals (mixed activity)", Category.CLASS
+        ),
+        Classification(
+            "01.50.Z", "Agricultural cultivation together with raising of animals (mixed activity)", Category.SUBCLASS
+        ),
         Classification("01.6", "Support activities to agriculture and post-harvest crop activities", Category.GROUP),
         Classification("01.61", "Support activities for crop production", Category.CLASS),
         Classification("01.61.Z", "Support activities for crop production", Category.SUBCLASS),
@@ -76,11 +90,25 @@ PKD2007 = Standard(
         Classification("01.64.Z", "Seed processing for propagation", Category.SUBCLASS),
         Classification("01.7", "Hunting and acquiring of hunting animals, including service activity", Category.GROUP),
         Classification("01.70", "Hunting and acquiring of hunting animals, including service activity", Category.CLASS),
-        Classification("01.70.Z", "Hunting and acquiring of hunting animals, including service activity", Category.SUBCLASS),
+        Classification(
+            "01.70.Z", "Hunting and acquiring of hunting animals, including service activity", Category.SUBCLASS
+        ),
         Classification("02", "FORESTRY AND LOGGING", Category.DIVISION),
-        Classification("02.1", "Silviculture and other forestry activities, excluding gathering of forestry products", Category.GROUP),
-        Classification("02.10", "Silviculture and other forestry activities, excluding gathering of forestry products", Category.CLASS),
-        Classification("02.10.Z", "Silviculture and other forestry activities, excluding gathering of forestry products", Category.SUBCLASS),
+        Classification(
+            "02.1",
+            "Silviculture and other forestry activities, excluding gathering of forestry products",
+            Category.GROUP,
+        ),
+        Classification(
+            "02.10",
+            "Silviculture and other forestry activities, excluding gathering of forestry products",
+            Category.CLASS,
+        ),
+        Classification(
+            "02.10.Z",
+            "Silviculture and other forestry activities, excluding gathering of forestry products",
+            Category.SUBCLASS,
+        ),
         Classification("02.2", "Logging", Category.GROUP),
         Classification("02.20", "Logging", Category.CLASS),
         Classification("02.20.Z", "Logging", Category.SUBCLASS),
@@ -127,13 +155,23 @@ PKD2007 = Standard(
         Classification("07.29.Z", "Mining of other non-ferrous metal ores", Category.SUBCLASS),
         Classification("08", "OTHER MINING AND QUARRYING", Category.DIVISION),
         Classification("08.1", "Quarrying of stone, sand and clay", Category.GROUP),
-        Classification("08.11", "Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate", Category.CLASS),
-        Classification("08.11.Z", "Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate", Category.SUBCLASS),
+        Classification(
+            "08.11", "Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate", Category.CLASS
+        ),
+        Classification(
+            "08.11.Z",
+            "Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate",
+            Category.SUBCLASS,
+        ),
         Classification("08.12", "Operation of gravel and sand pits; mining of clays and kaolin", Category.CLASS),
         Classification("08.12.Z", "Operation of gravel and sand pits; mining of clays and kaolin", Category.SUBCLASS),
         Classification("08.9", "Mining and quarrying not elsewhere classified", Category.GROUP),
-        Classification("08.91", "Mining of minerals for chemical industry and for production of fertilizers", Category.CLASS),
-        Classification("08.91.Z", "Mining of minerals for chemical industry and for production of fertilizers", Category.SUBCLASS),
+        Classification(
+            "08.91", "Mining of minerals for chemical industry and for production of fertilizers", Category.CLASS
+        ),
+        Classification(
+            "08.91.Z", "Mining of minerals for chemical industry and for production of fertilizers", Category.SUBCLASS
+        ),
         Classification("08.92", "Extraction of peat", Category.CLASS),
         Classification("08.92.Z", "Extraction of peat", Category.SUBCLASS),
         Classification("08.93", "Extraction of salt", Category.CLASS),
@@ -183,11 +221,25 @@ PKD2007 = Standard(
         Classification("10.62.Z", "Manufacture of starches and starch products", Category.SUBCLASS),
         Classification("10.7", "Manufacture of bakery and farinaceous products", Category.GROUP),
         Classification("10.71", "Manufacture of bread; manufacture of fresh pastry goods and cakes", Category.CLASS),
-        Classification("10.71.Z", "Manufacture of bread; manufacture of fresh pastry goods and cakes", Category.SUBCLASS),
-        Classification("10.72", "Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes", Category.CLASS),
-        Classification("10.72.Z", "Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes", Category.SUBCLASS),
-        Classification("10.73", "Manufacture of macaroni, noodles, couscous and similar farinaceous products", Category.CLASS),
-        Classification("10.73.Z", "Manufacture of macaroni, noodles, couscous and similar farinaceous products", Category.SUBCLASS),
+        Classification(
+            "10.71.Z", "Manufacture of bread; manufacture of fresh pastry goods and cakes", Category.SUBCLASS
+        ),
+        Classification(
+            "10.72",
+            "Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes",
+            Category.CLASS,
+        ),
+        Classification(
+            "10.72.Z",
+            "Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "10.73", "Manufacture of macaroni, noodles, couscous and similar farinaceous products", Category.CLASS
+        ),
+        Classification(
+            "10.73.Z", "Manufacture of macaroni, noodles, couscous and similar farinaceous products", Category.SUBCLASS
+        ),
         Classification("10.8", "Manufacture of other food products", Category.GROUP),
         Classification("10.81", "Manufacture of sugar", Category.CLASS),
         Classification("10.81.Z", "Manufacture of sugar", Category.SUBCLASS),
@@ -222,8 +274,14 @@ PKD2007 = Standard(
         Classification("11.05.Z", "Manufacture of beer", Category.SUBCLASS),
         Classification("11.06", "Manufacture of malt", Category.CLASS),
         Classification("11.06.Z", "Manufacture of malt", Category.SUBCLASS),
-        Classification("11.07", "Manufacture of soft drinks; production of mineral waters and other bottled waters", Category.CLASS),
-        Classification("11.07.Z", "Manufacture of soft drinks; production of mineral waters and other bottled waters", Category.SUBCLASS),
+        Classification(
+            "11.07", "Manufacture of soft drinks; production of mineral waters and other bottled waters", Category.CLASS
+        ),
+        Classification(
+            "11.07.Z",
+            "Manufacture of soft drinks; production of mineral waters and other bottled waters",
+            Category.SUBCLASS,
+        ),
         Classification("12", "MANUFACTURE OF TOBACCO PRODUCTS", Category.DIVISION),
         Classification("12.0", "Manufacture of tobacco products", Category.GROUP),
         Classification("12.00", "Manufacture of tobacco products", Category.CLASS),
@@ -234,7 +292,11 @@ PKD2007 = Standard(
         Classification("13.10.A", "Manufacture of cotton yarn", Category.SUBCLASS),
         Classification("13.10.B", "Manufacture of wool yarn", Category.SUBCLASS),
         Classification("13.10.C", "Manufacture of man-made fibres yarn", Category.SUBCLASS),
-        Classification("13.10.D", "Manufacture of yarn from other textile fibres, including manufacture of sewing thread", Category.SUBCLASS),
+        Classification(
+            "13.10.D",
+            "Manufacture of yarn from other textile fibres, including manufacture of sewing thread",
+            Category.SUBCLASS,
+        ),
         Classification("13.2", "Manufacture of woven fabrics", Category.GROUP),
         Classification("13.20", "Manufacture of woven fabrics", Category.CLASS),
         Classification("13.20.A", "Manufacture of cotton woven fabrics", Category.SUBCLASS),
@@ -253,8 +315,12 @@ PKD2007 = Standard(
         Classification("13.93.Z", "Manufacture of carpets and rugs", Category.SUBCLASS),
         Classification("13.94", "Manufacture of cordage, rope, twine and netting", Category.CLASS),
         Classification("13.94.Z", "Manufacture of cordage, rope, twine and netting", Category.SUBCLASS),
-        Classification("13.95", "Manufacture of non-wovens and articles made from non-wovens, except apparel", Category.CLASS),
-        Classification("13.95.Z", "Manufacture of non-wovens and articles made from non-wovens, except apparel", Category.SUBCLASS),
+        Classification(
+            "13.95", "Manufacture of non-wovens and articles made from non-wovens, except apparel", Category.CLASS
+        ),
+        Classification(
+            "13.95.Z", "Manufacture of non-wovens and articles made from non-wovens, except apparel", Category.SUBCLASS
+        ),
         Classification("13.96", "Manufacture of other technical and industrial textiles", Category.CLASS),
         Classification("13.96.Z", "Manufacture of other technical and industrial textiles", Category.SUBCLASS),
         Classification("13.99", "Manufacture of other textiles not elsewhere classified", Category.CLASS),
@@ -280,15 +346,31 @@ PKD2007 = Standard(
         Classification("14.39", "Manufacture of other knitted and crocheted apparel", Category.CLASS),
         Classification("14.39.Z", "Manufacture of other knitted and crocheted apparel", Category.SUBCLASS),
         Classification("15", "MANUFACTURE OF LEATHER AND RELATED PRODUCTS", Category.DIVISION),
-        Classification("15.1", "Tanning and dressing of leather; dressing and dyeing of fur; manufacture of luggage, handbags and similar leather goods; manufacture of saddlery", Category.GROUP),
+        Classification(
+            "15.1",
+            "Tanning and dressing of leather; dressing and dyeing of fur; manufacture of luggage, handbags and similar leather goods; manufacture of saddlery",
+            Category.GROUP,
+        ),
         Classification("15.11", "Tanning and dressing of leather; dressing and dyeing of fur", Category.CLASS),
         Classification("15.11.Z", "Tanning and dressing of leather; dressing and dyeing of fur", Category.SUBCLASS),
-        Classification("15.12", "Manufacture of luggage, handbags and similar leather goods; manufacture of saddlery ", Category.CLASS),
-        Classification("15.12.Z", "Manufacture of luggage, handbags and similar leather goods; manufacture of saddlery", Category.SUBCLASS),
+        Classification(
+            "15.12",
+            "Manufacture of luggage, handbags and similar leather goods; manufacture of saddlery ",
+            Category.CLASS,
+        ),
+        Classification(
+            "15.12.Z",
+            "Manufacture of luggage, handbags and similar leather goods; manufacture of saddlery",
+            Category.SUBCLASS,
+        ),
         Classification("15.2", "Manufacture of footwear", Category.GROUP),
         Classification("15.20", "Manufacture of footwear", Category.CLASS),
         Classification("15.20.Z", "Manufacture of footwear", Category.SUBCLASS),
-        Classification("16", "MANUFACTURE OF PRODUCTS OF WOOD AND CORK, EXCEPT FURNITURE; MANUFACTURE OF ARTICLES OF STRAW AND PLAITING MATERIALS", Category.DIVISION),
+        Classification(
+            "16",
+            "MANUFACTURE OF PRODUCTS OF WOOD AND CORK, EXCEPT FURNITURE; MANUFACTURE OF ARTICLES OF STRAW AND PLAITING MATERIALS",
+            Category.DIVISION,
+        ),
         Classification("16.1", "Sawmilling and planing of wood", Category.GROUP),
         Classification("16.10", "Sawmilling and planing of wood", Category.CLASS),
         Classification("16.10.Z", "Sawmilling and planing of wood", Category.SUBCLASS),
@@ -301,8 +383,16 @@ PKD2007 = Standard(
         Classification("16.23.Z", "Manufacture of other builders' carpentry and joinery", Category.SUBCLASS),
         Classification("16.24", "Manufacture of wooden containers", Category.CLASS),
         Classification("16.24.Z", "Manufacture of wooden containers", Category.SUBCLASS),
-        Classification("16.29", "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials", Category.CLASS),
-        Classification("16.29.Z", "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials", Category.SUBCLASS),
+        Classification(
+            "16.29",
+            "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials",
+            Category.CLASS,
+        ),
+        Classification(
+            "16.29.Z",
+            "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials",
+            Category.SUBCLASS,
+        ),
         Classification("17", "MANUFACTURE OF PAPER AND PAPER PRODUCTS", Category.DIVISION),
         Classification("17.1", "Manufacture of pulp, paper and paperboard", Category.GROUP),
         Classification("17.11", "Manufacture of pulp", Category.CLASS),
@@ -310,10 +400,20 @@ PKD2007 = Standard(
         Classification("17.12", "Manufacture of paper and paperboard", Category.CLASS),
         Classification("17.12.Z", "Manufacture of paper and paperboard", Category.SUBCLASS),
         Classification("17.2", "Manufacture of articles of paper and paperboard ", Category.GROUP),
-        Classification("17.21", "Manufacture of corrugated paper and paperboard and of containers of paper and paperboard", Category.CLASS),
-        Classification("17.21.Z", "Manufacture of corrugated paper and paperboard and of containers of paper and paperboard", Category.SUBCLASS),
+        Classification(
+            "17.21",
+            "Manufacture of corrugated paper and paperboard and of containers of paper and paperboard",
+            Category.CLASS,
+        ),
+        Classification(
+            "17.21.Z",
+            "Manufacture of corrugated paper and paperboard and of containers of paper and paperboard",
+            Category.SUBCLASS,
+        ),
         Classification("17.22", "Manufacture of household and sanitary goods and of toilet requisites", Category.CLASS),
-        Classification("17.22.Z", "Manufacture of household and sanitary goods and of toilet requisites", Category.SUBCLASS),
+        Classification(
+            "17.22.Z", "Manufacture of household and sanitary goods and of toilet requisites", Category.SUBCLASS
+        ),
         Classification("17.23", "Manufacture of paper stationery", Category.CLASS),
         Classification("17.23.Z", "Manufacture of paper stationery", Category.SUBCLASS),
         Classification("17.24", "Manufacture of wallpaper", Category.CLASS),
@@ -341,7 +441,11 @@ PKD2007 = Standard(
         Classification("19.20", "Manufacture and processing of refind petroleum products", Category.CLASS),
         Classification("19.20.Z", "Manufacture and processing of refind petroleum products", Category.SUBCLASS),
         Classification("20", "MANUFACTURE OF CHEMICALS AND CHEMICAL PRODUCTS", Category.DIVISION),
-        Classification("20.1", "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms", Category.GROUP),
+        Classification(
+            "20.1",
+            "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms",
+            Category.GROUP,
+        ),
         Classification("20.11", "Manufacture of industrial gases", Category.CLASS),
         Classification("20.11.Z", "Manufacture of industrial gases", Category.SUBCLASS),
         Classification("20.12", "Manufacture of dyes and pigments", Category.CLASS),
@@ -359,12 +463,28 @@ PKD2007 = Standard(
         Classification("20.2", "Manufacture of pesticides and other agrochemical products", Category.GROUP),
         Classification("20.20", "Manufacture of pesticides and other agrochemical products", Category.CLASS),
         Classification("20.20.Z", "Manufacture of pesticides and other agrochemical products", Category.SUBCLASS),
-        Classification("20.3", "Manufacture of paints, varnishes and similar coatings, printing ink and mastics", Category.GROUP),
-        Classification("20.30", "Manufacture of paints, varnishes and similar coatings, printing ink and mastics", Category.CLASS),
-        Classification("20.30.Z", "Manufacture of paints, varnishes and similar coatings, printing ink and mastics", Category.SUBCLASS),
-        Classification("20.4", "Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations", Category.GROUP),
-        Classification("20.41", "Manufacture of soap and detergents, cleaning and polishing preparations", Category.CLASS),
-        Classification("20.41.Z", "Manufacture of soap and detergents, cleaning and polishing preparations", Category.SUBCLASS),
+        Classification(
+            "20.3", "Manufacture of paints, varnishes and similar coatings, printing ink and mastics", Category.GROUP
+        ),
+        Classification(
+            "20.30", "Manufacture of paints, varnishes and similar coatings, printing ink and mastics", Category.CLASS
+        ),
+        Classification(
+            "20.30.Z",
+            "Manufacture of paints, varnishes and similar coatings, printing ink and mastics",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "20.4",
+            "Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",
+            Category.GROUP,
+        ),
+        Classification(
+            "20.41", "Manufacture of soap and detergents, cleaning and polishing preparations", Category.CLASS
+        ),
+        Classification(
+            "20.41.Z", "Manufacture of soap and detergents, cleaning and polishing preparations", Category.SUBCLASS
+        ),
         Classification("20.42", "Manufacture of perfumes and toilet preparations", Category.CLASS),
         Classification("20.42.Z", "Manufacture of perfumes and toilet preparations", Category.SUBCLASS),
         Classification("20.5", "Manufacture of other chemical products", Category.GROUP),
@@ -375,11 +495,17 @@ PKD2007 = Standard(
         Classification("20.53", "Manufacture of essential oils", Category.CLASS),
         Classification("20.53.Z", "Manufacture of essential oils", Category.SUBCLASS),
         Classification("20.59", "Manufacture of other chemical products not elsewhere classified ", Category.CLASS),
-        Classification("20.59.Z", "Manufacture of other chemical products not elsewhere classified ", Category.SUBCLASS),
+        Classification(
+            "20.59.Z", "Manufacture of other chemical products not elsewhere classified ", Category.SUBCLASS
+        ),
         Classification("20.6", "Manufacture of man-made fibres", Category.GROUP),
         Classification("20.60", "Manufacture of man-made fibres", Category.CLASS),
         Classification("20.60.Z", "Manufacture of man-made fibres", Category.SUBCLASS),
-        Classification("21", "MANUFACTURE OF BASIC PHARMACEUTICAL SUBSTANCES AND MEDICINES AND OTHER PHARMACEUTICAL PRODUCTS", Category.DIVISION),
+        Classification(
+            "21",
+            "MANUFACTURE OF BASIC PHARMACEUTICAL SUBSTANCES AND MEDICINES AND OTHER PHARMACEUTICAL PRODUCTS",
+            Category.DIVISION,
+        ),
         Classification("21.1", "Manufacture of basic pharmaceutical substances", Category.GROUP),
         Classification("21.10", "Manufacture of basic pharmaceutical substances", Category.CLASS),
         Classification("21.10.Z", "Manufacture of basic pharmaceutical substances", Category.SUBCLASS),
@@ -388,8 +514,14 @@ PKD2007 = Standard(
         Classification("21.20.Z", "Manufacture of  medicines and other pharmaceutical products", Category.SUBCLASS),
         Classification("22", "MANUFACTURE OF RUBBER AND PLASTIC PRODUCTS", Category.DIVISION),
         Classification("22.1", "Manufacture of rubber products", Category.GROUP),
-        Classification("22.11", "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres", Category.CLASS),
-        Classification("22.11.Z", "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres", Category.SUBCLASS),
+        Classification(
+            "22.11", "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres", Category.CLASS
+        ),
+        Classification(
+            "22.11.Z",
+            "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres",
+            Category.SUBCLASS,
+        ),
         Classification("22.19", "Manufacture of other rubber products", Category.CLASS),
         Classification("22.19.Z", "Manufacture of other rubber products", Category.SUBCLASS),
         Classification("22.2", "Manufacture of plastic products", Category.GROUP),
@@ -411,16 +543,24 @@ PKD2007 = Standard(
         Classification("23.13.Z", "Manufacture of hollow glass", Category.SUBCLASS),
         Classification("23.14", "Manufacture of glass fibres", Category.CLASS),
         Classification("23.14.Z", "Manufacture of glass fibres", Category.SUBCLASS),
-        Classification("23.19", "Manufacture and processing of other glass, including technical glassware", Category.CLASS),
-        Classification("23.19.Z", "Manufacture and processing of other glass, including technical glassware", Category.SUBCLASS),
+        Classification(
+            "23.19", "Manufacture and processing of other glass, including technical glassware", Category.CLASS
+        ),
+        Classification(
+            "23.19.Z", "Manufacture and processing of other glass, including technical glassware", Category.SUBCLASS
+        ),
         Classification("23.2", "Manufacture of refractory products", Category.GROUP),
         Classification("23.20", "Manufacture of refractory products", Category.CLASS),
         Classification("23.20.Z", "Manufacture of refractory products", Category.SUBCLASS),
         Classification("23.3", "Manufacture of ceramic building materials", Category.GROUP),
         Classification("23.31", "Manufacture of ceramic tiles and flags", Category.CLASS),
         Classification("23.31.Z", "Manufacture of ceramic tiles and flags", Category.SUBCLASS),
-        Classification("23.32", "Manufacture of bricks, tiles and construction products, in baked clay", Category.CLASS),
-        Classification("23.32.Z", "Manufacture of bricks, tiles and construction products, in baked clay", Category.SUBCLASS),
+        Classification(
+            "23.32", "Manufacture of bricks, tiles and construction products, in baked clay", Category.CLASS
+        ),
+        Classification(
+            "23.32.Z", "Manufacture of bricks, tiles and construction products, in baked clay", Category.SUBCLASS
+        ),
         Classification("23.4", "Manufacture of other porcelain and ceramic products", Category.GROUP),
         Classification("23.41", "Manufacture of ceramic tableware and ornamental articles", Category.CLASS),
         Classification("23.41.Z", "Manufacture of ceramic tableware and ornamental articles", Category.SUBCLASS),
@@ -453,18 +593,52 @@ PKD2007 = Standard(
         Classification("23.7", "Cutting, shaping and finishing of stone", Category.GROUP),
         Classification("23.70", "Cutting, shaping and finishing of stone", Category.CLASS),
         Classification("23.70.Z", "Cutting, shaping and finishing of stone", Category.SUBCLASS),
-        Classification("23.9", "Manufacture of abrasive products and others non-metallic mineral products not elsewhere classified ", Category.GROUP),
+        Classification(
+            "23.9",
+            "Manufacture of abrasive products and others non-metallic mineral products not elsewhere classified ",
+            Category.GROUP,
+        ),
         Classification("23.91", "Production of abrasive products", Category.CLASS),
         Classification("23.91.Z", "Production of abrasive products", Category.SUBCLASS),
-        Classification("23.99", "Manufacture of abrasive products and others non-metallic mineral products not elsewhere classified ", Category.CLASS),
-        Classification("23.99.Z", "Manufacture of abrasive products and others non-metallic mineral products not elsewhere classified ", Category.SUBCLASS),
+        Classification(
+            "23.99",
+            "Manufacture of abrasive products and others non-metallic mineral products not elsewhere classified ",
+            Category.CLASS,
+        ),
+        Classification(
+            "23.99.Z",
+            "Manufacture of abrasive products and others non-metallic mineral products not elsewhere classified ",
+            Category.SUBCLASS,
+        ),
         Classification("24", "MANUFACTURE OF METALS", Category.DIVISION),
-        Classification("24.1", "Manufacture of pig iron, ferro-alloys, basic iron and steel and metallurgic articles", Category.GROUP),
-        Classification("24.10", "Manufacture of pig iron, ferro-alloys, basic iron and steel and metallurgic articles", Category.CLASS),
-        Classification("24.10.Z", "Manufacture of pig iron, ferro-alloys, basic iron and steel and metallurgic articles", Category.SUBCLASS),
-        Classification("24.2", "Manufacture of tubes and pipes, conduits, closed sections and connectors, of steel", Category.GROUP),
-        Classification("24.20", "Manufacture of tubes and pipes, conduits, closed sections and connectors, of steel", Category.CLASS),
-        Classification("24.20.Z", "Manufacture of tubes and pipes, conduits, closed sections and connectors, of steel", Category.SUBCLASS),
+        Classification(
+            "24.1",
+            "Manufacture of pig iron, ferro-alloys, basic iron and steel and metallurgic articles",
+            Category.GROUP,
+        ),
+        Classification(
+            "24.10",
+            "Manufacture of pig iron, ferro-alloys, basic iron and steel and metallurgic articles",
+            Category.CLASS,
+        ),
+        Classification(
+            "24.10.Z",
+            "Manufacture of pig iron, ferro-alloys, basic iron and steel and metallurgic articles",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "24.2", "Manufacture of tubes and pipes, conduits, closed sections and connectors, of steel", Category.GROUP
+        ),
+        Classification(
+            "24.20",
+            "Manufacture of tubes and pipes, conduits, closed sections and connectors, of steel",
+            Category.CLASS,
+        ),
+        Classification(
+            "24.20.Z",
+            "Manufacture of tubes and pipes, conduits, closed sections and connectors, of steel",
+            Category.SUBCLASS,
+        ),
         Classification("24.3", "Manufacture of other products of first processing of steel", Category.GROUP),
         Classification("24.31", "Cold drawing of bars", Category.CLASS),
         Classification("24.31.Z", "Cold drawing of bars", Category.SUBCLASS),
@@ -498,7 +672,9 @@ PKD2007 = Standard(
         Classification("24.54", "Casting of other non-ferrous metals", Category.CLASS),
         Classification("24.54.A", "Casting of copper and copper alloy", Category.SUBCLASS),
         Classification("24.54.B", "Casting of other non-ferrous metals not elsewhere classified ", Category.SUBCLASS),
-        Classification("25", "MANUFACTURE OF FABRICATED METAL PRODUCTS, EXCEPT MACHINERY AND EQUIPMENT", Category.DIVISION),
+        Classification(
+            "25", "MANUFACTURE OF FABRICATED METAL PRODUCTS, EXCEPT MACHINERY AND EQUIPMENT", Category.DIVISION
+        ),
         Classification("25.1", "Manufacture of structural metal products", Category.GROUP),
         Classification("25.11", "Manufacture of metal structures and parts of structures", Category.CLASS),
         Classification("25.11.Z", "Manufacture of metal structures and parts of structures", Category.SUBCLASS),
@@ -509,15 +685,27 @@ PKD2007 = Standard(
         Classification("25.21.Z", "Manufacture of central heating radiators and boilers", Category.SUBCLASS),
         Classification("25.29", "Manufacture of other tanks, reservoirs and containers of metal", Category.CLASS),
         Classification("25.29.Z", "Manufacture of other tanks, reservoirs and containers of metal", Category.SUBCLASS),
-        Classification("25.3", "Manufacture of steam generators, except central heating hot water boilers", Category.GROUP),
-        Classification("25.30", "Manufacture of steam generators, except central heating hot water boilers", Category.CLASS),
-        Classification("25.30.Z", "Manufacture of steam generators, except central heating hot water boilers", Category.SUBCLASS),
+        Classification(
+            "25.3", "Manufacture of steam generators, except central heating hot water boilers", Category.GROUP
+        ),
+        Classification(
+            "25.30", "Manufacture of steam generators, except central heating hot water boilers", Category.CLASS
+        ),
+        Classification(
+            "25.30.Z", "Manufacture of steam generators, except central heating hot water boilers", Category.SUBCLASS
+        ),
         Classification("25.4", "Manufacture of weapons and ammunition", Category.GROUP),
         Classification("25.40", "Manufacture of weapons and ammunition", Category.CLASS),
         Classification("25.40.Z", "Manufacture of weapons and ammunition", Category.SUBCLASS),
-        Classification("25.5", "Forging, pressing, stamping and roll-forming of metal; powder metallurgy", Category.GROUP),
-        Classification("25.50", "Forging, pressing, stamping and roll-forming of metal; powder metallurgy", Category.CLASS),
-        Classification("25.50.Z", "Forging, pressing, stamping and roll-forming of metal; powder metallurgy", Category.SUBCLASS),
+        Classification(
+            "25.5", "Forging, pressing, stamping and roll-forming of metal; powder metallurgy", Category.GROUP
+        ),
+        Classification(
+            "25.50", "Forging, pressing, stamping and roll-forming of metal; powder metallurgy", Category.CLASS
+        ),
+        Classification(
+            "25.50.Z", "Forging, pressing, stamping and roll-forming of metal; powder metallurgy", Category.SUBCLASS
+        ),
         Classification("25.6", "Treatment and coating of metals; mechanical working of metal elements", Category.GROUP),
         Classification("25.61", "Treatment and coating of metals", Category.CLASS),
         Classification("25.61.Z", "Treatment and coating of metals", Category.SUBCLASS),
@@ -539,8 +727,12 @@ PKD2007 = Standard(
         Classification("25.93.Z", "Manufacture of wire products, chains and springs", Category.SUBCLASS),
         Classification("25.94", "Manufacture of fasteners and screws", Category.CLASS),
         Classification("25.94.Z", "Manufacture of fasteners and screws", Category.SUBCLASS),
-        Classification("25.99", "Manufacture of other fabricated metal products not elsewhere classified", Category.CLASS),
-        Classification("25.99.Z", "Manufacture of other fabricated metal products not elsewhere classified", Category.SUBCLASS),
+        Classification(
+            "25.99", "Manufacture of other fabricated metal products not elsewhere classified", Category.CLASS
+        ),
+        Classification(
+            "25.99.Z", "Manufacture of other fabricated metal products not elsewhere classified", Category.SUBCLASS
+        ),
         Classification("26", "MANUFACTURE OF COMPUTER, ELECTRONIC AND OPTICAL PRODUCTS", Category.DIVISION),
         Classification("26.1", "Manufacture of electronic components and printed circuits", Category.GROUP),
         Classification("26.11", "Manufacture of electronic components", Category.CLASS),
@@ -556,14 +748,30 @@ PKD2007 = Standard(
         Classification("26.4", "Manufacture of consumer electronics", Category.GROUP),
         Classification("26.40", "Manufacture of consumer electronics", Category.CLASS),
         Classification("26.40.Z", "Manufacture of consumer electronics", Category.SUBCLASS),
-        Classification("26.5", "Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks", Category.GROUP),
-        Classification("26.51", "Manufacture of instruments and appliances for measuring, testing and navigation", Category.CLASS),
-        Classification("26.51.Z", "Manufacture of instruments and appliances for measuring, testing and navigation", Category.SUBCLASS),
+        Classification(
+            "26.5",
+            "Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks",
+            Category.GROUP,
+        ),
+        Classification(
+            "26.51", "Manufacture of instruments and appliances for measuring, testing and navigation", Category.CLASS
+        ),
+        Classification(
+            "26.51.Z",
+            "Manufacture of instruments and appliances for measuring, testing and navigation",
+            Category.SUBCLASS,
+        ),
         Classification("26.52", "Manufacture of watches and clocks", Category.CLASS),
         Classification("26.52.Z", "Manufacture of watches and clocks", Category.SUBCLASS),
-        Classification("26.6", "Manufacture of irradiation, electromedical and electrotherapeutic equipment", Category.GROUP),
-        Classification("26.60", "Manufacture of irradiation, electromedical and electrotherapeutic equipment", Category.CLASS),
-        Classification("26.60.Z", "Manufacture of irradiation, electromedical and electrotherapeutic equipment", Category.SUBCLASS),
+        Classification(
+            "26.6", "Manufacture of irradiation, electromedical and electrotherapeutic equipment", Category.GROUP
+        ),
+        Classification(
+            "26.60", "Manufacture of irradiation, electromedical and electrotherapeutic equipment", Category.CLASS
+        ),
+        Classification(
+            "26.60.Z", "Manufacture of irradiation, electromedical and electrotherapeutic equipment", Category.SUBCLASS
+        ),
         Classification("26.7", "Manufacture of optical instruments and photographic equipment", Category.GROUP),
         Classification("26.70", "Manufacture of optical instruments and photographic equipment", Category.CLASS),
         Classification("26.70.Z", "Manufacture of optical instruments and photographic equipment", Category.SUBCLASS),
@@ -571,7 +779,11 @@ PKD2007 = Standard(
         Classification("26.80", "Manufacture of unrecorded magnetic and optical media", Category.CLASS),
         Classification("26.80.Z", "Manufacture of unrecorded magnetic and optical media", Category.SUBCLASS),
         Classification("27", "MANUFACTURE OF ELECTRICAL EQUIPMENT", Category.DIVISION),
-        Classification("27.1", "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus", Category.GROUP),
+        Classification(
+            "27.1",
+            "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus",
+            Category.GROUP,
+        ),
         Classification("27.11", "Manufacture of electric motors, generators and transformers", Category.CLASS),
         Classification("27.11.Z", "Manufacture of electric motors, generators and transformers", Category.SUBCLASS),
         Classification("27.12", "Manufacture of electricity distribution and control apparatus", Category.CLASS),
@@ -599,8 +811,14 @@ PKD2007 = Standard(
         Classification("27.90.Z", "Manufacture of other electrical equipment", Category.SUBCLASS),
         Classification("28", "MANUFACTURE OF MACHINERY AND EQUIPMENT NOT ELSEWHERE CLASSIFIED", Category.DIVISION),
         Classification("28.1", "Manufacture of general-purpose machinery", Category.GROUP),
-        Classification("28.11", "Manufacture of engines and turbines, except aircraft, vehicle and cycle engines", Category.CLASS),
-        Classification("28.11.Z", "Manufacture of engines and turbines, except aircraft, vehicle and cycle engines", Category.SUBCLASS),
+        Classification(
+            "28.11", "Manufacture of engines and turbines, except aircraft, vehicle and cycle engines", Category.CLASS
+        ),
+        Classification(
+            "28.11.Z",
+            "Manufacture of engines and turbines, except aircraft, vehicle and cycle engines",
+            Category.SUBCLASS,
+        ),
         Classification("28.12", "Manufacture of fluid power equipment", Category.CLASS),
         Classification("28.12.Z", "Manufacture of fluid power equipment", Category.SUBCLASS),
         Classification("28.13", "Manufacture of other pumps and compressors", Category.CLASS),
@@ -614,14 +832,26 @@ PKD2007 = Standard(
         Classification("28.21.Z", "Manufacture of ovens, furnaces and furnace burners", Category.SUBCLASS),
         Classification("28.22", "Manufacture of lifting equipment and gripping devices ", Category.CLASS),
         Classification("28.22.Z", "Manufacture of lifting equipment and gripping devices ", Category.SUBCLASS),
-        Classification("28.23", "Manufacture of office machinery and equipment, except computers and peripheral equipment", Category.CLASS),
-        Classification("28.23.Z", "Manufacture of office machinery and equipment, except computers and peripheral equipment", Category.SUBCLASS),
+        Classification(
+            "28.23",
+            "Manufacture of office machinery and equipment, except computers and peripheral equipment",
+            Category.CLASS,
+        ),
+        Classification(
+            "28.23.Z",
+            "Manufacture of office machinery and equipment, except computers and peripheral equipment",
+            Category.SUBCLASS,
+        ),
         Classification("28.24", "Manufacture of power-driven hand tools", Category.CLASS),
         Classification("28.24.Z", "Manufacture of power-driven hand tools", Category.SUBCLASS),
         Classification("28.25", "Manufacture of industrial cooling and ventilation equipment", Category.CLASS),
         Classification("28.25.Z", "Manufacture of industrial cooling and ventilation equipment", Category.SUBCLASS),
-        Classification("28.29", "Manufacture of other general-purpose machinery not elsewhere classified", Category.CLASS),
-        Classification("28.29.Z", "Manufacture of other general-purpose machinery not elsewhere classified", Category.SUBCLASS),
+        Classification(
+            "28.29", "Manufacture of other general-purpose machinery not elsewhere classified", Category.CLASS
+        ),
+        Classification(
+            "28.29.Z", "Manufacture of other general-purpose machinery not elsewhere classified", Category.SUBCLASS
+        ),
         Classification("28.3", "Manufacture of agricultural and forestry machinery", Category.GROUP),
         Classification("28.30", "Manufacture of agricultural and forestry machinery", Category.CLASS),
         Classification("28.30.Z", "Manufacture of agricultural and forestry machinery", Category.SUBCLASS),
@@ -636,31 +866,77 @@ PKD2007 = Standard(
         Classification("28.92", "Manufacture of machinery for mining, quarrying and construction", Category.CLASS),
         Classification("28.92.Z", "Manufacture of machinery for mining, quarrying and construction", Category.SUBCLASS),
         Classification("28.93", "Manufacture of machinery for food, beverage and tobacco processing", Category.CLASS),
-        Classification("28.93.Z", "Manufacture of machinery for food, beverage and tobacco processing", Category.SUBCLASS),
+        Classification(
+            "28.93.Z", "Manufacture of machinery for food, beverage and tobacco processing", Category.SUBCLASS
+        ),
         Classification("28.94", "Manufacture of machinery for textile, apparel and leather production", Category.CLASS),
-        Classification("28.94.Z", "Manufacture of machinery for textile, apparel and leather production", Category.SUBCLASS),
+        Classification(
+            "28.94.Z", "Manufacture of machinery for textile, apparel and leather production", Category.SUBCLASS
+        ),
         Classification("28.95", "Manufacture of machinery for paper and paperboard production", Category.CLASS),
         Classification("28.95.Z", "Manufacture of machinery for paper and paperboard production", Category.SUBCLASS),
-        Classification("28.96", "Manufacture of machinery for working rubber or plastics and for manufacture of the articles from these materials", Category.CLASS),
-        Classification("28.96.Z", "Manufacture of machinery for working rubber or plastics and for manufacture of the articles from these materials", Category.SUBCLASS),
-        Classification("28.99", "Manufacture of other special-purpose machinery not elsewhere classified ", Category.CLASS),
-        Classification("28.99.Z", "Manufacture of other special-purpose machinery not elsewhere classified ", Category.SUBCLASS),
-        Classification("29", "MANUFACTURE OF MOTOR VEHICLES, TRAILERS AND SEMI-TRAILERS EXCLUDING   MOTORCYCLES", Category.DIVISION),
+        Classification(
+            "28.96",
+            "Manufacture of machinery for working rubber or plastics and for manufacture of the articles from these materials",
+            Category.CLASS,
+        ),
+        Classification(
+            "28.96.Z",
+            "Manufacture of machinery for working rubber or plastics and for manufacture of the articles from these materials",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "28.99", "Manufacture of other special-purpose machinery not elsewhere classified ", Category.CLASS
+        ),
+        Classification(
+            "28.99.Z", "Manufacture of other special-purpose machinery not elsewhere classified ", Category.SUBCLASS
+        ),
+        Classification(
+            "29", "MANUFACTURE OF MOTOR VEHICLES, TRAILERS AND SEMI-TRAILERS EXCLUDING   MOTORCYCLES", Category.DIVISION
+        ),
         Classification("29.1", "Manufacture of motor vehicles excluding motorcycles", Category.GROUP),
         Classification("29.10", "Manufacture of motor vehicles excluding motorcycles", Category.CLASS),
-        Classification("29.10.A", "Manufacture of engines for motor vehicles (excluding motorcycles) and for agricultural tractors", Category.SUBCLASS),
+        Classification(
+            "29.10.A",
+            "Manufacture of engines for motor vehicles (excluding motorcycles) and for agricultural tractors",
+            Category.SUBCLASS,
+        ),
         Classification("29.10.B", "Manufacture of  cars", Category.SUBCLASS),
         Classification("29.10.C", "Manufacture of buses", Category.SUBCLASS),
         Classification("29.10.D", "Manufacture of motor vehicles for the transport of goods", Category.SUBCLASS),
         Classification("29.10.E", "Manufacture of other motor vehicles excluding motorcycles", Category.SUBCLASS),
-        Classification("29.2", "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers", Category.GROUP),
-        Classification("29.20", "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers", Category.CLASS),
-        Classification("29.20.Z", "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers", Category.SUBCLASS),
+        Classification(
+            "29.2",
+            "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers",
+            Category.GROUP,
+        ),
+        Classification(
+            "29.20",
+            "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers",
+            Category.CLASS,
+        ),
+        Classification(
+            "29.20.Z",
+            "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers",
+            Category.SUBCLASS,
+        ),
         Classification("29.3", "Manufacture of parts and accessories for motor vehicles", Category.GROUP),
-        Classification("29.31", "Manufacture of electrical and electronic equipment for motor vehicles", Category.CLASS),
-        Classification("29.31.Z", "Manufacture of electrical and electronic equipment for motor vehicles", Category.SUBCLASS),
-        Classification("29.32", "Manufacture of other parts and accessories for motor vehicles excluding motorcycles", Category.CLASS),
-        Classification("29.32.Z", "Manufacture of other parts and accessories for motor vehicles excluding motorcycles", Category.SUBCLASS),
+        Classification(
+            "29.31", "Manufacture of electrical and electronic equipment for motor vehicles", Category.CLASS
+        ),
+        Classification(
+            "29.31.Z", "Manufacture of electrical and electronic equipment for motor vehicles", Category.SUBCLASS
+        ),
+        Classification(
+            "29.32",
+            "Manufacture of other parts and accessories for motor vehicles excluding motorcycles",
+            Category.CLASS,
+        ),
+        Classification(
+            "29.32.Z",
+            "Manufacture of other parts and accessories for motor vehicles excluding motorcycles",
+            Category.SUBCLASS,
+        ),
         Classification("30", "MANUFACTURE OF OTHER TRANSPORT EQUIPMENT", Category.DIVISION),
         Classification("30.1", "Building of ships and boats", Category.GROUP),
         Classification("30.11", "Building of ships and floating structures", Category.CLASS),
@@ -682,7 +958,9 @@ PKD2007 = Standard(
         Classification("30.92", "Manufacture of bicycles and invalid carriages", Category.CLASS),
         Classification("30.92.Z", "Manufacture of bicycles and invalid carriages", Category.SUBCLASS),
         Classification("30.99", "Manufacture of other transport equipment not elsewhere classified", Category.CLASS),
-        Classification("30.99.Z", "Manufacture of other transport equipment not elsewhere classified", Category.SUBCLASS),
+        Classification(
+            "30.99.Z", "Manufacture of other transport equipment not elsewhere classified", Category.SUBCLASS
+        ),
         Classification("31", "MANUFACTURE OF FURNITURE", Category.DIVISION),
         Classification("31.0", "MANUFACTURE OF FURNITURE", Category.GROUP),
         Classification("31.01", "Manufacture of office and shop furniture", Category.CLASS),
@@ -719,7 +997,9 @@ PKD2007 = Standard(
         Classification("32.99", "Other manufacturing not elsewhere classified", Category.CLASS),
         Classification("32.99.Z", "Other manufacturing not elsewhere classified", Category.SUBCLASS),
         Classification("33", "REPAIR, MAINTENANCE AND INSTALLATION OF MACHINERY AND EQUIPMENT", Category.DIVISION),
-        Classification("33.1", "Repair and maintenance of fabricated metal products, machinery and equipment", Category.GROUP),
+        Classification(
+            "33.1", "Repair and maintenance of fabricated metal products, machinery and equipment", Category.GROUP
+        ),
         Classification("33.11", "Repair and maintenance of fabricated metal products", Category.CLASS),
         Classification("33.11.Z", "Repair and maintenance of fabricated metal products", Category.SUBCLASS),
         Classification("33.12", "Repair and maintenance of machinery", Category.CLASS),
@@ -739,8 +1019,14 @@ PKD2007 = Standard(
         Classification("33.2", "Installation of industrial machinery and equipment", Category.GROUP),
         Classification("33.20", "Installation of industrial machinery and equipment", Category.CLASS),
         Classification("33.20.Z", "Installation of industrial machinery and equipment and outfit", Category.SUBCLASS),
-        Classification("D", "ELECTRICITY, GAS, STEAM, HOT WATER AND AIR CONDITIONING MANUFACTURING AND   SUPPLY", Category.SECTION),
-        Classification("35", "ELECTRICITY, GAS, STEAM, HOT WATER AND AIR CONDITIONING MANUFACTURING AND   SUPPLY", Category.DIVISION),
+        Classification(
+            "D", "ELECTRICITY, GAS, STEAM, HOT WATER AND AIR CONDITIONING MANUFACTURING AND   SUPPLY", Category.SECTION
+        ),
+        Classification(
+            "35",
+            "ELECTRICITY, GAS, STEAM, HOT WATER AND AIR CONDITIONING MANUFACTURING AND   SUPPLY",
+            Category.DIVISION,
+        ),
         Classification("35.1", "Electric power generation, transmission and distribution", Category.GROUP),
         Classification("35.11", "Production of electricity", Category.CLASS),
         Classification("35.11.Z", "Production of electricity", Category.SUBCLASS),
@@ -750,7 +1036,11 @@ PKD2007 = Standard(
         Classification("35.13.Z", "Distribution of electricity", Category.SUBCLASS),
         Classification("35.14", "Trade of electricity", Category.CLASS),
         Classification("35.14.Z", "Trade of electricity", Category.SUBCLASS),
-        Classification("35.2", "Manufacture of gaseous fuels; distribution and trade of gaseous fuels through mains", Category.GROUP),
+        Classification(
+            "35.2",
+            "Manufacture of gaseous fuels; distribution and trade of gaseous fuels through mains",
+            Category.GROUP,
+        ),
         Classification("35.21", "Manufacture of gaseous fuels", Category.CLASS),
         Classification("35.21.Z", "Manufacture of gaseous fuels", Category.SUBCLASS),
         Classification("35.22", "Distribution of gaseous fuels through mains", Category.CLASS),
@@ -769,7 +1059,9 @@ PKD2007 = Standard(
         Classification("37.0", "Sewage disposal and treatment", Category.GROUP),
         Classification("37.00", "Sewage disposal and treatment", Category.CLASS),
         Classification("37.00.Z", "Sewage disposal and treatment", Category.SUBCLASS),
-        Classification("38", "WASTE COLLECTION, PROCESSING AND NEUTRALIZING ACTIVITIES; MATERIALS RECOVERY", Category.DIVISION),
+        Classification(
+            "38", "WASTE COLLECTION, PROCESSING AND NEUTRALIZING ACTIVITIES; MATERIALS RECOVERY", Category.DIVISION
+        ),
         Classification("38.1", "Waste collection", Category.GROUP),
         Classification("38.11", "Collection of non-hazardous waste", Category.CLASS),
         Classification("38.11.Z", "Collection of non-hazardous waste", Category.SUBCLASS),
@@ -793,28 +1085,62 @@ PKD2007 = Standard(
         Classification("41", "Construction of buildings", Category.DIVISION),
         Classification("41.1", "Realization of building projects related to erection of buildings", Category.GROUP),
         Classification("41.10", "Realization of building projects related to erection of buildings", Category.CLASS),
-        Classification("41.10.Z", "Realization of building projects related to erection of buildings", Category.SUBCLASS),
-        Classification("41.2", "Building works related to erection of residential and non-residential buildings", Category.GROUP),
-        Classification("41.20", "Building works related to erection of residential and non-residential buildings", Category.CLASS),
-        Classification("41.20.Z", "Building works related to erection of residential and non-residential buildings", Category.SUBCLASS),
+        Classification(
+            "41.10.Z", "Realization of building projects related to erection of buildings", Category.SUBCLASS
+        ),
+        Classification(
+            "41.2", "Building works related to erection of residential and non-residential buildings", Category.GROUP
+        ),
+        Classification(
+            "41.20", "Building works related to erection of residential and non-residential buildings", Category.CLASS
+        ),
+        Classification(
+            "41.20.Z",
+            "Building works related to erection of residential and non-residential buildings",
+            Category.SUBCLASS,
+        ),
         Classification("42", "WORKS RELATED TO CONSTRUCTION OF CIVIL ENGINEERING", Category.DIVISION),
         Classification("42.1", "Works related to construction of roads and railways", Category.GROUP),
         Classification("42.11", "Works related to construction of roads and motorways", Category.CLASS),
         Classification("42.11.Z", "Works related to construction of roads and motorways", Category.SUBCLASS),
         Classification("42.12", "Works related to construction of railways and underground railways", Category.CLASS),
-        Classification("42.12.Z", "Works related to construction of railways and underground railways", Category.SUBCLASS),
+        Classification(
+            "42.12.Z", "Works related to construction of railways and underground railways", Category.SUBCLASS
+        ),
         Classification("42.13", "Works related to construction of bridges and tunnels", Category.CLASS),
         Classification("42.13.Z", "Works related to construction of bridges and tunnels", Category.SUBCLASS),
-        Classification("42.2", "Works related to construction of pipelines, telecommunications and electricity lines", Category.GROUP),
-        Classification("42.21", "Works related to construction of transmit pipelines and distribution networs", Category.CLASS),
-        Classification("42.21.Z", "Works related to construction of transmission pipelines and distribution networks", Category.SUBCLASS),
-        Classification("42.22", "Works related to construction of telecommunications and electricity lines", Category.CLASS),
-        Classification("42.22.Z", "Works related to construction of telecommunications and electricity lines", Category.SUBCLASS),
+        Classification(
+            "42.2",
+            "Works related to construction of pipelines, telecommunications and electricity lines",
+            Category.GROUP,
+        ),
+        Classification(
+            "42.21", "Works related to construction of transmit pipelines and distribution networs", Category.CLASS
+        ),
+        Classification(
+            "42.21.Z",
+            "Works related to construction of transmission pipelines and distribution networks",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "42.22", "Works related to construction of telecommunications and electricity lines", Category.CLASS
+        ),
+        Classification(
+            "42.22.Z", "Works related to construction of telecommunications and electricity lines", Category.SUBCLASS
+        ),
         Classification("42.9", "Works related to construction of other civil engineering projects", Category.GROUP),
         Classification("42.91", "Works related to construction of water projects", Category.CLASS),
         Classification("42.91.Z", "Works related to construction of water projects", Category.SUBCLASS),
-        Classification("42.99", "Works related to construction of other civil engineering projects not elsewhere classified", Category.CLASS),
-        Classification("42.99.Z", "Works related to construction of other civil engineering projects not elsewhere classified", Category.SUBCLASS),
+        Classification(
+            "42.99",
+            "Works related to construction of other civil engineering projects not elsewhere classified",
+            Category.CLASS,
+        ),
+        Classification(
+            "42.99.Z",
+            "Works related to construction of other civil engineering projects not elsewhere classified",
+            Category.SUBCLASS,
+        ),
         Classification("43", "SPECIALISED CONSTRUCTION ACTIVITIES", Category.DIVISION),
         Classification("43.1", "Demolition and site preparation", Category.GROUP),
         Classification("43.11", "Demolition", Category.CLASS),
@@ -845,9 +1171,15 @@ PKD2007 = Standard(
         Classification("43.91", "Roofing activities", Category.CLASS),
         Classification("43.91.Z", "Roofing activities", Category.SUBCLASS),
         Classification("43.99", "Other specialised construction activities not elsewhere classified", Category.CLASS),
-        Classification("43.99.Z", "Other specialised construction activities not elsewhere classified", Category.SUBCLASS),
-        Classification("G", "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES INCLUDING MOTORCYCLES", Category.SECTION),
-        Classification("45", "WHOLESALE AND RETAIL TRADE OF MOTOR VEHICLES; REPAIR OF MOTOR VEHICLES ", Category.DIVISION),
+        Classification(
+            "43.99.Z", "Other specialised construction activities not elsewhere classified", Category.SUBCLASS
+        ),
+        Classification(
+            "G", "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES INCLUDING MOTORCYCLES", Category.SECTION
+        ),
+        Classification(
+            "45", "WHOLESALE AND RETAIL TRADE OF MOTOR VEHICLES; REPAIR OF MOTOR VEHICLES ", Category.DIVISION
+        ),
         Classification("45.1", "Sale of motor vehicles, excluding motorcycles", Category.GROUP),
         Classification("45.11", "Sale of cars and light motor vehicles", Category.CLASS),
         Classification("45.11.Z", "Sale of cars and light motor vehicles", Category.SUBCLASS),
@@ -857,27 +1189,81 @@ PKD2007 = Standard(
         Classification("45.20", "Maintenance and repair of motor vehicles, excluding motorcycles", Category.CLASS),
         Classification("45.20.Z", "Maintenance and repair of motor vehicles, excluding motorcycles", Category.SUBCLASS),
         Classification("45.3", "Sale of motor vehicle parts and accessories, excluding motorcycles", Category.GROUP),
-        Classification("45.31", "Wholesale trade of motor vehicle parts and accessories, excluding motorcycles", Category.CLASS),
-        Classification("45.31.Z", "Wholesale trade of motor vehicle parts and accessories, excluding motorcycles", Category.SUBCLASS),
-        Classification("45.32", "Retail trade of motor vehicle parts and accessories, excluding motorcycles", Category.CLASS),
-        Classification("45.32.Z", "Retail trade of motor vehicle parts and accessories, excluding motorcycles", Category.SUBCLASS),
-        Classification("45.4", "Sale, maintenance and repair of motorcycles and related parts and accessories", Category.GROUP),
-        Classification("45.40", "Sale, maintenance and repair of motorcycles and related parts and accessories", Category.CLASS),
-        Classification("45.40.Z", "Sale, maintenance and repair of motorcycles and related parts and accessories", Category.SUBCLASS),
+        Classification(
+            "45.31", "Wholesale trade of motor vehicle parts and accessories, excluding motorcycles", Category.CLASS
+        ),
+        Classification(
+            "45.31.Z",
+            "Wholesale trade of motor vehicle parts and accessories, excluding motorcycles",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "45.32", "Retail trade of motor vehicle parts and accessories, excluding motorcycles", Category.CLASS
+        ),
+        Classification(
+            "45.32.Z", "Retail trade of motor vehicle parts and accessories, excluding motorcycles", Category.SUBCLASS
+        ),
+        Classification(
+            "45.4", "Sale, maintenance and repair of motorcycles and related parts and accessories", Category.GROUP
+        ),
+        Classification(
+            "45.40", "Sale, maintenance and repair of motorcycles and related parts and accessories", Category.CLASS
+        ),
+        Classification(
+            "45.40.Z",
+            "Sale, maintenance and repair of motorcycles and related parts and accessories",
+            Category.SUBCLASS,
+        ),
         Classification("46", "WHOLESALE TRADE, EXCLUDING MOTOR VEHICLES ", Category.DIVISION),
         Classification("46.1", "Wholesale on a fee or contract basis", Category.GROUP),
-        Classification("46.11", "Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods", Category.CLASS),
-        Classification("46.11.Z", "Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods", Category.SUBCLASS),
-        Classification("46.12", "Agents involved in the sale of fuels, ores, metals and industrial chemicals", Category.CLASS),
-        Classification("46.12.Z", "Agents involved in the sale of fuels, ores, metals and industrial chemicals", Category.SUBCLASS),
+        Classification(
+            "46.11",
+            "Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods",
+            Category.CLASS,
+        ),
+        Classification(
+            "46.11.Z",
+            "Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "46.12", "Agents involved in the sale of fuels, ores, metals and industrial chemicals", Category.CLASS
+        ),
+        Classification(
+            "46.12.Z", "Agents involved in the sale of fuels, ores, metals and industrial chemicals", Category.SUBCLASS
+        ),
         Classification("46.13", "Agents involved in the sale of timber and building materials", Category.CLASS),
         Classification("46.13.Z", "Agents involved in the sale of timber and building materials", Category.SUBCLASS),
-        Classification("46.14", "Agents involved in the sale of machinery, industrial equipment, ships and aircraft", Category.CLASS),
-        Classification("46.14.Z", "Agents involved in the sale of machinery, industrial equipment, ships and aircraft", Category.SUBCLASS),
-        Classification("46.15", "Agents involved in the sale of furniture, household goods, hardware and ironmongery", Category.CLASS),
-        Classification("46.15.Z", "Agents involved in the sale of furniture, household goods, hardware and ironmongery", Category.SUBCLASS),
-        Classification("46.16", "Agents involved in the sale of textiles, clothing, fur, footwear and leather goods", Category.CLASS),
-        Classification("46.16.Z", "Agents involved in the sale of textiles, clothing, fur, footwear and leather goods", Category.SUBCLASS),
+        Classification(
+            "46.14",
+            "Agents involved in the sale of machinery, industrial equipment, ships and aircraft",
+            Category.CLASS,
+        ),
+        Classification(
+            "46.14.Z",
+            "Agents involved in the sale of machinery, industrial equipment, ships and aircraft",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "46.15",
+            "Agents involved in the sale of furniture, household goods, hardware and ironmongery",
+            Category.CLASS,
+        ),
+        Classification(
+            "46.15.Z",
+            "Agents involved in the sale of furniture, household goods, hardware and ironmongery",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "46.16",
+            "Agents involved in the sale of textiles, clothing, fur, footwear and leather goods",
+            Category.CLASS,
+        ),
+        Classification(
+            "46.16.Z",
+            "Agents involved in the sale of textiles, clothing, fur, footwear and leather goods",
+            Category.SUBCLASS,
+        ),
         Classification("46.17", "Agents involved in the sale of food, beverages and tobacco", Category.CLASS),
         Classification("46.17.Z", "Agents involved in the sale of food, beverages and tobacco", Category.SUBCLASS),
         Classification("46.18", "Agents specialised in the sale of other particular products", Category.CLASS),
@@ -886,7 +1272,9 @@ PKD2007 = Standard(
         Classification("46.19.Z", "Agents involved in the sale of a variety of goods", Category.SUBCLASS),
         Classification("46.2", "Wholesale of agricultural raw materials and live animals", Category.GROUP),
         Classification("46.21", "Wholesale of grain, unmanufactured tobacco, seeds and animal feeds", Category.CLASS),
-        Classification("46.21.Z", "Wholesale of grain, unmanufactured tobacco, seeds and animal feeds", Category.SUBCLASS),
+        Classification(
+            "46.21.Z", "Wholesale of grain, unmanufactured tobacco, seeds and animal feeds", Category.SUBCLASS
+        ),
         Classification("46.22", "Wholesale of flowers and plants", Category.CLASS),
         Classification("46.22.Z", "Wholesale of flowers and plants", Category.SUBCLASS),
         Classification("46.23", "Wholesale of live animals", Category.CLASS),
@@ -910,7 +1298,9 @@ PKD2007 = Standard(
         Classification("46.37", "Wholesale of coffee, tea, cocoa and spices", Category.CLASS),
         Classification("46.37.Z", "Wholesale of coffee, tea, cocoa and spices", Category.SUBCLASS),
         Classification("46.38", "Wholesale of other food, including fish, crustaceans and molluscs", Category.CLASS),
-        Classification("46.38.Z", "Wholesale of other food, including fish, crustaceans and molluscs", Category.SUBCLASS),
+        Classification(
+            "46.38.Z", "Wholesale of other food, including fish, crustaceans and molluscs", Category.SUBCLASS
+        ),
         Classification("46.39", "Non-specialised wholesale of food, beverages and tobacco", Category.CLASS),
         Classification("46.39.Z", "Non-specialised wholesale of food, beverages and tobacco", Category.SUBCLASS),
         Classification("46.4", "Wholesale of household goods", Category.GROUP),
@@ -921,7 +1311,9 @@ PKD2007 = Standard(
         Classification("46.43", "Wholesale of electrical household appliances", Category.CLASS),
         Classification("46.43.Z", "Wholesale of electrical household appliances", Category.SUBCLASS),
         Classification("46.44", "Wholesale of china, ceramics and glassware and cleaning materials", Category.CLASS),
-        Classification("46.44.Z", "Wholesale of china, ceramics and glassware and cleaning materials", Category.SUBCLASS),
+        Classification(
+            "46.44.Z", "Wholesale of china, ceramics and glassware and cleaning materials", Category.SUBCLASS
+        ),
         Classification("46.45", "Wholesale of perfume and cosmetics", Category.CLASS),
         Classification("46.45.Z", "Wholesale of perfume and cosmetics", Category.SUBCLASS),
         Classification("46.46", "Wholesale of pharmaceutical goods", Category.CLASS),
@@ -935,17 +1327,31 @@ PKD2007 = Standard(
         Classification("46.5", "Wholesale of information and communication equipment", Category.GROUP),
         Classification("46.51", "Wholesale of computers, peripheral equipment and software", Category.CLASS),
         Classification("46.51.Z", "Wholesale of computers, peripheral equipment and software", Category.SUBCLASS),
-        Classification("46.52", "Wholesale of electronic and telecommunications equipment and parts thereof", Category.CLASS),
-        Classification("46.52.Z", "Wholesale of electronic and telecommunications equipment and parts thereof", Category.SUBCLASS),
+        Classification(
+            "46.52", "Wholesale of electronic and telecommunications equipment and parts thereof", Category.CLASS
+        ),
+        Classification(
+            "46.52.Z", "Wholesale of electronic and telecommunications equipment and parts thereof", Category.SUBCLASS
+        ),
         Classification("46.6", "Wholesale of machinery, equipment and supplies", Category.GROUP),
         Classification("46.61", "Wholesale of agricultural machinery, equipment and supplies", Category.CLASS),
         Classification("46.61.Z", "Wholesale of agricultural machinery, equipment and supplies", Category.SUBCLASS),
         Classification("46.62", "Wholesale of machine tools", Category.CLASS),
         Classification("46.62.Z", "Wholesale of machine tools", Category.SUBCLASS),
         Classification("46.63", "Wholesale of mining, construction and civil engineering machinery", Category.CLASS),
-        Classification("46.63.Z", "Wholesale of mining, construction and civil engineering machinery", Category.SUBCLASS),
-        Classification("46.64", "Wholesale of machinery for the textile industry and of sewing and knitting machines", Category.CLASS),
-        Classification("46.64.Z", "Wholesale of machinery for the textile industry and of sewing and knitting machines", Category.SUBCLASS),
+        Classification(
+            "46.63.Z", "Wholesale of mining, construction and civil engineering machinery", Category.SUBCLASS
+        ),
+        Classification(
+            "46.64",
+            "Wholesale of machinery for the textile industry and of sewing and knitting machines",
+            Category.CLASS,
+        ),
+        Classification(
+            "46.64.Z",
+            "Wholesale of machinery for the textile industry and of sewing and knitting machines",
+            Category.SUBCLASS,
+        ),
         Classification("46.65", "Wholesale of office furniture", Category.CLASS),
         Classification("46.65.Z", "Wholesale of office furniture", Category.SUBCLASS),
         Classification("46.66", "Wholesale of other office machinery and equipment", Category.CLASS),
@@ -958,9 +1364,15 @@ PKD2007 = Standard(
         Classification("46.72", "Wholesale of metals and metal ores", Category.CLASS),
         Classification("46.72.Z", "Wholesale of metals and metal ores", Category.SUBCLASS),
         Classification("46.73", "Wholesale of wood, construction materials and sanitary equipment", Category.CLASS),
-        Classification("46.73.Z", "Wholesale of wood, construction materials and sanitary equipment", Category.SUBCLASS),
-        Classification("46.74", "Wholesale of hardware and plumbing and heating equipment and supplies", Category.CLASS),
-        Classification("46.74.Z", "Wholesale of hardware and plumbing and heating equipment and supplies", Category.SUBCLASS),
+        Classification(
+            "46.73.Z", "Wholesale of wood, construction materials and sanitary equipment", Category.SUBCLASS
+        ),
+        Classification(
+            "46.74", "Wholesale of hardware and plumbing and heating equipment and supplies", Category.CLASS
+        ),
+        Classification(
+            "46.74.Z", "Wholesale of hardware and plumbing and heating equipment and supplies", Category.SUBCLASS
+        ),
         Classification("46.75", "Wholesale of chemical products", Category.CLASS),
         Classification("46.75.Z", "Wholesale of chemical products", Category.SUBCLASS),
         Classification("46.76", "Wholesale of other intermediate products", Category.CLASS),
@@ -972,8 +1384,16 @@ PKD2007 = Standard(
         Classification("46.90.Z", "Non-specialised wholesale trade", Category.SUBCLASS),
         Classification("47", "RETAIL TRADE, EXCEPT RETAIL TRADE OF MOTOR VEHICLES ", Category.DIVISION),
         Classification("47.1", "Retail sale in non-specialised stores", Category.GROUP),
-        Classification("47.11", "Retail sale in non-specialised stores with food, beverages or tobacco predominating", Category.CLASS),
-        Classification("47.11.Z", "Retail sale in non-specialised stores with food, beverages or tobacco predominating", Category.SUBCLASS),
+        Classification(
+            "47.11",
+            "Retail sale in non-specialised stores with food, beverages or tobacco predominating",
+            Category.CLASS,
+        ),
+        Classification(
+            "47.11.Z",
+            "Retail sale in non-specialised stores with food, beverages or tobacco predominating",
+            Category.SUBCLASS,
+        ),
         Classification("47.19", "Other retail sale in non-specialised stores", Category.CLASS),
         Classification("47.19.Z", "Other retail sale in non-specialised stores", Category.SUBCLASS),
         Classification("47.2", "Retail sale of food, beverages and tobacco in specialised stores", Category.GROUP),
@@ -982,11 +1402,25 @@ PKD2007 = Standard(
         Classification("47.22", "Retail sale of meat and meat products in specialised stores", Category.CLASS),
         Classification("47.22.Z", "Retail sale of meat and meat products in specialised stores", Category.SUBCLASS),
         Classification("47.23", "Retail sale of fish, crustaceans and molluscs in specialised stores", Category.CLASS),
-        Classification("47.23.Z", "Retail sale of fish, crustaceans and molluscs in specialised stores", Category.SUBCLASS),
-        Classification("47.24", "Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised     stores", Category.CLASS),
-        Classification("47.24.Z", "Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised    stores", Category.SUBCLASS),
-        Classification("47.25", "Retail sale of alcoholic and non-alcoholic beverages in specialised stores", Category.CLASS),
-        Classification("47.25.Z", "Retail sale of alcoholic and non-alcoholic beverages in specialised stores", Category.SUBCLASS),
+        Classification(
+            "47.23.Z", "Retail sale of fish, crustaceans and molluscs in specialised stores", Category.SUBCLASS
+        ),
+        Classification(
+            "47.24",
+            "Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised     stores",
+            Category.CLASS,
+        ),
+        Classification(
+            "47.24.Z",
+            "Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised    stores",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "47.25", "Retail sale of alcoholic and non-alcoholic beverages in specialised stores", Category.CLASS
+        ),
+        Classification(
+            "47.25.Z", "Retail sale of alcoholic and non-alcoholic beverages in specialised stores", Category.SUBCLASS
+        ),
         Classification("47.26", "Retail sale of tobacco products in specialised stores", Category.CLASS),
         Classification("47.26.Z", "Retail sale of tobacco products in specialised stores", Category.SUBCLASS),
         Classification("47.29", "Other retail sale of food in specialised stores", Category.CLASS),
@@ -994,11 +1428,21 @@ PKD2007 = Standard(
         Classification("47.3", "Retail sale of fuel for motor vehicles in fuel stations", Category.GROUP),
         Classification("47.30", "Retail sale of fuel for motor vehicles in fuel stations", Category.CLASS),
         Classification("47.30.Z", "Retail sale of fuel for motor vehicles in fuel stations", Category.SUBCLASS),
-        Classification("47.4", "Retail sale of information and communication equipment in specialised stores", Category.GROUP),
-        Classification("47.41", "Retail sale of computers, peripheral units and software in specialised stores", Category.CLASS),
-        Classification("47.41.Z", "Retail sale of computers, peripheral units and software in specialised stores", Category.SUBCLASS),
+        Classification(
+            "47.4", "Retail sale of information and communication equipment in specialised stores", Category.GROUP
+        ),
+        Classification(
+            "47.41", "Retail sale of computers, peripheral units and software in specialised stores", Category.CLASS
+        ),
+        Classification(
+            "47.41.Z",
+            "Retail sale of computers, peripheral units and software in specialised stores",
+            Category.SUBCLASS,
+        ),
         Classification("47.42", "Retail sale of telecommunications equipment in specialised stores", Category.CLASS),
-        Classification("47.42.Z", "Retail sale of telecommunications equipment in specialised stores", Category.SUBCLASS),
+        Classification(
+            "47.42.Z", "Retail sale of telecommunications equipment in specialised stores", Category.SUBCLASS
+        ),
         Classification("47.43", "Retail sale of audio and video equipment in specialised stores", Category.CLASS),
         Classification("47.43.Z", "Retail sale of audio and video equipment in specialised stores", Category.SUBCLASS),
         Classification("47.5", "Retail sale of household equipment in specialised stores", Category.GROUP),
@@ -1006,12 +1450,26 @@ PKD2007 = Standard(
         Classification("47.51.Z", "Retail sale of textiles in specialised stores", Category.SUBCLASS),
         Classification("47.52", "Retail sale of hardware, paints and glass in specialised stores", Category.CLASS),
         Classification("47.52.Z", "Retail sale of hardware, paints and glass in specialised stores", Category.SUBCLASS),
-        Classification("47.53", "Retail sale of carpets, rugs, wall and floor coverings in specialised stores", Category.CLASS),
-        Classification("47.53.Z", "Retail sale of carpets, rugs, wall and floor coverings in specialised stores", Category.SUBCLASS),
+        Classification(
+            "47.53", "Retail sale of carpets, rugs, wall and floor coverings in specialised stores", Category.CLASS
+        ),
+        Classification(
+            "47.53.Z", "Retail sale of carpets, rugs, wall and floor coverings in specialised stores", Category.SUBCLASS
+        ),
         Classification("47.54", "Retail sale of electrical household appliances in specialised stores", Category.CLASS),
-        Classification("47.54.Z", "Retail sale of electrical household appliances in specialised stores", Category.SUBCLASS),
-        Classification("47.59", "Retail sale of furniture, lighting equipment and other household articles in specialised    stores", Category.CLASS),
-        Classification("47.59.Z", "Retail sale of furniture, lighting equipment and other household articles in specialised    stores", Category.SUBCLASS),
+        Classification(
+            "47.54.Z", "Retail sale of electrical household appliances in specialised stores", Category.SUBCLASS
+        ),
+        Classification(
+            "47.59",
+            "Retail sale of furniture, lighting equipment and other household articles in specialised    stores",
+            Category.CLASS,
+        ),
+        Classification(
+            "47.59.Z",
+            "Retail sale of furniture, lighting equipment and other household articles in specialised    stores",
+            Category.SUBCLASS,
+        ),
         Classification("47.6", "Retail sale of cultural and recreation goods in specialised stores", Category.GROUP),
         Classification("47.61", "Retail sale of books in specialised stores", Category.CLASS),
         Classification("47.61.Z", "Retail sale of books in specialised stores", Category.SUBCLASS),
@@ -1031,22 +1489,44 @@ PKD2007 = Standard(
         Classification("47.73", "Dispensing chemist in specialised stores", Category.CLASS),
         Classification("47.73.Z", "Dispensing chemist in specialised stores", Category.SUBCLASS),
         Classification("47.74", "Retail sale of medical and orthopaedic goods in specialised stores", Category.CLASS),
-        Classification("47.74.Z", "Retail sale of medical and orthopaedic goods in specialised stores", Category.SUBCLASS),
+        Classification(
+            "47.74.Z", "Retail sale of medical and orthopaedic goods in specialised stores", Category.SUBCLASS
+        ),
         Classification("47.75", "Retail sale of cosmetic and toilet articles in specialised stores", Category.CLASS),
-        Classification("47.75.Z", "Retail sale of cosmetic and toilet articles in specialised stores", Category.SUBCLASS),
-        Classification("47.76", "Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised    stores", Category.CLASS),
-        Classification("47.76.Z", "Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised    stores", Category.SUBCLASS),
+        Classification(
+            "47.75.Z", "Retail sale of cosmetic and toilet articles in specialised stores", Category.SUBCLASS
+        ),
+        Classification(
+            "47.76",
+            "Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised    stores",
+            Category.CLASS,
+        ),
+        Classification(
+            "47.76.Z",
+            "Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised    stores",
+            Category.SUBCLASS,
+        ),
         Classification("47.77", "Retail sale of watches, clocks and jewellery in specialised stores", Category.CLASS),
-        Classification("47.77.Z", "Retail sale of watches, clocks and jewellery in specialised stores", Category.SUBCLASS),
+        Classification(
+            "47.77.Z", "Retail sale of watches, clocks and jewellery in specialised stores", Category.SUBCLASS
+        ),
         Classification("47.78", "Other retail sale of new goods in specialised stores", Category.CLASS),
         Classification("47.78.Z", "Other retail sale of new goods in specialised stores", Category.SUBCLASS),
         Classification("47.79", "Retail sale of second-hand goods in specialised stores", Category.CLASS),
         Classification("47.79.Z", "Retail sale of second-hand goods in specialised stores", Category.SUBCLASS),
         Classification("47.8", "Retail sale via stalls and markets", Category.GROUP),
-        Classification("47.81", "Retail sale via stalls and markets of food, beverages and tobacco products", Category.CLASS),
-        Classification("47.81.Z", "Retail sale via stalls and markets of food, beverages and tobacco products", Category.SUBCLASS),
-        Classification("47.82", "Retail sale via stalls and markets of textiles, clothing and footwear", Category.CLASS),
-        Classification("47.82.Z", "Retail sale via stalls and markets of textiles, clothing and footwear", Category.SUBCLASS),
+        Classification(
+            "47.81", "Retail sale via stalls and markets of food, beverages and tobacco products", Category.CLASS
+        ),
+        Classification(
+            "47.81.Z", "Retail sale via stalls and markets of food, beverages and tobacco products", Category.SUBCLASS
+        ),
+        Classification(
+            "47.82", "Retail sale via stalls and markets of textiles, clothing and footwear", Category.CLASS
+        ),
+        Classification(
+            "47.82.Z", "Retail sale via stalls and markets of textiles, clothing and footwear", Category.SUBCLASS
+        ),
         Classification("47.89", "Retail sale via stalls and markets of other goods", Category.CLASS),
         Classification("47.89.Z", "Retail sale via stalls and markets of other goods", Category.SUBCLASS),
         Classification("47.9", "Retail sale not in stores, stalls or markets", Category.GROUP),
@@ -1122,9 +1602,15 @@ PKD2007 = Standard(
         Classification("52.29.B", "Inland transportation agencies activities", Category.SUBCLASS),
         Classification("52.29.C", "Other transportation agencies activities", Category.SUBCLASS),
         Classification("53", "POSTAL AND COURIER ACTIVITIES", Category.DIVISION),
-        Classification("53.1", "Postal activities under universal service obligation (public operator)", Category.GROUP),
-        Classification("53.10", "Postal activities under universal service obligation (public operator)", Category.CLASS),
-        Classification("53.10.Z", "Postal activities under universal service obligation (public operator)", Category.SUBCLASS),
+        Classification(
+            "53.1", "Postal activities under universal service obligation (public operator)", Category.GROUP
+        ),
+        Classification(
+            "53.10", "Postal activities under universal service obligation (public operator)", Category.CLASS
+        ),
+        Classification(
+            "53.10.Z", "Postal activities under universal service obligation (public operator)", Category.SUBCLASS
+        ),
         Classification("53.2", "Other postal and courier activities", Category.GROUP),
         Classification("53.20", "Other postal and courier activities", Category.CLASS),
         Classification("53.20.Z", "Other postal and courier activities", Category.SUBCLASS),
@@ -1136,9 +1622,15 @@ PKD2007 = Standard(
         Classification("55.2", "Holiday and other short-stay accommodation", Category.GROUP),
         Classification("55.20", "Holiday and other short-stay accommodation", Category.CLASS),
         Classification("55.20.Z", "Holiday and other short-stay accommodation", Category.SUBCLASS),
-        Classification("55.3", "Camping grounds (including grounds for camping vehicles), and campsites ", Category.GROUP),
-        Classification("55.30", "Camping grounds (including grounds for camping vehicles), and campsites ", Category.CLASS),
-        Classification("55.30.Z", "Camping grounds (including grounds for camping vehicles), and campsites ", Category.SUBCLASS),
+        Classification(
+            "55.3", "Camping grounds (including grounds for camping vehicles), and campsites ", Category.GROUP
+        ),
+        Classification(
+            "55.30", "Camping grounds (including grounds for camping vehicles), and campsites ", Category.CLASS
+        ),
+        Classification(
+            "55.30.Z", "Camping grounds (including grounds for camping vehicles), and campsites ", Category.SUBCLASS
+        ),
         Classification("55.9", "Other accommodation", Category.GROUP),
         Classification("55.90", "Other accommodation", Category.CLASS),
         Classification("55.90.Z", "Other accommodation", Category.SUBCLASS),
@@ -1157,11 +1649,19 @@ PKD2007 = Standard(
         Classification("56.30.Z", "Beverage serving activities", Category.SUBCLASS),
         Classification("J", "INFORMATION AND COMMUNICATION", Category.SECTION),
         Classification("58", "PUBLISHING ACTIVITIES", Category.DIVISION),
-        Classification("58.1", "Publishing of books, periodicals and other publishing activities, excluding software      publishing", Category.GROUP),
+        Classification(
+            "58.1",
+            "Publishing of books, periodicals and other publishing activities, excluding software      publishing",
+            Category.GROUP,
+        ),
         Classification("58.11", "Book publishing", Category.CLASS),
         Classification("58.11.Z", "Book publishing", Category.SUBCLASS),
-        Classification("58.12", "Publishing of directories and registers (e.g. street, phone directory)", Category.CLASS),
-        Classification("58.12.Z", "Publishing of directories and registers (e.g. street, phone directory)", Category.SUBCLASS),
+        Classification(
+            "58.12", "Publishing of directories and registers (e.g. street, phone directory)", Category.CLASS
+        ),
+        Classification(
+            "58.12.Z", "Publishing of directories and registers (e.g. street, phone directory)", Category.SUBCLASS
+        ),
         Classification("58.13", "Publishing of newspapers", Category.CLASS),
         Classification("58.13.Z", "Publishing of newspapers", Category.SUBCLASS),
         Classification("58.14", "Publishing of journals and periodicals", Category.CLASS),
@@ -1173,14 +1673,28 @@ PKD2007 = Standard(
         Classification("58.21.Z", "Publishing of computer games", Category.SUBCLASS),
         Classification("58.29", "Other software publishing", Category.CLASS),
         Classification("58.29.Z", "Other software publishing", Category.SUBCLASS),
-        Classification("59", "MOTION PICTURE, VIDEO AND TELEVISION PROGRAMME PRODUCTION, SOUND RECORDING AND MUSIC PUBLISHING ACTIVITIES", Category.DIVISION),
+        Classification(
+            "59",
+            "MOTION PICTURE, VIDEO AND TELEVISION PROGRAMME PRODUCTION, SOUND RECORDING AND MUSIC PUBLISHING ACTIVITIES",
+            Category.DIVISION,
+        ),
         Classification("59.1", "Motion picture, video and television programme activities", Category.GROUP),
         Classification("59.11", "Motion picture, video and television programme production activities", Category.CLASS),
-        Classification("59.11.Z", "Motion picture, video and television programme production activities", Category.SUBCLASS),
-        Classification("59.12", "Motion picture, video and television programme post-production activities", Category.CLASS),
-        Classification("59.12.Z", "Motion picture, video and television programme post-production activities", Category.SUBCLASS),
-        Classification("59.13", "Motion picture, video and television programme distribution activities", Category.CLASS),
-        Classification("59.13.Z", "Motion picture, video and television programme distribution activities", Category.SUBCLASS),
+        Classification(
+            "59.11.Z", "Motion picture, video and television programme production activities", Category.SUBCLASS
+        ),
+        Classification(
+            "59.12", "Motion picture, video and television programme post-production activities", Category.CLASS
+        ),
+        Classification(
+            "59.12.Z", "Motion picture, video and television programme post-production activities", Category.SUBCLASS
+        ),
+        Classification(
+            "59.13", "Motion picture, video and television programme distribution activities", Category.CLASS
+        ),
+        Classification(
+            "59.13.Z", "Motion picture, video and television programme distribution activities", Category.SUBCLASS
+        ),
         Classification("59.14", "Motion picture projection activities", Category.CLASS),
         Classification("59.14.Z", "Motion picture projection activities", Category.SUBCLASS),
         Classification("59.2", "Sound recording and music publishing activities", Category.GROUP),
@@ -1197,9 +1711,21 @@ PKD2007 = Standard(
         Classification("61.1", "Wired telecommunications activities", Category.GROUP),
         Classification("61.10", "Wired telecommunications activities", Category.CLASS),
         Classification("61.10.Z", "Wired telecommunications activities", Category.SUBCLASS),
-        Classification("61.2", "Wireless telecommunications activities, excluding satellite telecommunications activities", Category.GROUP),
-        Classification("61.20", "Wireless telecommunications activities, excluding satellite telecommunications activities", Category.CLASS),
-        Classification("61.20.Z", "Wireless telecommunications activities, excluding satellite telecommunications activities", Category.SUBCLASS),
+        Classification(
+            "61.2",
+            "Wireless telecommunications activities, excluding satellite telecommunications activities",
+            Category.GROUP,
+        ),
+        Classification(
+            "61.20",
+            "Wireless telecommunications activities, excluding satellite telecommunications activities",
+            Category.CLASS,
+        ),
+        Classification(
+            "61.20.Z",
+            "Wireless telecommunications activities, excluding satellite telecommunications activities",
+            Category.SUBCLASS,
+        ),
         Classification("61.3", "Satellite telecommunications activities", Category.GROUP),
         Classification("61.30", "Satellite telecommunications activities", Category.CLASS),
         Classification("61.30.Z", "Satellite telecommunications activities", Category.SUBCLASS),
@@ -1240,14 +1766,28 @@ PKD2007 = Standard(
         Classification("64.3", "Trusts, funds and similar financial entities", Category.GROUP),
         Classification("64.30", "Trusts, funds and similar financial entities", Category.CLASS),
         Classification("64.30.Z", "Trusts, funds and similar financial entities", Category.SUBCLASS),
-        Classification("64.9", "Other financial service activities, except insurance and pension funding", Category.GROUP),
+        Classification(
+            "64.9", "Other financial service activities, except insurance and pension funding", Category.GROUP
+        ),
         Classification("64.91", "Financial leasing", Category.CLASS),
         Classification("64.91.Z", "Financial leasing", Category.SUBCLASS),
         Classification("64.92", "Other credit granting", Category.CLASS),
         Classification("64.92.Z", "Other credit granting", Category.SUBCLASS),
-        Classification("64.99", "Other financial service activities, except insurance and pension funding not elsewhere classified", Category.CLASS),
-        Classification("64.99.Z", "Other financial service activities, except insurance and pension funding not elsewhere classified", Category.SUBCLASS),
-        Classification("65", "INSURANCE, REINSURANCE AND PENSION FUNDING, EXCEPT COMPULSORY SOCIAL        SECURITY", Category.DIVISION),
+        Classification(
+            "64.99",
+            "Other financial service activities, except insurance and pension funding not elsewhere classified",
+            Category.CLASS,
+        ),
+        Classification(
+            "64.99.Z",
+            "Other financial service activities, except insurance and pension funding not elsewhere classified",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "65",
+            "INSURANCE, REINSURANCE AND PENSION FUNDING, EXCEPT COMPULSORY SOCIAL        SECURITY",
+            Category.DIVISION,
+        ),
         Classification("65.1", "Insurance", Category.GROUP),
         Classification("65.11", "Life insurance", Category.CLASS),
         Classification("65.11.Z", "Life insurance", Category.SUBCLASS),
@@ -1260,13 +1800,23 @@ PKD2007 = Standard(
         Classification("65.30", "Pension funding", Category.CLASS),
         Classification("65.30.Z", "Pension funding", Category.SUBCLASS),
         Classification("66", "ACTIVITIES AUXILIARY TO FINANCIAL SERVICES AND INSURANCE ACTIVITIES", Category.DIVISION),
-        Classification("66.1", "Activities auxiliary to financial services, except insurance and pension funding", Category.GROUP),
+        Classification(
+            "66.1", "Activities auxiliary to financial services, except insurance and pension funding", Category.GROUP
+        ),
         Classification("66.11", "Administration of financial markets", Category.CLASS),
         Classification("66.11.Z", "Administration of financial markets", Category.SUBCLASS),
         Classification("66.12", "Security and commodity contracts brokerage", Category.CLASS),
         Classification("66.12.Z", "Security and commodity contracts brokerage", Category.SUBCLASS),
-        Classification("66.19", "Other activities auxiliary to financial services, except insurance and pension funding", Category.CLASS),
-        Classification("66.19.Z", "Other activities auxiliary to financial services, except insurance and pension funding", Category.SUBCLASS),
+        Classification(
+            "66.19",
+            "Other activities auxiliary to financial services, except insurance and pension funding",
+            Category.CLASS,
+        ),
+        Classification(
+            "66.19.Z",
+            "Other activities auxiliary to financial services, except insurance and pension funding",
+            Category.SUBCLASS,
+        ),
         Classification("66.2", "Activities auxiliary to insurance and pension funding", Category.GROUP),
         Classification("66.21", "Risk and damage evaluation", Category.CLASS),
         Classification("66.21.Z", "Risk and damage evaluation", Category.SUBCLASS),
@@ -1291,24 +1841,44 @@ PKD2007 = Standard(
         Classification("68.32", "Management of real estate on a fee or contract basis", Category.CLASS),
         Classification("68.32.Z", "Management of real estate on a fee or contract basis", Category.SUBCLASS),
         Classification("M", "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES", Category.SECTION),
-        Classification("69", "LEGAL, ACCOUNTING, BOOKKEEPING AND AUDITING ACTIVITIES; TAX CONSULTANCY", Category.DIVISION),
+        Classification(
+            "69", "LEGAL, ACCOUNTING, BOOKKEEPING AND AUDITING ACTIVITIES; TAX CONSULTANCY", Category.DIVISION
+        ),
         Classification("69.1", "Legal activities", Category.GROUP),
         Classification("69.10", "Legal activities", Category.CLASS),
         Classification("69.10.Z", "Legal activities", Category.SUBCLASS),
         Classification("69.2", "Accounting, bookkeeping and auditing activities; tax consultancy", Category.GROUP),
         Classification("69.20", "Accounting, bookkeeping and auditing activities; tax consultancy", Category.CLASS),
-        Classification("69.20.Z", "Accounting, bookkeeping and auditing activities; tax consultancy", Category.SUBCLASS),
+        Classification(
+            "69.20.Z", "Accounting, bookkeeping and auditing activities; tax consultancy", Category.SUBCLASS
+        ),
         Classification("70", "ACTIVITIES OF HEAD OFFICES; MANAGEMENT CONSULTANCY ACTIVITIES", Category.DIVISION),
-        Classification("70.1", "Activities of head office and holding companies, excluding financial holding companies ", Category.GROUP),
-        Classification("70.10", "Activities of head office and holding companies, excluding financial holding companies ", Category.CLASS),
-        Classification("70.10.Z", "Activities of head office and holding companies, excluding financial holding companies ", Category.SUBCLASS),
+        Classification(
+            "70.1",
+            "Activities of head office and holding companies, excluding financial holding companies ",
+            Category.GROUP,
+        ),
+        Classification(
+            "70.10",
+            "Activities of head office and holding companies, excluding financial holding companies ",
+            Category.CLASS,
+        ),
+        Classification(
+            "70.10.Z",
+            "Activities of head office and holding companies, excluding financial holding companies ",
+            Category.SUBCLASS,
+        ),
         Classification("70.2", "Management consultancy activities", Category.GROUP),
         Classification("70.21", "Public relations and communication activities", Category.CLASS),
         Classification("70.21.Z", "Public relations and communication activities", Category.SUBCLASS),
         Classification("70.22", "Business and other management consultancy activities", Category.CLASS),
         Classification("70.22.Z", "Business and other management consultancy activities", Category.SUBCLASS),
-        Classification("71", "ARCHITECTURAL AND ENGINEERING ACTIVITIES; TECHNICAL TESTING AND ANALYSIS", Category.DIVISION),
-        Classification("71.1", "Architectural and engineering activities and related technical consultancy", Category.GROUP),
+        Classification(
+            "71", "ARCHITECTURAL AND ENGINEERING ACTIVITIES; TECHNICAL TESTING AND ANALYSIS", Category.DIVISION
+        ),
+        Classification(
+            "71.1", "Architectural and engineering activities and related technical consultancy", Category.GROUP
+        ),
         Classification("71.11", "Architectural activities ", Category.CLASS),
         Classification("71.11.Z", "Architectural activities ", Category.SUBCLASS),
         Classification("71.12", "Engineering activities and related technical consultancy", Category.CLASS),
@@ -1318,23 +1888,49 @@ PKD2007 = Standard(
         Classification("71.20.A", "Food quality testing and analysis", Category.SUBCLASS),
         Classification("71.20.B", "Other technical testing and analysis", Category.SUBCLASS),
         Classification("72", "SCIENTIFIC RESEARCH AND DEVELOPMENT ", Category.DIVISION),
-        Classification("72.1", "Research and experimental development on natural sciences and engineering", Category.GROUP),
+        Classification(
+            "72.1", "Research and experimental development on natural sciences and engineering", Category.GROUP
+        ),
         Classification("72.11", "Research and experimental development on biotechnology", Category.CLASS),
         Classification("72.11.Z", "Research and experimental development on biotechnology", Category.SUBCLASS),
-        Classification("72.19", "Other research and experimental development on natural sciences and engineering", Category.CLASS),
-        Classification("72.19.Z", "Other research and experimental development on natural sciences and engineering", Category.SUBCLASS),
-        Classification("72.2", "Research and experimental development on social sciences and humanities", Category.GROUP),
-        Classification("72.20", "Research and experimental development on social sciences and humanities", Category.CLASS),
-        Classification("72.20.Z", "Research and experimental development on social sciences and humanities", Category.SUBCLASS),
+        Classification(
+            "72.19", "Other research and experimental development on natural sciences and engineering", Category.CLASS
+        ),
+        Classification(
+            "72.19.Z",
+            "Other research and experimental development on natural sciences and engineering",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "72.2", "Research and experimental development on social sciences and humanities", Category.GROUP
+        ),
+        Classification(
+            "72.20", "Research and experimental development on social sciences and humanities", Category.CLASS
+        ),
+        Classification(
+            "72.20.Z", "Research and experimental development on social sciences and humanities", Category.SUBCLASS
+        ),
         Classification("73", "ADVERTISING AND MARKET RESEARCH", Category.DIVISION),
         Classification("73.1", "Advertising", Category.GROUP),
         Classification("73.11", "Advertising agencies activities", Category.CLASS),
         Classification("73.11.Z", "Advertising agencies activities", Category.SUBCLASS),
         Classification("73.12", "Media representation activities", Category.CLASS),
-        Classification("73.12.A", "Intermediation in the sale of time and place on advertising aims in the radio  and       television", Category.SUBCLASS),
-        Classification("73.12.B", "Intermediation in the sale of the place on advertising aims in printed media", Category.SUBCLASS),
-        Classification("73.12.C", "Intermediation in the sale of the place on advertising aims in electronic media (Internet)", Category.SUBCLASS),
-        Classification("73.12.D", "Intermediation in the sale of the place on advertising aims in other media", Category.SUBCLASS),
+        Classification(
+            "73.12.A",
+            "Intermediation in the sale of time and place on advertising aims in the radio  and       television",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "73.12.B", "Intermediation in the sale of the place on advertising aims in printed media", Category.SUBCLASS
+        ),
+        Classification(
+            "73.12.C",
+            "Intermediation in the sale of the place on advertising aims in electronic media (Internet)",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "73.12.D", "Intermediation in the sale of the place on advertising aims in other media", Category.SUBCLASS
+        ),
         Classification("73.2", "Market research and public opinion polling", Category.GROUP),
         Classification("73.20", "Market research and public opinion polling", Category.CLASS),
         Classification("73.20.Z", "Market research and public opinion polling", Category.SUBCLASS),
@@ -1348,9 +1944,17 @@ PKD2007 = Standard(
         Classification("74.3", "Translation and interpretation activities", Category.GROUP),
         Classification("74.30", "Translation and interpretation activities", Category.CLASS),
         Classification("74.30.Z", "Translation and interpretation activities", Category.SUBCLASS),
-        Classification("74.9", "Other professional, scientific and technical activities not elsewhere classified", Category.GROUP),
-        Classification("74.90", "Other professional, scientific and technical activities not elsewhere classified", Category.CLASS),
-        Classification("74.90.Z", "Other professional, scientific and technical activities not elsewhere classified", Category.SUBCLASS),
+        Classification(
+            "74.9", "Other professional, scientific and technical activities not elsewhere classified", Category.GROUP
+        ),
+        Classification(
+            "74.90", "Other professional, scientific and technical activities not elsewhere classified", Category.CLASS
+        ),
+        Classification(
+            "74.90.Z",
+            "Other professional, scientific and technical activities not elsewhere classified",
+            Category.SUBCLASS,
+        ),
         Classification("75", "VETERINARY ACTIVITIES", Category.DIVISION),
         Classification("75.0", "Veterinary activities", Category.GROUP),
         Classification("75.00", "Veterinary activities", Category.CLASS),
@@ -1361,7 +1965,9 @@ PKD2007 = Standard(
         Classification("77.11", "Rental and leasing of cars and light motor vehicles", Category.CLASS),
         Classification("77.11.Z", "Rental and leasing of cars and light motor vehicles", Category.SUBCLASS),
         Classification("77.12", "Rental and leasing of other motor vehicle, excluding motorcycles", Category.CLASS),
-        Classification("77.12.Z", "Rental and leasing of other motor vehicle, excluding motorcycles", Category.SUBCLASS),
+        Classification(
+            "77.12.Z", "Rental and leasing of other motor vehicle, excluding motorcycles", Category.SUBCLASS
+        ),
         Classification("77.2", "Rental and leasing of personal and household goods", Category.GROUP),
         Classification("77.21", "Rental and leasing of recreational and sports goods", Category.CLASS),
         Classification("77.21.Z", "Rental and leasing of recreational and sports goods", Category.SUBCLASS),
@@ -1374,17 +1980,37 @@ PKD2007 = Standard(
         Classification("77.31.Z", "Rental and leasing of agricultural machinery and equipment", Category.SUBCLASS),
         Classification("77.32", "Rental and leasing of construction machinery and equipment", Category.CLASS),
         Classification("77.32.Z", "Rental and leasing of construction machinery and equipment", Category.SUBCLASS),
-        Classification("77.33", "Rental and leasing of office machinery and equipment, including computers", Category.CLASS),
-        Classification("77.33.Z", "Rental and leasing of office machinery and equipment, including computers", Category.SUBCLASS),
+        Classification(
+            "77.33", "Rental and leasing of office machinery and equipment, including computers", Category.CLASS
+        ),
+        Classification(
+            "77.33.Z", "Rental and leasing of office machinery and equipment, including computers", Category.SUBCLASS
+        ),
         Classification("77.34", "Rental and leasing of water transport equipment", Category.CLASS),
         Classification("77.34.Z", "Rental and leasing of water transport equipment", Category.SUBCLASS),
         Classification("77.35", "Rental and leasing of air transport equipment", Category.CLASS),
         Classification("77.35.Z", "Rental and leasing of air transport equipment", Category.SUBCLASS),
-        Classification("77.39", "Rental and leasing of other machinery, equipment and tangible goods not elsewhere classified", Category.CLASS),
-        Classification("77.39.Z", "Rental and leasing of other machinery, equipment and tangible goods not elsewhere classified", Category.SUBCLASS),
-        Classification("77.4", "Leasing of intellectual property and similar products, except copyrighted works", Category.GROUP),
-        Classification("77.40", "Leasing of intellectual property and similar products, except copyrighted works", Category.CLASS),
-        Classification("77.40.Z", "Leasing of intellectual property and similar products, except copyrighted works", Category.SUBCLASS),
+        Classification(
+            "77.39",
+            "Rental and leasing of other machinery, equipment and tangible goods not elsewhere classified",
+            Category.CLASS,
+        ),
+        Classification(
+            "77.39.Z",
+            "Rental and leasing of other machinery, equipment and tangible goods not elsewhere classified",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "77.4", "Leasing of intellectual property and similar products, except copyrighted works", Category.GROUP
+        ),
+        Classification(
+            "77.40", "Leasing of intellectual property and similar products, except copyrighted works", Category.CLASS
+        ),
+        Classification(
+            "77.40.Z",
+            "Leasing of intellectual property and similar products, except copyrighted works",
+            Category.SUBCLASS,
+        ),
         Classification("78", "EMPLOYMENT ACTIVITIES", Category.DIVISION),
         Classification("78.1", "Activities of employment placement agencies", Category.GROUP),
         Classification("78.10", "Activities of employment placement agencies", Category.CLASS),
@@ -1395,7 +2021,11 @@ PKD2007 = Standard(
         Classification("78.3", "Other human resources provision", Category.GROUP),
         Classification("78.30", "Other human resources provision", Category.CLASS),
         Classification("78.30.Z", "Other human resources provision", Category.SUBCLASS),
-        Classification("79", "TOUR OPERATOR, MIDDLEMEN, AGENTS AND OTHER RESERVATION SERVICE AND RELATED ACTIVITIES", Category.DIVISION),
+        Classification(
+            "79",
+            "TOUR OPERATOR, MIDDLEMEN, AGENTS AND OTHER RESERVATION SERVICE AND RELATED ACTIVITIES",
+            Category.DIVISION,
+        ),
         Classification("79.1", "Tour agents, middlemen and tour operators activities", Category.GROUP),
         Classification("79.11", "Tour agents and middlemen activities", Category.CLASS),
         Classification("79.11.A", "Tour agents activities", Category.SUBCLASS),
@@ -1408,9 +2038,15 @@ PKD2007 = Standard(
         Classification("79.90.B", "Tourist information activities", Category.SUBCLASS),
         Classification("79.90.C", "Other reservation service activities not elsewhere classified", Category.SUBCLASS),
         Classification("80", "SECURITY AND INVESTIGATION ACTIVITIES", Category.DIVISION),
-        Classification("80.1", "Private security activities, excluding security systems service activities", Category.GROUP),
-        Classification("80.10", "Private security activities, excluding security systems service activities", Category.CLASS),
-        Classification("80.10.Z", "Private security activities, excluding security systems service activities", Category.SUBCLASS),
+        Classification(
+            "80.1", "Private security activities, excluding security systems service activities", Category.GROUP
+        ),
+        Classification(
+            "80.10", "Private security activities, excluding security systems service activities", Category.CLASS
+        ),
+        Classification(
+            "80.10.Z", "Private security activities, excluding security systems service activities", Category.SUBCLASS
+        ),
         Classification("80.2", "Security systems service activities", Category.GROUP),
         Classification("80.20", "Security systems service activities", Category.CLASS),
         Classification("80.20.Z", "Security systems service activities", Category.SUBCLASS),
@@ -1431,12 +2067,24 @@ PKD2007 = Standard(
         Classification("81.3", "Landscape service activities", Category.GROUP),
         Classification("81.30", "Landscape service activities", Category.CLASS),
         Classification("81.30.Z", "Landscape service activities", Category.SUBCLASS),
-        Classification("82", "OFFICE ADMINISTRATIVE SERVICE ACTIVITIES AND OTHER BUSINESS SUPPORT ACTIVITIES", Category.DIVISION),
-        Classification("82.1", "Office administrative services activities, including support activities", Category.GROUP),
+        Classification(
+            "82", "OFFICE ADMINISTRATIVE SERVICE ACTIVITIES AND OTHER BUSINESS SUPPORT ACTIVITIES", Category.DIVISION
+        ),
+        Classification(
+            "82.1", "Office administrative services activities, including support activities", Category.GROUP
+        ),
         Classification("82.11", "Office administrative service activities", Category.CLASS),
         Classification("82.11.Z", "Office administrative service activities", Category.SUBCLASS),
-        Classification("82.19", "Photocopying, document preparation and other specialised office support activities", Category.CLASS),
-        Classification("82.19.Z", "Photocopying, document preparation and other specialised office support activities", Category.SUBCLASS),
+        Classification(
+            "82.19",
+            "Photocopying, document preparation and other specialised office support activities",
+            Category.CLASS,
+        ),
+        Classification(
+            "82.19.Z",
+            "Photocopying, document preparation and other specialised office support activities",
+            Category.SUBCLASS,
+        ),
         Classification("82.2", "Activities of call centres", Category.GROUP),
         Classification("82.20", "Activities of call centres", Category.CLASS),
         Classification("82.20.Z", "Activities of call centres", Category.SUBCLASS),
@@ -1449,16 +2097,32 @@ PKD2007 = Standard(
         Classification("82.92", "Packaging activities", Category.CLASS),
         Classification("82.92.Z", "Packaging activities", Category.SUBCLASS),
         Classification("82.99", "Other business support service activities not elsewhere classified", Category.CLASS),
-        Classification("82.99.Z", "Other business support service activities not elsewhere classified", Category.SUBCLASS),
+        Classification(
+            "82.99.Z", "Other business support service activities not elsewhere classified", Category.SUBCLASS
+        ),
         Classification("O", "PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY", Category.SECTION),
         Classification("84", "Public administration and defence; compulsory social security", Category.DIVISION),
-        Classification("84.1", "Public administration and the economic and social policy of the community", Category.GROUP),
+        Classification(
+            "84.1", "Public administration and the economic and social policy of the community", Category.GROUP
+        ),
         Classification("84.11", "General public administration activities", Category.CLASS),
         Classification("84.11.Z", "General public administration activities", Category.SUBCLASS),
-        Classification("84.12", "Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security", Category.CLASS),
-        Classification("84.12.Z", "Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security", Category.SUBCLASS),
-        Classification("84.13", "Regulation of and contribution to more efficient operation of businesses", Category.CLASS),
-        Classification("84.13.Z", "Regulation of and contribution to more efficient operation of businesses", Category.SUBCLASS),
+        Classification(
+            "84.12",
+            "Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security",
+            Category.CLASS,
+        ),
+        Classification(
+            "84.12.Z",
+            "Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "84.13", "Regulation of and contribution to more efficient operation of businesses", Category.CLASS
+        ),
+        Classification(
+            "84.13.Z", "Regulation of and contribution to more efficient operation of businesses", Category.SUBCLASS
+        ),
         Classification("84.2", "Provision of services to the community as a whole", Category.GROUP),
         Classification("84.21", "Foreign affairs", Category.CLASS),
         Classification("84.21.Z", "Foreign affairs", Category.SUBCLASS),
@@ -1481,20 +2145,34 @@ PKD2007 = Standard(
         Classification("85.2", "Primary education", Category.GROUP),
         Classification("85.20", "Primary education ", Category.CLASS),
         Classification("85.20.Z", "Primary education ", Category.SUBCLASS),
-        Classification("85.3", "Lower secondary and post lower secondary schools, excluding post-secondary schools", Category.GROUP),
-        Classification("85.31", "Lower secondary schools, general upper and specialised upper secondary schools", Category.CLASS),
+        Classification(
+            "85.3", "Lower secondary and post lower secondary schools, excluding post-secondary schools", Category.GROUP
+        ),
+        Classification(
+            "85.31", "Lower secondary schools, general upper and specialised upper secondary schools", Category.CLASS
+        ),
         Classification("85.31.A", "Lower secondary schools", Category.SUBCLASS),
         Classification("85.31.B", "General upper secondary schools", Category.SUBCLASS),
         Classification("85.31.C", "Specialised upper secondary schools", Category.SUBCLASS),
-        Classification("85.32", "Vocational upper secondary schools (technical secondary schools and basic vocational schools), excluding post-secondary schools", Category.CLASS),
+        Classification(
+            "85.32",
+            "Vocational upper secondary schools (technical secondary schools and basic vocational schools), excluding post-secondary schools",
+            Category.CLASS,
+        ),
         Classification("85.32.A", "Technical secondary schools", Category.SUBCLASS),
         Classification("85.32.B", "Basic vocational schools", Category.SUBCLASS),
         Classification("85.32.C", "Special job-training schools", Category.SUBCLASS),
         Classification("85.4", "Post - secondary schools and higher education institutions", Category.GROUP),
         Classification("85.41", "Post - secondary schools", Category.CLASS),
         Classification("85.41.Z", "Post - secondary schools", Category.SUBCLASS),
-        Classification("85.42", "Initial teacher training institutions, colleges of social work and other higher education institutions", Category.CLASS),
-        Classification("85.42.A", "Initial teacher training institutions and colleges of social work ", Category.SUBCLASS),
+        Classification(
+            "85.42",
+            "Initial teacher training institutions, colleges of social work and other higher education institutions",
+            Category.CLASS,
+        ),
+        Classification(
+            "85.42.A", "Initial teacher training institutions and colleges of social work ", Category.SUBCLASS
+        ),
         Classification("85.42.B", "Higher education institutions", Category.SUBCLASS),
         Classification("85.5", "Out-of- school forms of education", Category.GROUP),
         Classification("85.51", "Out-of- school forms of sports and leisure education", Category.CLASS),
@@ -1505,7 +2183,9 @@ PKD2007 = Standard(
         Classification("85.53.Z", "Out-of- school forms of driving  education", Category.SUBCLASS),
         Classification("85.59", "Out-of-school forms of education, not elsewhere classified ", Category.CLASS),
         Classification("85.59.A", "Learning of foreign languages", Category.SUBCLASS),
-        Classification("85.59.B", "Other out-of-school forms of education, not elsewhere classified ", Category.SUBCLASS),
+        Classification(
+            "85.59.B", "Other out-of-school forms of education, not elsewhere classified ", Category.SUBCLASS
+        ),
         Classification("85.6", "Educational support activities", Category.GROUP),
         Classification("85.60", "Educational support activities", Category.CLASS),
         Classification("85.60.Z", "Educational support activities", Category.SUBCLASS),
@@ -1532,9 +2212,21 @@ PKD2007 = Standard(
         Classification("87.1", "Residential nursing care activities", Category.GROUP),
         Classification("87.10", "Residential nursing care activities", Category.CLASS),
         Classification("87.10.Z", "Residential nursing care activities", Category.SUBCLASS),
-        Classification("87.2", "Residential care activities for mental retardation, mental health and substance abuse", Category.GROUP),
-        Classification("87.20", "Residential care activities for mental retardation, mental health and substance abuse", Category.CLASS),
-        Classification("87.20.Z", "Residential care activities for mental retardation, mental health and substance abuse", Category.SUBCLASS),
+        Classification(
+            "87.2",
+            "Residential care activities for mental retardation, mental health and substance abuse",
+            Category.GROUP,
+        ),
+        Classification(
+            "87.20",
+            "Residential care activities for mental retardation, mental health and substance abuse",
+            Category.CLASS,
+        ),
+        Classification(
+            "87.20.Z",
+            "Residential care activities for mental retardation, mental health and substance abuse",
+            Category.SUBCLASS,
+        ),
         Classification("87.3", "Residential care activities for the elderly and disabled", Category.GROUP),
         Classification("87.30", "Residential care activities for the elderly and disabled", Category.CLASS),
         Classification("87.30.Z", "Residential care activities for the elderly and disabled", Category.SUBCLASS),
@@ -1542,14 +2234,24 @@ PKD2007 = Standard(
         Classification("87.90", "Other residential care activities", Category.CLASS),
         Classification("87.90.Z", "Other residential care activities", Category.SUBCLASS),
         Classification("88", "SOCIAL WORK ACTIVITIES WITHOUT ACCOMMODATION", Category.DIVISION),
-        Classification("88.1", "Social work activities without accommodation for the elderly and disabled", Category.GROUP),
-        Classification("88.10", "Social work activities without accommodation for the elderly and disabled", Category.CLASS),
-        Classification("88.10.Z", "Social work activities without accommodation for the elderly and disabled", Category.SUBCLASS),
+        Classification(
+            "88.1", "Social work activities without accommodation for the elderly and disabled", Category.GROUP
+        ),
+        Classification(
+            "88.10", "Social work activities without accommodation for the elderly and disabled", Category.CLASS
+        ),
+        Classification(
+            "88.10.Z", "Social work activities without accommodation for the elderly and disabled", Category.SUBCLASS
+        ),
         Classification("88.9", "Other social work activities without accommodation", Category.GROUP),
         Classification("88.91", "Child day-care activities", Category.CLASS),
         Classification("88.91.Z", "Child day-care activities", Category.SUBCLASS),
-        Classification("88.99", "Other social work activities without accommodation not elsewhere classified", Category.CLASS),
-        Classification("88.99.Z", "Other social work activities without accommodation not elsewhere classified", Category.SUBCLASS),
+        Classification(
+            "88.99", "Other social work activities without accommodation not elsewhere classified", Category.CLASS
+        ),
+        Classification(
+            "88.99.Z", "Other social work activities without accommodation not elsewhere classified", Category.SUBCLASS
+        ),
         Classification("R", "ARTS, ENTERTAINMENT AND RECREATION ACTIVITIES", Category.SECTION),
         Classification("90", "CREATIVE, ARTS AND ENTERTAINMENT ACTIVITIES", Category.DIVISION),
         Classification("90.0", "Creative, arts and entertainment activities", Category.GROUP),
@@ -1568,8 +2270,12 @@ PKD2007 = Standard(
         Classification("91.01.B", "Archives activities", Category.SUBCLASS),
         Classification("91.02", "Museums activities", Category.CLASS),
         Classification("91.02.Z", "Museums activities", Category.SUBCLASS),
-        Classification("91.03", "Operation of historical sites and buildings and similar visitor attractions", Category.CLASS),
-        Classification("91.03.Z", "Operation of historical sites and buildings and similar visitor attractions", Category.SUBCLASS),
+        Classification(
+            "91.03", "Operation of historical sites and buildings and similar visitor attractions", Category.CLASS
+        ),
+        Classification(
+            "91.03.Z", "Operation of historical sites and buildings and similar visitor attractions", Category.SUBCLASS
+        ),
         Classification("91.04", "Botanical and zoological gardens and nature reserves activities", Category.CLASS),
         Classification("91.04.Z", "Botanical and zoological gardens and nature reserves activities", Category.SUBCLASS),
         Classification("92", "GAMBLING AND BETTING ACTIVITIES", Category.DIVISION),
@@ -1606,8 +2312,12 @@ PKD2007 = Standard(
         Classification("94.91.Z", "Activities of religious organisations", Category.SUBCLASS),
         Classification("94.92", "Activities of political organisations", Category.CLASS),
         Classification("94.92.Z", "Activities of political organisations", Category.SUBCLASS),
-        Classification("94.99", "Activities of other membership organisations not elsewhere classified", Category.CLASS),
-        Classification("94.99.Z", "Activities of other membership organisations not elsewhere classified", Category.SUBCLASS),
+        Classification(
+            "94.99", "Activities of other membership organisations not elsewhere classified", Category.CLASS
+        ),
+        Classification(
+            "94.99.Z", "Activities of other membership organisations not elsewhere classified", Category.SUBCLASS
+        ),
         Classification("95", "REPAIR AND MAINTENANCE OF COMPUTERS AND PERSONAL AND HOUSEHOLD GOODS", Category.DIVISION),
         Classification("95.1", "Repair and maintenance of computers and communication equipment", Category.GROUP),
         Classification("95.11", "Repair and maintenance of computers and peripheral equipment", Category.CLASS),
@@ -1617,8 +2327,12 @@ PKD2007 = Standard(
         Classification("95.2", "Repair and maintenance of personal and household goods", Category.GROUP),
         Classification("95.21", "Repair and maintenance of consumer electronics", Category.CLASS),
         Classification("95.21.Z", "Repair and maintenance of consumer electronics", Category.SUBCLASS),
-        Classification("95.22", "Repair and maintenance of household appliances and home and garden equipment", Category.CLASS),
-        Classification("95.22.Z", "Repair and maintenance of household appliances and home and garden equipment", Category.SUBCLASS),
+        Classification(
+            "95.22", "Repair and maintenance of household appliances and home and garden equipment", Category.CLASS
+        ),
+        Classification(
+            "95.22.Z", "Repair and maintenance of household appliances and home and garden equipment", Category.SUBCLASS
+        ),
         Classification("95.23", "Repair of footwear and leather goods", Category.CLASS),
         Classification("95.23.Z", "Repair of footwear and leather goods", Category.SUBCLASS),
         Classification("95.24", "Repair and maintenance of furniture and home furnishings", Category.CLASS),
@@ -1639,7 +2353,11 @@ PKD2007 = Standard(
         Classification("96.04.Z", "Physical well-being activities", Category.SUBCLASS),
         Classification("96.09", "Other personal service activities not elsewhere classified", Category.CLASS),
         Classification("96.09.Z", "Other personal service activities not elsewhere classified", Category.SUBCLASS),
-        Classification("T", "HOUSEHOLDS AS EMPLOYERS;  GOODS- AND SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE", Category.SECTION),
+        Classification(
+            "T",
+            "HOUSEHOLDS AS EMPLOYERS;  GOODS- AND SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE",
+            Category.SECTION,
+        ),
         Classification("97", "HOUSEHOLDS AS EMPLOYERS OF DOMESTIC PERSONNEL", Category.DIVISION),
         Classification("97.0", "Households as employers of domestic personnel", Category.GROUP),
         Classification("97.00", "Households as employers of domestic personnel", Category.CLASS),
@@ -1656,5 +2374,5 @@ PKD2007 = Standard(
         Classification("99.0", "Extraterritorial organisations and bodies", Category.GROUP),
         Classification("99.00", "Extraterritorial organisations and bodies", Category.CLASS),
         Classification("99.00.Z", "Extraterritorial organisations and bodies", Category.SUBCLASS),
-    ]
+    ],
 )
