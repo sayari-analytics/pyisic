@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""`Concordance between PKD2007 and NACE2, "PKD-2007 is fully methodologically, conceptually, in the scope and coding system (up to fourth digit) coherent and comparable with the classification NACE Revision 2." <https://stat.gov.pl/en/metainformation/classifications/#Polish%20Classification%20of%20Activities%20(PKD)>`_.
+"""`Concordance between PKD2007 and NACE2 standards, "PKD-2007 is fully methodologically, conceptually, in the scope and coding system (up to fourth digit) coherent and comparable with the classification NACE Revision 2." <https://stat.gov.pl/en/metainformation/classifications/#Polish%20Classification%20of%20Activities%20(PKD)>`_.
 """
 from ...types import Concordance, Standards
 from ..nace2 import NACE2
