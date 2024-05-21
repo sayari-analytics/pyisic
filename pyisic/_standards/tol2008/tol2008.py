@@ -136,7 +136,9 @@ TOL2008 = Standard(
         Classification("07290", "Mining of other non-ferrous metal ores", Category.SUBCLASS),
         Classification("08", "Other mining and quarrying", Category.DIVISION),
         Classification("081", "Quarrying of stone, sand and clay", Category.GROUP),
-        Classification("0811", "Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate", Category.CLASS),
+        Classification(
+            "0811", "Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate", Category.CLASS
+        ),
         Classification("08111", "Quarrying of ornamental and building stone", Category.SUBCLASS),
         Classification("08112", "Quarrying of limestone, gypsum and chalk", Category.SUBCLASS),
         Classification("08113", "Quarrying of slate", Category.SUBCLASS),
@@ -195,10 +197,20 @@ TOL2008 = Standard(
         Classification("107", "Manufacture of bakery and farinaceous products", Category.GROUP),
         Classification("1071", "Manufacture of bread; manufacture of fresh pastry goods and cakes", Category.CLASS),
         Classification("10710", "Manufacture of bread; manufacture of fresh pastry goods and cakes", Category.SUBCLASS),
-        Classification("1072", "Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes", Category.CLASS),
-        Classification("10720", "Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes", Category.SUBCLASS),
-        Classification("1073", "Manufacture of macaroni, noodles, couscous and similar farinaceous products", Category.CLASS),
-        Classification("10730", "Manufacture of macaroni, noodles, couscous and similar farinaceous products", Category.SUBCLASS),
+        Classification(
+            "1072", "Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes", Category.CLASS
+        ),
+        Classification(
+            "10720",
+            "Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "1073", "Manufacture of macaroni, noodles, couscous and similar farinaceous products", Category.CLASS
+        ),
+        Classification(
+            "10730", "Manufacture of macaroni, noodles, couscous and similar farinaceous products", Category.SUBCLASS
+        ),
         Classification("108", "Manufacture of other food products", Category.GROUP),
         Classification("1081", "Manufacture of sugar", Category.CLASS),
         Classification("10810", "Manufacture of sugar", Category.SUBCLASS),
@@ -233,8 +245,14 @@ TOL2008 = Standard(
         Classification("11050", "Manufacture of beer", Category.SUBCLASS),
         Classification("1106", "Manufacture of malt", Category.CLASS),
         Classification("11060", "Manufacture of malt", Category.SUBCLASS),
-        Classification("1107", "Manufacture of soft drinks; production of mineral waters and other bottled waters", Category.CLASS),
-        Classification("11070", "Manufacture of soft drinks; production of mineral waters and other bottled waters", Category.SUBCLASS),
+        Classification(
+            "1107", "Manufacture of soft drinks; production of mineral waters and other bottled waters", Category.CLASS
+        ),
+        Classification(
+            "11070",
+            "Manufacture of soft drinks; production of mineral waters and other bottled waters",
+            Category.SUBCLASS,
+        ),
         Classification("12", "Manufacture of tobacco products", Category.DIVISION),
         Classification("120", "Manufacture of tobacco products", Category.GROUP),
         Classification("1200", "Manufacture of tobacco products", Category.CLASS),
@@ -254,13 +272,19 @@ TOL2008 = Standard(
         Classification("13910", "Manufacture of knitted and crocheted fabrics", Category.SUBCLASS),
         Classification("1392", "Manufacture of made-up textile articles, except apparel", Category.CLASS),
         Classification("13921", "Manufacture of household furnishings of textile materials", Category.SUBCLASS),
-        Classification("13922", "Manufacture of tarpaulins, sails and other made-up textile articles", Category.SUBCLASS),
+        Classification(
+            "13922", "Manufacture of tarpaulins, sails and other made-up textile articles", Category.SUBCLASS
+        ),
         Classification("1393", "Manufacture of carpets and rugs", Category.CLASS),
         Classification("13930", "Manufacture of carpets and rugs", Category.SUBCLASS),
         Classification("1394", "Manufacture of cordage, rope, twine and netting", Category.CLASS),
         Classification("13940", "Manufacture of cordage, rope, twine and netting", Category.SUBCLASS),
-        Classification("1395", "Manufacture of non-wovens and articles made from non-wovens, except apparel", Category.CLASS),
-        Classification("13950", "Manufacture of non-wovens and articles made from non-wovens, except apparel", Category.SUBCLASS),
+        Classification(
+            "1395", "Manufacture of non-wovens and articles made from non-wovens, except apparel", Category.CLASS
+        ),
+        Classification(
+            "13950", "Manufacture of non-wovens and articles made from non-wovens, except apparel", Category.SUBCLASS
+        ),
         Classification("1396", "Manufacture of other technical and industrial textiles", Category.CLASS),
         Classification("13960", "Manufacture of other technical and industrial textiles", Category.SUBCLASS),
         Classification("1399", "Manufacture of other textiles n.e.c.", Category.CLASS),
@@ -286,15 +310,25 @@ TOL2008 = Standard(
         Classification("1439", "Manufacture of other knitted and crocheted apparel", Category.CLASS),
         Classification("14390", "Manufacture of other knitted and crocheted apparel", Category.SUBCLASS),
         Classification("15", "Manufacture of leather and related products", Category.DIVISION),
-        Classification("151", "Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur", Category.GROUP),
+        Classification(
+            "151",
+            "Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur",
+            Category.GROUP,
+        ),
         Classification("1511", "Tanning and dressing of leather; dressing and dyeing of fur", Category.CLASS),
         Classification("15110", "Tanning and dressing of leather; dressing and dyeing of fur", Category.SUBCLASS),
         Classification("1512", "Manufacture of luggage, handbags and the like, saddlery and harness", Category.CLASS),
-        Classification("15120", "Manufacture of luggage, handbags and the like, saddlery and harness", Category.SUBCLASS),
+        Classification(
+            "15120", "Manufacture of luggage, handbags and the like, saddlery and harness", Category.SUBCLASS
+        ),
         Classification("152", "Manufacture of footwear", Category.GROUP),
         Classification("1520", "Manufacture of footwear", Category.CLASS),
         Classification("15200", "Manufacture of footwear", Category.SUBCLASS),
-        Classification("16", "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials", Category.DIVISION),
+        Classification(
+            "16",
+            "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",
+            Category.DIVISION,
+        ),
         Classification("161", "Sawmilling and planing of wood", Category.GROUP),
         Classification("1610", "Sawmilling and planing of wood", Category.CLASS),
         Classification("16100", "Sawmilling and planing of wood", Category.SUBCLASS),
@@ -310,8 +344,16 @@ TOL2008 = Standard(
         Classification("16239", "Manufacture of builders’ carpentry and joinery n.e.c.", Category.SUBCLASS),
         Classification("1624", "Manufacture of wooden containers", Category.CLASS),
         Classification("16240", "Manufacture of wooden containers", Category.SUBCLASS),
-        Classification("1629", "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting", Category.CLASS),
-        Classification("16290", "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting", Category.SUBCLASS),
+        Classification(
+            "1629",
+            "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting",
+            Category.CLASS,
+        ),
+        Classification(
+            "16290",
+            "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting",
+            Category.SUBCLASS,
+        ),
         Classification("17", "Manufacture of paper and paper products", Category.DIVISION),
         Classification("171", "Manufacture of pulp, paper and paperboard", Category.GROUP),
         Classification("1711", "Manufacture of pulp", Category.CLASS),
@@ -319,11 +361,21 @@ TOL2008 = Standard(
         Classification("1712", "Manufacture of paper and paperboard", Category.CLASS),
         Classification("17120", "Manufacture of paper and paperboard", Category.SUBCLASS),
         Classification("172", "Manufacture of articles of paper and paperboard", Category.GROUP),
-        Classification("1721", "Manufacture of corrugated paper and paperboard and of containers of paper and paperboard", Category.CLASS),
+        Classification(
+            "1721",
+            "Manufacture of corrugated paper and paperboard and of containers of paper and paperboard",
+            Category.CLASS,
+        ),
         Classification("17211", "Manufacture of paper sacks and bags", Category.SUBCLASS),
-        Classification("17212", "Manufacture of corrugated paper and paperboard and of containers of paper and paperboard", Category.SUBCLASS),
+        Classification(
+            "17212",
+            "Manufacture of corrugated paper and paperboard and of containers of paper and paperboard",
+            Category.SUBCLASS,
+        ),
         Classification("1722", "Manufacture of household and sanitary goods and of toilet requisites", Category.CLASS),
-        Classification("17220", "Manufacture of household and sanitary goods and of toilet requisites", Category.SUBCLASS),
+        Classification(
+            "17220", "Manufacture of household and sanitary goods and of toilet requisites", Category.SUBCLASS
+        ),
         Classification("1723", "Manufacture of paper stationery", Category.CLASS),
         Classification("17230", "Manufacture of paper stationery", Category.SUBCLASS),
         Classification("1724", "Manufacture of wallpaper", Category.CLASS),
@@ -351,7 +403,11 @@ TOL2008 = Standard(
         Classification("1920", "Manufacture of refined petroleum products", Category.CLASS),
         Classification("19200", "Manufacture of refined petroleum products", Category.SUBCLASS),
         Classification("20", "Manufacture of chemicals and chemical products", Category.DIVISION),
-        Classification("201", "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms", Category.GROUP),
+        Classification(
+            "201",
+            "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms",
+            Category.GROUP,
+        ),
         Classification("2011", "Manufacture of industrial gases", Category.CLASS),
         Classification("20110", "Manufacture of industrial gases", Category.SUBCLASS),
         Classification("2012", "Manufacture of dyes and pigments", Category.CLASS),
@@ -369,12 +425,28 @@ TOL2008 = Standard(
         Classification("202", "Manufacture of pesticides and other agrochemical products", Category.GROUP),
         Classification("2020", "Manufacture of pesticides and other agrochemical products", Category.CLASS),
         Classification("20200", "Manufacture of pesticides and other agrochemical products", Category.SUBCLASS),
-        Classification("203", "Manufacture of paints, varnishes and similar coatings, printing ink and mastics", Category.GROUP),
-        Classification("2030", "Manufacture of paints, varnishes and similar coatings, printing ink and mastics", Category.CLASS),
-        Classification("20300", "Manufacture of paints, varnishes and similar coatings, printing ink and mastics", Category.SUBCLASS),
-        Classification("204", "Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations", Category.GROUP),
-        Classification("2041", "Manufacture of soap and detergents, cleaning and polishing preparations", Category.CLASS),
-        Classification("20410", "Manufacture of soap and detergents, cleaning and polishing preparations", Category.SUBCLASS),
+        Classification(
+            "203", "Manufacture of paints, varnishes and similar coatings, printing ink and mastics", Category.GROUP
+        ),
+        Classification(
+            "2030", "Manufacture of paints, varnishes and similar coatings, printing ink and mastics", Category.CLASS
+        ),
+        Classification(
+            "20300",
+            "Manufacture of paints, varnishes and similar coatings, printing ink and mastics",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "204",
+            "Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",
+            Category.GROUP,
+        ),
+        Classification(
+            "2041", "Manufacture of soap and detergents, cleaning and polishing preparations", Category.CLASS
+        ),
+        Classification(
+            "20410", "Manufacture of soap and detergents, cleaning and polishing preparations", Category.SUBCLASS
+        ),
         Classification("2042", "Manufacture of perfumes and toilet preparations", Category.CLASS),
         Classification("20420", "Manufacture of perfumes and toilet preparations", Category.SUBCLASS),
         Classification("205", "Manufacture of other chemical products", Category.GROUP),
@@ -389,7 +461,9 @@ TOL2008 = Standard(
         Classification("206", "Manufacture of man-made fibres", Category.GROUP),
         Classification("2060", "Manufacture of man-made fibres", Category.CLASS),
         Classification("20600", "Manufacture of man-made fibres", Category.SUBCLASS),
-        Classification("21", "Manufacture of basic pharmaceutical products and pharmaceutical preparations", Category.DIVISION),
+        Classification(
+            "21", "Manufacture of basic pharmaceutical products and pharmaceutical preparations", Category.DIVISION
+        ),
         Classification("211", "Manufacture of basic pharmaceutical products", Category.GROUP),
         Classification("2110", "Manufacture of basic pharmaceutical products", Category.CLASS),
         Classification("21100", "Manufacture of basic pharmaceutical products", Category.SUBCLASS),
@@ -398,8 +472,14 @@ TOL2008 = Standard(
         Classification("21200", "Manufacture of pharmaceutical preparations", Category.SUBCLASS),
         Classification("22", "Manufacture of rubber and plastic products", Category.DIVISION),
         Classification("221", "Manufacture of rubber products", Category.GROUP),
-        Classification("2211", "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres", Category.CLASS),
-        Classification("22110", "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres", Category.SUBCLASS),
+        Classification(
+            "2211", "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres", Category.CLASS
+        ),
+        Classification(
+            "22110",
+            "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres",
+            Category.SUBCLASS,
+        ),
         Classification("2219", "Manufacture of other rubber products", Category.CLASS),
         Classification("22190", "Manufacture of other rubber products", Category.SUBCLASS),
         Classification("222", "Manufacture of plastics products", Category.GROUP),
@@ -421,8 +501,12 @@ TOL2008 = Standard(
         Classification("23130", "Manufacture of hollow glass", Category.SUBCLASS),
         Classification("2314", "Manufacture of glass fibres", Category.CLASS),
         Classification("23140", "Manufacture of glass fibres", Category.SUBCLASS),
-        Classification("2319", "Manufacture and processing of other glass, including technical glassware", Category.CLASS),
-        Classification("23190", "Manufacture and processing of other glass, including technical glassware", Category.SUBCLASS),
+        Classification(
+            "2319", "Manufacture and processing of other glass, including technical glassware", Category.CLASS
+        ),
+        Classification(
+            "23190", "Manufacture and processing of other glass, including technical glassware", Category.SUBCLASS
+        ),
         Classification("232", "Manufacture of refractory products", Category.GROUP),
         Classification("2320", "Manufacture of refractory products", Category.CLASS),
         Classification("23200", "Manufacture of refractory products", Category.SUBCLASS),
@@ -430,7 +514,9 @@ TOL2008 = Standard(
         Classification("2331", "Manufacture of ceramic tiles and flags", Category.CLASS),
         Classification("23310", "Manufacture of ceramic tiles and flags", Category.SUBCLASS),
         Classification("2332", "Manufacture of bricks, tiles and construction products, in baked clay", Category.CLASS),
-        Classification("23320", "Manufacture of bricks, tiles and construction products, in baked clay", Category.SUBCLASS),
+        Classification(
+            "23320", "Manufacture of bricks, tiles and construction products, in baked clay", Category.SUBCLASS
+        ),
         Classification("234", "Manufacture of other porcelain and ceramic products", Category.GROUP),
         Classification("2341", "Manufacture of ceramic household and ornamental articles", Category.CLASS),
         Classification("23410", "Manufacture of ceramic household and ornamental articles", Category.SUBCLASS),
@@ -463,7 +549,9 @@ TOL2008 = Standard(
         Classification("237", "Cutting, shaping and finishing of stone", Category.GROUP),
         Classification("2370", "Cutting, shaping and finishing of stone", Category.CLASS),
         Classification("23700", "Cutting, shaping and finishing of stone", Category.SUBCLASS),
-        Classification("239", "Manufacture of abrasive products and non-metallic mineral products n.e.c.", Category.GROUP),
+        Classification(
+            "239", "Manufacture of abrasive products and non-metallic mineral products n.e.c.", Category.GROUP
+        ),
         Classification("2391", "Production of abrasive products", Category.CLASS),
         Classification("23910", "Production of abrasive products", Category.SUBCLASS),
         Classification("2399", "Manufacture of other non-metallic mineral products n.e.c.", Category.CLASS),
@@ -472,9 +560,15 @@ TOL2008 = Standard(
         Classification("241", "Manufacture of basic iron and steel and of ferro-alloys", Category.GROUP),
         Classification("2410", "Manufacture of basic iron and steel and of ferro-alloys", Category.CLASS),
         Classification("24100", "Manufacture of basic iron and steel and of ferro-alloys", Category.SUBCLASS),
-        Classification("242", "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel", Category.GROUP),
-        Classification("2420", "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel", Category.CLASS),
-        Classification("24200", "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel", Category.SUBCLASS),
+        Classification(
+            "242", "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel", Category.GROUP
+        ),
+        Classification(
+            "2420", "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel", Category.CLASS
+        ),
+        Classification(
+            "24200", "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel", Category.SUBCLASS
+        ),
         Classification("243", "Manufacture of other products of first processing of steel", Category.GROUP),
         Classification("2431", "Cold drawing of bars", Category.CLASS),
         Classification("24310", "Cold drawing of bars", Category.SUBCLASS),
@@ -506,7 +600,9 @@ TOL2008 = Standard(
         Classification("24530", "Casting of light metals", Category.SUBCLASS),
         Classification("2454", "Casting of other non-ferrous metals", Category.CLASS),
         Classification("24540", "Casting of other non-ferrous metals", Category.SUBCLASS),
-        Classification("25", "Manufacture of fabricated metal products, except machinery and equipment", Category.DIVISION),
+        Classification(
+            "25", "Manufacture of fabricated metal products, except machinery and equipment", Category.DIVISION
+        ),
         Classification("251", "Manufacture of structural metal products", Category.GROUP),
         Classification("2511", "Manufacture of metal structures and parts of structures", Category.CLASS),
         Classification("25110", "Manufacture of metal structures and parts of structures", Category.SUBCLASS),
@@ -517,15 +613,27 @@ TOL2008 = Standard(
         Classification("25210", "Manufacture of central heating radiators and boilers", Category.SUBCLASS),
         Classification("2529", "Manufacture of other tanks, reservoirs and containers of metal", Category.CLASS),
         Classification("25290", "Manufacture of other tanks, reservoirs and containers of metal", Category.SUBCLASS),
-        Classification("253", "Manufacture of steam generators, except central heating hot water boilers", Category.GROUP),
-        Classification("2530", "Manufacture of steam generators, except central heating hot water boilers", Category.CLASS),
-        Classification("25300", "Manufacture of steam generators, except central heating hot water boilers", Category.SUBCLASS),
+        Classification(
+            "253", "Manufacture of steam generators, except central heating hot water boilers", Category.GROUP
+        ),
+        Classification(
+            "2530", "Manufacture of steam generators, except central heating hot water boilers", Category.CLASS
+        ),
+        Classification(
+            "25300", "Manufacture of steam generators, except central heating hot water boilers", Category.SUBCLASS
+        ),
         Classification("254", "Manufacture of weapons and ammunition", Category.GROUP),
         Classification("2540", "Manufacture of weapons and ammunition", Category.CLASS),
         Classification("25400", "Manufacture of weapons and ammunition", Category.SUBCLASS),
-        Classification("255", "Forging, pressing, stamping and roll-forming of metal; powder metallurgy", Category.GROUP),
-        Classification("2550", "Forging, pressing, stamping and roll-forming of metal; powder metallurgy", Category.CLASS),
-        Classification("25500", "Forging, pressing, stamping and roll-forming of metal; powder metallurgy", Category.SUBCLASS),
+        Classification(
+            "255", "Forging, pressing, stamping and roll-forming of metal; powder metallurgy", Category.GROUP
+        ),
+        Classification(
+            "2550", "Forging, pressing, stamping and roll-forming of metal; powder metallurgy", Category.CLASS
+        ),
+        Classification(
+            "25500", "Forging, pressing, stamping and roll-forming of metal; powder metallurgy", Category.SUBCLASS
+        ),
         Classification("256", "Treatment and coating of metals; machining", Category.GROUP),
         Classification("2561", "Treatment and coating of metals", Category.CLASS),
         Classification("25610", "Treatment and coating of metals", Category.SUBCLASS),
@@ -564,14 +672,30 @@ TOL2008 = Standard(
         Classification("264", "Manufacture of consumer electronics", Category.GROUP),
         Classification("2640", "Manufacture of consumer electronics", Category.CLASS),
         Classification("26400", "Manufacture of consumer electronics", Category.SUBCLASS),
-        Classification("265", "Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks", Category.GROUP),
-        Classification("2651", "Manufacture of instruments and appliances for measuring, testing and navigation", Category.CLASS),
-        Classification("26510", "Manufacture of instruments and appliances for measuring, testing and navigation", Category.SUBCLASS),
+        Classification(
+            "265",
+            "Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks",
+            Category.GROUP,
+        ),
+        Classification(
+            "2651", "Manufacture of instruments and appliances for measuring, testing and navigation", Category.CLASS
+        ),
+        Classification(
+            "26510",
+            "Manufacture of instruments and appliances for measuring, testing and navigation",
+            Category.SUBCLASS,
+        ),
         Classification("2652", "Manufacture of watches and clocks", Category.CLASS),
         Classification("26520", "Manufacture of watches and clocks", Category.SUBCLASS),
-        Classification("266", "Manufacture of irradiation, electromedical and electrotherapeutic equipment", Category.GROUP),
-        Classification("2660", "Manufacture of irradiation, electromedical and electrotherapeutic equipment", Category.CLASS),
-        Classification("26600", "Manufacture of irradiation, electromedical and electrotherapeutic equipment", Category.SUBCLASS),
+        Classification(
+            "266", "Manufacture of irradiation, electromedical and electrotherapeutic equipment", Category.GROUP
+        ),
+        Classification(
+            "2660", "Manufacture of irradiation, electromedical and electrotherapeutic equipment", Category.CLASS
+        ),
+        Classification(
+            "26600", "Manufacture of irradiation, electromedical and electrotherapeutic equipment", Category.SUBCLASS
+        ),
         Classification("267", "Manufacture of optical instruments and photographic equipment", Category.GROUP),
         Classification("2670", "Manufacture of optical instruments and photographic equipment", Category.CLASS),
         Classification("26700", "Manufacture of optical instruments and photographic equipment", Category.SUBCLASS),
@@ -579,7 +703,11 @@ TOL2008 = Standard(
         Classification("2680", "Manufacture of magnetic and optical media", Category.CLASS),
         Classification("26800", "Manufacture of magnetic and optical media", Category.SUBCLASS),
         Classification("27", "Manufacture of electrical equipment", Category.DIVISION),
-        Classification("271", "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus", Category.GROUP),
+        Classification(
+            "271",
+            "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus",
+            Category.GROUP,
+        ),
         Classification("2711", "Manufacture of electric motors, generators and transformers", Category.CLASS),
         Classification("27110", "Manufacture of electric motors, generators and transformers", Category.SUBCLASS),
         Classification("2712", "Manufacture of electricity distribution and control apparatus", Category.CLASS),
@@ -607,8 +735,14 @@ TOL2008 = Standard(
         Classification("27900", "Manufacture of other electrical equipment", Category.SUBCLASS),
         Classification("28", "Manufacture of machinery and equipment n.e.c.", Category.DIVISION),
         Classification("281", "Manufacture of general-purpose machinery", Category.GROUP),
-        Classification("2811", "Manufacture of engines and turbines, except aircraft, vehicle and cycle engines", Category.CLASS),
-        Classification("28110", "Manufacture of engines and turbines, except aircraft, vehicle and cycle engines", Category.SUBCLASS),
+        Classification(
+            "2811", "Manufacture of engines and turbines, except aircraft, vehicle and cycle engines", Category.CLASS
+        ),
+        Classification(
+            "28110",
+            "Manufacture of engines and turbines, except aircraft, vehicle and cycle engines",
+            Category.SUBCLASS,
+        ),
         Classification("2812", "Manufacture of fluid power equipment", Category.CLASS),
         Classification("28120", "Manufacture of fluid power equipment", Category.SUBCLASS),
         Classification("2813", "Manufacture of other pumps and compressors", Category.CLASS),
@@ -622,8 +756,16 @@ TOL2008 = Standard(
         Classification("28210", "Manufacture of ovens, furnaces and furnace burners", Category.SUBCLASS),
         Classification("2822", "Manufacture of lifting and handling equipment", Category.CLASS),
         Classification("28220", "Manufacture of lifting and handling equipment", Category.SUBCLASS),
-        Classification("2823", "Manufacture of office machinery and equipment (except computers and peripheral equipment)", Category.CLASS),
-        Classification("28230", "Manufacture of office machinery and equipment (except computers and peripheral equipment)", Category.SUBCLASS),
+        Classification(
+            "2823",
+            "Manufacture of office machinery and equipment (except computers and peripheral equipment)",
+            Category.CLASS,
+        ),
+        Classification(
+            "28230",
+            "Manufacture of office machinery and equipment (except computers and peripheral equipment)",
+            Category.SUBCLASS,
+        ),
         Classification("2824", "Manufacture of power-driven hand tools", Category.CLASS),
         Classification("28240", "Manufacture of power-driven hand tools", Category.SUBCLASS),
         Classification("2825", "Manufacture of non-domestic cooling and ventilation equipment", Category.CLASS),
@@ -644,9 +786,13 @@ TOL2008 = Standard(
         Classification("2892", "Manufacture of machinery for mining, quarrying and construction", Category.CLASS),
         Classification("28920", "Manufacture of machinery for mining, quarrying and construction", Category.SUBCLASS),
         Classification("2893", "Manufacture of machinery for food, beverage and tobacco processing", Category.CLASS),
-        Classification("28930", "Manufacture of machinery for food, beverage and tobacco processing", Category.SUBCLASS),
+        Classification(
+            "28930", "Manufacture of machinery for food, beverage and tobacco processing", Category.SUBCLASS
+        ),
         Classification("2894", "Manufacture of machinery for textile, apparel and leather production", Category.CLASS),
-        Classification("28940", "Manufacture of machinery for textile, apparel and leather production", Category.SUBCLASS),
+        Classification(
+            "28940", "Manufacture of machinery for textile, apparel and leather production", Category.SUBCLASS
+        ),
         Classification("2895", "Manufacture of machinery for paper and paperboard production", Category.CLASS),
         Classification("28950", "Manufacture of machinery for paper and paperboard production", Category.SUBCLASS),
         Classification("2896", "Manufacture of plastics and rubber machinery", Category.CLASS),
@@ -657,12 +803,26 @@ TOL2008 = Standard(
         Classification("291", "Manufacture of motor vehicles", Category.GROUP),
         Classification("2910", "Manufacture of motor vehicles", Category.CLASS),
         Classification("29100", "Manufacture of motor vehicles", Category.SUBCLASS),
-        Classification("292", "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers", Category.GROUP),
-        Classification("2920", "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers", Category.CLASS),
-        Classification("29200", "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers", Category.SUBCLASS),
+        Classification(
+            "292",
+            "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers",
+            Category.GROUP,
+        ),
+        Classification(
+            "2920",
+            "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers",
+            Category.CLASS,
+        ),
+        Classification(
+            "29200",
+            "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers",
+            Category.SUBCLASS,
+        ),
         Classification("293", "Manufacture of parts and accessories for motor vehicles", Category.GROUP),
         Classification("2931", "Manufacture of electrical and electronic equipment for motor vehicles", Category.CLASS),
-        Classification("29310", "Manufacture of electrical and electronic equipment for motor vehicles", Category.SUBCLASS),
+        Classification(
+            "29310", "Manufacture of electrical and electronic equipment for motor vehicles", Category.SUBCLASS
+        ),
         Classification("2932", "Manufacture of other parts and accessories for motor vehicles", Category.CLASS),
         Classification("29320", "Manufacture of other parts and accessories for motor vehicles", Category.SUBCLASS),
         Classification("30", "Manufacture of other transport equipment", Category.DIVISION),
@@ -716,7 +876,9 @@ TOL2008 = Standard(
         Classification("32400", "Manufacture of games and toys", Category.SUBCLASS),
         Classification("325", "Manufacture of medical and dental instruments and supplies", Category.GROUP),
         Classification("3250", "Manufacture of medical and dental instruments and supplies", Category.CLASS),
-        Classification("32501", "Manufacture of medical and dental instruments and supplies (excl. dentures)", Category.SUBCLASS),
+        Classification(
+            "32501", "Manufacture of medical and dental instruments and supplies (excl. dentures)", Category.SUBCLASS
+        ),
         Classification("32502", "Manufacture of dentures, dental implants, etc.", Category.SUBCLASS),
         Classification("329", "Manufacturing n.e.c.", Category.GROUP),
         Classification("3291", "Manufacture of brooms and brushes", Category.CLASS),
@@ -731,7 +893,9 @@ TOL2008 = Standard(
         Classification("3312", "Repair of machinery", Category.CLASS),
         Classification("33121", "Repair and maintenance of general-purpose machines", Category.SUBCLASS),
         Classification("33122", "Repair and maintenance of agricultural and forestry machines", Category.SUBCLASS),
-        Classification("33123", "Repair and maintenance of metal working machines and other machine tools", Category.SUBCLASS),
+        Classification(
+            "33123", "Repair and maintenance of metal working machines and other machine tools", Category.SUBCLASS
+        ),
         Classification("33129", "Repair and maintenance of other special-purpose machines", Category.SUBCLASS),
         Classification("3313", "Repair of electronic and optical equipment", Category.CLASS),
         Classification("33130", "Repair of electronic and optical equipment", Category.SUBCLASS),
@@ -772,7 +936,9 @@ TOL2008 = Standard(
         Classification("35230", "Trade of gas through mains", Category.SUBCLASS),
         Classification("353", "Steam and air conditioning supply", Category.GROUP),
         Classification("3530", "Steam and air conditioning supply", Category.CLASS),
-        Classification("35301", "Separate production and distribution of district heat and air conditioning", Category.SUBCLASS),
+        Classification(
+            "35301", "Separate production and distribution of district heat and air conditioning", Category.SUBCLASS
+        ),
         Classification("35302", "Separate production of heat and air conditioning for industry", Category.SUBCLASS),
         Classification("E", "Water supply; sewerage, waste management and remediation activities", Category.SECTION),
         Classification("36", "Water collection, treatment and supply", Category.DIVISION),
@@ -783,7 +949,9 @@ TOL2008 = Standard(
         Classification("370", "Sewerage", Category.GROUP),
         Classification("3700", "Sewerage", Category.CLASS),
         Classification("37000", "Sewerage", Category.SUBCLASS),
-        Classification("38", "Waste collection, treatment and disposal activities; materials recovery", Category.DIVISION),
+        Classification(
+            "38", "Waste collection, treatment and disposal activities; materials recovery", Category.DIVISION
+        ),
         Classification("381", "Waste collection", Category.GROUP),
         Classification("3811", "Collection of non-hazardous waste", Category.CLASS),
         Classification("38110", "Collection of non-hazardous waste", Category.SUBCLASS),
@@ -822,8 +990,12 @@ TOL2008 = Standard(
         Classification("422", "Construction of utility projects", Category.GROUP),
         Classification("4221", "Construction of utility projects for fluids", Category.CLASS),
         Classification("42210", "Construction of utility projects for fluids", Category.SUBCLASS),
-        Classification("4222", "Construction of utility projects for electricity and telecommunications", Category.CLASS),
-        Classification("42220", "Construction of utility projects for electricity and telecommunications", Category.SUBCLASS),
+        Classification(
+            "4222", "Construction of utility projects for electricity and telecommunications", Category.CLASS
+        ),
+        Classification(
+            "42220", "Construction of utility projects for electricity and telecommunications", Category.SUBCLASS
+        ),
         Classification("429", "Construction of other civil engineering projects", Category.GROUP),
         Classification("4291", "Construction of water projects", Category.CLASS),
         Classification("42910", "Construction of water projects", Category.SUBCLASS),
@@ -866,7 +1038,9 @@ TOL2008 = Standard(
         Classification("43991", "Renting of construction or demolition equipment with operator", Category.SUBCLASS),
         Classification("43999", "Other specialised construction activities n.e.c.", Category.SUBCLASS),
         Classification("G", "Wholesale and retail trade; repair of motor vehicles and motorcycles", Category.SECTION),
-        Classification("45", "Wholesale and retail trade and repair of motor vehicles and motorcycles", Category.DIVISION),
+        Classification(
+            "45", "Wholesale and retail trade and repair of motor vehicles and motorcycles", Category.DIVISION
+        ),
         Classification("451", "Sale of motor vehicles", Category.GROUP),
         Classification("4511", "Sale of cars and light motor vehicles", Category.CLASS),
         Classification("45111", "Wholesale of cars and light motor vehicles", Category.SUBCLASS),
@@ -885,25 +1059,61 @@ TOL2008 = Standard(
         Classification("4532", "Retail trade of motor vehicle parts and accessories", Category.CLASS),
         Classification("45321", "Retail sale of motor vehicle parts and accessories (excl. tyres)", Category.SUBCLASS),
         Classification("45322", "Retail sale of tyres", Category.SUBCLASS),
-        Classification("454", "Sale, maintenance and repair of motorcycles and related parts and accessories", Category.GROUP),
-        Classification("4540", "Sale, maintenance and repair of motorcycles and related parts and accessories", Category.CLASS),
+        Classification(
+            "454", "Sale, maintenance and repair of motorcycles and related parts and accessories", Category.GROUP
+        ),
+        Classification(
+            "4540", "Sale, maintenance and repair of motorcycles and related parts and accessories", Category.CLASS
+        ),
         Classification("45401", "Wholesale of motorcycles and related parts and accessories", Category.SUBCLASS),
         Classification("45402", "Retail sale of motorcycles and related parts and accessories", Category.SUBCLASS),
         Classification("45403", "Maintenance and repair of motorcycles", Category.SUBCLASS),
         Classification("46", "Wholesale trade, except of motor vehicles and motorcycles", Category.DIVISION),
         Classification("461", "Wholesale on a fee or contract basis", Category.GROUP),
-        Classification("4611", "Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods", Category.CLASS),
-        Classification("46110", "Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods", Category.SUBCLASS),
-        Classification("4612", "Agents involved in the sale of fuels, ores, metals and industrial chemicals", Category.CLASS),
-        Classification("46120", "Agents involved in the sale of fuels, ores, metals and industrial chemicals", Category.SUBCLASS),
+        Classification(
+            "4611",
+            "Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods",
+            Category.CLASS,
+        ),
+        Classification(
+            "46110",
+            "Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "4612", "Agents involved in the sale of fuels, ores, metals and industrial chemicals", Category.CLASS
+        ),
+        Classification(
+            "46120", "Agents involved in the sale of fuels, ores, metals and industrial chemicals", Category.SUBCLASS
+        ),
         Classification("4613", "Agents involved in the sale of timber and building materials", Category.CLASS),
         Classification("46130", "Agents involved in the sale of timber and building materials", Category.SUBCLASS),
-        Classification("4614", "Agents involved in the sale of machinery, industrial equipment, ships and aircraft", Category.CLASS),
-        Classification("46140", "Agents involved in the sale of machinery, industrial equipment, ships and aircraft", Category.SUBCLASS),
-        Classification("4615", "Agents involved in the sale of furniture, household goods, hardware and ironmongery", Category.CLASS),
-        Classification("46150", "Agents involved in the sale of furniture, household goods, hardware and ironmongery", Category.SUBCLASS),
-        Classification("4616", "Agents involved in the sale of textiles, clothing, fur, footwear and leather goods", Category.CLASS),
-        Classification("46160", "Agents involved in the sale of textiles, clothing, fur, footwear and leather goods", Category.SUBCLASS),
+        Classification(
+            "4614", "Agents involved in the sale of machinery, industrial equipment, ships and aircraft", Category.CLASS
+        ),
+        Classification(
+            "46140",
+            "Agents involved in the sale of machinery, industrial equipment, ships and aircraft",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "4615",
+            "Agents involved in the sale of furniture, household goods, hardware and ironmongery",
+            Category.CLASS,
+        ),
+        Classification(
+            "46150",
+            "Agents involved in the sale of furniture, household goods, hardware and ironmongery",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "4616", "Agents involved in the sale of textiles, clothing, fur, footwear and leather goods", Category.CLASS
+        ),
+        Classification(
+            "46160",
+            "Agents involved in the sale of textiles, clothing, fur, footwear and leather goods",
+            Category.SUBCLASS,
+        ),
         Classification("4617", "Agents involved in the sale of food, beverages and tobacco", Category.CLASS),
         Classification("46170", "Agents involved in the sale of food, beverages and tobacco", Category.SUBCLASS),
         Classification("4618", "Agents specialised in the sale of other particular products", Category.CLASS),
@@ -913,7 +1123,9 @@ TOL2008 = Standard(
         Classification("46190", "Agents involved in the sale of a variety of goods", Category.SUBCLASS),
         Classification("462", "Wholesale of agricultural raw materials and live animals", Category.GROUP),
         Classification("4621", "Wholesale of grain, unmanufactured tobacco, seeds and animal feeds", Category.CLASS),
-        Classification("46210", "Wholesale of grain, unmanufactured tobacco, seeds and animal feeds", Category.SUBCLASS),
+        Classification(
+            "46210", "Wholesale of grain, unmanufactured tobacco, seeds and animal feeds", Category.SUBCLASS
+        ),
         Classification("4622", "Wholesale of flowers and plants", Category.CLASS),
         Classification("46220", "Wholesale of flowers and plants", Category.SUBCLASS),
         Classification("4623", "Wholesale of live animals", Category.CLASS),
@@ -962,7 +1174,9 @@ TOL2008 = Standard(
         Classification("46450", "Wholesale of perfume and cosmetics", Category.SUBCLASS),
         Classification("4646", "Wholesale of pharmaceutical goods", Category.CLASS),
         Classification("46461", "Wholesale of drugs", Category.SUBCLASS),
-        Classification("46462", "Wholesale of diagnostic instruments and medical and orthopaedic equipment", Category.SUBCLASS),
+        Classification(
+            "46462", "Wholesale of diagnostic instruments and medical and orthopaedic equipment", Category.SUBCLASS
+        ),
         Classification("4647", "Wholesale of furniture, carpets and lighting equipment", Category.CLASS),
         Classification("46470", "Wholesale of furniture, carpets and lighting equipment", Category.SUBCLASS),
         Classification("4648", "Wholesale of watches and jewellery", Category.CLASS),
@@ -977,7 +1191,9 @@ TOL2008 = Standard(
         Classification("46499", "Wholesale of other household goods n.e.c.", Category.SUBCLASS),
         Classification("465", "Wholesale of information and communication equipment", Category.GROUP),
         Classification("4651", "Wholesale of computers, computer peripheral equipment and software", Category.CLASS),
-        Classification("46510", "Wholesale of computers, computer peripheral equipment and software", Category.SUBCLASS),
+        Classification(
+            "46510", "Wholesale of computers, computer peripheral equipment and software", Category.SUBCLASS
+        ),
         Classification("4652", "Wholesale of electronic and telecommunications equipment and parts", Category.CLASS),
         Classification("46521", "Wholesale of telecommunication equipment", Category.SUBCLASS),
         Classification("46522", "Wholesale of electronic components", Category.SUBCLASS),
@@ -988,8 +1204,16 @@ TOL2008 = Standard(
         Classification("46620", "Wholesale of machine tools", Category.SUBCLASS),
         Classification("4663", "Wholesale of mining, construction and civil engineering machinery", Category.CLASS),
         Classification("46630", "Wholesale of mining, construction and civil engineering machinery", Category.SUBCLASS),
-        Classification("4664", "Wholesale of machinery for the textile industry and of sewing and knitting machines", Category.CLASS),
-        Classification("46640", "Wholesale of machinery for the textile industry and of sewing and knitting machines", Category.SUBCLASS),
+        Classification(
+            "4664",
+            "Wholesale of machinery for the textile industry and of sewing and knitting machines",
+            Category.CLASS,
+        ),
+        Classification(
+            "46640",
+            "Wholesale of machinery for the textile industry and of sewing and knitting machines",
+            Category.SUBCLASS,
+        ),
         Classification("4665", "Wholesale of office furniture", Category.CLASS),
         Classification("46650", "Wholesale of office furniture", Category.SUBCLASS),
         Classification("4666", "Wholesale of other office machinery and equipment", Category.CLASS),
@@ -1026,23 +1250,43 @@ TOL2008 = Standard(
         Classification("46909", "Wholesale n.e.c.", Category.SUBCLASS),
         Classification("47", "Retail trade, except of motor vehicles and motorcycles", Category.DIVISION),
         Classification("471", "Retail sale in non-specialised stores", Category.GROUP),
-        Classification("4711", "Retail sale in non-specialised stores with food, beverages or tobacco predominating", Category.CLASS),
+        Classification(
+            "4711",
+            "Retail sale in non-specialised stores with food, beverages or tobacco predominating",
+            Category.CLASS,
+        ),
         Classification("47111", "Retail sale in large supermarkets (over 1,000 m²)", Category.SUBCLASS),
-        Classification("47112", "Retail sale in small supermarkets (over 400 m² but not more than 1,000 m²)", Category.SUBCLASS),
-        Classification("47113", "Retail sale in self-service stores (over 100 m² but not more than 400 m²)", Category.SUBCLASS),
-        Classification("47114", "Retail sale from food, confectionery, etc., kiosks (not more than 100 m²)", Category.SUBCLASS),
+        Classification(
+            "47112", "Retail sale in small supermarkets (over 400 m² but not more than 1,000 m²)", Category.SUBCLASS
+        ),
+        Classification(
+            "47113", "Retail sale in self-service stores (over 100 m² but not more than 400 m²)", Category.SUBCLASS
+        ),
+        Classification(
+            "47114", "Retail sale from food, confectionery, etc., kiosks (not more than 100 m²)", Category.SUBCLASS
+        ),
         Classification("4719", "Other retail sale in non-specialised stores", Category.CLASS),
         Classification("47191", "Retail sale in self-service department stores (over 2,500 m²)", Category.SUBCLASS),
         Classification("47192", "Retail sale in department stores (over 2,500 m²)", Category.SUBCLASS),
-        Classification("47199", "Retail sale in small department stores and other non-specialised stores (not more than 2,500 m²)", Category.SUBCLASS),
+        Classification(
+            "47199",
+            "Retail sale in small department stores and other non-specialised stores (not more than 2,500 m²)",
+            Category.SUBCLASS,
+        ),
         Classification("472", "Retail sale of food, beverages and tobacco in specialised stores", Category.GROUP),
         Classification("4721", "Retail sale of fruit and vegetables in specialised stores", Category.CLASS),
         Classification("47210", "Retail sale of fruit and vegetables in specialised stores", Category.SUBCLASS),
         Classification("4722", "Retail sale of meat and meat products in specialised stores", Category.CLASS),
         Classification("47220", "Retail sale of meat and meat products in specialised stores", Category.SUBCLASS),
         Classification("4723", "Retail sale of fish, crustaceans and molluscs in specialised stores", Category.CLASS),
-        Classification("47230", "Retail sale of fish, crustaceans and molluscs in specialised stores", Category.SUBCLASS),
-        Classification("4724", "Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised stores", Category.CLASS),
+        Classification(
+            "47230", "Retail sale of fish, crustaceans and molluscs in specialised stores", Category.SUBCLASS
+        ),
+        Classification(
+            "4724",
+            "Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised stores",
+            Category.CLASS,
+        ),
         Classification("47241", "Retail sale of bakery products", Category.SUBCLASS),
         Classification("47242", "Retail sale of sugar confectionery", Category.SUBCLASS),
         Classification("4725", "Retail sale of beverages in specialised stores", Category.CLASS),
@@ -1057,9 +1301,15 @@ TOL2008 = Standard(
         Classification("4730", "Retail sale of automotive fuel in specialised stores", Category.CLASS),
         Classification("47301", "Service station activities", Category.SUBCLASS),
         Classification("47302", "Automated retail sale of automotive fuel", Category.SUBCLASS),
-        Classification("474", "Retail sale of information and communication equipment in specialised stores", Category.GROUP),
-        Classification("4741", "Retail sale of computers, peripheral units and software in specialised stores", Category.CLASS),
-        Classification("47410", "Retail sale of computers, peripheral units and software in specialised stores", Category.SUBCLASS),
+        Classification(
+            "474", "Retail sale of information and communication equipment in specialised stores", Category.GROUP
+        ),
+        Classification(
+            "4741", "Retail sale of computers, peripheral units and software in specialised stores", Category.CLASS
+        ),
+        Classification(
+            "47410", "Retail sale of computers, peripheral units and software in specialised stores", Category.SUBCLASS
+        ),
         Classification("4742", "Retail sale of telecommunications equipment in specialised stores", Category.CLASS),
         Classification("47420", "Retail sale of telecommunications equipment in specialised stores", Category.SUBCLASS),
         Classification("4743", "Retail sale of audio and video equipment in specialised stores", Category.CLASS),
@@ -1069,16 +1319,26 @@ TOL2008 = Standard(
         Classification("47511", "Retail sale of fabrics", Category.SUBCLASS),
         Classification("47512", "Retail sale of yarns and needlework supplies", Category.SUBCLASS),
         Classification("4752", "Retail sale of hardware, paints and glass in specialised stores", Category.CLASS),
-        Classification("47521", "Non-specialized retail sale of hardware, plumbing and building materials", Category.SUBCLASS),
+        Classification(
+            "47521", "Non-specialized retail sale of hardware, plumbing and building materials", Category.SUBCLASS
+        ),
         Classification("47522", "Retail sale of paints", Category.SUBCLASS),
         Classification("47523", "Retail sale of kitchen and sanitary fixtures", Category.SUBCLASS),
         Classification("47529", "Other retail sale of hardware, plumbing and building materials", Category.SUBCLASS),
-        Classification("4753", "Retail sale of carpets, rugs, wall and floor coverings in specialised stores", Category.CLASS),
+        Classification(
+            "4753", "Retail sale of carpets, rugs, wall and floor coverings in specialised stores", Category.CLASS
+        ),
         Classification("47531", "Retail sale of carpets and curtains", Category.SUBCLASS),
         Classification("47532", "Retail sale of wallpaper and floor covering", Category.SUBCLASS),
         Classification("4754", "Retail sale of electrical household appliances in specialised stores", Category.CLASS),
-        Classification("47540", "Retail sale of electrical household appliances in specialised stores", Category.SUBCLASS),
-        Classification("4759", "Retail sale of furniture, lighting equipment and other household articles in specialised stores", Category.CLASS),
+        Classification(
+            "47540", "Retail sale of electrical household appliances in specialised stores", Category.SUBCLASS
+        ),
+        Classification(
+            "4759",
+            "Retail sale of furniture, lighting equipment and other household articles in specialised stores",
+            Category.CLASS,
+        ),
         Classification("47591", "Retail sale of furniture", Category.SUBCLASS),
         Classification("47592", "Retail sale of electrical supplies and lighting", Category.SUBCLASS),
         Classification("47593", "Retail sale of rubber and plastic goods", Category.SUBCLASS),
@@ -1113,10 +1373,16 @@ TOL2008 = Standard(
         Classification("4773", "Dispensing chemist in specialised stores", Category.CLASS),
         Classification("47730", "Dispensing chemist in specialised stores", Category.SUBCLASS),
         Classification("4774", "Retail sale of medical and orthopaedic goods in specialised stores", Category.CLASS),
-        Classification("47740", "Retail sale of medical and orthopaedic goods in specialised stores", Category.SUBCLASS),
+        Classification(
+            "47740", "Retail sale of medical and orthopaedic goods in specialised stores", Category.SUBCLASS
+        ),
         Classification("4775", "Retail sale of cosmetic and toilet articles in specialised stores", Category.CLASS),
         Classification("47750", "Retail sale of cosmetic and toilet articles in specialised stores", Category.SUBCLASS),
-        Classification("4776", "Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised stores", Category.CLASS),
+        Classification(
+            "4776",
+            "Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised stores",
+            Category.CLASS,
+        ),
         Classification("47761", "Retail sale of flowers", Category.SUBCLASS),
         Classification("47762", "Flower kiosks", Category.SUBCLASS),
         Classification("47763", "Retail sale of gardening goods and supplies", Category.SUBCLASS),
@@ -1136,17 +1402,29 @@ TOL2008 = Standard(
         Classification("47793", "Auction houses", Category.SUBCLASS),
         Classification("47799", "Retail sale of other second-hand goods in stores", Category.SUBCLASS),
         Classification("478", "Retail sale via stalls and markets", Category.GROUP),
-        Classification("4781", "Retail sale via stalls and markets of food, beverages and tobacco products", Category.CLASS),
-        Classification("47810", "Retail sale via stalls and markets of food, beverages and tobacco products", Category.SUBCLASS),
+        Classification(
+            "4781", "Retail sale via stalls and markets of food, beverages and tobacco products", Category.CLASS
+        ),
+        Classification(
+            "47810", "Retail sale via stalls and markets of food, beverages and tobacco products", Category.SUBCLASS
+        ),
         Classification("4782", "Retail sale via stalls and markets of textiles, clothing and footwear", Category.CLASS),
-        Classification("47820", "Retail sale via stalls and markets of textiles, clothing and footwear", Category.SUBCLASS),
+        Classification(
+            "47820", "Retail sale via stalls and markets of textiles, clothing and footwear", Category.SUBCLASS
+        ),
         Classification("4789", "Retail sale via stalls and markets of other goods", Category.CLASS),
         Classification("47890", "Retail sale via stalls and markets of other goods", Category.SUBCLASS),
         Classification("479", "Retail trade not in stores, stalls or markets", Category.GROUP),
         Classification("4791", "Retail sale via mail order houses or via Internet", Category.CLASS),
-        Classification("47911", "Retail sale of books, music and video recordings via mail order houses and net commerce", Category.SUBCLASS),
+        Classification(
+            "47911",
+            "Retail sale of books, music and video recordings via mail order houses and net commerce",
+            Category.SUBCLASS,
+        ),
         Classification("47912", "Retail sale of clothing via mail order houses and net commerce", Category.SUBCLASS),
-        Classification("47913", "Retail sale of a wide array of products via mail order houses and net commerce", Category.SUBCLASS),
+        Classification(
+            "47913", "Retail sale of a wide array of products via mail order houses and net commerce", Category.SUBCLASS
+        ),
         Classification("47919", "Other retail sale via mail order houses and net commerce", Category.SUBCLASS),
         Classification("4799", "Other retail sale not in stores, stalls or markets", Category.CLASS),
         Classification("47990", "Other retail sale not in stores, stalls or markets", Category.SUBCLASS),
@@ -1280,14 +1558,28 @@ TOL2008 = Standard(
         Classification("58210", "Publishing of computer games", Category.SUBCLASS),
         Classification("5829", "Other software publishing", Category.CLASS),
         Classification("58290", "Other software publishing", Category.SUBCLASS),
-        Classification("59", "Motion picture, video and television programme production, sound recording and music publishing activities", Category.DIVISION),
+        Classification(
+            "59",
+            "Motion picture, video and television programme production, sound recording and music publishing activities",
+            Category.DIVISION,
+        ),
         Classification("591", "Motion picture, video and television programme activities", Category.GROUP),
         Classification("5911", "Motion picture, video and television programme production activities", Category.CLASS),
-        Classification("59110", "Motion picture, video and television programme production activities", Category.SUBCLASS),
-        Classification("5912", "Motion picture, video and television programme post-production activities", Category.CLASS),
-        Classification("59120", "Motion picture, video and television programme post-production activities", Category.SUBCLASS),
-        Classification("5913", "Motion picture, video and television programme distribution activities", Category.CLASS),
-        Classification("59130", "Motion picture, video and television programme distribution activities", Category.SUBCLASS),
+        Classification(
+            "59110", "Motion picture, video and television programme production activities", Category.SUBCLASS
+        ),
+        Classification(
+            "5912", "Motion picture, video and television programme post-production activities", Category.CLASS
+        ),
+        Classification(
+            "59120", "Motion picture, video and television programme post-production activities", Category.SUBCLASS
+        ),
+        Classification(
+            "5913", "Motion picture, video and television programme distribution activities", Category.CLASS
+        ),
+        Classification(
+            "59130", "Motion picture, video and television programme distribution activities", Category.SUBCLASS
+        ),
         Classification("5914", "Motion picture projection activities", Category.CLASS),
         Classification("59140", "Motion picture projection activities", Category.SUBCLASS),
         Classification("592", "Sound recording and music publishing activities", Category.GROUP),
@@ -1299,7 +1591,11 @@ TOL2008 = Standard(
         Classification("60100", "Radio broadcasting", Category.SUBCLASS),
         Classification("602", "Television programming and broadcasting activities", Category.GROUP),
         Classification("6020", "Television programming and broadcasting activities", Category.CLASS),
-        Classification("60201", "Television programming and broadcasting activities (excl. pay television channels)", Category.SUBCLASS),
+        Classification(
+            "60201",
+            "Television programming and broadcasting activities (excl. pay television channels)",
+            Category.SUBCLASS,
+        ),
         Classification("60202", "Pay television channel activities", Category.SUBCLASS),
         Classification("61", "Telecommunications", Category.DIVISION),
         Classification("611", "Wired telecommunications activities", Category.GROUP),
@@ -1348,14 +1644,24 @@ TOL2008 = Standard(
         Classification("643", "Trusts, funds and similar financial entities", Category.GROUP),
         Classification("6430", "Trusts, funds and similar financial entities", Category.CLASS),
         Classification("64300", "Trusts, funds and similar financial entities", Category.SUBCLASS),
-        Classification("649", "Other financial service activities, except insurance and pension funding", Category.GROUP),
+        Classification(
+            "649", "Other financial service activities, except insurance and pension funding", Category.GROUP
+        ),
         Classification("6491", "Financial leasing", Category.CLASS),
         Classification("64910", "Financial leasing", Category.SUBCLASS),
         Classification("6492", "Other credit granting", Category.CLASS),
         Classification("64920", "Other credit granting", Category.SUBCLASS),
-        Classification("6499", "Other financial service activities, except insurance and pension funding n.e.c.", Category.CLASS),
-        Classification("64990", "Other financial service activities, except insurance and pension funding n.e.c.", Category.SUBCLASS),
-        Classification("65", "Insurance, reinsurance and pension funding, except compulsory social security", Category.DIVISION),
+        Classification(
+            "6499", "Other financial service activities, except insurance and pension funding n.e.c.", Category.CLASS
+        ),
+        Classification(
+            "64990",
+            "Other financial service activities, except insurance and pension funding n.e.c.",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "65", "Insurance, reinsurance and pension funding, except compulsory social security", Category.DIVISION
+        ),
         Classification("651", "Insurance", Category.GROUP),
         Classification("6511", "Life insurance", Category.CLASS),
         Classification("65110", "Life insurance", Category.SUBCLASS),
@@ -1370,13 +1676,23 @@ TOL2008 = Standard(
         Classification("6530", "Pension funding", Category.CLASS),
         Classification("65300", "Pension funding", Category.SUBCLASS),
         Classification("66", "Activities auxiliary to financial services and insurance activities", Category.DIVISION),
-        Classification("661", "Activities auxiliary to financial services, except insurance and pension funding", Category.GROUP),
+        Classification(
+            "661", "Activities auxiliary to financial services, except insurance and pension funding", Category.GROUP
+        ),
         Classification("6611", "Administration of financial markets", Category.CLASS),
         Classification("66110", "Administration of financial markets", Category.SUBCLASS),
         Classification("6612", "Security and commodity contracts brokerage", Category.CLASS),
         Classification("66120", "Security and commodity contracts brokerage", Category.SUBCLASS),
-        Classification("6619", "Other activities auxiliary to financial services, except insurance and pension funding", Category.CLASS),
-        Classification("66190", "Other activities auxiliary to financial services, except insurance and pension funding", Category.SUBCLASS),
+        Classification(
+            "6619",
+            "Other activities auxiliary to financial services, except insurance and pension funding",
+            Category.CLASS,
+        ),
+        Classification(
+            "66190",
+            "Other activities auxiliary to financial services, except insurance and pension funding",
+            Category.SUBCLASS,
+        ),
         Classification("662", "Activities auxiliary to insurance and pension funding", Category.GROUP),
         Classification("6621", "Risk and damage evaluation", Category.CLASS),
         Classification("66210", "Risk and damage evaluation", Category.SUBCLASS),
@@ -1424,8 +1740,12 @@ TOL2008 = Standard(
         Classification("70210", "Public relations and communication activities", Category.SUBCLASS),
         Classification("7022", "Business and other management consultancy activities", Category.CLASS),
         Classification("70220", "Business and other management consultancy activities", Category.SUBCLASS),
-        Classification("71", "Architectural and engineering activities; technical testing and analysis", Category.DIVISION),
-        Classification("711", "Architectural and engineering activities and related technical consultancy", Category.GROUP),
+        Classification(
+            "71", "Architectural and engineering activities; technical testing and analysis", Category.DIVISION
+        ),
+        Classification(
+            "711", "Architectural and engineering activities and related technical consultancy", Category.GROUP
+        ),
         Classification("7111", "Architectural activities", Category.CLASS),
         Classification("71110", "Architectural activities", Category.SUBCLASS),
         Classification("7112", "Engineering activities and related technical consultancy", Category.CLASS),
@@ -1436,22 +1756,36 @@ TOL2008 = Standard(
         Classification("71125", "Electrical engineering design", Category.SUBCLASS),
         Classification("71126", "Other construction activities", Category.SUBCLASS),
         Classification("71127", "Mechanical and process engineering design", Category.SUBCLASS),
-        Classification("71129", "Other architectural and engineering activities and related technical consultancy", Category.SUBCLASS),
+        Classification(
+            "71129",
+            "Other architectural and engineering activities and related technical consultancy",
+            Category.SUBCLASS,
+        ),
         Classification("712", "Technical testing and analysis", Category.GROUP),
         Classification("7120", "Technical testing and analysis", Category.CLASS),
         Classification("71201", "Motor vehicle inspection", Category.SUBCLASS),
         Classification("71202", "Other technical testing and analysis", Category.SUBCLASS),
         Classification("72", "Scientific research and development", Category.DIVISION),
-        Classification("721", "Research and experimental development on natural sciences and engineering", Category.GROUP),
+        Classification(
+            "721", "Research and experimental development on natural sciences and engineering", Category.GROUP
+        ),
         Classification("7211", "Research and experimental development on biotechnology", Category.CLASS),
         Classification("72110", "Research and experimental development on biotechnology", Category.SUBCLASS),
-        Classification("7219", "Other research and experimental development on natural sciences and engineering", Category.CLASS),
+        Classification(
+            "7219", "Other research and experimental development on natural sciences and engineering", Category.CLASS
+        ),
         Classification("72191", "Research and development on medical sciences", Category.SUBCLASS),
         Classification("72192", "Research and development on other natural sciences", Category.SUBCLASS),
         Classification("72193", "Research and development on engineering and technology", Category.SUBCLASS),
-        Classification("722", "Research and experimental development on social sciences and humanities", Category.GROUP),
-        Classification("7220", "Research and experimental development on social sciences and humanities", Category.CLASS),
-        Classification("72200", "Research and experimental development on social sciences and humanities", Category.SUBCLASS),
+        Classification(
+            "722", "Research and experimental development on social sciences and humanities", Category.GROUP
+        ),
+        Classification(
+            "7220", "Research and experimental development on social sciences and humanities", Category.CLASS
+        ),
+        Classification(
+            "72200", "Research and experimental development on social sciences and humanities", Category.SUBCLASS
+        ),
         Classification("73", "Advertising and market research", Category.DIVISION),
         Classification("731", "Advertising", Category.GROUP),
         Classification("7311", "Advertising agencies", Category.CLASS),
@@ -1501,19 +1835,41 @@ TOL2008 = Standard(
         Classification("773", "Renting and leasing of other machinery, equipment and tangible goods", Category.GROUP),
         Classification("7731", "Renting and leasing of agricultural machinery and equipment", Category.CLASS),
         Classification("77310", "Renting and leasing of agricultural machinery and equipment", Category.SUBCLASS),
-        Classification("7732", "Renting and leasing of construction and civil engineering machinery and equipment", Category.CLASS),
-        Classification("77320", "Renting and leasing of construction and civil engineering machinery and equipment", Category.SUBCLASS),
-        Classification("7733", "Renting and leasing of office machinery and equipment (including computers)", Category.CLASS),
-        Classification("77330", "Renting and leasing of office machinery and equipment (including computers)", Category.SUBCLASS),
+        Classification(
+            "7732", "Renting and leasing of construction and civil engineering machinery and equipment", Category.CLASS
+        ),
+        Classification(
+            "77320",
+            "Renting and leasing of construction and civil engineering machinery and equipment",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "7733", "Renting and leasing of office machinery and equipment (including computers)", Category.CLASS
+        ),
+        Classification(
+            "77330", "Renting and leasing of office machinery and equipment (including computers)", Category.SUBCLASS
+        ),
         Classification("7734", "Renting and leasing of water transport equipment", Category.CLASS),
         Classification("77340", "Renting and leasing of water transport equipment", Category.SUBCLASS),
         Classification("7735", "Renting and leasing of air transport equipment", Category.CLASS),
         Classification("77350", "Renting and leasing of air transport equipment", Category.SUBCLASS),
-        Classification("7739", "Renting and leasing of other machinery, equipment and tangible goods n.e.c.", Category.CLASS),
-        Classification("77390", "Renting and leasing of other machinery, equipment and tangible goods n.e.c.", Category.SUBCLASS),
-        Classification("774", "Leasing of intellectual property and similar products, except copyrighted works", Category.GROUP),
-        Classification("7740", "Leasing of intellectual property and similar products, except copyrighted works", Category.CLASS),
-        Classification("77400", "Leasing of intellectual property and similar products, except copyrighted works", Category.SUBCLASS),
+        Classification(
+            "7739", "Renting and leasing of other machinery, equipment and tangible goods n.e.c.", Category.CLASS
+        ),
+        Classification(
+            "77390", "Renting and leasing of other machinery, equipment and tangible goods n.e.c.", Category.SUBCLASS
+        ),
+        Classification(
+            "774", "Leasing of intellectual property and similar products, except copyrighted works", Category.GROUP
+        ),
+        Classification(
+            "7740", "Leasing of intellectual property and similar products, except copyrighted works", Category.CLASS
+        ),
+        Classification(
+            "77400",
+            "Leasing of intellectual property and similar products, except copyrighted works",
+            Category.SUBCLASS,
+        ),
         Classification("78", "Employment activities", Category.DIVISION),
         Classification("781", "Activities of employment placement agencies", Category.GROUP),
         Classification("7810", "Activities of employment placement agencies", Category.CLASS),
@@ -1524,7 +1880,9 @@ TOL2008 = Standard(
         Classification("783", "Other human resources provision", Category.GROUP),
         Classification("7830", "Other human resources provision", Category.CLASS),
         Classification("78300", "Other human resources provision", Category.SUBCLASS),
-        Classification("79", "Travel agency, tour operator and other reservation service and related activities", Category.DIVISION),
+        Classification(
+            "79", "Travel agency, tour operator and other reservation service and related activities", Category.DIVISION
+        ),
         Classification("791", "Travel agency and tour operator activities", Category.GROUP),
         Classification("7911", "Travel agency activities", Category.CLASS),
         Classification("79110", "Travel agency activities", Category.SUBCLASS),
@@ -1558,11 +1916,15 @@ TOL2008 = Standard(
         Classification("813", "Landscape service activities", Category.GROUP),
         Classification("8130", "Landscape service activities", Category.CLASS),
         Classification("81300", "Landscape service activities", Category.SUBCLASS),
-        Classification("82", "Office administrative, office support and other business support activities", Category.DIVISION),
+        Classification(
+            "82", "Office administrative, office support and other business support activities", Category.DIVISION
+        ),
         Classification("821", "Office administrative and support activities", Category.GROUP),
         Classification("8211", "Combined office administrative service activities", Category.CLASS),
         Classification("82110", "Combined office administrative service activities", Category.SUBCLASS),
-        Classification("8219", "Photocopying, document preparation and other specialised office support activities", Category.CLASS),
+        Classification(
+            "8219", "Photocopying, document preparation and other specialised office support activities", Category.CLASS
+        ),
         Classification("82191", "Secretarial and other specialised office support activities", Category.SUBCLASS),
         Classification("82192", "Mailing activities", Category.SUBCLASS),
         Classification("822", "Activities of call centres", Category.GROUP),
@@ -1580,14 +1942,24 @@ TOL2008 = Standard(
         Classification("82990", "Other business support service activities n.e.c.", Category.SUBCLASS),
         Classification("O", "Public administration and defence; compulsory social security", Category.SECTION),
         Classification("84", "Public administration and defence; compulsory social security", Category.DIVISION),
-        Classification("841", "Administration of the State and the economic and social policy of the community", Category.GROUP),
+        Classification(
+            "841", "Administration of the State and the economic and social policy of the community", Category.GROUP
+        ),
         Classification("8411", "General public administration activities", Category.CLASS),
         Classification("84110", "General public administration activities", Category.SUBCLASS),
-        Classification("8412", "Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security", Category.CLASS),
+        Classification(
+            "8412",
+            "Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security",
+            Category.CLASS,
+        ),
         Classification("84121", "Administration of education and cultural services", Category.SUBCLASS),
         Classification("84122", "Administration of health care and social security", Category.SUBCLASS),
-        Classification("8413", "Regulation of and contribution to more efficient operation of businesses", Category.CLASS),
-        Classification("84130", "Regulation of and contribution to more efficient operation of businesses", Category.SUBCLASS),
+        Classification(
+            "8413", "Regulation of and contribution to more efficient operation of businesses", Category.CLASS
+        ),
+        Classification(
+            "84130", "Regulation of and contribution to more efficient operation of businesses", Category.SUBCLASS
+        ),
         Classification("842", "Provision of services to the community as a whole", Category.GROUP),
         Classification("8421", "Foreign affairs", Category.CLASS),
         Classification("84210", "Foreign affairs", Category.SUBCLASS),
@@ -1633,7 +2005,9 @@ TOL2008 = Standard(
         Classification("8553", "Driving school activities", Category.CLASS),
         Classification("85530", "Driving school activities", Category.SUBCLASS),
         Classification("8559", "Other education n.e.c.", Category.CLASS),
-        Classification("85591", "Folk high schools, adult education centres, evening institutes, etc.", Category.SUBCLASS),
+        Classification(
+            "85591", "Folk high schools, adult education centres, evening institutes, etc.", Category.SUBCLASS
+        ),
         Classification("85592", "In-service training centres", Category.SUBCLASS),
         Classification("85593", "Language schools and centres", Category.SUBCLASS),
         Classification("85599", "Other educational institutions", Category.SUBCLASS),
@@ -1664,9 +2038,21 @@ TOL2008 = Standard(
         Classification("871", "Residential nursing care activities", Category.GROUP),
         Classification("8710", "Residential nursing care activities", Category.CLASS),
         Classification("87101", "Residential nursing care activities for the elderly", Category.SUBCLASS),
-        Classification("87102", "Residential nursing care activities for the disabled (excl. residential nursing care activities for mental retardation)", Category.SUBCLASS),
-        Classification("872", "Residential care activities for mental retardation, mental health and substance abuse", Category.GROUP),
-        Classification("8720", "Residential care activities for mental retardation, mental health and substance abuse", Category.CLASS),
+        Classification(
+            "87102",
+            "Residential nursing care activities for the disabled (excl. residential nursing care activities for mental retardation)",
+            Category.SUBCLASS,
+        ),
+        Classification(
+            "872",
+            "Residential care activities for mental retardation, mental health and substance abuse",
+            Category.GROUP,
+        ),
+        Classification(
+            "8720",
+            "Residential care activities for mental retardation, mental health and substance abuse",
+            Category.CLASS,
+        ),
         Classification("87201", "Residential nursing and care activities for mental retardation", Category.SUBCLASS),
         Classification("87202", "Residential care activities for mental health", Category.SUBCLASS),
         Classification("87203", "Institutions for substance abusers", Category.SUBCLASS),
@@ -1674,15 +2060,27 @@ TOL2008 = Standard(
         Classification("873", "Residential care activities for the elderly and disabled", Category.GROUP),
         Classification("8730", "Residential care activities for the elderly and disabled", Category.CLASS),
         Classification("87301", "Sheltered housing activities for the elderly", Category.SUBCLASS),
-        Classification("87302", "Sheltered housing activities for the disabled (excl. sheltered housing activities for mental retardation)", Category.SUBCLASS),
+        Classification(
+            "87302",
+            "Sheltered housing activities for the disabled (excl. sheltered housing activities for mental retardation)",
+            Category.SUBCLASS,
+        ),
         Classification("879", "Other residential care activities", Category.GROUP),
         Classification("8790", "Other residential care activities", Category.CLASS),
-        Classification("87901", "Residential and professional family care activities for children and young people", Category.SUBCLASS),
+        Classification(
+            "87901",
+            "Residential and professional family care activities for children and young people",
+            Category.SUBCLASS,
+        ),
         Classification("87902", "Mother and child homes and shelters", Category.SUBCLASS),
         Classification("87909", "Other institutions and housing services", Category.SUBCLASS),
         Classification("88", "Social work activities without accommodation", Category.DIVISION),
-        Classification("881", "Social work activities without accommodation for the elderly and disabled", Category.GROUP),
-        Classification("8810", "Social work activities without accommodation for the elderly and disabled", Category.CLASS),
+        Classification(
+            "881", "Social work activities without accommodation for the elderly and disabled", Category.GROUP
+        ),
+        Classification(
+            "8810", "Social work activities without accommodation for the elderly and disabled", Category.CLASS
+        ),
         Classification("88101", "Home help services for the elderly and disabled", Category.SUBCLASS),
         Classification("88102", "Day activity services for the elderly", Category.SUBCLASS),
         Classification("88103", "Day activity and sheltered work services for the disabled", Category.SUBCLASS),
@@ -1693,7 +2091,11 @@ TOL2008 = Standard(
         Classification("88919", "Other child day-care", Category.SUBCLASS),
         Classification("8899", "Other social work activities without accommodation n.e.c.", Category.CLASS),
         Classification("88991", "Home help services for others that the elderly and disabled", Category.SUBCLASS),
-        Classification("88992", "Day activity and sheltered work services for others than the elderly and disabled", Category.SUBCLASS),
+        Classification(
+            "88992",
+            "Day activity and sheltered work services for others than the elderly and disabled",
+            Category.SUBCLASS,
+        ),
         Classification("88993", "Outpatient rehabilitation for intoxicant abusers", Category.SUBCLASS),
         Classification("88999", "Other social work activities without accommodation n.e.c.", Category.SUBCLASS),
         Classification("R", "Arts, entertainment and recreation", Category.SECTION),
@@ -1713,8 +2115,12 @@ TOL2008 = Standard(
         Classification("91010", "Library and archives activities", Category.SUBCLASS),
         Classification("9102", "Museums activities", Category.CLASS),
         Classification("91020", "Museums activities", Category.SUBCLASS),
-        Classification("9103", "Operation of historical sites and buildings and similar visitor attractions", Category.CLASS),
-        Classification("91030", "Operation of historical sites and buildings and similar visitor attractions", Category.SUBCLASS),
+        Classification(
+            "9103", "Operation of historical sites and buildings and similar visitor attractions", Category.CLASS
+        ),
+        Classification(
+            "91030", "Operation of historical sites and buildings and similar visitor attractions", Category.SUBCLASS
+        ),
         Classification("9104", "Botanical and zoological gardens and nature reserves activities", Category.CLASS),
         Classification("91040", "Botanical and zoological gardens and nature reserves activities", Category.SUBCLASS),
         Classification("92", "Gambling and betting activities", Category.DIVISION),
@@ -1739,7 +2145,9 @@ TOL2008 = Standard(
         Classification("93299", "Amusement and recreation activities n.e.c.", Category.SUBCLASS),
         Classification("S", "Other service activities", Category.SECTION),
         Classification("94", "Activities of membership organisations", Category.DIVISION),
-        Classification("941", "Activities of business, employers and professional membership organisations", Category.GROUP),
+        Classification(
+            "941", "Activities of business, employers and professional membership organisations", Category.GROUP
+        ),
         Classification("9411", "Activities of business and employers membership organisations", Category.CLASS),
         Classification("94110", "Activities of business and employers membership organisations", Category.SUBCLASS),
         Classification("9412", "Activities of professional membership organisations", Category.CLASS),
@@ -1788,18 +2196,40 @@ TOL2008 = Standard(
         Classification("96040", "Physical well-being activities", Category.SUBCLASS),
         Classification("9609", "Other personal service activities n.e.c.", Category.CLASS),
         Classification("96090", "Other personal service activities n.e.c.", Category.SUBCLASS),
-        Classification("T", "Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use", Category.SECTION),
+        Classification(
+            "T",
+            "Activities of households as employers; undifferentiated goods- and services-producing activities of households for own use",
+            Category.SECTION,
+        ),
         Classification("97", "Activities of households as employers of domestic personnel", Category.DIVISION),
         Classification("970", "Activities of households as employers of domestic personnel", Category.GROUP),
         Classification("9700", "Activities of households as employers of domestic personnel", Category.CLASS),
         Classification("97000", "Activities of households as employers of domestic personnel", Category.SUBCLASS),
-        Classification("98", "Undifferentiated goods- and services-producing activities of private households for own use", Category.DIVISION),
-        Classification("981", "Undifferentiated goods-producing activities of private households for own use", Category.GROUP),
-        Classification("9810", "Undifferentiated goods-producing activities of private households for own use", Category.CLASS),
-        Classification("98100", "Undifferentiated goods-producing activities of private households for own use", Category.SUBCLASS),
-        Classification("982", "Undifferentiated service-producing activities of private households for own use", Category.GROUP),
-        Classification("9820", "Undifferentiated service-producing activities of private households for own use", Category.CLASS),
-        Classification("98200", "Undifferentiated service-producing activities of private households for own use", Category.SUBCLASS),
+        Classification(
+            "98",
+            "Undifferentiated goods- and services-producing activities of private households for own use",
+            Category.DIVISION,
+        ),
+        Classification(
+            "981", "Undifferentiated goods-producing activities of private households for own use", Category.GROUP
+        ),
+        Classification(
+            "9810", "Undifferentiated goods-producing activities of private households for own use", Category.CLASS
+        ),
+        Classification(
+            "98100", "Undifferentiated goods-producing activities of private households for own use", Category.SUBCLASS
+        ),
+        Classification(
+            "982", "Undifferentiated service-producing activities of private households for own use", Category.GROUP
+        ),
+        Classification(
+            "9820", "Undifferentiated service-producing activities of private households for own use", Category.CLASS
+        ),
+        Classification(
+            "98200",
+            "Undifferentiated service-producing activities of private households for own use",
+            Category.SUBCLASS,
+        ),
         Classification("U", "Activities of extraterritorial organisations and bodies", Category.SECTION),
         Classification("99", "Activities of extraterritorial organisations and bodies", Category.DIVISION),
         Classification("990", "Activities of extraterritorial organisations and bodies", Category.GROUP),
