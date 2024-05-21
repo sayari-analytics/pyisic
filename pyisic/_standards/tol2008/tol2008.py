@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""`TOL2008 Standard <https://www2.stat.fi/en/luokitukset/toimiala/>`_."""
+"""`Finland TOL2008 Standard <https://www2.stat.fi/en/luokitukset/toimiala/>`_."""
 from ...types import Category, Classification, Standard, Standards
 
 TOL2008 = Standard(
