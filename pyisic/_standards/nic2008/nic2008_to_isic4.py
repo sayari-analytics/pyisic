@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """`Concordance between NIC2008 and ISIC4 <https://www.mospi.gov.in/sites/default/files/main_menu/national_industrial_classification/nic_2008_17apr09.pdf>`_.
 
+The basis for this concordance comes from the PDF document referenced above:
+
 ``48. The structure of NIC-2008 is identical to the structure of ISIC Rev. 4 up to 4-digit
 level ‘class’. Classes were then divided into 5-digit ‘sub classes’ according to national
 requirements.``
