@@ -5,14 +5,13 @@ on:
       - 'docs/**'
       - '**.rst'
       - '**.md'
-    branches:
-      - main
   pull_request:
-    branches:
-      - main
+    paths-ignore:
+      - 'docs/**'
+      - '**.rst'
+      - '**.md'
   schedule:
     - cron:  "0 0 * * 1"
-      branches: [ $default-branch ]
 
 jobs:
   test:
