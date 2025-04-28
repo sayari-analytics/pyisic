@@ -33,6 +33,7 @@ CONCORDANCE_TO_MINIMUM = {
     pyisic.PKD2007_to_NACE2: 0.99,
     pyisic.TOL2008_to_NACE2: 1.0,
     pyisic.TOL2008_to_NACE2: 1.0,
+    pyisic.ATECO_to_NACE2: 0.26,
 }
 
 # creates a mapping of the standard name to standard object

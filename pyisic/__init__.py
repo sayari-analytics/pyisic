@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from ._standards.ateco import ATECO, ATECO_to_NACE2
 from ._standards.caem2005 import CAEM2005, CAEM2005_to_CAEM2009, CAEM2005_to_ISIC3
 from ._standards.caem2009 import CAEM2009, CAEM2009_to_ISIC4
 from ._standards.ccnae2021 import CCNAE2021, CCNAE2021_to_ISIC4
@@ -59,5 +60,6 @@ ToISIC4 = ComposedGraph(
         PKD2007_to_NACE2,
         TOL2008_to_NACE2,
         NIC2008_to_ISIC4,
+        ATECO_to_NACE2,
     ],
 )

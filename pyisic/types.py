@@ -49,6 +49,7 @@ class Standards(_Enum):  # pragma: no cover
     PKD2007 = "PKD2007"
     TOL2008 = "TOL2008"
     NIC2008 = "NIC2008"
+    ATECO = "ATECO"
 
 
 @_dataclass
