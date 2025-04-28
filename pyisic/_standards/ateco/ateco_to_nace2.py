@@ -1,6 +1,4 @@
-"""Concordance between ATECO and NACE2.
-
-"""
+"""Concordance between ATECO and NACE2 <https://www.istat.it/wp-content/uploads/2024/12/Struttura-ATECO-2025-vs-NACE.xlsx>`_."""
 from ...types import Concordance, Standards
 from ..nace2 import NACE2
 from . import ATECO
