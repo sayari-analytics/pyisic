@@ -113,7 +113,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        python -m pip install build
+        python -m pip install build twine
 
     - name: Twine check
       run: |
