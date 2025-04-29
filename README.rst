@@ -2,9 +2,11 @@
 Pyisic
 ******
 .. image:: https://github.com/sayari-analytics/pyisic/actions/workflows/main.yaml/badge.svg?branch=main
+   :target: https://github.com/sayari-analytics/pyisic/actions/workflows/main.yaml
+   :alt: CI
 
-.. image:: https://img.shields.io/codecov/c/github/sayari-analytics/pyisic/master.svg
-   :target: https://codecov.io/github/sayari-analytics/pyisic?branch=master
+.. image:: https://img.shields.io/codecov/c/github/sayari-analytics/pyisic/main.svg
+   :target: https://codecov.io/github/sayari-analytics/pyisic?branch=main
    :alt: Coverage report
 
 .. image:: https://img.shields.io/pypi/v/pyisic.svg
