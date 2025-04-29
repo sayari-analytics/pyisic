@@ -15,7 +15,9 @@ on:
 
 jobs:
   test:
+    name: Run tests
     runs-on: ${{ matrix.os }}
+
     strategy:
       matrix:
         os: [ubuntu-latest]
@@ -25,7 +27,8 @@ jobs:
       PYTHON: ${{ matrix.python-version }}
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout
+      uses: actions/checkout@v4
 
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
@@ -53,7 +56,7 @@ jobs:
         python -m pytest --cov=./pyisic/ --cov-report=xml
         python scripts/data_artifacts.py
 
-    - name: "Upload coverage to Codecov"
+    - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v5
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
@@ -76,7 +79,7 @@ jobs:
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
-        python-version: '3.11'
+        python-version: 3.11
 
     - name: Get pip cache dir
       id: pip-cache
@@ -100,6 +103,7 @@ jobs:
         PRE_COMMIT_HOME=$(pwd)/pre-commit-cache pre-commit run --all
 
   twinecheck:
+    name: Validate PyPi dist with Twine
     runs-on: ubuntu-latest
 
     steps:
