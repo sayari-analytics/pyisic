@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 """`Concordance between NAICS2017 and ISIC4 <https://unstats.un.org/unsd/classifications/Econ/tables/ISIC/NAICS2017US-ISIC4.zip>`_.
+
+Note - some of the concordances are believed to be incorrect and therefore excluded, but still have at least one correct concordance.
 """
 from ...types import Concordance, Standards
 from ..isic4 import ISIC4
@@ -656,9 +658,9 @@ NAICS2017_to_ISIC4 = Concordance(
         ((Standards.NAICS2017, "333415"), (Standards.ISIC4, "2815")),
         ((Standards.NAICS2017, "333415"), (Standards.ISIC4, "2819")),
         ((Standards.NAICS2017, "333511"), (Standards.ISIC4, "2593")),
-        ((Standards.NAICS2017, "333514"), (Standards.ISIC4, "2593")),
+        # ((Standards.NAICS2017, "333514"), (Standards.ISIC4, "2593")), # While present in UN mapping, this is believed to be incorrect
         ((Standards.NAICS2017, "333514"), (Standards.ISIC4, "2822")),
-        ((Standards.NAICS2017, "333515"), (Standards.ISIC4, "2593")),
+        # ((Standards.NAICS2017, "333515"), (Standards.ISIC4, "2593")), # While present in UN mapping, this is believed to be incorrect
         ((Standards.NAICS2017, "333515"), (Standards.ISIC4, "2822")),
         ((Standards.NAICS2017, "333517"), (Standards.ISIC4, "2822")),
         ((Standards.NAICS2017, "333517"), (Standards.ISIC4, "2823")),
