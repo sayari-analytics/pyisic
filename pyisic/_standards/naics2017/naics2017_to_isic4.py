@@ -602,7 +602,7 @@ NAICS2017_to_ISIC4 = Concordance(
         ((Standards.NAICS2017, "332996"), (Standards.ISIC4, "2420")),
         ((Standards.NAICS2017, "332999"), (Standards.ISIC4, "2023")),
         ((Standards.NAICS2017, "332999"), (Standards.ISIC4, "2420")),
-        ((Standards.NAICS2017, "332999"), (Standards.ISIC4, "2593")),
+        # ((Standards.NAICS2017, "332999"), (Standards.ISIC4, "2593")), # While present in UN mapping, this is believed to be incorrect
         ((Standards.NAICS2017, "332999"), (Standards.ISIC4, "2599")),
         ((Standards.NAICS2017, "333111"), (Standards.ISIC4, "2813")),
         ((Standards.NAICS2017, "333111"), (Standards.ISIC4, "2818")),
@@ -612,7 +612,7 @@ NAICS2017_to_ISIC4 = Concordance(
         ((Standards.NAICS2017, "333112"), (Standards.ISIC4, "2818")),
         ((Standards.NAICS2017, "333112"), (Standards.ISIC4, "2821")),
         ((Standards.NAICS2017, "333112"), (Standards.ISIC4, "3099")),
-        ((Standards.NAICS2017, "333120"), (Standards.ISIC4, "2593")),
+        # ((Standards.NAICS2017, "333120"), (Standards.ISIC4, "2593")), # While present in UN mapping, this is believed to be incorrect
         ((Standards.NAICS2017, "333120"), (Standards.ISIC4, "2816")),
         ((Standards.NAICS2017, "333120"), (Standards.ISIC4, "2818")),
         ((Standards.NAICS2017, "333120"), (Standards.ISIC4, "2819")),
