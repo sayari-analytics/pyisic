@@ -656,7 +656,7 @@ NAICS2017_to_ISIC4 = Concordance(
         ((Standards.NAICS2017, "333415"), (Standards.ISIC4, "2815")),
         ((Standards.NAICS2017, "333415"), (Standards.ISIC4, "2819")),
         ((Standards.NAICS2017, "333511"), (Standards.ISIC4, "2593")),
-        ((Standards.NAICS2017, "333514"), (Standards.ISIC4, "2593")),
+        # ((Standards.NAICS2017, "333514"), (Standards.ISIC4, "2593")), # While present in UN mapping, this is believed to be incorrect
         ((Standards.NAICS2017, "333514"), (Standards.ISIC4, "2822")),
         ((Standards.NAICS2017, "333515"), (Standards.ISIC4, "2593")),
         ((Standards.NAICS2017, "333515"), (Standards.ISIC4, "2822")),
