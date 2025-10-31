@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 """`Concordance between NAICS2017 and ISIC4 <https://unstats.un.org/unsd/classifications/Econ/tables/ISIC/NAICS2017US-ISIC4.zip>`_.
+
+Note some of the concordances are believed to be incorrect and therefore excluded, but still have at least one correct concordance.
 """
 from ...types import Concordance, Standards
 from ..isic4 import ISIC4
