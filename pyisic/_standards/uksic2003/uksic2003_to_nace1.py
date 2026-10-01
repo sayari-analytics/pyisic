@@ -1,8 +1,12 @@
 """`Concordance between UKSIC2003 and NACE1 <https://github.com/companieshouse/api-enumerations/blob/master/constants.yml>`_.
 
 A UKSIC2003 code maps to the NACE1 class with the same digits (``7487`` is ``74.87``). Where NACE1 only lists the code's
-group or division (e.g. ``1600``) it maps to that. The Companies House specific codes with no NACE1 equivalent (7499
-"Non-trading company" and 9999 "Dormant company") have no concordance.
+group (e.g. ``1010`` is ``10.1``) or division (e.g. ``1600`` is ``16``) it maps to that.
+
+Coverage is partial: 517 of the 534 UKSIC2003 codes are mapped (399 to a class, 110 to a group, 8 to a division). The other
+17 have no concordance, so an empty result is expected for them: ``2735``, ``4010``, ``4020``, ``5161``-``5166``, ``5170``,
+``7220``, ``7483``, ``7484``, ``9000``, ``9800``, and the Companies House specific values ``7499`` (non-trading company)
+and ``9999`` (dormant company).
 """
 
 from ...types import Concordance, Standards

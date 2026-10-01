@@ -2,7 +2,13 @@
 
 United Kingdom Standard Industrial Classification of Economic Activities 2003: the 4-digit codes that Companies House still
 carries for companies registered before SIC 2007 (``sic_descriptions`` in the Companies House api-enumerations), with the
-Companies House descriptions. UK SIC 2003 classes are NACE Rev. 1.1 classes (``7487`` is NACE1 ``74.87``).
+Companies House descriptions.
+
+UK SIC 2003 corresponds to NACE Rev. 1.1 (``7487`` is NACE1 ``74.87``), but this is the list as Companies House carries it,
+not a clean copy of the classification, so not every code is a NACE1 class. Of the 534 codes, 399 map to a NACE1 class, 110
+to a NACE1 group and 8 to a NACE1 division, and 17 have no NACE1 equivalent, including the Companies House specific values
+``7499`` (non-trading company), ``9800`` (residents property management) and ``9999`` (dormant company). See
+:data:`pyisic.UKSIC2003_to_NACE1`.
 """
 
 from ...types import Category, Classification, Standard, Standards

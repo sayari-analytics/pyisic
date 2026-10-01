@@ -52,6 +52,18 @@ def test_uksic2003_to_nace1_concordance(code: str, expected: set):
     assert UKSIC2003_to_NACE1.concordant(code) == expected
 
 
+def test_uksic2003_to_nace1_coverage():
+    """The partial coverage stated in the module docstrings: 517 of 534 codes map, 17 do not."""
+    mapped = {src: dst for (_, src), (_, dst) in UKSIC2003_to_NACE1.edges if src in UKSIC2003}
+    levels = {"class": 0, "group": 0, "division": 0}
+    for dst in mapped.values():
+        levels[{5: "class", 4: "group", 2: "division"}[len(dst)]] += 1
+    assert levels == {"class": 399, "group": 110, "division": 8}
+    unmapped = ["2735", "4010", "4020", "5161", "5162", "5163", "5164", "5165", "5166"]
+    unmapped += ["5170", "7220", "7483", "7484", "7499", "9000", "9800", "9999"]
+    assert sorted(set(UKSIC2003) - set(mapped)) == unmapped
+
+
 def test_uksic2003_to_isic4():
     """UKSIC2003 codes convert to ISIC4 through NACE1 and NACE2."""
     converted = set(pyisic.ToISIC4("7222", Standards.UKSIC2003))
