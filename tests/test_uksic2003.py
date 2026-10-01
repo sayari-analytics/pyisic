@@ -27,6 +27,16 @@ def test_uksic2003_rejects_other_formats(code: str):
     assert code not in UKSIC2003
 
 
+def test_uksic2003_covers_every_nace1_class():
+    """Every NACE1 class listed in pyisic has a UKSIC2003 code with the same digits."""
+    nace1_classes = [c for c in pyisic.NACE1 if len(c) == 5]
+    assert sorted(c for c in nace1_classes if c.replace(".", "") not in UKSIC2003) == []
+
+
+def test_uksic2003_descriptions_are_clean():
+    assert all(v["description"] and v["description"] == v["description"].strip() for v in UKSIC2003.values())
+
+
 def test_uksic2003_codes_are_four_digits():
     assert len(UKSIC2003) == 534
     assert all(len(c) == 4 and c.isdigit() for c in UKSIC2003)

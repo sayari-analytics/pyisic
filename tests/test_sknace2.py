@@ -41,6 +41,19 @@ def test_sknace2_subclasses():
     assert all(c[:5] in pyisic.NACE2 for c in subclasses)
 
 
+def test_sknace2_hierarchy_matches_nace2():
+    """Sections to classes are identical to NACE Rev. 2."""
+    hierarchy = {c: v for c, v in SKNACE2.items() if v["category"] != Category.SUBCLASS}
+    assert len(hierarchy) == len(pyisic.NACE2)
+    for code, nace2 in pyisic.NACE2.items():
+        assert hierarchy[code]["category"] == nace2["category"]
+        assert hierarchy[code]["description"] == nace2["description"].strip()
+
+
+def test_sknace2_descriptions_are_clean():
+    assert all(v["description"] and v["description"] == v["description"].strip() for v in SKNACE2.values())
+
+
 def test_sknace2_every_nace2_class_has_a_subclass():
     """SK NACE splits or repeats every NACE Rev. 2 class at the 5th level, so none can be left without a subclass."""
     classes = [c for c, v in pyisic.NACE2.items() if v["category"] == Category.CLASS]
