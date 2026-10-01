@@ -2,8 +2,9 @@
 
 Statistical Classification of Economic Activities SK NACE Rev. 2 of the Statistical Office of the Slovak Republic.
 Sections to classes are identical to NACE Rev. 2. The 5th level, the national subclasses (e.g. ``52.10.0``), is the
-list published by the Statistical Office. Subclass descriptions are those of the NACE Rev. 2 class they belong to; the
-Slovak subclass names are in the source publication.
+list published by the Statistical Office (645 subclasses). The publication prints class ``47.29`` without a
+``47.29.0`` subclass row, but the Slovak register uses ``47.29.0`` so it is included. Subclass descriptions are those of
+the NACE Rev. 2 class they belong to; the Slovak subclass names are in the source publication.
 """
 
 from ...types import Category, Classification, Standard, Standards
@@ -1382,6 +1383,7 @@ SKNACE2 = Standard(
         Classification("14.13.0", "Manufacture of other outerwear", Category.SUBCLASS),
         Classification("14.14.0", "Manufacture of underwear", Category.SUBCLASS),
         Classification("14.19.0", "Manufacture of other wearing apparel and accessories", Category.SUBCLASS),
+        Classification("14.20.0", "Manufacture of articles of fur", Category.SUBCLASS),
         Classification("14.31.0", "Manufacture of knitted and crocheted hosiery", Category.SUBCLASS),
         Classification("14.39.0", "Manufacture of other knitted and crocheted apparel", Category.SUBCLASS),
         Classification("15.11.0", "Tanning and dressing of leather; dressing and dyeing of fur", Category.SUBCLASS),
@@ -1395,6 +1397,12 @@ SKNACE2 = Standard(
         Classification("16.23.1", "Manufacture of other builders' carpentry and joinery", Category.SUBCLASS),
         Classification("16.23.2", "Manufacture of other builders' carpentry and joinery", Category.SUBCLASS),
         Classification("16.23.9", "Manufacture of other builders' carpentry and joinery", Category.SUBCLASS),
+        Classification("16.24.0", "Manufacture of wooden containers", Category.SUBCLASS),
+        Classification(
+            "16.29.0",
+            "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials",
+            Category.SUBCLASS,
+        ),
         Classification("17.11.0", "Manufacture of pulp", Category.SUBCLASS),
         Classification("17.12.0", "Manufacture of paper and paperboard", Category.SUBCLASS),
         Classification(
@@ -1617,6 +1625,7 @@ SKNACE2 = Standard(
         Classification("33.16.0", "Repair and maintenance of aircraft and spacecraft", Category.SUBCLASS),
         Classification("33.17.0", "Repair and maintenance of other transport equipment", Category.SUBCLASS),
         Classification("33.19.0", "Repair of other equipment", Category.SUBCLASS),
+        Classification("33.20.0", "Installation of industrial machinery and equipment", Category.SUBCLASS),
         Classification("35.11.0", "Production of electricity", Category.SUBCLASS),
         Classification("35.12.0", "Transmission of electricity", Category.SUBCLASS),
         Classification("35.13.0", "Distribution of electricity", Category.SUBCLASS),
@@ -1750,6 +1759,9 @@ SKNACE2 = Standard(
         Classification(
             "46.73.0", "Wholesale of wood, construction materials and sanitary equipment", Category.SUBCLASS
         ),
+        Classification(
+            "46.74.0", "Wholesale of hardware, plumbing and heating equipment and supplies", Category.SUBCLASS
+        ),
         Classification("46.75.0", "Wholesale of chemical products", Category.SUBCLASS),
         Classification("46.76.0", "Wholesale of other intermediate products", Category.SUBCLASS),
         Classification("46.77.0", "Wholesale of waste and scrap", Category.SUBCLASS),
@@ -1772,6 +1784,7 @@ SKNACE2 = Standard(
         ),
         Classification("47.25.0", "Retail sale of beverages in specialised stores", Category.SUBCLASS),
         Classification("47.26.0", "Retail sale of tobacco products in specialised stores", Category.SUBCLASS),
+        Classification("47.29.0", "Other retail sale of food in specialised stores", Category.SUBCLASS),
         Classification("47.30.0", "Retail sale of automotive fuel in specialised stores", Category.SUBCLASS),
         Classification(
             "47.41.0",
@@ -1789,6 +1802,11 @@ SKNACE2 = Standard(
         ),
         Classification(
             "47.54.0", "Retail sale of electrical household appliances in specialised stores", Category.SUBCLASS
+        ),
+        Classification(
+            "47.59.0",
+            "Retail sale of furniture, lighting equipment and other household articles in specialised stores",
+            Category.SUBCLASS,
         ),
         Classification("47.61.0", "Retail sale of books in specialised stores", Category.SUBCLASS),
         Classification("47.62.0", "Retail sale of newspapers and stationery in specialised stores", Category.SUBCLASS),
@@ -1969,6 +1987,11 @@ SKNACE2 = Standard(
         Classification(
             "77.39.0", "Rental and leasing of other machinery, equipment and tangible goods n.e.c.", Category.SUBCLASS
         ),
+        Classification(
+            "77.40.0",
+            "Leasing of intellectual property and similar products, except copyrighted works",
+            Category.SUBCLASS,
+        ),
         Classification("78.10.0", "Activities of employment placement agencies", Category.SUBCLASS),
         Classification("78.20.0", "Temporary employment agency activities", Category.SUBCLASS),
         Classification("78.30.0", "Other human resources provision", Category.SUBCLASS),
@@ -1984,6 +2007,11 @@ SKNACE2 = Standard(
         Classification("81.29.0", "Other cleaning activities", Category.SUBCLASS),
         Classification("81.30.0", "Landscape service activities", Category.SUBCLASS),
         Classification("82.11.0", "Combined office administrative service activities", Category.SUBCLASS),
+        Classification(
+            "82.19.0",
+            "Photocopying, document preparation and other specialised office support activities",
+            Category.SUBCLASS,
+        ),
         Classification("82.20.0", "Activities of call centres", Category.SUBCLASS),
         Classification("82.30.0", "Organisation of conventions and trade shows", Category.SUBCLASS),
         Classification("82.91.0", "Activities of collection agencies and credit bureaus", Category.SUBCLASS),

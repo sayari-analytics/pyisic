@@ -14,6 +14,12 @@ from pyisic.types import Category, Standards
         ("52.10.0", Category.SUBCLASS),
         ("01.49.1", Category.SUBCLASS),
         ("99.00.0", Category.SUBCLASS),
+        # printed in the publication as a bare code or after its class on the same line
+        ("16.24.0", Category.SUBCLASS),
+        ("16.29.0", Category.SUBCLASS),
+        ("82.19.0", Category.SUBCLASS),
+        # omitted from the publication but used in the Slovak register
+        ("47.29.0", Category.SUBCLASS),
     ],
 )
 def test_sknace2_codes(code: str, category: Category):
@@ -31,8 +37,15 @@ def test_sknace2_rejects_other_formats(code: str):
 def test_sknace2_subclasses():
     """Every national subclass belongs to a NACE Rev. 2 class."""
     subclasses = [c for c, v in SKNACE2.items() if v["category"] == Category.SUBCLASS]
-    assert len(subclasses) == 637
+    assert len(subclasses) == 646
     assert all(c[:5] in pyisic.NACE2 for c in subclasses)
+
+
+def test_sknace2_every_nace2_class_has_a_subclass():
+    """SK NACE splits or repeats every NACE Rev. 2 class at the 5th level, so none can be left without a subclass."""
+    classes = [c for c, v in pyisic.NACE2.items() if v["category"] == Category.CLASS]
+    subclassed = {c[:5] for c, v in SKNACE2.items() if v["category"] == Category.SUBCLASS}
+    assert sorted(set(classes) - subclassed) == []
 
 
 @pytest.mark.parametrize(
