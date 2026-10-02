@@ -25,9 +25,12 @@ from ._standards.sic import SIC, SIC_to_NAICS2017
 from ._standards.skd2002 import SKD2002, SKD2002_to_NACE2, SKD2002_to_SKD2008
 from ._standards.skd2008 import SKD2008, SKD2008_to_SKD2002
 from ._standards.skis2010 import SKIS2010
+from ._standards.sknace2 import SKNACE2, SKNACE2_to_NACE2
 from ._standards.ssic2020 import SSIC2020, SSIC2020_to_ISIC4
 from ._standards.tol2008 import TOL2008, TOL2008_to_NACE2
 from ._standards.tsic2552 import TSIC2552, TSIC2552_to_ISIC3
+from ._standards.uksic2003 import UKSIC2003, UKSIC2003_to_NACE1
+from ._standards.uksic2007 import UKSIC2007, UKSIC2007_to_NACE2
 from .types import ComposedGraph, Standards
 
 ToISIC4 = ComposedGraph(
@@ -61,5 +64,8 @@ ToISIC4 = ComposedGraph(
         TOL2008_to_NACE2,
         NIC2008_to_ISIC4,
         ATECO_to_NACE2,
+        UKSIC2007_to_NACE2,
+        UKSIC2003_to_NACE1,
+        SKNACE2_to_NACE2,
     ],
 )
