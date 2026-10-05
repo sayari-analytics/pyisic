@@ -176,11 +176,36 @@ def test_toisic5_is_built_on_first_access():
     code = (
         "import pyisic\n"
         "assert 'ToISIC5' not in vars(pyisic)\n"
+        "assert 'ToISIC5' in dir(pyisic) and 'ToISIC4' in dir(pyisic)\n"
+        "assert 'ToISIC5' not in vars(pyisic)\n"
         "graph = pyisic.ToISIC5\n"
         "assert pyisic.ToISIC5 is graph and vars(pyisic)['ToISIC5'] is graph\n"
         "from pyisic import ToISIC5\n"
         "assert ToISIC5 is graph\n"
+        "assert 'ToISIC5' in dir(pyisic)\n"
     )
     subprocess.run([sys.executable, "-c", code], check=True)
     with pytest.raises(AttributeError):
         pyisic.DOESNT_EXIST
+
+
+def test_toisic5_is_built_once_across_threads():
+    """Threads that ask for ToISIC5 at the same time all get the same graph, built once."""
+    code = (
+        "import threading\n"
+        "import pyisic\n"
+        "built = []\n"
+        "real = pyisic.ComposedGraph\n"
+        "pyisic.ComposedGraph = lambda *a, **k: built.append(1) or real(*a, **k)\n"
+        "barrier = threading.Barrier(8)\n"
+        "graphs = []\n"
+        "def grab():\n"
+        "    barrier.wait()\n"
+        "    graphs.append(pyisic.ToISIC5)\n"
+        "threads = [threading.Thread(target=grab) for _ in range(8)]\n"
+        "[t.start() for t in threads]\n"
+        "[t.join() for t in threads]\n"
+        "assert len(graphs) == 8 and all(g is graphs[0] for g in graphs), 'threads got different graphs'\n"
+        "assert len(built) == 1, f'built {len(built)} times'\n"
+    )
+    subprocess.run([sys.executable, "-c", code], check=True)

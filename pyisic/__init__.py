@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import threading
+
 from ._standards.ateco import ATECO, ATECO_to_NACE2
 from ._standards.caem2005 import CAEM2005, CAEM2005_to_CAEM2009, CAEM2005_to_ISIC3
 from ._standards.caem2009 import CAEM2009, CAEM2009_to_ISIC4
@@ -79,10 +81,22 @@ _TO_ISIC4 = [
 ToISIC4 = ComposedGraph(Standards.ISIC4, _TO_ISIC4 + [ISIC5_to_ISIC4])
 
 
+_to_isic5_lock = threading.Lock()
+
+
 def __getattr__(name: str):
-    """Build ``ToISIC5`` on first access, so importing pyisic does not pay for a second copy of the ToISIC4 graph."""
+    """Build ``ToISIC5`` on first access, so importing pyisic does not pay for a second copy of the ToISIC4 graph.
+
+    The graph is built once, even when several threads ask for it at the same time.
+    """
     if name == "ToISIC5":
-        graph = ComposedGraph(Standards.ISIC5, _TO_ISIC4 + [ISIC4_to_ISIC5])
-        globals()[name] = graph
-        return graph
+        with _to_isic5_lock:
+            if "ToISIC5" not in globals():
+                globals()["ToISIC5"] = ComposedGraph(Standards.ISIC5, _TO_ISIC4 + [ISIC4_to_ISIC5])
+        return globals()["ToISIC5"]
     raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+
+
+def __dir__():
+    """List ``ToISIC5`` with the other public names before it has been built."""
+    return sorted({*globals(), "ToISIC5"})
