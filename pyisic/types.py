@@ -53,6 +53,8 @@ class Standards(_Enum):  # pragma: no cover
     UKSIC2007 = "UKSIC2007"
     UKSIC2003 = "UKSIC2003"
     SKNACE2 = "SKNACE2"
+    NACE21 = "NACE21"
+    NAICS2022 = "NAICS2022"
 
 
 @_dataclass
