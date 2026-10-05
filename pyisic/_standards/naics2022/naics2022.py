@@ -2,7 +2,8 @@
 """`NAICS2022 Standard <https://www.census.gov/naics/2022NAICS/2022_NAICS_Structure.xlsx>`_.
 
 The 1,012 six-digit U.S. industries of the 2022 North American Industry Classification System, from the U.S. Census Bureau
-structure file (identical to the descriptions file and to the 2022 side of the concordance).
+structure file. The codes and titles are identical to the Census descriptions file, and the codes are the same as the 2022 side
+of the concordance, whose titles differ only by two typos ("Activites", "excpet"), so the structure-file titles are used.
 """
 from ...types import Classification, Standard, Standards
 
