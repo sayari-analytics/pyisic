@@ -7,6 +7,7 @@ from ._standards.cnae2 import CNAE2, CNAE2_to_ISIC4
 from ._standards.gced2011 import GCED2011, GCED2011_to_NACE2
 from ._standards.isic3 import ISIC3, ISIC3_to_ISIC31
 from ._standards.isic4 import ISIC4
+from ._standards.isic5 import ISIC5, ISIC4_to_ISIC5, ISIC5_to_ISIC4
 from ._standards.isic31 import ISIC31, ISIC31_to_ISIC4
 from ._standards.jsic13 import JSIC13, JSIC13_to_ISIC4
 from ._standards.ksic10 import KSIC10, KSIC10_to_ISIC4
@@ -36,42 +37,43 @@ from ._standards.uksic2003 import UKSIC2003, UKSIC2003_to_NACE1
 from ._standards.uksic2007 import UKSIC2007, UKSIC2007_to_NACE2
 from .types import ComposedGraph, Standards
 
-ToISIC4 = ComposedGraph(
-    Standards.ISIC4,
-    [
-        ISIC3_to_ISIC31,
-        ISIC31_to_ISIC4,
-        NACE2_to_ISIC4,
-        NAICS2017_to_ISIC4,
-        TSIC2552_to_ISIC3,
-        JSIC13_to_ISIC4,
-        KSIC10_to_ISIC4,
-        SKD2008_to_SKD2002,
-        SKD2002_to_NACE2,
-        CNAE2_to_ISIC4,
-        NACEBEL2003_to_NACEBEL2008,
-        NACEBEL2008_to_NACE2,
-        NAF1_to_NAF2,
-        NAF2_to_NACE2,
-        GCED2011_to_NACE2,
-        NACE1_to_NACE2,
-        SCIAN2018_to_ISIC4,
-        CCNAE2021_to_ISIC4,
-        CAEM2005_to_CAEM2009,
-        CAEM2009_to_ISIC4,
-        CAEM2005_to_ISIC3,
-        SBI2008_to_NACE2,
-        SIC_to_NAICS2017,
-        SSIC2020_to_ISIC4,
-        PKD2007_to_NACE2,
-        TOL2008_to_NACE2,
-        NIC2008_to_ISIC4,
-        ATECO_to_NACE2,
-        UKSIC2007_to_NACE2,
-        UKSIC2003_to_NACE1,
-        SKNACE2_to_NACE2,
-        NACE21_to_NACE2,
-        NAICS2022_to_NAICS2017,
-        NAICS2012_to_NAICS2017,
-    ],
-)
+# Concordances that lead into ISIC4, shared by ToISIC4 and ToISIC5.
+_TO_ISIC4 = [
+    ISIC3_to_ISIC31,
+    ISIC31_to_ISIC4,
+    NACE2_to_ISIC4,
+    NAICS2017_to_ISIC4,
+    TSIC2552_to_ISIC3,
+    JSIC13_to_ISIC4,
+    KSIC10_to_ISIC4,
+    SKD2008_to_SKD2002,
+    SKD2002_to_NACE2,
+    CNAE2_to_ISIC4,
+    NACEBEL2003_to_NACEBEL2008,
+    NACEBEL2008_to_NACE2,
+    NAF1_to_NAF2,
+    NAF2_to_NACE2,
+    GCED2011_to_NACE2,
+    NACE1_to_NACE2,
+    SCIAN2018_to_ISIC4,
+    CCNAE2021_to_ISIC4,
+    CAEM2005_to_CAEM2009,
+    CAEM2009_to_ISIC4,
+    CAEM2005_to_ISIC3,
+    SBI2008_to_NACE2,
+    SIC_to_NAICS2017,
+    SSIC2020_to_ISIC4,
+    PKD2007_to_NACE2,
+    TOL2008_to_NACE2,
+    NIC2008_to_ISIC4,
+    ATECO_to_NACE2,
+    UKSIC2007_to_NACE2,
+    UKSIC2003_to_NACE1,
+    SKNACE2_to_NACE2,
+    NACE21_to_NACE2,
+    NAICS2022_to_NAICS2017,
+    NAICS2012_to_NAICS2017,
+]
+
+ToISIC4 = ComposedGraph(Standards.ISIC4, _TO_ISIC4 + [ISIC5_to_ISIC4])
+ToISIC5 = ComposedGraph(Standards.ISIC5, _TO_ISIC4 + [ISIC4_to_ISIC5])
