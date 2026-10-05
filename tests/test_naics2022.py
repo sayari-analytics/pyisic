@@ -64,9 +64,9 @@ def test_naics2022_to_naics2017_concordance(code: str, expected: set):
 
 def test_naics2022_to_naics2017_coverage():
     """Every 2022 industry maps to at least one 2017 industry and every 2017 industry is mapped to."""
-    assert [c for c in NAICS2022 if not NAICS2022_to_NAICS2017.concordant(c)] == []
+    assert not [c for c in NAICS2022 if not NAICS2022_to_NAICS2017.concordant(c)]
     targets = {dst for _, (_, dst) in NAICS2022_to_NAICS2017.edges}
-    assert sorted(set(pyisic.NAICS2017) - targets) == []
+    assert not set(pyisic.NAICS2017) - targets
 
 
 def test_naics2022_to_isic4():

@@ -93,11 +93,11 @@ def test_nace21_to_nace2_coverage():
     unmapped = [c for c in NACE21 if not NACE21_to_NACE2.concordant(c)]
     assert unmapped == ["46.89"]
     targets = {dst for _, (_, dst) in NACE21_to_NACE2.edges}
-    assert sorted(c for c, v in pyisic.NACE2.items() if v["category"] == Category.CLASS and c not in targets) == []
+    assert not [c for c, v in pyisic.NACE2.items() if v["category"] == Category.CLASS and c not in targets]
 
 
 def test_nace21_to_isic4():
     """NACE21 codes convert to ISIC4 through NACE2."""
     assert list(pyisic.ToISIC4("41.00", Standards.NACE21)) == [(Standards.ISIC4, "4100")]
     assert list(pyisic.ToISIC4("70.20", Standards.NACE21)) == [(Standards.ISIC4, "7020")]
-    assert list(pyisic.ToISIC4("46.89", Standards.NACE21)) == []
+    assert not pyisic.ToISIC4("46.89", Standards.NACE21)

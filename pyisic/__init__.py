@@ -37,7 +37,8 @@ from ._standards.uksic2003 import UKSIC2003, UKSIC2003_to_NACE1
 from ._standards.uksic2007 import UKSIC2007, UKSIC2007_to_NACE2
 from .types import ComposedGraph, Standards
 
-# Concordances that lead into ISIC4, shared by ToISIC4 and ToISIC5.
+# Concordances that reach ISIC4, directly or by chaining through one another (for example NACE21_to_NACE2 then
+# NACE2_to_ISIC4), shared by ToISIC4 and ToISIC5.
 _TO_ISIC4 = [
     ISIC3_to_ISIC31,
     ISIC31_to_ISIC4,
@@ -76,4 +77,12 @@ _TO_ISIC4 = [
 ]
 
 ToISIC4 = ComposedGraph(Standards.ISIC4, _TO_ISIC4 + [ISIC5_to_ISIC4])
-ToISIC5 = ComposedGraph(Standards.ISIC5, _TO_ISIC4 + [ISIC4_to_ISIC5])
+
+
+def __getattr__(name: str):
+    """Build ``ToISIC5`` on first access, so importing pyisic does not pay for a second copy of the ToISIC4 graph."""
+    if name == "ToISIC5":
+        graph = ComposedGraph(Standards.ISIC5, _TO_ISIC4 + [ISIC4_to_ISIC5])
+        globals()[name] = graph
+        return graph
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")

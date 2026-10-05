@@ -1,3 +1,6 @@
+import subprocess
+import sys
+
 import pytest
 
 import pyisic
@@ -127,12 +130,12 @@ def test_isic5_to_isic4(code, expected):
 def test_isic_concordances_cover_every_class():
     """The UNSD table maps every ISIC Rev. 4 class to ISIC Rev. 5 classes, and the reverse."""
     assert len(ISIC4_to_ISIC5.edges) == len(ISIC5_to_ISIC4.edges) == 605
-    assert [c for c in classes(ISIC4) if not ISIC4_to_ISIC5.concordant(c)] == []
-    assert [c for c in classes(ISIC5) if not ISIC5_to_ISIC4.concordant(c)] == []
+    assert not [c for c in classes(ISIC4) if not ISIC4_to_ISIC5.concordant(c)]
+    assert not [c for c in classes(ISIC5) if not ISIC5_to_ISIC4.concordant(c)]
     targets = {dst for _, (_, dst) in ISIC4_to_ISIC5.edges}
-    assert sorted(classes(ISIC5) - targets) == []
+    assert not classes(ISIC5) - targets
     targets = {dst for _, (_, dst) in ISIC5_to_ISIC4.edges}
-    assert sorted(classes(ISIC4) - targets) == []
+    assert not classes(ISIC4) - targets
 
 
 def test_isic_concordances_are_the_same_pairs():
@@ -166,3 +169,18 @@ def test_isic4_to_isic5_in_toisic5():
         c for _, c in pyisic.ToISIC5("6201", Standards.ISIC4)
     }
     assert pyisic.ToISIC5("6211", Standards.ISIC5) == set()
+
+
+def test_toisic5_is_built_on_first_access():
+    """ToISIC5 duplicates the ToISIC4 graph, so importing pyisic does not build it; it is built once and cached."""
+    code = (
+        "import pyisic\n"
+        "assert 'ToISIC5' not in vars(pyisic)\n"
+        "graph = pyisic.ToISIC5\n"
+        "assert pyisic.ToISIC5 is graph and vars(pyisic)['ToISIC5'] is graph\n"
+        "from pyisic import ToISIC5\n"
+        "assert ToISIC5 is graph\n"
+    )
+    subprocess.run([sys.executable, "-c", code], check=True)
+    with pytest.raises(AttributeError):
+        pyisic.DOESNT_EXIST
