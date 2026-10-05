@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import threading
+
 from ._standards.ateco import ATECO, ATECO_to_NACE2
 from ._standards.caem2005 import CAEM2005, CAEM2005_to_CAEM2009, CAEM2005_to_ISIC3
 from ._standards.caem2009 import CAEM2009, CAEM2009_to_ISIC4
@@ -7,16 +9,20 @@ from ._standards.cnae2 import CNAE2, CNAE2_to_ISIC4
 from ._standards.gced2011 import GCED2011, GCED2011_to_NACE2
 from ._standards.isic3 import ISIC3, ISIC3_to_ISIC31
 from ._standards.isic4 import ISIC4
+from ._standards.isic5 import ISIC5, ISIC4_to_ISIC5, ISIC5_to_ISIC4
 from ._standards.isic31 import ISIC31, ISIC31_to_ISIC4
 from ._standards.jsic13 import JSIC13, JSIC13_to_ISIC4
 from ._standards.ksic10 import KSIC10, KSIC10_to_ISIC4
 from ._standards.nace1 import NACE1, NACE1_to_NACE2
 from ._standards.nace2 import NACE2, NACE2_to_ISIC4
+from ._standards.nace21 import NACE21, NACE21_to_NACE2
 from ._standards.nacebel2003 import NACEBEL2003, NACEBEL2003_to_NACEBEL2008
 from ._standards.nacebel2008 import NACEBEL2008, NACEBEL2008_to_NACE2
 from ._standards.naf1 import NAF1, NAF1_to_NAF2
 from ._standards.naf2 import NAF2, NAF2_to_NACE2
+from ._standards.naics2012 import NAICS2012, NAICS2012_to_NAICS2017
 from ._standards.naics2017 import NAICS2017, NAICS2017_to_ISIC4
+from ._standards.naics2022 import NAICS2022, NAICS2022_to_NAICS2017
 from ._standards.nic2008 import NIC2008, NIC2008_to_ISIC4
 from ._standards.pkd2007 import PKD2007, PKD2007_to_NACE2
 from ._standards.sbi2008 import SBI2008, SBI2008_to_NACE2
@@ -33,39 +39,64 @@ from ._standards.uksic2003 import UKSIC2003, UKSIC2003_to_NACE1
 from ._standards.uksic2007 import UKSIC2007, UKSIC2007_to_NACE2
 from .types import ComposedGraph, Standards
 
-ToISIC4 = ComposedGraph(
-    Standards.ISIC4,
-    [
-        ISIC3_to_ISIC31,
-        ISIC31_to_ISIC4,
-        NACE2_to_ISIC4,
-        NAICS2017_to_ISIC4,
-        TSIC2552_to_ISIC3,
-        JSIC13_to_ISIC4,
-        KSIC10_to_ISIC4,
-        SKD2008_to_SKD2002,
-        SKD2002_to_NACE2,
-        CNAE2_to_ISIC4,
-        NACEBEL2003_to_NACEBEL2008,
-        NACEBEL2008_to_NACE2,
-        NAF1_to_NAF2,
-        NAF2_to_NACE2,
-        GCED2011_to_NACE2,
-        NACE1_to_NACE2,
-        SCIAN2018_to_ISIC4,
-        CCNAE2021_to_ISIC4,
-        CAEM2005_to_CAEM2009,
-        CAEM2009_to_ISIC4,
-        CAEM2005_to_ISIC3,
-        SBI2008_to_NACE2,
-        SIC_to_NAICS2017,
-        SSIC2020_to_ISIC4,
-        PKD2007_to_NACE2,
-        TOL2008_to_NACE2,
-        NIC2008_to_ISIC4,
-        ATECO_to_NACE2,
-        UKSIC2007_to_NACE2,
-        UKSIC2003_to_NACE1,
-        SKNACE2_to_NACE2,
-    ],
-)
+# Concordances that reach ISIC4, directly or by chaining through one another (for example NACE21_to_NACE2 then
+# NACE2_to_ISIC4), shared by ToISIC4 and ToISIC5.
+_TO_ISIC4 = [
+    ISIC3_to_ISIC31,
+    ISIC31_to_ISIC4,
+    NACE2_to_ISIC4,
+    NAICS2017_to_ISIC4,
+    TSIC2552_to_ISIC3,
+    JSIC13_to_ISIC4,
+    KSIC10_to_ISIC4,
+    SKD2008_to_SKD2002,
+    SKD2002_to_NACE2,
+    CNAE2_to_ISIC4,
+    NACEBEL2003_to_NACEBEL2008,
+    NACEBEL2008_to_NACE2,
+    NAF1_to_NAF2,
+    NAF2_to_NACE2,
+    GCED2011_to_NACE2,
+    NACE1_to_NACE2,
+    SCIAN2018_to_ISIC4,
+    CCNAE2021_to_ISIC4,
+    CAEM2005_to_CAEM2009,
+    CAEM2009_to_ISIC4,
+    CAEM2005_to_ISIC3,
+    SBI2008_to_NACE2,
+    SIC_to_NAICS2017,
+    SSIC2020_to_ISIC4,
+    PKD2007_to_NACE2,
+    TOL2008_to_NACE2,
+    NIC2008_to_ISIC4,
+    ATECO_to_NACE2,
+    UKSIC2007_to_NACE2,
+    UKSIC2003_to_NACE1,
+    SKNACE2_to_NACE2,
+    NACE21_to_NACE2,
+    NAICS2022_to_NAICS2017,
+    NAICS2012_to_NAICS2017,
+]
+
+ToISIC4 = ComposedGraph(Standards.ISIC4, _TO_ISIC4 + [ISIC5_to_ISIC4])
+
+
+_to_isic5_lock = threading.Lock()
+
+
+def __getattr__(name: str):
+    """Build ``ToISIC5`` on first access, so importing pyisic does not pay for a second copy of the ToISIC4 graph.
+
+    The graph is built once, even when several threads ask for it at the same time.
+    """
+    if name == "ToISIC5":
+        with _to_isic5_lock:
+            if "ToISIC5" not in globals():
+                globals()["ToISIC5"] = ComposedGraph(Standards.ISIC5, _TO_ISIC4 + [ISIC4_to_ISIC5])
+        return globals()["ToISIC5"]
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+
+
+def __dir__():
+    """List ``ToISIC5`` with the other public names before it has been built."""
+    return sorted({*globals(), "ToISIC5"})

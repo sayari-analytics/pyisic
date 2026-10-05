@@ -37,6 +37,11 @@ CONCORDANCE_TO_MINIMUM = {
     pyisic.UKSIC2007_to_NACE2: 0.99,
     pyisic.UKSIC2003_to_NACE1: 0.95,
     pyisic.SKNACE2_to_NACE2: 1.0,
+    pyisic.NACE21_to_NACE2: 0.99,
+    pyisic.NAICS2022_to_NAICS2017: 1.0,
+    pyisic.NAICS2012_to_NAICS2017: 1.0,
+    pyisic.ISIC4_to_ISIC5: 0.54,
+    pyisic.ISIC5_to_ISIC4: 0.55,
 }
 
 # creates a mapping of the standard name to standard object
@@ -92,6 +97,10 @@ def test_minimum_concordance(concordance, minimum: float):
         pyisic.UKSIC2007_to_NACE2,
         pyisic.UKSIC2003_to_NACE1,
         pyisic.SKNACE2_to_NACE2,
+        pyisic.NACE21_to_NACE2,
+        pyisic.NAICS2022_to_NAICS2017,
+        pyisic.NAICS2012_to_NAICS2017,
+        pyisic.ISIC5_to_ISIC4,
     ],
 )
 def test_to_isic4(standard):

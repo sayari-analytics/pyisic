@@ -24,6 +24,7 @@ class Standards(_Enum):  # pragma: no cover
     ISIC3 = "ISIC3"
     ISIC31 = "ISIC31"
     ISIC4 = "ISIC4"
+    ISIC5 = "ISIC5"
     NACE1 = "NACE1"
     NACE2 = "NACE2"
     NAICS2017 = "NAICS2017"
@@ -53,6 +54,9 @@ class Standards(_Enum):  # pragma: no cover
     UKSIC2007 = "UKSIC2007"
     UKSIC2003 = "UKSIC2003"
     SKNACE2 = "SKNACE2"
+    NACE21 = "NACE21"
+    NAICS2022 = "NAICS2022"
+    NAICS2012 = "NAICS2012"
 
 
 @_dataclass
