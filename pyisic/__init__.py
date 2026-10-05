@@ -17,6 +17,7 @@ from ._standards.nacebel2003 import NACEBEL2003, NACEBEL2003_to_NACEBEL2008
 from ._standards.nacebel2008 import NACEBEL2008, NACEBEL2008_to_NACE2
 from ._standards.naf1 import NAF1, NAF1_to_NAF2
 from ._standards.naf2 import NAF2, NAF2_to_NACE2
+from ._standards.naics2012 import NAICS2012, NAICS2012_to_NAICS2017
 from ._standards.naics2017 import NAICS2017, NAICS2017_to_ISIC4
 from ._standards.naics2022 import NAICS2022, NAICS2022_to_NAICS2017
 from ._standards.nic2008 import NIC2008, NIC2008_to_ISIC4
@@ -71,5 +72,6 @@ ToISIC4 = ComposedGraph(
         SKNACE2_to_NACE2,
         NACE21_to_NACE2,
         NAICS2022_to_NAICS2017,
+        NAICS2012_to_NAICS2017,
     ],
 )
